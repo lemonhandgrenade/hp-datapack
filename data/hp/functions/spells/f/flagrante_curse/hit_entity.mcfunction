@@ -1,0 +1,3 @@
+execute as @e[type=!#hp:alive,dx=0,tag=!this] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0] positioned ~0.99 ~0.99 ~0.99 run particle dust_color_transition 1 0 0 2 0 0 0 ~ ~ ~ 0 0 0 0 10
+execute as @e[type=!#hp:alive,dx=0,tag=!this] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0] positioned ~0.99 ~0.99 ~0.99 run data merge entity @s {Item:{tag:{Flagrante:1b}}}
+execute if entity @s[type=area_effect_cloud] run function hp:spells/f/flagrante_curse/private/end
