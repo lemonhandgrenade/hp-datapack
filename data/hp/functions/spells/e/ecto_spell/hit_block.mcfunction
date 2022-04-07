@@ -1,0 +1,1 @@
+summon armor_stand ~ ~1 ~ {Invisible:1b,Tags:["ectoplasm"]}
