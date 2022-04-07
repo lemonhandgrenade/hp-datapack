@@ -1,0 +1,1 @@
+execute if score @s spell matches 620..620 run function hp:spells/y/yellow_special_jinx/cast
