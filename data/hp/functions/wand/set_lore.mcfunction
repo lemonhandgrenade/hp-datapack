@@ -1,0 +1,1 @@
+item modify entity @s weapon.mainhand hp:wand_lore
