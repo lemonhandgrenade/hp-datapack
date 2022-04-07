@@ -1,0 +1,46 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{Set:1b}"
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Owner: ",
+          "color": "dark_purple",
+          "italic": false
+        },
+        {
+          "selector": "@s",
+          "color": "light_purple",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": true
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        [
+          {
+            "text": "Wood: ",
+            "color": "dark_purple",
+            "italic": false
+          },
+          {
+            "nbt": "SelectedItem.tag.WoodName",
+            "entity": "@s",
+            "interpret": true,
+            "color": "light_purple"
+          }
+        ]
+      ]
+    ]
+  }
+]

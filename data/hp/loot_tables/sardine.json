@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Sardine",
+                "italic": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

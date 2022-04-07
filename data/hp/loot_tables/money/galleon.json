@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:raw_gold",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Real:1b,Money:1b,Galleon:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Galleon",
+                "color": "#bd7c2a",
+                "italic":"false"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

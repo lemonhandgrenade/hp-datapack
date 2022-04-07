@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:raw_iron",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Real:1b,Money:1b,Sickle:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Sickle",
+                "color": "#8C8C8C",
+                "italic":"false"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

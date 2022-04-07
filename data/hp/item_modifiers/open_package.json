@@ -1,0 +1,14 @@
+{
+    "function": "minecraft:copy_nbt",
+    "source": {
+        "type": "storage",
+        "source": "hp:example"
+    },
+    "ops": [
+        {
+            "source": "OffhandItem",
+            "target": "",
+            "op": "replace"
+        }
+    ]
+}
