@@ -1,0 +1,1 @@
+give @s chain_command_block{display:{Name:'{"text":"Standard Ingredient","color":"#394000","italic":false}',Lore:['{"text":"Mixture of dried herbs","italic":false}']},Ingredient:1b,MortarPestle:1b,CustomModelData:2430} 1

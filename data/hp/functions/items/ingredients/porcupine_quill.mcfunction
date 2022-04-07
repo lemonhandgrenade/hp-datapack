@@ -1,0 +1,1 @@
+give @s chain_command_block{display:{Name:'{"text":"Porcupine Quill","color":"#AEAEAE","italic":false}',Lore:['{"text":"Obtained from:","italic":false}','{"text":"Porcupines","italic":false}']},Weight:10,Ingredient:1b,CustomModelData:1950} 1

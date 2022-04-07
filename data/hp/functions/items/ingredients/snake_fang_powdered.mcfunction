@@ -1,0 +1,1 @@
+give @s chain_command_block{display:{Name:'{"text":"Powdered Snake Fangs","color":"#E9E8D3","italic":false}',Lore:['{"text":"Obtained from:","italic":false}','{"text":"Snakes","italic":false}']},Weight:10,Ingredient:1b,CustomModelData:2312} 1

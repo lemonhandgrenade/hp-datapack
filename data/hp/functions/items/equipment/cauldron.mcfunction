@@ -1,0 +1,1 @@
+give @s armor_stand{display:{Name:'{"text":"Cauldron","color":"#5f4e48","italic":false}',Lore:['{"text":"Used to brew and hold potions.","italic":false}']},Weight:710,CustomModelData:8,EntityTag:{Small:1b,Invisible:1b,Tags:["new","summon","cauldron","specialEntity"],Pose:{Head:[0.01f,0f,0f]},ArmorItems:[{},{},{},{id:"minecraft:armor_stand",Count:1b,tag:{CustomModelData:8}}]}} 1

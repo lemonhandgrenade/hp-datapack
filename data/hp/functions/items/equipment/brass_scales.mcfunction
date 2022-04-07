@@ -1,0 +1,1 @@
+give @s armor_stand{display:{Name:'{"text":"Brass Scales","color":"#BF9A52","italic":false}',Lore:['{"text":"Scales for weighing goods.","italic":false}']},Weight:400,CustomModelData:1,EntityTag:{Small:1b,Invisible:1b,Tags:["new","scales","brass","specialEntity"],Pose:{Head:[0.01f,0f,0f]},ArmorItems:[{},{},{},{id:"minecraft:armor_stand",Count:1b,tag:{CustomModelData:1}}]}} 1

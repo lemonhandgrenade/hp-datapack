@@ -1,0 +1,1 @@
+give @s spyglass{display:{Name:'{"text":"Silver Telescope","color":"#8C8C8C","italic":false}'},Weight:3937,CustomModelData:2} 1

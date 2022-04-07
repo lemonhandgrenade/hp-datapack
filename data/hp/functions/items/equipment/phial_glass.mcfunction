@@ -1,0 +1,1 @@
+give @s glass_bottle{display:{Name:'{"text":"Phial","italic":false}',Lore:['[{"text":"Type: ","italic":false},{"text":"Glass","color":"white","italic":false}]','{"text":"Used in potion brewing.","italic":false}']},Ingredient:1b,Weight:120,CustomModelData:999} 1
