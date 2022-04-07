@@ -1,0 +1,12 @@
+execute if score @s slo_dst matches 16 run function hp:spells/g/gellert_grindelwalds_lightning_bolt_spell/change_dir
+execute if score @s slo_dst matches 32 run function hp:spells/g/gellert_grindelwalds_lightning_bolt_spell/change_dir
+execute if score @s slo_dst matches 48 run function hp:spells/g/gellert_grindelwalds_lightning_bolt_spell/change_dir
+execute if score @s slo_dst matches 64 run function hp:spells/g/gellert_grindelwalds_lightning_bolt_spell/change_dir
+execute if score @s slo_dst matches 80 run function hp:spells/g/gellert_grindelwalds_lightning_bolt_spell/change_dir
+execute if score @s slo_dst matches 96 run function hp:spells/g/gellert_grindelwalds_lightning_bolt_spell/change_dir
+execute if score @s slo_dst matches 112 run function hp:spells/g/gellert_grindelwalds_lightning_bolt_spell/change_dir
+execute if score @s slo_dst matches 128 run function hp:spells/g/gellert_grindelwalds_lightning_bolt_spell/change_dir
+execute if score @s slo_dst matches 144 run function hp:spells/g/gellert_grindelwalds_lightning_bolt_spell/change_dir
+execute if score @s slo_dst matches 160 run function hp:spells/g/gellert_grindelwalds_lightning_bolt_spell/change_dir
+execute if score @s slo_dst matches 176 run function hp:spells/g/gellert_grindelwalds_lightning_bolt_spell/change_dir
+execute if score @s slo_dst matches 192 run function hp:spells/g/gellert_grindelwalds_lightning_bolt_spell/change_dir
