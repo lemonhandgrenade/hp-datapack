@@ -98,9 +98,8 @@ function hp:20tick
 function hp:50tick
 function hp:100tick
 
-
-fill -1 0 -1 1 2 1 bedrock
-fill 0 0 0 0 1 0 yellow_shulker_box
+fill -1 -64 -1 1 -62 1 bedrock
+fill 0 -64 0 0 -63 0 yellow_shulker_box
 
 
 #-Duelling-Rooms-----------------------------------------------------------------------------------#
@@ -133,8 +132,8 @@ execute in hp:void positioned 210 1 0 run setblock ~ ~ ~ structure_block{name:"h
 execute in hp:void positioned 210 1 0 run setblock ~ ~-1 ~ redstone_block
 execute in hp:void positioned 210 1 0 run setblock ~ ~-1 ~ stone
 
-execute in hp:void run fill -1 0 -1 1 2 1 bedrock
-execute in hp:void run fill 0 0 0 0 1 0 yellow_shulker_box
+execute in hp:void run fill -1 -64 -1 1 -62 1 bedrock
+execute in hp:void run fill 0 -64 0 0 -63 0 yellow_shulker_box
 
 
 team add gryffindor {"text":"Gryffindor","color":"dark_red"}
