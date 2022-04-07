@@ -15,6 +15,3 @@ execute as @e[type=item,tag=!set,nbt={OnGround:1b,Item:{tag:{Broom:1b}}}] at @s 
 
 
 
-
-## Setup player UID
-execute as @a[tag=!init] run function hp:player/set_uid
