@@ -1,2 +1,0 @@
-effect give @s[nbt={OnGround:1b}] minecraft:levitation 1 7 true
-execute if entity @s[tag=!cantSpeak,nbt={OnGround:1b}] at @s run tellraw @a[distance=..15,tag=!cantHear] ["","<",{"selector":"@s"},"> Ascendio"]
