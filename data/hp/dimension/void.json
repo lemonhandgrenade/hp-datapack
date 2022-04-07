@@ -1,0 +1,21 @@
+{
+  "type": "hp:void_type",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "minecraft:the_void",
+      "layers": [
+        {
+          "block": "minecraft:stone",
+          "height": 1
+        }
+      ],
+      "structures": {
+        "structures": {}
+      }
+    }
+  },
+  "settings": {
+      "name": "hp:duelling_arena"
+	}
+}
