@@ -14,9 +14,12 @@ kill @e[type=arrow,tag=spellEntity,tag=conjuredEntity,nbt={inGround:1b}]
 
 
 execute as @a[tag=animagus] run function hp:animagus/main
-execute as @a unless score @s injuries matches 0 run function hp:player/injuries/list
-execute as @a unless score @s player matches 0 run function hp:player/info
-execute as @a unless score @s duel matches 0 run function hp:player/duel/select
+execute as @a if score @s injuries matches ..-1 run function hp:player/injuries/list
+execute as @a if score @s injuries matches 1.. run function hp:player/injuries/list
+execute as @a if score @s player matches ..-1 run function hp:player/info
+execute as @a if score @s player matches 1.. run function hp:player/info
+execute as @a if score @s duel matches ..-1 run function hp:player/duel/select
+execute as @a if score @s duel matches 1.. run function hp:player/duel/select
 
 
 tag @e[tag=slowedFall,nbt={OnGround:1b}] remove slowedFall
