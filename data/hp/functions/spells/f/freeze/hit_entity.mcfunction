@@ -1,0 +1,2 @@
+execute as @e[dx=0,tag=!this,nbt={OnGround:1b}] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0] positioned ~0.99 ~0.99 ~0.99 run effect give @s minecraft:slowness 10 128 true
+execute if entity @s[type=area_effect_cloud] run function hp:spells/f/freeze/private/end

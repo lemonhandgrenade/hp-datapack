@@ -1,0 +1,1 @@
+execute at @s anchored eyes facing ~ ~1.63 ~-1 positioned ^ ^ ^5 rotated as @s positioned ^ ^ ^80 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ~ ~ ~ ~ ~
