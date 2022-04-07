@@ -1,0 +1,1 @@
+execute if score @s spell matches 441 run function hp:spells/q/quitening_charm/cast
