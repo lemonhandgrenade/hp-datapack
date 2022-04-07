@@ -1,0 +1,2 @@
+tellraw @a[distance=..15,tag=!cantHear] ["","<",{"selector":"@s"},{"text":"> Accio "},{"nbt":"Item.tag.title","entity":"@e[tag=expelled,type=item,sort=nearest,limit=1]"}]
+scoreboard players set temp values 1
