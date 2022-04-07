@@ -1,0 +1,6 @@
+execute as @e[type=armor_stand,tag=cauldronMain,dx=0,tag=!this] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0] positioned ~0.99 ~0.99 ~0.99 run particle dust_color_transition 0 1 1 2 0 0.9 1 ~ ~ ~ 0 0 0 0 10
+execute as @e[type=armor_stand,tag=cauldronMain,dx=0,tag=!this] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0] positioned ~0.99 ~0.99 ~0.99 run data modify entity @s ArmorItems[3].tag.CustomModelData set value 8
+execute as @e[type=armor_stand,tag=cauldronMain,dx=0,tag=!this] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0] positioned ~0.99 ~0.99 ~0.99 run data modify entity @s ArmorItems[3].tag.Potion set value [9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999]
+execute as @e[type=armor_stand,tag=cauldronMain,dx=0,tag=!this] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0] positioned ~0.99 ~0.99 ~0.99 run scoreboard players set @s values 0
+
+execute if entity @s[type=area_effect_cloud] run function hp:spells/v/vanishing_spell/private/end
