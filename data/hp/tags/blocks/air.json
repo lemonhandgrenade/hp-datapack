@@ -1,0 +1,20 @@
+{
+  "values":[
+	{
+		"id": "minecraft:air",
+		"required": false
+	},
+	{
+		"id": "minecraft:cave_air",
+		"required": false
+	},
+	{
+		"id": "minecraft:void_air",
+		"required": false
+	},
+	{
+		"id": "minecraft:light",
+		"required": false
+	}
+  ]
+}

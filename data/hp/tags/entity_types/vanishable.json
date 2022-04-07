@@ -1,0 +1,21 @@
+{
+	"description": "Entities that extend the can be vanished",
+	"values": [
+		{
+			"id": "minecraft:bat",
+			"required": false
+		},
+		{
+			"id": "minecraft:cod",
+			"required": false
+		},
+		{
+			"id": "minecraft:salmon",
+			"required": false
+		},
+		{
+			"id": "minecraft:item",
+			"required": false
+		}
+	]
+}

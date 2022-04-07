@@ -1,0 +1,13 @@
+{
+	"description": "Spell Levitation Entities",
+	"values": [
+		{
+			"id": "minecraft:item",
+			"required": false
+		},
+		{
+			"id": "minecraft:armor_stand",
+			"required": false
+		}
+	]
+}
