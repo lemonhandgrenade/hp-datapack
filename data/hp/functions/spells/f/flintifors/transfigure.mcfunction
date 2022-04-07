@@ -7,8 +7,8 @@ data modify storage hp:flintifors Item.tag.display.Lore set value ['{"text":"Mat
 data modify storage hp:flintifors Item.tag merge value {CustomModelData:1b,cUses:19,cDamage:0,cDamageMax:19,HideFlags:32,Damage:10}
 data modify storage hp:flintifors Item.Slot set value 0b
 
-data modify block 0 0 0 Items append from storage hp:flintifors Item
-execute at @s run loot spawn ~ ~ ~ mine 0 0 0 minecraft:air{drop_contents:1b}
+data modify block 0 -64 0 Items append from storage hp:flintifors Item
+execute at @s run loot spawn ~ ~ ~ mine 0 -64 0 minecraft:air{drop_contents:1b}
 
 
 
