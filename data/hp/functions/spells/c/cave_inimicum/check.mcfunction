@@ -1,0 +1,3 @@
+execute store result score temp Y run data get entity @s Pos[1] 1000
+execute at @s as @a[distance=..8] if score @s UID = @e[type=armor_stand,tag=caveInimicum,limit=1,sort=nearest] UID run execute store result score @s Y run data get entity @s Pos[1] 1000
+execute at @s as @a[distance=..8] if score @s UID = @e[type=armor_stand,tag=caveInimicum,limit=1,sort=nearest] UID if score @s Y >= temp Y run effect give @s invisibility 2 1 true
