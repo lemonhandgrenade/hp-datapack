@@ -1,0 +1,2 @@
+execute as @e[dx=0,tag=!this,tag=wartcapInfection] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0] positioned ~0.99 ~0.99 ~0.99 run tag @s remove wartcapInfection
+execute if entity @s[type=area_effect_cloud] run function hp:spells/s/spell_to_cure_wartcap_powder_infection/private/end
