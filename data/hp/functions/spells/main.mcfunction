@@ -1,0 +1,1 @@
+execute as @e[type=area_effect_cloud,tag=slowcast] at @s run function hp:spells/select
