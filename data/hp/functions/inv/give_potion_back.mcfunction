@@ -1,0 +1,2 @@
+execute positioned ~ -1 ~ run item replace entity @s weapon.mainhand from entity @e[type=armor_stand,tag=potionCarrier,distance=..1,limit=1] weapon.mainhand
+execute positioned ~ -1 ~ as @e[type=armor_stand,tag=potionCarrier,distance=..1,limit=1] run kill @s
