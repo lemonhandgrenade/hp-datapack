@@ -1,0 +1,1 @@
+give @s heart_of_the_sea{display:{Name:'{"text":"Bowling Ball","italic":false,"color":"white"}'},CustomModelData:200,specialEntity:1b,bowlingBall:1b} 1

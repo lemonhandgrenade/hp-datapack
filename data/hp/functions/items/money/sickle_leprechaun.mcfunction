@@ -1,0 +1,1 @@
+give @s raw_iron{Weight:66,Sickle:1b,Money:1b,Real:0b,display:{Name:'{"italic":false,"color":"#8c8c8c","text":"Sickle"}'}} 1
