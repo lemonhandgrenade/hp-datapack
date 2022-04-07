@@ -1,0 +1,2 @@
+execute as @e[type=item,dx=0,tag=!this] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0] positioned ~0.99 ~0.99 ~0.99 run data modify entity @s Motion set value [0.0,1.2,0.0]
+execute if entity @s[type=area_effect_cloud] run function hp:spells/r/rocket_charm/private/end
