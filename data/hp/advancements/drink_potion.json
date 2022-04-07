@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:potion"
+					]
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "hp:player/drink_potion"
+	}
+}
