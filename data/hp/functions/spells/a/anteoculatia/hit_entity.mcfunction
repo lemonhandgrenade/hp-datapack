@@ -1,0 +1,2 @@
+execute as @e[dx=0,tag=!this,predicate=hp:player/no_helmet] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0] positioned ~0.99 ~0.99 ~0.99 run item replace entity @s armor.head with carved_pumpkin{display:{Name:'{"text":"Antlers","color":"white","italic":false}'},HideFlags:1,CustomModelData:1,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]} 1
+execute if entity @s[type=area_effect_cloud] run function hp:spells/a/anteoculatia/private/end
