@@ -1,0 +1,1 @@
+give @s written_book{OtherBook:{Count:1b,id:"written_book",tag:{title:"b",author:"b",pages:['{"text":"hello2"}']}},title:"a",author:"a",pages:['{"text":"hello"}']} 1
