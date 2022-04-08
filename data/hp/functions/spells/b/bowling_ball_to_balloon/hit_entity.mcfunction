@@ -1,3 +1,0 @@
-execute as @e[type=armor_stand,dx=0,tag=!this,tag=bowlingBall] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0] positioned ~0.99 ~0.99 ~0.99 at @s run function hp:spells/b/bowling_ball_to_balloon/summon
-execute as @e[type=armor_stand,dx=0,tag=!this,tag=bowlingBall] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0] positioned ~0.99 ~0.99 ~0.99 at @s run particle minecraft:dust 0 0 0 3 ~ ~1 ~ 0.2 0.5 0.2 0 100
-execute if entity @s[type=area_effect_cloud] run function hp:spells/b/bowling_ball_to_balloon/private/end
