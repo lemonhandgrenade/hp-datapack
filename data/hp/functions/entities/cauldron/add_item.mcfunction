@@ -36,12 +36,12 @@ execute if score @s values matches 31 run data modify entity @s ArmorItems[3].ta
 playsound minecraft:block.bubble_column.bubble_pop block @a
 playsound minecraft:block.bubble_column.whirlpool_ambient block @a
 
-particle minecraft:bubble_pop ~ ~.6 ~ 0.01 0.01 0.01 0 3
+particle minecraft:bubble_pop ~ ~.5 ~ 0.01 0.01 0.01 0 3
 
-particle minecraft:dust_color_transition 0.45 0 .1 0.8 .68 0 .03 ~ ~.6 ~ 0.01 0.01 0.01 0 4 normal @a
-particle minecraft:dust_color_transition 0.10 0.27 .16 0.8 .16 0.38 .23 ~ ~.6 ~ 0.01 0.01 0.01 0 4 normal @a
-particle minecraft:dust_color_transition 0.05 0.10 .25 0.8 .13 0.18 .35 ~ ~.6 ~ 0.01 0.01 0.01 0 4 normal @a
-particle minecraft:dust_color_transition 0.49 0.38 .11 0.8 .45 0.37 .17 ~ ~.6 ~ 0.01 0.01 0.01 0 4 normal @a
+particle minecraft:dust_color_transition 0.45 0 .1 0.8 .68 0 .03 ~ ~.5 ~ 0.01 0.01 0.01 0 4 normal @a
+particle minecraft:dust_color_transition 0.10 0.27 .16 0.8 .16 0.38 .23 ~ ~.5 ~ 0.01 0.01 0.01 0 4 normal @a
+particle minecraft:dust_color_transition 0.05 0.10 .25 0.8 .13 0.18 .35 ~ ~.5 ~ 0.01 0.01 0.01 0 4 normal @a
+particle minecraft:dust_color_transition 0.49 0.38 .11 0.8 .45 0.37 .17 ~ ~.5 ~ 0.01 0.01 0.01 0 4 normal @a
 
 data modify entity @s ArmorItems[3].tag.CustomModelData set value 9
 

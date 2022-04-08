@@ -91,12 +91,14 @@ scoreboard objectives add sneakTest dummy
 scoreboard objectives add wandType dummy
 
 
-function hp:2tick
-function hp:5tick
-function hp:10tick
-function hp:20tick
-function hp:50tick
 function hp:100tick
+function hp:50tick
+function hp:20tick
+function hp:10tick
+function hp:5tick
+function hp:2tick
+
+
 
 fill -1 -64 -1 1 -62 1 bedrock
 fill 0 -64 0 0 -63 0 yellow_shulker_box

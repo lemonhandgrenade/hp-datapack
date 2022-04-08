@@ -38,3 +38,5 @@ execute as @e[type=armor_stand,tag=broomElytra,tag=broom] at @s as @e[type=armor
 
 ## Unsupported Flight
 execute as @a[scores={spell=586},predicate=hp:wand/wand_mainhand,tag=unsupportedFlight] at @s run function hp:spells/u/unsupported_flight/fly
+
+#Test
