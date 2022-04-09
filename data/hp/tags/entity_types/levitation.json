@@ -2,11 +2,11 @@
 	"description": "Spell Levitation Entities",
 	"values": [
 		{
-			"id": "minecraft:item",
+			"id": "minecraft:chicken",
 			"required": false
 		},
 		{
-			"id": "minecraft:armor_stand",
+			"id": "minecraft:silverfish",
 			"required": false
 		}
 	]
