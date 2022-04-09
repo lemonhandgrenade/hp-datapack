@@ -3,7 +3,7 @@
 ![GitHub issues](https://img.shields.io/github/issues/lemonhandgrenade/hp-datapack)
 
 # hp-datapack
-A datapack for Minecraft revolving around the Harry Potter.
+A datapack for Minecraft revolving around the Harry Potter universe.
 
 
 ## Features
@@ -13,6 +13,11 @@ A datapack for Minecraft revolving around the Harry Potter.
 - Corporeal Patronuses. [![Patronus](https://img.shields.io/badge/Patronuses-4-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/spells/_entities/patronus "Patronus IDs")
 - The Hogwarts house teams
 - More coming.
+
+# Attribution
+- Some of the broom's code was modified from [@the_floo_network][floo]'s map that can be found [here][floomap].
+- Spells work on the foundation of [@CloudWolfYT][cloudwolf]'s [Slow raycasting tutorial][cloudwolfvid].
+
 
 ## How to start.
 <details><summary>Spells</summary><p>
@@ -163,13 +168,9 @@ You can get them with the following commands:
 ## Docs For Devs
 WIP
 
-## Support
+## Bugs/Additions
 - If you have Any bugs about the datapack feel free to report [here][issue].
 - If you find any optimisations or want to propose an addition to the code please create a new pull request [here][pull].
-
-## Attribution
-- Some of the broom's code was modified from [@the_floo_network][floo]'s map that can be found [here][floomap].
-- Spells work on the foundation of [@CloudWolfYT][cloudwolf]'s [Slow raycasting tutorial][cloudwolfvid].
 
 ## License
 The code is available at [Github][home] under the [MIT license][license].
