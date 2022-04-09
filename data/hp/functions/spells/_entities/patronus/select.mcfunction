@@ -1,7 +1,6 @@
 execute if score #alternate values matches 1 if entity @s[tag=stag] run function hp:spells/_entities/patronus/stag
 execute if score #alternate values matches 1 if entity @s[tag=owl] run function hp:spells/_entities/patronus/owl
 execute if score #alternate values matches 1 if entity @s[tag=lion] run function hp:spells/_entities/patronus/lion
-execute if score #alternate values matches 1 if entity @s[tag=niffler] run function hp:spells/_entities/patronus/niffler
 execute if score #alternate values matches 1 if entity @s[tag=wolf] run function hp:spells/_entities/patronus/wolf
 
 
