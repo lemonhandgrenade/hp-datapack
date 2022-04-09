@@ -13,6 +13,54 @@ A datapack for Minecraft revolving around the Harry Potter.
 - Corporeal Patronuses. [![Patronus](https://img.shields.io/badge/Patronuses-5-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/spells/_entities/patronus "Patronus IDs")
 - More coming.
 
+## How to start.
+<details><summary>Spells</summary><p>
+
+### Getting a wand.
+You can use the command `/function hp:items/wand/(wood type)` to obtain a wand.  
+Currently there is no survival way to obtain a wand though this will be changed in future updates.  
+
+### Binding spells
+As there's no way to select spells conveniently so you'll have to use the commands:  
+- `scoreboard players set @s spell1 (Spell ID)`  
+- `scoreboard players set @s spell2 (Spell ID)`  
+- `scoreboard players set @s spell3 (Spell ID)`  
+- `scoreboard players set @s spell4 (Spell ID)`  
+
+Spell IDs can be found [here](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/spells):
+
+### Selecting spells
+To select a spell you must have a wand in your main hand.  
+Spells can be cycled by dropping the wand. (Note. Looking directly down will drop the wand normally instead of swapping spells)  
+Dropping normally will swap between spells 1 and 2  
+Whilst sneaking and dropping cycles between spells 3 and 4  
+
+### Using spells
+Spells can be used by switching the wand to the offhand.  
+It should also be known some spells have alternate ways of casting.  
+To cast them you must sneak while swapping the wand to the offhand.  
+
+</p></details>
+
+<details><summary>Potions</summary><p>
+
+### Starting equipment.
+To start brewing spells you'll need the right equipment listed below.  
+- Cauldron `/function hp:items/equipment/cauldron`  
+- Mortar and pestle `/function hp:items/equipment/mortar_and_pestle`  
+- Scales (Optional) `/function hp:items/equipment/(brass or gold)_scales`  
+
+Potions can be brewed rather simply.  
+For instance here's the recipe to the Cure for Boils:
+ - [] Place 6 snake fangs into the mortar and pestle.
+ - [] Take the ground snake fangs and place them back into the mortar and pestle.
+ - [] Place 4 standard measures of powdered snake fangs into the cauldron.
+ - [] Click on the burner of the cauldron to increase the heat.
+ - [] Place 4 Horned slugs in the cauldron.
+ - [] Place 2 measures of porcupine quills into cauldron.
+ - [] Then place a glass phial into the cauldron to complete the potion.
+
+</p></details>
 
 ## Docs For Devs
 WIP
