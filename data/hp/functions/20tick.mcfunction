@@ -29,7 +29,7 @@ execute at @e[type=armor_stand,tag=ectoplasm] run particle dust_color_transition
 execute as @e[type=armor_stand,tag=caveInimicum] run function hp:spells/c/cave_inimicum/check
 
 
-execute as @e[tag=injured] run function hp:player/injuries/effect
+execute as @e run function hp:player/injuries/effect
 
 
 
