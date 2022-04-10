@@ -5,8 +5,6 @@ execute as @a[tag=duelRequest] if score @s duelCooldown matches 120.. run functi
 
 execute as @e[type=item,tag=!expelled,nbt={OnGround:0b,Item:{tag:{Wand:1b}}}] at @s unless entity @p[x_rotation=90] run function hp:wand/change_spell
 
-execute as @a[tag=flyingBroom] at @s run function hp:broom/player_rotation
-
 execute as @e[type=armor_stand,tag=potionCarrier] at @s as @a if score @s UID = @e[type=armor_stand,tag=potionCarrier,distance=..1,limit=1] UID run function hp:inv/give_potion_back
 
 
