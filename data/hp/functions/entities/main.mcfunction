@@ -14,10 +14,10 @@ execute if entity @s[type=armor_stand,tag=scales,tag=scalesMain] unless predicat
 kill @s[type=armor_stand,tag=cauldron,predicate=hp:player/no_helmet]
 kill @s[type=armor_stand,tag=mortarpestleMain,predicate=!hp:player/is_wearing_armor]
 
-execute if entity @s[type=item,tag=wingardium] if score #alternate values matches -1 run data modify entity @s Air set value 0s
-execute if entity @s[type=item,tag=wingardium] if score #alternate values matches 1 run data modify entity @s Air set value 1s
+execute if entity @s[type=item,tag=flyingEntity] if score #alternate values matches -1 run data modify entity @s Air set value 0s
+execute if entity @s[type=item,tag=flyingEntity] if score #alternate values matches 1 run data modify entity @s Air set value 1s
 
-scoreboard players operation #current UID = @s UID
+execute if entity @s[tag=wingardium] run scoreboard players operation #current UID = @s UID
 execute if entity @s[tag=wingardium] run scoreboard players set temp values 14
 execute if entity @s[tag=wingardium] if score temp values matches 0.. as @a if score @s UID = #current UID anchored eyes at @s positioned ^ ^ ^.1 rotated as @s as @e[type=#hp:levitation,tag=wingardium] if score @s UID = #current UID run function hp:entities/wingardium/raycast
 execute if entity @s[tag=wingardium] if score temp values matches 0 as @a if score @s UID = #current UID anchored eyes at @s positioned ^ ^ ^.1 rotated as @s as @e[type=#hp:levitation,tag=wingardium] if score @s UID = #current UID run tp @s ^ ^ ^6
