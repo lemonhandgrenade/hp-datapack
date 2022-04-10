@@ -100,7 +100,7 @@ function hp:2tick
 
 
 
-fill -1 -64 -1 1 -62 1 bedrock
+fill -1 -64 -1 2 -61 1 bedrock
 fill 0 -64 0 0 -63 0 yellow_shulker_box
 
 
@@ -134,7 +134,7 @@ execute in hp:void positioned 210 1 0 run setblock ~ ~ ~ structure_block{name:"h
 execute in hp:void positioned 210 1 0 run setblock ~ ~-1 ~ redstone_block
 execute in hp:void positioned 210 1 0 run setblock ~ ~-1 ~ stone
 
-execute in hp:void run fill -1 -64 -1 1 -62 1 bedrock
+execute in hp:void run fill -1 -64 -1 2 -61 1 bedrock
 execute in hp:void run fill 0 -64 0 0 -63 0 yellow_shulker_box
 
 
