@@ -48,6 +48,5 @@ execute as @a[scores={sneakTest=1..}] at @s as @e[type=armor_stand,tag=broomElyt
 
 execute as @e[type=marker,tag=transfiguredBlock] at @s if block ~ ~ ~ air run kill @s
 
-execute as @a if predicate hp:flagrante run effect give @s wither 1 1 true
 
 effect give @a[nbt={Dimension:"hp:void"}] minecraft:mining_fatigue 2 255 true

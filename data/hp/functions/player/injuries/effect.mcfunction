@@ -27,3 +27,5 @@ execute at @s[tag=legLocked] run particle dust 0.5 0 0.4 1 ~ ~1 ~ 0.1 0.1 0.1 0 
 execute at @s[tag=petrified] run particle block stone ~ ~1 ~ 0.1 0.1 0.1 0 10
 execute at @s[tag=bound] run particle crit ~ ~1 ~ 0.1 0.1 0.1 0 10
 execute at @s[tag=boundLight] run particle end_rod ~ ~1 ~ 0.1 0.1 0.1 0 10
+
+execute if predicate hp:flagrante run effect give @s wither 1 1 true
