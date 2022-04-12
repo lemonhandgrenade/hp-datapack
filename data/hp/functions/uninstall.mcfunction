@@ -32,15 +32,9 @@ scoreboard objectives remove Z
 scoreboard objectives remove selectedSlot
 scoreboard objectives remove injuries
 scoreboard objectives remove player
-scoreboard objectives remove duel
-scoreboard objectives remove duelAccept
-scoreboard objectives remove duelTarget
-scoreboard objectives remove duelLeave
-scoreboard objectives remove duelCooldown
 scoreboard objectives remove sneak
 scoreboard objectives remove sneakTest
 scoreboard objectives remove wandType
-scoreboard objectives remove activeDuels
 
 team remove gryffindor
 team remove slytherin

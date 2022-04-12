@@ -18,8 +18,6 @@ execute as @a if score @s injuries matches ..-1 run function hp:player/injuries/
 execute as @a if score @s injuries matches 1.. run function hp:player/injuries/list
 execute as @a if score @s player matches ..-1 run function hp:player/info
 execute as @a if score @s player matches 1.. run function hp:player/info
-execute as @a if score @s duel matches ..-1 run function hp:player/duel/select
-execute as @a if score @s duel matches 1.. run function hp:player/duel/select
 
 
 tag @e[tag=slowedFall,nbt={OnGround:1b}] remove slowedFall
@@ -47,6 +45,3 @@ execute as @e[type=armor_stand,tag=candleLight] at @s run function hp:spells/c/c
 execute as @a[scores={sneakTest=1..}] at @s as @e[type=armor_stand,tag=broomElytra,tag=broom,limit=1,sort=nearest,distance=..1] run function hp:broom/remove_broom
 
 execute as @e[type=marker,tag=transfiguredBlock] at @s if block ~ ~ ~ air run kill @s
-
-
-effect give @a[nbt={Dimension:"hp:void"}] minecraft:mining_fatigue 2 255 true

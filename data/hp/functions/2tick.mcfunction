@@ -1,7 +1,5 @@
 schedule function hp:2tick 2t
 
-scoreboard players add @a[tag=duelRequest] duelCooldown 1
-execute as @a[tag=duelRequest] if score @s duelCooldown matches 120.. run function hp:player/duel/expire
 
 execute as @e[type=item,tag=!expelled,nbt={OnGround:0b,Item:{tag:{Wand:1b}}}] at @s unless entity @p[x_rotation=90] run function hp:wand/change_spell
 

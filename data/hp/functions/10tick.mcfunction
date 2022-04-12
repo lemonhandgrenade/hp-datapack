@@ -2,11 +2,6 @@ schedule function hp:10tick 10t
 
 execute as @a[tag=voiceLines] run function hp:player/voice_lines/select
 
-
-execute as @a if score @s duelLeave matches 1.. run function hp:player/duel/leave
-execute as @a if score @s duelAccept matches 1.. run function hp:player/duel/accept
-execute as @a if score @s duelAccept matches ..-1 run function hp:player/duel/decline
-
 tag @a[tag=!flyingBroom,predicate=!hp:no_broom] add flyingBroom
 tag @a[tag=flyingBroom,predicate=hp:no_broom] remove flyingBroom
 

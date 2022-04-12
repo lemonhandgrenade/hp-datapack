@@ -78,11 +78,6 @@ scoreboard objectives add Z dummy
 scoreboard objectives add selectedSlot dummy
 scoreboard objectives add injuries trigger
 scoreboard objectives add player trigger
-scoreboard objectives add duel trigger
-scoreboard objectives add duelAccept trigger
-scoreboard objectives add duelTarget dummy
-scoreboard objectives add duelLeave trigger
-scoreboard objectives add duelCooldown dummy
 
 scoreboard objectives add sneak minecraft.custom:minecraft.sneak_time
 scoreboard objectives add sneakTest dummy
@@ -103,39 +98,6 @@ function hp:2tick
 fill -1 -64 -1 2 -61 1 bedrock
 fill 0 -64 0 0 -63 0 yellow_shulker_box
 
-
-#-Duelling-Rooms-----------------------------------------------------------------------------------#
-scoreboard objectives add activeDuels dummy
-
-execute in hp:void run forceload add 0 0
-execute in hp:void positioned 0 1 0 run setblock ~ ~ ~ structure_block{name:"hp:duelling_room",mode:"LOAD"}
-execute in hp:void positioned 0 1 0 run setblock ~ ~-1 ~ redstone_block
-execute in hp:void positioned 0 1 0 run setblock ~ ~-1 ~ stone
-execute in hp:void positioned 30 1 0 run setblock ~ ~ ~ structure_block{name:"hp:duelling_room",mode:"LOAD"}
-execute in hp:void positioned 30 1 0 run setblock ~ ~-1 ~ redstone_block
-execute in hp:void positioned 30 1 0 run setblock ~ ~-1 ~ stone
-execute in hp:void positioned 60 1 0 run setblock ~ ~ ~ structure_block{name:"hp:duelling_room",mode:"LOAD"}
-execute in hp:void positioned 60 1 0 run setblock ~ ~-1 ~ redstone_block
-execute in hp:void positioned 60 1 0 run setblock ~ ~-1 ~ stone
-execute in hp:void positioned 90 1 0 run setblock ~ ~ ~ structure_block{name:"hp:duelling_room",mode:"LOAD"}
-execute in hp:void positioned 90 1 0 run setblock ~ ~-1 ~ redstone_block
-execute in hp:void positioned 90 1 0 run setblock ~ ~-1 ~ stone
-
-execute in hp:void positioned 120 1 0 run setblock ~ ~ ~ structure_block{name:"hp:duelling_room",mode:"LOAD"}
-execute in hp:void positioned 120 1 0 run setblock ~ ~-1 ~ redstone_block
-execute in hp:void positioned 120 1 0 run setblock ~ ~-1 ~ stone
-execute in hp:void positioned 150 1 0 run setblock ~ ~ ~ structure_block{name:"hp:duelling_room",mode:"LOAD"}
-execute in hp:void positioned 150 1 0 run setblock ~ ~-1 ~ redstone_block
-execute in hp:void positioned 150 1 0 run setblock ~ ~-1 ~ stone
-execute in hp:void positioned 180 1 0 run setblock ~ ~ ~ structure_block{name:"hp:duelling_room",mode:"LOAD"}
-execute in hp:void positioned 180 1 0 run setblock ~ ~-1 ~ redstone_block
-execute in hp:void positioned 180 1 0 run setblock ~ ~-1 ~ stone
-execute in hp:void positioned 210 1 0 run setblock ~ ~ ~ structure_block{name:"hp:duelling_room",mode:"LOAD"}
-execute in hp:void positioned 210 1 0 run setblock ~ ~-1 ~ redstone_block
-execute in hp:void positioned 210 1 0 run setblock ~ ~-1 ~ stone
-
-execute in hp:void run fill -1 -64 -1 2 -61 1 bedrock
-execute in hp:void run fill 0 -64 0 0 -63 0 yellow_shulker_box
 
 
 team add gryffindor {"text":"Gryffindor","color":"dark_red"}

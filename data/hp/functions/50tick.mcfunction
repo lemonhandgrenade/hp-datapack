@@ -29,8 +29,6 @@ execute as @e[type=item,nbt={OnGround:1b,Item:{tag:{Portkey:1b,PortkeyActive:0b}
 execute as @e[type=armor_stand,tag=specialEntity,tag=left] if predicate hp:player/holding_item at @s as @e[type=armor_stand,tag=specialEntity,tag=scalesMain,limit=1,sort=nearest] run function hp:entities/scales/update
 execute as @e[type=armor_stand,tag=specialEntity,tag=right] if predicate hp:player/holding_item at @s as @e[type=armor_stand,tag=specialEntity,tag=scalesMain,limit=1,sort=nearest] run function hp:entities/scales/update
 
-scoreboard players enable @a[tag=duelling] duelLeave
-
 
 ## Setup player UID
 execute as @a[tag=!init] run function hp:player/set_uid
