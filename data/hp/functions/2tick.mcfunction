@@ -16,3 +16,6 @@ execute as @a[tag=lumosMaxima] at @s run function hp:spells/l/lumos_maxima/parti
 execute as @a[tag=wandLightingCharm] at @s run function hp:spells/w/wand-lighting_charm/particle
 
 scoreboard players operation #alternate2 values *= -1 values
+
+## Unsupported Flight
+execute as @a[scores={spell=586},predicate=hp:wand/wand_mainhand,tag=unsupportedFlight] at @s run function hp:spells/u/unsupported_flight/fly

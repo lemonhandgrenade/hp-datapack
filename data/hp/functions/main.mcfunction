@@ -34,7 +34,3 @@ execute as @a[tag=flyingBroom] at @s run function hp:broom/input
 execute as @a[predicate=hp:wand/wand_offhand] at @s run function hp:wand/cast
 
 execute as @e[type=armor_stand,tag=broomElytra,tag=broom] at @s as @e[type=armor_stand,tag=broomVisual,tag=broom] if score @s broomID = @e[type=armor_stand,tag=broom,limit=1,sort=nearest] broomID run tp @s ~ ~ ~ ~ ~
-
-
-## Unsupported Flight
-execute as @a[scores={spell=586},predicate=hp:wand/wand_mainhand,tag=unsupportedFlight] at @s run function hp:spells/u/unsupported_flight/fly

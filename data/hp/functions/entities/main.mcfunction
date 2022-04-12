@@ -21,5 +21,3 @@ execute if entity @s[tag=wingardium] run scoreboard players operation #current U
 execute if entity @s[tag=wingardium] run scoreboard players set temp values 14
 execute if entity @s[tag=wingardium] if score temp values matches 0.. as @a if score @s UID = #current UID anchored eyes at @s positioned ^ ^ ^.1 rotated as @s as @e[type=#hp:levitation,tag=wingardium] if score @s UID = #current UID run function hp:entities/wingardium/raycast
 execute if entity @s[tag=wingardium] if score temp values matches 0 as @a if score @s UID = #current UID anchored eyes at @s positioned ^ ^ ^.1 rotated as @s as @e[type=#hp:levitation,tag=wingardium] if score @s UID = #current UID run tp @s ^ ^ ^6
-
-
