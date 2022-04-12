@@ -6,6 +6,7 @@ scoreboard objectives remove slowcast
 scoreboard objectives remove slo_id
 scoreboard objectives remove slo_dst
 scoreboard objectives remove slo_dst_per
+scoreboard objectives remove spellCount
 scoreboard objectives remove spell
 scoreboard objectives remove currentSpellSlot
 scoreboard objectives remove spell1

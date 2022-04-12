@@ -41,6 +41,7 @@ scoreboard objectives add slo_dst dummy
 scoreboard objectives add slo_dst_per dummy
 
 #-Spell-Player-------------------------------------------------------------------------------------#
+scoreboard objectives add spellCount dummy
 scoreboard objectives add spell dummy
 scoreboard objectives add currentSpellSlot dummy
 scoreboard objectives add spell1 dummy
