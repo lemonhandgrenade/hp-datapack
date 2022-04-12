@@ -18,4 +18,4 @@ execute as @a[tag=wandLightingCharm] at @s run function hp:spells/w/wand-lightin
 scoreboard players operation #alternate2 values *= -1 values
 
 ## Unsupported Flight
-execute as @a[scores={spell=586},predicate=hp:wand/wand_mainhand,tag=unsupportedFlight] at @s run function hp:spells/u/unsupported_flight/fly
+execute as @a[tag=unsupportedFlight] at @s run function hp:spells/u/unsupported_flight/check
