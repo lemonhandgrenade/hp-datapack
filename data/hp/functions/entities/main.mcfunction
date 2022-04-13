@@ -1,3 +1,4 @@
+execute if entity @s[tag=new,tag=hoppingPot,tag=summon] run function hp:entities/hopping_pot/summon
 execute if entity @s[tag=new,tag=cauldron,tag=summon] run function hp:entities/cauldron/summon
 execute if entity @s[tag=new,tag=mortarpestle,tag=summon] run function hp:entities/mortarpestle/summon
 
@@ -9,8 +10,10 @@ execute if entity @s[tag=scales,tag=right] at @s if entity @e[type=item,sort=nea
 execute if entity @s[tag=mortarpestleMain] at @s if entity @e[type=item,sort=nearest,distance=..0.2] as @e[type=item,sort=nearest,distance=..0.2] if data entity @s {Item:{Count:1b}} if data entity @s Item.tag.MortarPestle run function hp:entities/mortarpestle/change_item
 
 execute if entity @s[tag=cauldronMain] run function hp:entities/cauldron/main
+execute if entity @s[tag=hoppingPotMain] run function hp:entities/hopping_pot/main
 
 execute if entity @s[type=armor_stand,tag=scales,tag=scalesMain] unless predicate hp:player/is_wearing_armor run function hp:entities/scales/kill
+kill @s[type=armor_stand,tag=hoppingPot,predicate=hp:player/no_helmet]
 kill @s[type=armor_stand,tag=cauldron,predicate=hp:player/no_helmet]
 kill @s[type=armor_stand,tag=mortarpestleMain,predicate=!hp:player/is_wearing_armor]
 

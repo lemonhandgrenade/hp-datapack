@@ -1,0 +1,2 @@
+execute unless entity @e[type=item,sort=nearest,distance=..0.5,nbt={Item:{id:"minecraft:glass_bottle",Count:1b,tag:{Ingredient:1b}}},limit=1] run function hp:entities/hopping_pot/add_item
+execute if entity @e[type=item,sort=nearest,distance=..0.5,nbt={Item:{id:"minecraft:glass_bottle",Count:1b,tag:{Ingredient:1b}}},limit=1] run function hp:entities/hopping_pot/final_potion
