@@ -1,4 +1,3 @@
-
 function hp:inv/swap
 
 scoreboard players add @s sneakTest 0
