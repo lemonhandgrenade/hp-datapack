@@ -11,3 +11,5 @@ execute store result storage hp:spell CurrentSpell int 1 run scoreboard players 
 execute unless score @s spell matches 457 run item modify entity @s weapon.mainhand hp:last_spell
 
 scoreboard players add @s spellCount 1
+
+advancement revoke @s only hp:cast
