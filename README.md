@@ -165,6 +165,19 @@ You can get them with the following commands:
 
 </p></details>
 
+<details><summary>Settings</summary><p>
+
+## Settings
+
+Settings can be accessed in the `settings` scoreboard  
+True and false are represented as 1 and 0 respectively  
+
+- `charmsBreakBlocks`: This will change whether charms can destroy blocks, eg. Whether the Gouging spell breaks stone into cobblestone.
+- `charmsBreakConnected`: This changes whether charms can break connected blocks from the initial, eg. Whether Finestra breaks all glass in the pane.
+- `easySortingHat`: This changes whether the sorting hat's questions are colored representing what house they benefit.
+
+</p></details>
+
 ## Docs For Devs
 WIP
 
