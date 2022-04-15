@@ -4,6 +4,7 @@ forceload add 0 0
 scoreboard objectives add settings dummy
 scoreboard players add charmsBreakBlocks settings 0
 scoreboard players add charmsBreakConnected settings 0
+scoreboard players add easySortingHat settings 0
 
 scoreboard objectives add values dummy
 scoreboard players set tpCheck values 1
@@ -58,10 +59,12 @@ scoreboard objectives add transfigureTimer dummy
 scoreboard objectives add anim dummy
 
 #-Houses-------------------------------------------------------------------------------------------#
-scoreboard objectives add gryffindorQuiz
-scoreboard objectives add slytherinQuiz
-scoreboard objectives add ravenclawQuiz
-scoreboard objectives add hufflepuffQuiz
+scoreboard objectives add gryffindorQuiz dummy
+scoreboard objectives add slytherinQuiz dummy
+scoreboard objectives add ravenclawQuiz dummy
+scoreboard objectives add hufflepuffQuiz dummy
+scoreboard objectives add quizTrigger trigger
+scoreboard objectives add quizQuestion dummy
 
 #-Animagus-Player----------------------------------------------------------------------------------#
 scoreboard objectives add animagusID dummy

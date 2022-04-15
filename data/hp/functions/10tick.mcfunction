@@ -11,3 +11,4 @@ execute as @e[type=item,tag=!set,nbt={OnGround:1b,Item:{tag:{Broom:1b}}}] at @s 
 execute as @e[type=item,tag=space,tag=!set,nbt={OnGround:1b,Item:{tag:{Broom:1b}}}] at @s run function hp:broom/select_broom
 
 
+execute as @a[tag=sortingHat] run function hp:sorting_hat/main

@@ -22,6 +22,8 @@ scoreboard objectives remove gryffindorQuiz
 scoreboard objectives remove slytherinQuiz
 scoreboard objectives remove ravenclawQuiz
 scoreboard objectives remove hufflepuffQuiz
+scoreboard objectives remove quizTrigger
+scoreboard objectives remove quizQuestion
 scoreboard objectives remove animagusID
 scoreboard objectives remove morph
 scoreboard objectives remove broomType
