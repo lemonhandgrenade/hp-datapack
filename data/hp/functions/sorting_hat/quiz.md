@@ -93,8 +93,8 @@ If you could have any power, which would you choose?
  - [ ] SR:The power to change your appearance at will
 
 Which of the following would you most like to study?
-	RG:Centaurs
-	SR:Goblins
+ - [ ] RG:Centaurs
+ - [ ] SR:Goblins
  - [ ] S:Merpeople
  - [ ] RH:Ghosts
  - [ ] SH:Vampires

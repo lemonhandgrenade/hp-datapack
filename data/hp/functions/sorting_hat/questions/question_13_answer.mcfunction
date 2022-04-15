@@ -1,0 +1,17 @@
+execute if score @s quizTrigger matches 169381 run scoreboard players add @s ravenclawQuiz 2
+execute if score @s quizTrigger matches 169381 run scoreboard players add @s slytherinQuiz 1
+execute if score @s quizTrigger matches 169381 run scoreboard players set temp values 1
+execute if score @s quizTrigger matches 335902 run scoreboard players add @s slytherinQuiz 2
+execute if score @s quizTrigger matches 335902 run scoreboard players add @s gryffindorQuiz 1
+execute if score @s quizTrigger matches 335902 run scoreboard players set temp values 1
+execute if score @s quizTrigger matches 928595 run scoreboard players add @s ravenclawQuiz 2
+execute if score @s quizTrigger matches 928595 run scoreboard players set temp values 1
+execute if score @s quizTrigger matches 252498 run scoreboard players add @s gryffindorQuiz 2
+execute if score @s quizTrigger matches 252498 run scoreboard players add @s hufflepuffQuiz 1
+execute if score @s quizTrigger matches 252498 run scoreboard players set temp values 1
+execute if score @s quizTrigger matches 143258 run scoreboard players add @s slytherinQuiz 2
+execute if score @s quizTrigger matches 143258 run scoreboard players set temp values 1
+execute if score @s quizTrigger matches 244348 run scoreboard players add @s hufflepuffQuiz 2
+execute if score @s quizTrigger matches 244348 run scoreboard players set temp values 1
+execute if score @s quizTrigger matches 613980 run scoreboard players add @s gryffindorQuiz 2
+execute if score @s quizTrigger matches 613980 run scoreboard players set temp values 1
