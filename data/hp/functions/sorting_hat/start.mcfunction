@@ -8,4 +8,7 @@ scoreboard players set @s slytherinQuiz 0
 scoreboard players set @s ravenclawQuiz 0
 scoreboard players set @s hufflepuffQuiz 0
 
-tag @s add sortingHat
+tag @s[tag=!housed] add sortingHat
+item modify entity @s[tag=!housed] armor.head hp:binding
+
+advancement revoke @s only hp:sorting_hat

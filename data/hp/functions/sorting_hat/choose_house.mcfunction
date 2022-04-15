@@ -10,6 +10,10 @@ execute if score @s hufflepuffQuiz >= @s gryffindorQuiz if score @s hufflepuffQu
 
 function hp:player/unlock
 tag @s remove sortingHat
+tag @s add housed
+
+item replace entity @s armor.head with air
+function hp:items/clothes/head/sorting_hat
 
 title @s times 4 64 4
 
