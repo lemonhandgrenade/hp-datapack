@@ -7,7 +7,7 @@ A datapack for Minecraft revolving around the Harry Potter universe.
 
 
 ## Features
-- Spell casting. [![Spells](https://img.shields.io/badge/Spells-220-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/spells "Spells IDs")
+- Spell casting. [![Spells](https://img.shields.io/badge/Spells-221-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/spells "Spells IDs")
 - Animagus. [![Animagi Animals](https://img.shields.io/badge/Animagi_Animals-54-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/animagus "Animagus IDs")
 - Potion brewing. [![Potions](https://img.shields.io/badge/Potions-3-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/potions "Potions IDs")
 - Corporeal Patronuses. [![Patronus](https://img.shields.io/badge/Patronuses-4-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/spells/_entities/patronus "Patronus IDs")
