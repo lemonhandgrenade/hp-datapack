@@ -182,7 +182,7 @@ True and false are represented as 1 and 0 respectively
 WIP
 
 ## Bugs/Additions
-- If you have Any bugs about the datapack feel free to report [here][issue].
+- If you find any bugs in the datapack feel free to report [here][issue].
 - If you find any optimisations or want to propose an addition to the code please create a new pull request [here][pull].
 
 ## License

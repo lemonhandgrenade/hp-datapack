@@ -6,7 +6,7 @@ execute if score @s spell matches 446 run function hp:spells/r/red_sparks/cast
 execute if score @s spell matches 447 run function hp:spells/r/red_special_jinx/cast
 execute if score @s spell matches 448 run function hp:spells/r/reductor_curse/cast
 execute if score @s spell matches 449 run function hp:spells/r/refilling_charm/cast
-execute if score @s spell matches 450 run function hp:spells/r/reparifarge/cast
+execute if score @s spell matches 450 run function hp:spells/r/reparifarge/hit_entity
 execute if score @s spell matches 451 run function hp:spells/r/reparifors/hit_entity
 execute if score @s spell matches 452 run function hp:spells/r/reparo_duo/cast
 execute if score @s spell matches 453 run function hp:spells/r/repelling_spell/cast
