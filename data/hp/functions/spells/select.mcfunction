@@ -165,6 +165,7 @@ execute as @s[tag=ragnuksCurse] run function hp:spells/r/ragnuks_curse/private/l
 execute as @s[tag=redSparks] run function hp:spells/r/red_sparks/private/launch
 execute as @s[tag=redSpecialJinx] run function hp:spells/r/red_special_jinx/private/launch
 execute as @s[tag=refillingCharm] run function hp:spells/r/refilling_charm/private/launch
+execute as @s[tag=reparifarge] run function hp:spells/r/reparifarge/private/launch
 execute as @s[tag=reparifors] run function hp:spells/r/reparifors/private/launch
 execute as @s[tag=revivingSpell] run function hp:spells/r/reviving_spell/private/launch
 execute as @s[tag=revulsionJinx] run function hp:spells/r/revulsion_jinx/private/launch
