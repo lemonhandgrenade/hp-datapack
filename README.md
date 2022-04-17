@@ -7,7 +7,7 @@ A datapack for Minecraft revolving around the Harry Potter universe.
 
 
 ## Features
-- Spell casting. [![Spells](https://img.shields.io/badge/Spells-221-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/spells "Spells IDs")
+- Spell casting. [![Spells](https://img.shields.io/badge/Spells-222-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/spells "Spells IDs")
 - Animagus. [![Animagi Animals](https://img.shields.io/badge/Animagi_Animals-54-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/animagus "Animagus IDs")
 - Potion brewing. [![Potions](https://img.shields.io/badge/Potions-3-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/potions "Potions IDs")
 - Corporeal Patronuses. [![Patronus](https://img.shields.io/badge/Patronuses-4-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/spells/_entities/patronus "Patronus IDs")
@@ -120,6 +120,14 @@ A list of animagus IDs can be found [here](https://github.com/lemonhandgrenade/h
 
 </p></details>
 
+<details><summary>Clothes</summary><p>
+
+### Hats
+- Sorting hat: `/function hp:items/clothes/head/sorting_hat`
+- Top hat: `/function hp:items/clothes/head/top_hat`
+
+</p></details>
+
 <details><summary>Brooms</summary><p>
 
 ### Getting a broom
@@ -175,6 +183,7 @@ True and false are represented as 1 and 0 respectively
 - `charmsBreakBlocks`: This will change whether charms can destroy blocks, eg. Whether the Gouging spell breaks stone into cobblestone.
 - `charmsBreakConnected`: This changes whether charms can break connected blocks from the initial, eg. Whether Finestra breaks all glass in the pane.
 - `easySortingHat`: This changes whether the sorting hat's questions are colored representing what house they benefit.
+- `repairParticles`: If this is set to 1, blocks that are repairable with the mending charm will have particles around it.
 
 </p></details>
 
@@ -184,6 +193,10 @@ WIP
 ## Bugs/Additions
 - If you find any bugs in the datapack feel free to report [here][issue].
 - If you find any optimisations or want to propose an addition to the code please create a new pull request [here][pull].
+
+## Notes
+- This is a very big pack and so it's recommended Minecraft have at least 2-4gb minimum.
+- The pack is very far from survival friendly and has 0 recipes so all items have to be obtained with commands.
 
 ## License
 The code is available at [Github][home] under the [MIT license][license].

@@ -5,6 +5,7 @@ scoreboard objectives add settings dummy
 scoreboard players add charmsBreakBlocks settings 0
 scoreboard players add charmsBreakConnected settings 0
 scoreboard players add easySortingHat settings 0
+scoreboard players add repairParticles settings 0
 
 scoreboard objectives add values dummy
 scoreboard players set tpCheck values 1

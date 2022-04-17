@@ -136,6 +136,7 @@ execute as @s[tag=liberacorpus] run function hp:spells/l/liberacorpus/private/la
 execute as @s[tag=liberare] run function hp:spells/l/liberare/private/launch
 execute as @s[tag=lockingSpell] run function hp:spells/l/locking_spell/private/launch
 
+execute as @s[tag=mendingCharm] run function hp:spells/m/mending_charm/private/launch
 execute as @s[tag=meropeGauntsCharm] run function hp:spells/m/merope_gaunts_charm/private/launch
 execute as @s[tag=meteolojinxRecanto] run function hp:spells/m/meteolojinx_recanto/private/launch
 execute as @s[tag=minervaMcgonagallsSpell] run function hp:spells/m/minerva_mcgonagalls_spell/private/launch

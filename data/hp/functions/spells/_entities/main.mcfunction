@@ -20,3 +20,4 @@ execute if entity @s[tag=portkeyItem] run function hp:spells/_entities/portkey/m
 
 execute if score #3 values matches 1 if entity @s[tag=morsmordre] positioned ~ 512 ~ run function hp:spells/_entities/morsmordre/anim
 
+execute if entity @s[tag=mendingCharm] run function hp:spells/_entities/mending_charm/main
