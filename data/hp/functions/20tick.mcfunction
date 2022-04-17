@@ -22,8 +22,6 @@ execute as @a if score @s player matches 1.. run function hp:player/info
 
 tag @e[tag=slowedFall,nbt={OnGround:1b}] remove slowedFall
 
-
-execute at @e[type=armor_stand,tag=ectoplasm] run particle dust_color_transition 0 1 0.45 2.5 0 1 0.075 ~ ~0.5 ~ 0.1 0.1 0.1 0 10
 execute as @e[type=armor_stand,tag=caveInimicum] run function hp:spells/c/cave_inimicum/check
 
 
