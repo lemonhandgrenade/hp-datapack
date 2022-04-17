@@ -1,3 +1,3 @@
-execute as @e[type=#hp:vanishable,dx=0,tag=!this] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0] positioned ~0.99 ~0.99 ~0.99 run particle dust_color_transition 0 1 1 2 0 0.9 1 ~ ~ ~ 0 0 0 0 10
-execute as @e[type=#hp:vanishable,dx=0,tag=!this] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0] positioned ~0.99 ~0.99 ~0.99 run tp @s ~ -128 ~
+execute as @e[type=#hp:vanishable,dx=0,tag=!this] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] positioned ~0.7 ~0.7 ~0.7 run particle dust_color_transition 0 1 1 2 0 0.9 1 ~ ~ ~ 0 0 0 0 10
+execute as @e[type=#hp:vanishable,dx=0,tag=!this] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] positioned ~0.7 ~0.7 ~0.7 run tp @s ~ -128 ~
 execute if entity @s[type=area_effect_cloud] run function hp:spells/v/vanishing_spell/private/end

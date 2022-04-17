@@ -1,5 +1,5 @@
 scoreboard players operation temp values = @s UID
-execute as @a[dx=0,tag=!this] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0] positioned ~0.99 ~0.99 ~0.99 run tag @s add arrestTemp
+execute as @a[dx=0,tag=!this] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] positioned ~0.7 ~0.7 ~0.7 run tag @s add arrestTemp
 
 effect give @a[tag=arrestTemp] blindness 2 1 true
 effect give @a[tag=arrestTemp] slowness 1 1 true

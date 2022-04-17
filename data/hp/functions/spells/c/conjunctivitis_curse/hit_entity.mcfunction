@@ -1,2 +1,2 @@
-execute as @e[dx=0,tag=!this] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0] positioned ~0.99 ~0.99 ~0.99 run effect give @s minecraft:blindness 20 0 true
+execute as @e[dx=0,tag=!this] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] positioned ~0.7 ~0.7 ~0.7 run effect give @s minecraft:blindness 20 0 true
 execute if entity @s[type=area_effect_cloud] run function hp:spells/c/conjunctivitis_curse/private/end

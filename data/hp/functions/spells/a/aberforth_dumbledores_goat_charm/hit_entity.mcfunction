@@ -1,2 +1,2 @@
-execute as @e[dx=0,tag=!this,type=goat] positioned ~-0.99 ~-0.99 ~-0.99 if entity @e[dx=0] positioned ~0.99 ~0.99 ~0.99 at @s anchored eyes positioned ~ ~.2 ~ run particle electric_spark ~ ~ ~ 0.5 0.5 0.5 0 200
+execute as @e[dx=0,tag=!this,type=goat] positioned ~-0.7 ~-0.7 ~-0.7 if entity @e[dx=0] positioned ~0.7 ~0.7 ~0.7 at @s anchored eyes positioned ~ ~.2 ~ run particle electric_spark ~ ~ ~ 0.5 0.5 0.5 0 200
 execute if entity @s[type=area_effect_cloud] run function hp:spells/a/aberforth_dumbledores_goat_charm/private/end

@@ -1,4 +1,4 @@
-execute as @e[dx=0,tag=!this] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0,type=item] positioned ~0.99 ~0.99 ~0.99 run tag @s add aviforsItem
+execute as @e[dx=0,tag=!this] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0,type=item] positioned ~0.7 ~0.7 ~0.7 run tag @s add aviforsItem
 
 execute as @e[tag=aviforsItem] at @s run summon parrot ~ ~ ~ {Health:1f,Attributes:[{Name:generic.max_health,Base:1}],Tags:["aviforsParrot","transfigurationAnimal"],DeathLootTable:null,HandItems:[{},{}],HandDropChances:[1.0f,0.0f]}
 

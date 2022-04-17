@@ -1,4 +1,4 @@
-execute as @a[dx=0,tag=!this] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0] positioned ~0.99 ~0.99 ~0.99 run tag @s add effected
+execute as @a[dx=0,tag=!this] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] positioned ~0.7 ~0.7 ~0.7 run tag @s add effected
 
 execute positioned as @a[tag=effected] rotated ~ 0 run summon minecraft:armor_stand ^ ^ ^0.2 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["knockbackJinxPush","new"]}
 

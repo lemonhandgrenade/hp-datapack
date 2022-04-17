@@ -1,6 +1,6 @@
 particle smoke ~ ~ ~ 0 0 0 0 1
 
-execute if entity @e[tag=!this,dx=0] positioned ~-0.99 ~-0.99 ~-0.99 if entity @e[tag=!this,dx=0] positioned ~0.99 ~0.99 ~0.99 run function hp:spells/s/shooting_spell/explode
+execute if entity @e[tag=!this,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @e[tag=!this,dx=0] positioned ~0.7 ~0.7 ~0.7 run function hp:spells/s/shooting_spell/explode
 
 scoreboard players remove #temp slowcast 1
 execute if score #temp slowcast matches ..-1 run tp @s ~ ~ ~

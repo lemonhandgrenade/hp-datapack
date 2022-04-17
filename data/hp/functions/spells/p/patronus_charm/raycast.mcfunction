@@ -2,7 +2,7 @@ particle minecraft:dust_color_transition 1 1 1 0.5 0.2 0.5 0.8 ~ ~ ~ 0.05 0.05 0
 particle wax_off ~ ~ ~ 0.01 0.01 0.01 0 5
 particle dust 0.6 0.75 0.95 0.5 ~ ~ ~ 0 0 0 0 5
 
-#execute if entity @e[tag=!this,dx=0] positioned ~-0.99 ~-0.99 ~-0.99 if entity @e[tag=!this,dx=0] positioned ~0.99 ~0.99 ~0.99 run function hp:spells/p/patronus_charm/hit_entity
+#execute if entity @e[tag=!this,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @e[tag=!this,dx=0] positioned ~0.7 ~0.7 ~0.7 run function hp:spells/p/patronus_charm/hit_entity
 
 
 

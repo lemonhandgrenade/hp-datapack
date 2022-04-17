@@ -1,6 +1,6 @@
 particle wax_on ~ ~ ~ 0.05 0.05 0.05 0 3
 
-execute if entity @a[tag=!this,dx=0] positioned ~-0.99 ~-0.99 ~-0.99 if entity @a[tag=!this,dx=0] positioned ~0.99 ~0.99 ~0.99 run function hp:spells/y/yellow_special_jinx/hit_entity
+execute if entity @a[tag=!this,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @a[tag=!this,dx=0] positioned ~0.7 ~0.7 ~0.7 run function hp:spells/y/yellow_special_jinx/hit_entity
 
 scoreboard players remove #temp slowcast 1
 execute if score #temp slowcast matches ..-1 run tp @s ~ ~ ~
