@@ -1,0 +1,20 @@
+{
+  "values":[
+	{
+		"id": "minecraft:polished_andesite",
+		"required": false
+	},
+	{
+		"id": "minecraft:polished_diorite",
+		"required": false
+	},
+	{
+		"id": "minecraft:polished_granite",
+		"required": false
+	},
+	{
+		"id": "minecraft:stone",
+		"required": false
+	}
+  ]
+}
