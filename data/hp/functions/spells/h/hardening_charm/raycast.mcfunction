@@ -1,4 +1,3 @@
-particle mycelium ~ ~ ~ 0 0 0 0 10
 execute if entity @s[tag=!done] if entity @e[type=item,tag=!this,dx=0,tag=!unjinxable] positioned ~-0.7 ~-0.7 ~-0.7 if entity @e[tag=!this,dx=0] positioned ~0.7 ~0.7 ~0.7 run function hp:spells/h/hardening_charm/hit_entity
 
 scoreboard players remove #temp slowcast 1
