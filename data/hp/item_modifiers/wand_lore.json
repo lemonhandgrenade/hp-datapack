@@ -27,20 +27,39 @@
     "entity": "this",
     "lore": [
       [
-        [
-          {
-            "text": "Wood: ",
-            "color": "dark_purple",
-            "italic": false
-          },
-          {
-            "nbt": "SelectedItem.tag.WoodName",
-            "entity": "@s",
-            "interpret": true,
-            "color": "light_purple"
-          }
-        ]
+        {
+          "text": "Wood: ",
+          "color": "dark_purple",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.WoodName",
+          "entity": "@s",
+          "interpret": true,
+          "color": "light_purple"
+        }
       ]
-    ]
+    ],
+    "replace": false
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Core: ",
+          "color": "dark_purple",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.CoreName",
+          "entity": "@s",
+          "interpret": true,
+          "color": "light_purple"
+        }
+      ]
+    ],
+    "replace": false
   }
 ]
