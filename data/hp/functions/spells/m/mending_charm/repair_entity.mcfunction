@@ -1,5 +1,8 @@
 execute if entity @s[tag=gougingSpell] at @s run particle minecraft:wax_off ~ ~.5 ~ 0.25 0.25 0.25 0 100
-execute if entity @s[tag=gougingSpell] at @s run setblock ~ ~ ~ stone
+execute if score @s[tag=gougingSpell] X matches 1 at @s run setblock ~ ~ ~ stone
+execute if score @s[tag=gougingSpell] X matches 2 at @s run setblock ~ ~ ~ polished_andesite
+execute if score @s[tag=gougingSpell] X matches 3 at @s run setblock ~ ~ ~ polished_diorite
+execute if score @s[tag=gougingSpell] X matches 4 at @s run setblock ~ ~ ~ polished_granite
 
 execute if score @s[tag=finestraSpell] X matches 1 at @s run setblock ~ ~ ~ minecraft:white_stained_glass
 execute if score @s[tag=finestraSpell] X matches 2 at @s run setblock ~ ~ ~ minecraft:orange_stained_glass
