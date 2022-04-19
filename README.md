@@ -1,5 +1,5 @@
 ![License][license-image]
-![GitHub branch checks state](https://img.shields.io/github/checks-status/lemonhandgrenade/hp-datapack/main)
+[![CI](https://github.com/lemonhandgrenade/hp-datapack/actions/workflows/build.yml/badge.svg)](https://github.com/lemonhandgrenade/hp-datapack/actions/workflows/build.yml)
 ![GitHub issues](https://img.shields.io/github/issues/lemonhandgrenade/hp-datapack)
 
 # hp-datapack
