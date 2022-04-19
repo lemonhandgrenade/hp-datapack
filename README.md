@@ -1,8 +1,6 @@
-<p style="text-align: center;">
 ![License][license-image]
 [![CI](https://github.com/lemonhandgrenade/hp-datapack/actions/workflows/build.yml/badge.svg)](https://github.com/lemonhandgrenade/hp-datapack/actions/workflows/build.yml)
 ![GitHub issues](https://img.shields.io/github/issues/lemonhandgrenade/hp-datapack)
-</p>
 
 # hp-datapack
 A datapack for Minecraft revolving around the Harry Potter universe.
