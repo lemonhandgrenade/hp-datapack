@@ -486,140 +486,141 @@
 484. Shock Spell
 485. Shooting spell
 486. Shrinking Charm
-487. Silencing Charm
-488. Silver net-conjuring spell
-489. Silver rope-conjuring spell
-490. Silver shield spell
-491. Silver smoke spell
-492. Silver spell
-493. Skurge Charm
-494. Sleeping bag-conjuring spell
-495. Sleeping Charm
-496. Sleepwalking curse
-497. Slippery Jinx
-498. Slowing Charm
-499. Slug-vomiting Charm
-500. Small Child to Rat
-501. Smashing spell
-502. Smoke to daggers spell
-503. Smokescreen Spell
-504. Smudge-removing spell
-505. Snail to Teapot
-506. Snake Summons Spell
-507. Snake-Vanishing Spell
-508. Snowfall spell
-509. Snowflake-making spell
-510. Snufflifors Spell
-511. Sofa-conjuring spell
-512. Softening Charm
-513. Somnambulist Charm
-514. Sonorous Charm
-515. Specialis Revelio
-516. Spell to cure Wartcap powder infection
-517. Spell-harvesting spell
-518. Spider-conjuring spell
-519. Sponge-Knees Curse
-520. Squiggle Quill
-521. Squiggly wiggly
-522. Stamina Charm
-523. Star Shower Spell
-524. Statue curse
-525. Stealth Sensoring Spell
-526. Steelclaw
-527. Sternius
-528. Stickfast Hex
-529. Sticking Charm
-530. Stinging Jinx
-531. Stream of Flames
-532. Stretcher-conjuring spell
-533. Stretching Jinx
-534. Stunning Spell
-535. Stupefy Duo
-536. Substantive Charm
-537. Summoning Charm
-538. Sunshine, daisies, butter mellow, turn this stupid, fat rat yellow
-539. Supersensory Charm
-540. Surgito
-541. Switching Spell
-542. Table Trouble
-543. Tablecloth-conjuring spell
-544. Taboo
-545. Tail-growing spell
-546. Take Root
-547. Talon-clipping charm
-548. Teacup into Gerbil
-549. Teacup to Rat
-550. Teacup to tortoise spell
-551. Teapot to ferret spell
-552. Teapot to tortoise spell
-553. Teddy bear to spider spell
-554. Teeth-straightening spell
-555. Teleportation spell
-556. Tempest Jinx
-557. Tentaclifors
-558. Thief's Curse
-559. Thief's Downfall
-560. Thimble to Thestral
-561. Tickling Charm
-562. Tickling Hex
-563. Toad to prince spell
-564. Toad to Toadstool
-565. Toe Biter
-566. Toenail-growing hex
-567. Tom Riddle's explosive spell
-568. Tongue-Tying Curse
-569. Tortoise to Trumpet
-570. Trace
-571. Trace Charm
-572. Tracking spell
-573. Transmogrifian Torture
-574. Transmogrify
-575. Tree animating jinx
-576. Trip Jinx
-577. Twitchy-Ears Hex
-578. Umbrella spell
-579. Unbreakable Charm
-580. Unbreakable Vow
-581. Unidentified buffalo spell
-582. Unidentified Durmstrang student's fire spell
-583. Unidentified protective spell
-584. Unlocking Charm
-585. Unplottability
-586. Unsupported flight
-587. Vacuum cleaner spell
-588. Vanishing Spell
-589. Vaulting Charm
-590. Ventus Duo
-591. Ventus Tria
-592. Vera Verto
-593. Verdillious
-594. Verdimillious Charm
-595. Verdimillious Duo Spell
-596. Verdimillious Tria
-597. Vermiculus
-598. Vermillious Duo
-599. Vermillious Tria
-600. Vinegar to wine spell
-601. Violet fire
-602. Vomitare Viridis
-603. Vulnera Sanentur
-604. Wakefield's Sambata
-605. Wand-Lighting Charm
-606. Washing up spell
-607. Water-heating spell
-608. Water-Making Spell
-609. Weakening Hex
-610. Webbed Spell
-611. Whip spell
-612. Whirlwind
-613. Whisky-conjuring spell
-614. Whistle into watch spell
-615. White sparks
-616. William Weasley's modified cursed barrier
-617. Windy Spell
-618. Wingardium Leviosa Duo
-619. Wiping Spell
-620. Yellow Special Jinx
-621. Straight Line
-622. Homing Ray
-623. Controlled Ray
+487. Sign of the deathly hallows spell
+488. Silencing Charm
+489. Silver net-conjuring spell
+490. Silver rope-conjuring spell
+491. Silver shield spell
+492. Silver smoke spell
+493. Silver spell
+494. Skurge Charm
+495. Sleeping bag-conjuring spell
+496. Sleeping Charm
+497. Sleepwalking curse
+498. Slippery Jinx
+499. Slowing Charm
+500. Slug-vomiting Charm
+501. Small Child to Rat
+502. Smashing spell
+503. Smoke to daggers spell
+504. Smokescreen Spell
+505. Smudge-removing spell
+506. Snail to Teapot
+507. Snake Summons Spell
+508. Snake-Vanishing Spell
+509. Snowfall spell
+510. Snowflake-making spell
+511. Snufflifors Spell
+512. Sofa-conjuring spell
+513. Softening Charm
+514. Somnambulist Charm
+515. Sonorous Charm
+516. Specialis Revelio
+517. Spell to cure Wartcap powder infection
+518. Spell-harvesting spell
+519. Spider-conjuring spell
+520. Sponge-Knees Curse
+521. Squiggle Quill
+522. Squiggly wiggly
+523. Stamina Charm
+524. Star Shower Spell
+525. Statue curse
+526. Stealth Sensoring Spell
+527. Steelclaw
+528. Sternius
+529. Stickfast Hex
+530. Sticking Charm
+531. Stinging Jinx
+532. Stream of Flames
+533. Stretcher-conjuring spell
+534. Stretching Jinx
+535. Stunning Spell
+536. Stupefy Duo
+537. Substantive Charm
+538. Summoning Charm
+539. Sunshine, daisies, butter mellow, turn this stupid, fat rat yellow
+540. Supersensory Charm
+541. Surgito
+542. Switching Spell
+543. Table Trouble
+544. Tablecloth-conjuring spell
+545. Taboo
+546. Tail-growing spell
+547. Take Root
+548. Talon-clipping charm
+549. Teacup into Gerbil
+550. Teacup to Rat
+551. Teacup to tortoise spell
+552. Teapot to ferret spell
+553. Teapot to tortoise spell
+554. Teddy bear to spider spell
+555. Teeth-straightening spell
+556. Teleportation spell
+557. Tempest Jinx
+558. Tentaclifors
+559. Thief's Curse
+560. Thief's Downfall
+561. Thimble to Thestral
+562. Tickling Charm
+563. Tickling Hex
+564. Toad to prince spell
+565. Toad to Toadstool
+566. Toe Biter
+567. Toenail-growing hex
+568. Tom Riddle's explosive spell
+569. Tongue-Tying Curse
+570. Tortoise to Trumpet
+571. Trace
+572. Trace Charm
+573. Tracking spell
+574. Transmogrifian Torture
+575. Transmogrify
+576. Tree animating jinx
+577. Trip Jinx
+578. Twitchy-Ears Hex
+579. Umbrella spell
+580. Unbreakable Charm
+581. Unbreakable Vow
+582. Unidentified buffalo spell
+583. Unidentified Durmstrang student's fire spell
+584. Unidentified protective spell
+585. Unlocking Charm
+586. Unplottability
+587. Unsupported flight
+588. Vacuum cleaner spell
+589. Vanishing Spell
+590. Vaulting Charm
+591. Ventus Duo
+592. Ventus Tria
+593. Vera Verto
+594. Verdillious
+595. Verdimillious Charm
+596. Verdimillious Duo Spell
+597. Verdimillious Tria
+598. Vermiculus
+599. Vermillious Duo
+600. Vermillious Tria
+601. Vinegar to wine spell
+602. Violet fire
+603. Vomitare Viridis
+604. Vulnera Sanentur
+605. Wakefield's Sambata
+606. Wand-Lighting Charm
+607. Washing up spell
+608. Water-heating spell
+609. Water-Making Spell
+610. Weakening Hex
+611. Webbed Spell
+612. Whip spell
+613. Whirlwind
+614. Whisky-conjuring spell
+615. Whistle into watch spell
+616. White sparks
+617. William Weasley's modified cursed barrier
+618. Windy Spell
+619. Wingardium Leviosa Duo
+620. Wiping Spell
+621. Yellow Special Jinx
+622. Straight Line
+623. Homing Ray
+624. Controlled Ray
