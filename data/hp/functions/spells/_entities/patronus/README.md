@@ -1,5 +1,5 @@
 ## Patronus IDs
-1. stag
-2. owl
-3. lion
-4. wolf
+1. Stag
+2. Owl
+3. Lion
+4. Wolf
