@@ -1,9 +1,17 @@
+<p style="text-align: center;">
 ![License][license-image]
 [![CI](https://github.com/lemonhandgrenade/hp-datapack/actions/workflows/build.yml/badge.svg)](https://github.com/lemonhandgrenade/hp-datapack/actions/workflows/build.yml)
 ![GitHub issues](https://img.shields.io/github/issues/lemonhandgrenade/hp-datapack)
+</p>
 
 # hp-datapack
 A datapack for Minecraft revolving around the Harry Potter universe.
+
+## Attribution
+- Some of the broom's code was modified from [@the_floo_network][floo]'s map that can be found [here][floomap].
+- Spells work on the foundation of [@CloudWolfYT][cloudwolf]'s [Slow raycasting tutorial][cloudwolfvid].
+
+---
 
 
 ## Features
@@ -11,19 +19,16 @@ A datapack for Minecraft revolving around the Harry Potter universe.
 - Animagus. [![Animagi Animals](https://img.shields.io/badge/Animagi_Animals-54-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/animagus "Animagus IDs")
 - Potion brewing. [![Potions](https://img.shields.io/badge/Potions-3-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/potions "Potions IDs")
 - Corporeal Patronuses. [![Patronus](https://img.shields.io/badge/Patronuses-4-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/spells/_entities/patronus "Patronus IDs")
-- The Hogwarts house teams
+- Brooms. [![Brooms](https://img.shields.io/badge/Brooms-7-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/broom)
+- The Hogwarts house teams.
 - More coming.
-
-# Attribution
-- Some of the broom's code was modified from [@the_floo_network][floo]'s map that can be found [here][floomap].
-- Spells work on the foundation of [@CloudWolfYT][cloudwolf]'s [Slow raycasting tutorial][cloudwolfvid].
 
 
 ## How to start.
 <details><summary>Spells</summary><p>
 
 ### Getting a wand.
-You can use the command `/function hp:items/wand/(wood type)` to obtain a wand.  
+You can use the command `/function hp:items/wand/(wood type)/(wood type)_(core type)` to obtain a wand.  
 Currently there is no survival way to obtain a wand though this will be changed in future updates.  
 
 ### Binding spells
@@ -46,6 +51,8 @@ Spells can be used by switching the wand to the offhand.
 It should also be known some spells have alternate ways of casting.  
 To cast them you must sneak while swapping the wand to the offhand.  
 
+---
+
 </p></details>
 
 <details><summary>Potions</summary><p>
@@ -67,16 +74,27 @@ For instance here's the recipe to the Cure for Boils:
 - [ ] Place 2 measures of porcupine quills into cauldron.
 - [ ] Then place a glass phial into the cauldron to complete the potion.
 
+---
+
 </p></details>
 
 <details><summary>Houses</summary><p>
 
 ### Assinging a house
-The sorting hat's quiz hasn't been implemented yet so you must use a command to put a player in a house:
-- `team join gryffindor @s`
-- `team join slytherin @s`
-- `team join ravenclaw @s`
-- `team join hufflepuff @s`
+There are now two ways to get sorted  
+Either by the sorting hat:  
+- `/function hp:items/clothes/head/sorting_hat`
+- Place the sorting hat on your head slot.
+- Complete the quiz in chat.
+
+Or by commands:
+- `/team join gryffindor @s`
+- `/team join slytherin @s`
+- `/team join ravenclaw @s`
+- `/team join hufflepuff @s`
+- Use `tag @s add housed` to disable the sorting hat if put on in future.
+
+---
 
 </p></details>
 
@@ -118,6 +136,8 @@ Usually your animagus form is chosen randomly thought they can be selected.
 To set your animagi use the command `/scoreboard players set @s animagusID (Animagus ID)`  
 A list of animagus IDs can be found [here](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/animagus).
 
+---
+
 </p></details>
 
 <details><summary>Clothes</summary><p>
@@ -125,6 +145,8 @@ A list of animagus IDs can be found [here](https://github.com/lemonhandgrenade/h
 ### Hats
 - Sorting hat: `/function hp:items/clothes/head/sorting_hat`
 - Top hat: `/function hp:items/clothes/head/top_hat`
+
+---
 
 </p></details>
 
@@ -142,6 +164,8 @@ The speed of the broom is controlled by which inventory slot you're on:
 
 ### Recollecting your broom
 To pick your broom back up you need to sneak next to it.
+
+---
 
 </p></details>
 
@@ -171,6 +195,8 @@ You can get them with the following commands:
 - Year6 `function hp:items/shopping_list/year6`
 - Year7 `function hp:items/shopping_list/year7`
 
+---
+
 </p></details>
 
 <details><summary>Settings</summary><p>
@@ -184,6 +210,8 @@ True and false are represented as 1 and 0 respectively
 - `charmsBreakConnected`: This changes whether charms can break connected blocks from the initial, eg. Whether Finestra breaks all glass in the pane.
 - `easySortingHat`: This changes whether the sorting hat's questions are colored representing what house they benefit.
 - `repairParticles`: If this is set to 1, blocks that are repairable with the mending charm will have particles around it.
+
+---
 
 </p></details>
 
