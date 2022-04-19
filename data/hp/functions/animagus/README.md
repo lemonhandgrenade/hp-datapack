@@ -1,56 +1,71 @@
 ## Animagus IDs
-1. Beetle Red
-2. Beetle Blue
-3. Bird
-4. Butterfly
-5. Cat British Shorthair
-6. Cat Calico
-7. Cat Jellie
-8. Cat Panther
-9. Cat Persian
-10.  Cat Ragdoll
-11.  Cat Red Tabby
-12.  Cat Siamese
-13.  Cat Tabby
-14.  Cat Tuxedo
-15.  Cat White
-16.  Crow
-17.  Dog Australian Shepherd
-18.  Dog Beagle
-19.  Dog Bernese
-20.  Dog Border Collie
-21.  Dog Boxer
-22.  Dog Bull Terrier
-23.  Dog Bulldog
-24.  Dog Cairn Terrier
-25.  Dog Chihuahua
-26.  Dog Corgi
-27.  Dog Dachshund
-28.  Dog Dalmatian
-29.  Dog Doberman
-30.  Dog German Shepherd
-31.  Dog Golden Retriever
-32.  Dog Great Dane
-33.  Dog Husky
-34.  Dog Jack Russel
-35.  Dog King Charles Spaniel
-36.  Dog Labrador
-37.  Dog Neapolitan Mastiff
-38.  Dog Poodle
-39.  Dog Pug
-40.  Dog Rottweiler
-41.  Dog Samoyed
-42.  Dog Shiba
-43.  Dog St Bernard
-44.  Dog White Terrier
-45.  Duck
-46.  Eagle
-47.  Falcon
-48.  Frog
-49.  Gerbil
-50.  Lemur
-51.  Rabbit
-52.  Rat
-53.  Seabird
-54.  Stag
-55.  Swan
+1. Beetle: Red
+2. Beetle: Blue
+3. Bird: Cardinal
+4. Bird: Crow
+5. Bird: Duck
+6. Bird: Eagle
+7. Bird: Falcon
+8. Bird: Pigeon
+9. Bird: Seabird
+10. Bird: Swan
+11. Butterfly: Monarch
+12. Butterfly: Ornithoptera
+13. Butterfly: Postman
+14. Butterfly: Ulysses
+15. Cat: British Shorthair
+16. Cat: Calico
+17. Cat: Jellie
+18. Cat: Panther
+19. Cat: Persian
+20. Cat: Ragdoll
+21. Cat: Red Tabby
+22. Cat: Siamese
+23. Cat: Tabby
+24. Cat: Tuxedo
+25. Cat: White
+26. Dog: Australian Shepherd
+27. Dog: Beagle
+28. Dog: Bernese
+29. Dog: Border Collie
+30. Dog: Boxer
+31. Dog: Bull Terrier
+32. Dog: Bulldog
+33. Dog: Cairn Terrier
+34. Dog: Chihuahua
+35. Dog: Corgi
+36. Dog: Dachshund
+37. Dog: Dalmatian
+38. Dog: Doberman
+39. Dog: German Shepherd
+40. Dog: Golden Retriever
+41. Dog: Great Dane
+42. Dog: Husky
+43. Dog: Jack Russel
+44. Dog: King Charles Spaniel
+45. Dog: Labrador
+46. Dog: Neapolitan Mastiff
+47. Dog: Poodle
+48. Dog: Pug
+49. Dog: Rottweiler
+50. Dog: Samoyed
+51. Dog: Shiba
+52. Dog: St Bernard
+53. Dog: White Terrier
+54. Dog: Wolf
+55. Frog: Brown
+56. Frog: Green
+57. Frog: Tree
+58. Gerbil
+59. Lemur
+60. Rabbit: Black
+61. Rabbit: Black White
+62. Rabbit: Brown
+63. Rabbit: Gold
+64. Rabbit: Killer Bunny
+65. Rabbit: Salt Pepper
+66. Rabbit: White
+67. Rat: Brown
+68. Rat: Gray
+69. Rat: White
+70. Stag
