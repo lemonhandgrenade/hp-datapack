@@ -133,5 +133,3 @@ data modify storage hp:potions CureForBoils set value [2312, 2312, 2312, 2312, 9
 data modify storage hp:potions SleepingDraught set value [1430, 1430, 1430, 1430, 990, 990, 2430, 2430, 9999, 2431, 2431, 2431, 2430, 2430, 9999, 2640, 2640, 2640, 2640, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999]
 
 tellraw @a [{"text":"Loaded "},{"text":"[HP]","color":"green"},{"text":" for MC 1.18+\n"}]
-
-

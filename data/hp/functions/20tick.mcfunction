@@ -12,6 +12,10 @@ execute as @a[scores={transfigureTimer=1}] run function hp:transfigure/untransfi
 kill @e[type=arrow,tag=spellEntity,tag=conjuredEntity,nbt={inGround:1b}]
 
 
+execute as @e[type=item,tag=!set,nbt={OnGround:1b,Item:{tag:{Broom:1b}}}] at @s if entity @p[x_rotation=90] run tag @s add set
+execute as @e[type=item,tag=!set,nbt={OnGround:1b,Item:{tag:{Broom:1b}}}] at @s if block ~ ~ ~ #hp:air if block ~1 ~ ~ #hp:air if block ~-1 ~ ~ #hp:air if block ~ ~ ~1 #hp:air if block ~ ~ ~-1 #hp:air if block ~1 ~ ~1 #hp:air if block ~1 ~ ~-1 #hp:air if block ~-1 ~ ~1 #hp:air if block ~-1 ~ ~-1 #hp:air run tag @s add space
+execute as @e[type=item,tag=space,tag=!set,nbt={OnGround:1b,Item:{tag:{Broom:1b}}}] at @s run function hp:broom/select_broom
+
 
 execute as @a[tag=animagus] run function hp:animagus/main
 execute as @a if score @s injuries matches ..-1 run function hp:player/injuries/list

@@ -16,7 +16,7 @@
 15. - [ ] Comet 290
 16. - [x] Firebolt
 17. - [ ] Firebolt Supreme
-18. - [ ] Moontrimmer
+18. - [x] Moontrimmer
 19. - [ ] Nimbus 1000
 20. - [ ] Nimbus 1001
 21. - [ ] Nimbus 1500
