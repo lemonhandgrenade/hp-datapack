@@ -2,7 +2,6 @@ scoreboard players operation #current broomID = @e[type=armor_stand,tag=broomVis
 
 execute if score @s selectedSlot matches 0..4 run function hp:broom/distance_tree/04
 execute if score @s selectedSlot matches 5..8 run function hp:broom/distance_tree/58
-execute as @e[type=marker,tag=distanceCheck,tag=tmp,limit=1,sort=nearest] at @s run particle dust 1 0 0 2 ~ ~ ~ 0 0 0 0 0 force @a
 execute as @e[type=marker,tag=distanceCheck,tag=tmp,limit=1,sort=nearest] run function hp:broom/get_pos
 #kill @e[type=marker,tag=distanceCheck,tag=tmp]
 
