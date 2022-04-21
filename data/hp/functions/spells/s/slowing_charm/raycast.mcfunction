@@ -1,4 +1,3 @@
-particle mycelium ~ ~ ~ 0 0 0 0 1
 #execute as @e[dx=0,tag=!this] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] positioned ~0.7 ~0.7 ~0.7 run say Hit @s
 #execute if entity @e[tag=!this,dx=0,nbt={OnGround:0b}] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] positioned ~0.7 ~0.7 ~0.7 run function core:spells/aberforth_dumbledores_goat_charm/hit_entity
 scoreboard players set @s values 0

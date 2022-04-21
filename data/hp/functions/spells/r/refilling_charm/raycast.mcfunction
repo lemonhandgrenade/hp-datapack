@@ -1,5 +1,4 @@
-#particle mycelium ~ ~ ~ 0 0 0 0 10
-execute if entity @e[type=!#hp:alive,tag=!this,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @e[tag=!this,dx=0] positioned ~0.7 ~0.7 ~0.7 run function hp:spells/r/refilling_charm/hit_entity
+#execute if entity @e[type=!#hp:alive,tag=!this,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @e[tag=!this,dx=0] positioned ~0.7 ~0.7 ~0.7 run function hp:spells/r/refilling_charm/hit_entity
 
 execute as @e[dx=0,tag=!this,tag=!refilling_charm_item,nbt={Item:{id:"minecraft:glass_bottle",tag:{}}},nbt=!{Item:{tag:{PastPotion:{}}}}] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0,type=item] positioned ~0.7 ~0.7 ~0.7 run function hp:spells/r/refilling_charm/hit_entity
 

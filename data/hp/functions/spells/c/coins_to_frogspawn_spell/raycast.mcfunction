@@ -1,4 +1,3 @@
-particle mycelium ~ ~ ~ 0 0 0 0 1
 
 execute if entity @e[type=item,nbt={Item:{tag:{Real:1b,Money:1b}}},tag=!this,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @e[tag=!this,dx=0] positioned ~0.7 ~0.7 ~0.7 run function hp:spells/c/coins_to_frogspawn_spell/transfigure
 

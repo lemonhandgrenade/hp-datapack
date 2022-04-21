@@ -1,4 +1,3 @@
-particle mycelium ~ ~ ~ 0 0 0 0 1
 
 scoreboard players remove #temp slowcast 1
 execute if score #temp slowcast matches ..-1 run tp @s ~ ~ ~
