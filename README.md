@@ -209,6 +209,7 @@ True and false are represented as 1 and 0 respectively
 - `charmsBreakBlocks`: This will change whether charms can destroy blocks, eg. Whether the Gouging spell breaks stone into cobblestone.
 - `charmsBreakConnected`: This changes whether charms can break connected blocks from the initial, eg. Whether Finestra breaks all glass in the pane.
 - `easySortingHat`: This changes whether the sorting hat's questions are colored representing what house they benefit.
+- `playerInfo`: Changes whether a player has access to their stats from `/trigger injuries` and `/trigger player`.  
 - `repairParticles`: If this is set to 1, blocks that are repairable with the mending charm will have particles around it.
 
 ---
