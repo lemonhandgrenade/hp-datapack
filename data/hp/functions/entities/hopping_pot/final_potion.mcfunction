@@ -16,6 +16,10 @@ execute unless score temp2 values matches 1 store success score temp values run 
 execute unless score temp2 values matches 1 if score temp values matches 0 as @a[tag=hoppingPotTarget] run function hp:items/potion/cure_for_boils
 execute unless score temp2 values matches 1 if score temp values matches 0 run scoreboard players set temp2 values 1
 
+execute unless score temp2 values matches 1 store success score temp values run data modify storage hp:potions ForgetfulnessPotion set from entity @s ArmorItems[3].tag.Potion
+execute unless score temp2 values matches 1 if score temp values matches 0 as @a[tag=hoppingPotTarget] run function hp:items/potion/forgetfulness_potion
+execute unless score temp2 values matches 1 if score temp values matches 0 run scoreboard players set temp2 values 1
+
 execute unless score temp2 values matches 1 store success score temp values run data modify storage hp:potions SleepingDraught set from entity @s ArmorItems[3].tag.Potion
 execute unless score temp2 values matches 1 if score temp values matches 0 as @a[tag=hoppingPotTarget] run function hp:items/potion/sleeping_draught
 execute unless score temp2 values matches 1 if score temp values matches 0 run scoreboard players set temp2 values 1

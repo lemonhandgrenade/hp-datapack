@@ -12,6 +12,7 @@ execute at @s if score temp values matches 280 as @a[tag=mpTarget] run function 
 execute at @s if score temp values matches 281 as @a[tag=mpTarget] run function hp:items/ingredients/bezoar_powdered
 execute at @s if score temp values matches 281 as @a[tag=mpTarget] run function hp:items/ingredients/bezoar_powdered
 
+execute at @s if score temp values matches 1620 as @a[tag=mpTarget] run function hp:items/ingredients/mistletoe_berry_crushed
 
 execute at @s if score temp values matches 2310 as @a[tag=mpTarget] run function hp:items/ingredients/snake_fang_crushed
 execute at @s if score rng3 values matches ..2 if score temp values matches 2311 as @a[tag=mpTarget] run function hp:items/ingredients/snake_fang_powdered
