@@ -5,9 +5,9 @@ execute if score @s selectedSlot matches 5..8 run function hp:broom/distance_tre
 execute as @e[type=marker,tag=distanceCheck,tag=tmp,limit=1,sort=nearest] run function hp:broom/get_pos
 #kill @e[type=marker,tag=distanceCheck,tag=tmp]
 
-execute store result score playerPos X run data get entity @s Pos[0] 100
 execute store result score playerPos Y run data get entity @s Pos[1] 100
 execute store result score playerPos Z run data get entity @s Pos[2] 100
+execute store result score playerPos X run data get entity @s Pos[0] 100
 
 scoreboard players operation distancePos X -= playerPos X
 scoreboard players operation distancePos Y -= playerPos Y
