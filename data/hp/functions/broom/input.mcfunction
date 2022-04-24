@@ -3,7 +3,6 @@ scoreboard players operation #current broomID = @e[type=armor_stand,tag=broomVis
 execute if score @s selectedSlot matches 0..4 run function hp:broom/distance_tree/04
 execute if score @s selectedSlot matches 5..8 run function hp:broom/distance_tree/58
 execute as @e[type=marker,tag=distanceCheck,tag=tmp,limit=1,sort=nearest] run function hp:broom/get_pos
-#kill @e[type=marker,tag=distanceCheck,tag=tmp]
 
 execute store result score playerPos Y run data get entity @s Pos[1] 100
 execute store result score playerPos Z run data get entity @s Pos[2] 100
