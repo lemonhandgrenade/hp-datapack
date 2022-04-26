@@ -31,4 +31,4 @@ execute as @e[type=armor_stand,tag=specialEntity,tag=right] if predicate hp:play
 
 
 ## Setup player UID
-execute as @a[tag=!init] run function hp:player/set_uid
+execute as @a[tag=!init] run function hp:player/init
