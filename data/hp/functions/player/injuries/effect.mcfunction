@@ -1,29 +1,26 @@
 execute store result score rng3 values run loot spawn 0 0 0 loot hp:rng/rng3
 
+execute if entity @s[tag=deepCut] run function hp:player/injuries/stuck
 effect give @s[tag=deepCut] minecraft:blindness 2 255 true
-effect give @s[tag=deepCut] minecraft:slowness 2 255 true
-effect give @s[tag=deepCut] minecraft:jump_boost 2 128 true
 
-effect give @s[tag=petrified] minecraft:blindness 2 255 true
-effect give @s[tag=petrified] minecraft:slowness 2 255 true
-effect give @s[tag=petrified] minecraft:jump_boost 2 128 true
+execute if entity @s[tag=petrified] run function hp:player/injuries/stuck
+execute if entity @s[tag=petrified] run function hp:player/injuries/black_screen
+title @s[tag=petrified] subtitle {"text":"Petrified","color":"white"}
 
-effect give @s[tag=sleeping] minecraft:blindness 2 255 true
-effect give @s[tag=sleeping] minecraft:slowness 2 255 true
-effect give @s[tag=sleeping] minecraft:jump_boost 2 128 true
+execute if entity @s[tag=sleeping] run function hp:player/injuries/stuck
+execute if entity @s[tag=sleeping] run function hp:player/injuries/black_screen
+title @s[tag=sleeping] subtitle {"text":"Sleeping","color":"white"}
 
 effect give @s[tag=blinded] minecraft:blindness 2 255 true
 effect give @s[tag=legLocked] minecraft:slowness 2 255 true
 
 effect give @s[tag=crucio] minecraft:instant_damage 1 30 true
-effect give @s[tag=crucio] minecraft:slowness 2 30 true
-effect give @s[tag=crucio] minecraft:jump_boost 2 128 true
+execute if entity @s[tag=crucio] run function hp:player/injuries/stuck
 
-effect give @s[tag=brokenLeg] minecraft:slowness 1 3 true
-effect give @s[tag=brokenLeg] minecraft:jump_boost 1 128 true
+execute if entity @s[tag=brokenLeg] run function hp:player/injuries/stuck
+
 effect give @s[tag=bound] minecraft:weakness 1 255 true
-effect give @s[tag=bound] minecraft:slowness 1 2 true
-effect give @s[tag=bound] minecraft:jump_boost 1 128 true
+execute if entity @s[tag=bound] run function hp:player/injuries/stuck
 
 
 execute if score rng3 values matches 1 run effect give @s[tag=jellyLegs] minecraft:slowness 1 3 true
