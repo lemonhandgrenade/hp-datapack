@@ -1,5 +1,6 @@
 {
-  "values":[
-	"hp:load"
-  ]
+	"replace":false,
+	"values":[
+		"hp:load"
+	]
 }

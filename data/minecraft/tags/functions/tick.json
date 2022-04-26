@@ -1,5 +1,6 @@
 {
-  "values":[
-	"hp:main"
-  ]
+	"replace":false,
+	"values":[
+		"hp:main"
+	]
 }
