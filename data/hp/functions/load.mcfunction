@@ -20,6 +20,7 @@ scoreboard players set 40 values 40
 scoreboard players set 100 values 100
 scoreboard players set 256 values 256
 execute store result score #rng_animagus values run loot spawn 0 0 0 loot hp:rng/rng_animagus
+execute store result score #rng_fear values run loot spawn 0 0 0 loot hp:rng/rng_fear
 
 execute store result score rng255 values run loot spawn 0 0 0 loot hp:rng/rng255
 execute store result score rng5 values run loot spawn 0 0 0 loot hp:rng/rng5
@@ -77,6 +78,7 @@ scoreboard objectives add broomType dummy
 scoreboard objectives add broomID dummy
 
 #-Player-------------------------------------------------------------------------------------------#
+scoreboard objectives add fearID dummy
 scoreboard objectives add deaths deathCount
 scoreboard objectives add X dummy
 scoreboard objectives add Y dummy
