@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {Item:{id:"minecraft:snowball",Count:1b,tag:{display:{Name:'{"text":"Quaffle","color":"red","italic":false}',Lore:['{"text":"A ball used for Quidditch","italic":false}']},CustomModelData:2,quidditchBall:1b}}}
