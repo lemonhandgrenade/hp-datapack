@@ -3,6 +3,7 @@ execute as @e[type=!#hp:alive,dx=0,tag=!this] positioned ~-0.7 ~-0.7 ~-0.7 if en
 
 scoreboard players set temp values 0
 
+execute if score temp values matches 0 as @e[type=!#hp:alive,tag=expelled,tag=broomElytra] at @s as @a[tag=this] run function hp:spells/s/summoning_charm/speak/custom_name
 execute if score temp values matches 0 as @e[type=!#hp:alive,tag=expelled] if entity @s[nbt=!{Item:{tag:{display:{}}}},nbt={Item:{id:"minecraft:written_book"}}] as @a[tag=this] run function hp:spells/s/summoning_charm/speak/book_name
 execute if score temp values matches 0 as @e[type=!#hp:alive,tag=expelled] if entity @s[nbt=!{Item:{tag:{display:{}}}},nbt=!{Item:{id:"minecraft:written_book"}}] as @a[tag=this] run function hp:spells/s/summoning_charm/speak/no_name
 execute if score temp values matches 0 as @e[type=!#hp:alive,tag=expelled] if data entity @s Item.tag.display.Name as @a[tag=this] run function hp:spells/s/summoning_charm/speak/name
@@ -16,7 +17,8 @@ execute as @e[type=marker,tag=new,tag=summoningCharm] store result score temp Z 
 execute if score temp Y matches ..0 run scoreboard players operation temp Y *= -1 values
 scoreboard players operation temp Y += 100 values
 
-execute as @e[type=!#hp:alive,tag=expelled] run function hp:spells/s/summoning_charm/set_data
+execute as @e[type=!#hp:alive,tag=expelled,tag=!broomElytra] run function hp:spells/s/summoning_charm/set_data
+execute as @e[type=!#hp:alive,tag=expelled,tag=broomElytra] run function hp:spells/s/summoning_charm/set_data_broom
 
 kill @e[type=marker,tag=new,tag=summoningCharm]
 execute if entity @s[type=area_effect_cloud] run function hp:spells/s/summoning_charm/private/end
