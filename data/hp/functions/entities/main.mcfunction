@@ -12,13 +12,13 @@ execute if entity @s[tag=mortarpestleMain] at @s if entity @e[type=item,sort=nea
 execute if entity @s[tag=cauldronMain] run function hp:entities/cauldron/main
 execute if entity @s[tag=hoppingPotMain] run function hp:entities/hopping_pot/main
 
+execute if entity @s[type=item,tag=flyingEntity] if score #alternate values matches -1 run data modify entity @s Air set value 0s
+execute if entity @s[type=item,tag=flyingEntity] if score #alternate values matches 1 run data modify entity @s Air set value 1s
+
 execute if entity @s[type=armor_stand,tag=scales,tag=scalesMain] unless predicate hp:player/is_wearing_armor run function hp:entities/scales/kill
 kill @s[type=armor_stand,tag=hoppingPot,predicate=hp:player/no_helmet]
 kill @s[type=armor_stand,tag=cauldron,predicate=hp:player/no_helmet]
 kill @s[type=armor_stand,tag=mortarpestleMain,predicate=!hp:player/is_wearing_armor]
-
-execute if entity @s[type=item,tag=flyingEntity] if score #alternate values matches -1 run data modify entity @s Air set value 0s
-execute if entity @s[type=item,tag=flyingEntity] if score #alternate values matches 1 run data modify entity @s Air set value 1s
 
 execute if entity @s[tag=wingardium] run scoreboard players operation #current UID = @s UID
 execute if entity @s[tag=wingardium] run scoreboard players set temp values 14

@@ -11,7 +11,6 @@ execute as @e[type=item,nbt={Item:{tag:{specialEntity:1b}}}] at @s run function 
 execute as @e[tag=specialEntity] at @s run function hp:entities/main
 
 
-
 execute as @a[tag=lumosMaxima] at @s run function hp:spells/l/lumos_maxima/particle
 execute as @a[tag=wandLightingCharm] at @s run function hp:spells/w/wand-lighting_charm/particle
 
