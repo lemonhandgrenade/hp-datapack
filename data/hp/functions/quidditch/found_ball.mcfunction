@@ -8,7 +8,6 @@ data modify entity @e[type=snowball,tag=quidditchBall,tag=init,limit=1] Item set
 data modify entity @e[type=snowball,tag=quidditchBall,tag=init,limit=1] Owner set from entity @s Owner
 data modify entity @e[type=snowball,tag=quidditchBall,tag=init,limit=1] Motion set from entity @s Motion
 
-
 tag @e[type=snowball,tag=quidditchBall,tag=init,limit=1] remove init
 
 kill @s
