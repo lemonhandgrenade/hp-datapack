@@ -615,7 +615,7 @@
 
 		for (i = 0; i < 32; i++) {
 			div = document.createElement("span")
-			temp = "<select id=\"ingredient\" class=\"ingredient\" onchange=\"generatePotionCode()\" >\n	<option> ---Choose Ingredient--- </option>\n"
+			temp = "<select data-num=\"" + i + "\" id=\"ingredient\" class=\"ingredient\" onchange=\"generatePotionCode()\" >\n	<option> ---Choose Ingredient--- </option>\n"
 			for (var key in ingredientDict) {
 				temp += "<option> " + key + " </option>"
 			}
@@ -623,6 +623,7 @@
 			div.innerHTML = temp
 			document.getElementById('ingredientList').appendChild(div);
 		}
+		generatePotionCode()
 
 		function generatePotionCode() {
 			var name = document.getElementById("potionName").value ? document.getElementById("potionName").value : "Potion";
@@ -635,10 +636,23 @@
 
 			outString = "/data modify storage hp:potions " + name + " set value ["
 
+			hideList = false;
+
 			for (i = 0; i < ingredients.length; i++) {
 				selectedIngredient = ingredients[i].options[ingredients[i].selectedIndex].text != "---Choose Ingredient---" ? ingredients[i].options[ingredients[i].selectedIndex].text : ""
 				ingredientID = ingredientDict[selectedIngredient] ? ingredientDict[selectedIngredient] : "9999"
 				outString += ingredientID + (i == ingredients.length-1 ? "" : ", ")
+				
+
+				if (hideList) {
+					ingredients[i].style.display = "none";
+				} else {
+					ingredients[i].style.display = "inline";
+				}
+
+				if (ingredients[i].options[ingredients[i].selectedIndex].text == "---Choose Ingredient---") {
+					hideList = true
+				}
 			}
 			outString += "]"
 
