@@ -1,0 +1,360 @@
+<html>
+	<body>
+		<button type="button" class="collapsible">Wand generator</button>
+		<div class="content">
+			<h3>Pre Existing:</h3>
+			<b> Wood: </b>
+			<select id="wood" onchange="generateCode()">
+				<option> ---Choose Wood--- </option>
+				<option> Acacia </option>
+				<option> Alder </option>
+				<option> Apple </option>
+				<option> Ash </option>
+				<option> Aspen </option>
+				<option> Beech </option>
+				<option> Birch </option>
+				<option> Blackthorn </option>
+				<option> Black Walnut </option>
+				<option> Cedar </option>
+				<option> Cherry </option>
+				<option> Chestnut </option>
+				<option> Cypress </option>
+				<option> Dogwood </option>
+				<option> Ebony </option>
+				<option> Elder </option>
+				<option> Elm </option>
+				<option> English oak </option>
+				<option> Fir </option>
+				<option> Hawthorn </option>
+				<option> Hazel </option>
+				<option> Holly </option>
+				<option> Hornbeam </option>
+				<option> Ivy </option>
+				<option> Larch </option>
+				<option> Laurel </option>
+				<option> Mahogany </option>
+				<option> Maple </option>
+				<option> Pear </option>
+				<option> Pine </option>
+				<option> Poplar </option>
+				<option> Prickly ash </option>
+				<option> Red oak </option>
+				<option> Redwood </option>
+				<option> Reed </option>
+				<option> Rosewood </option>
+				<option> Rowan </option>
+				<option> Silver lime </option>
+				<option> Spruce </option>
+				<option> Sugar Maple </option>
+				<option> Swamp mayhaw </option>
+				<option> Sycamore </option>
+				<option> Tamarack </option>
+				<option> Vine </option>
+				<option> Walnut </option>
+				<option> Willow </option>
+				<option> Yew </option>
+			</select>
+			<b> Core: </b>
+			<select id="core" onchange="generateCode()" >  
+				<option> ---Choose Core--- </option> 
+				<option> African mermaid hair </option>
+				<option> Basilisk horn </option>
+				<option> Bone </option>
+				<option> Curupira hair </option>
+				<option> Dittany </option>
+				<option> Dragon heartstring </option>
+				<option> Horned Serpent horn </option>
+				<option> Jackalope antler </option>
+				<option> Kelpie hair </option>
+				<option> Koralle </option>
+				<option> Phoenix feather </option>
+				<option> Rougarou hair </option>
+				<option> Shell </option>
+				<option> Snallygaster heartstring </option>
+				<option> Supreme Cores </option>
+				<option> Thestral tail hair </option>
+				<option> Thunderbird tail feather </option>
+				<option> Troll whisker </option>
+				<option> Twin Wand Cores </option>
+				<option> Unicorn hair </option>
+				<option> Veela hair </option>
+				<option> Wampus cat hair </option>
+				<option> White River Monster spine </option>
+			</select>
+
+			<p><pre><code id="output">Code will appear here</code></pre></p>
+
+			<h3>Custom:</h3>
+			<b> Wood: </b>
+			<input onchange="generateCustomCode()" id="woodCustom" type="text" list="wood_custom">
+			<datalist id="wood_custom">
+				<option value="Acacia">
+				<option value="Alder">
+				<option value="Apple">
+				<option value="Ash">
+				<option value="Aspen">
+				<option value="Beech">
+				<option value="Birch">
+				<option value="Blackthorn">
+				<option value="Black Walnut">
+				<option value="Cedar">
+				<option value="Cherry">
+				<option value="Chestnut">
+				<option value="Cypress">
+				<option value="Dogwood">
+				<option value="Ebony">
+				<option value="Elder">
+				<option value="Elm">
+				<option value="English oak">
+				<option value="Fir">
+				<option value="Hawthorn">
+				<option value="Hazel">
+				<option value="Holly">
+				<option value="Hornbeam">
+				<option value="Ivy">
+				<option value="Larch">
+				<option value="Laurel">
+				<option value="Mahogany">
+				<option value="Maple">
+				<option value="Pear">
+				<option value="Pine">
+				<option value="Poplar">
+				<option value="Prickly ash">
+				<option value="Red oak">
+				<option value="Redwood">
+				<option value="Reed">
+				<option value="Rosewood">
+				<option value="Rowan">
+				<option value="Silver lime">
+				<option value="Spruce">
+				<option value="Sugar Maple">
+				<option value="Swamp mayhaw">
+				<option value="Sycamore">
+				<option value="Tamarack">
+				<option value="Vine">
+				<option value="Walnut">
+				<option value="Willow">
+				<option value="Yew">
+			</datalist>
+			<b> Core: </b>
+			
+			<input onchange="generateCustomCode()" id="coreCustom" type="text" list="core_custom">
+			<datalist id="core_custom">
+				<option value="African mermaid hair">
+				<option value="Basilisk horn">
+				<option value="Bone">
+				<option value="Curupira hair">
+				<option value="Dittany">
+				<option value="Dragon heartstring">
+				<option value="Horned Serpent horn">
+				<option value="Jackalope antler">
+				<option value="Kelpie hair">
+				<option value="Koralle">
+				<option value="Phoenix feather">
+				<option value="Rougarou hair">
+				<option value="Shell">
+				<option value="Snallygaster heartstring">
+				<option value="Supreme Cores">
+				<option value="Thestral tail hair">
+				<option value="Thunderbird tail feather">
+				<option value="Troll whisker">
+				<option value="Twin Wand Cores">
+				<option value="Unicorn hair">
+				<option value="Veela hair">
+				<option value="Wampus cat hair">
+				<option value="White River Monster spine">
+			</datalist>
+
+			<p></p>
+
+			<b> Name: </b>
+			<input onchange="generateCustomCode()" id="wandName" type="text">
+
+			<input type="checkbox" id="bold" name="bold" onchange="generateCustomCode()">
+			<label for="bold">Bold</label>
+			<input type="checkbox" id="italic" name="italic" onchange="generateCustomCode()">
+			<label for="italic">Italic</label>
+			<input type="checkbox" id="underlined" name="underlined" onchange="generateCustomCode()">
+			<label for="underlined">Underlined</label>
+			<input type="checkbox" id="strikethrough" name="strikethrough" onchange="generateCustomCode()">
+			<label for="strikethrough">Strikethrough</label>
+			<input type="checkbox" id="obfuscated" name="obfuscated" onchange="generateCustomCode()">
+			<label for="obfuscated">Obfuscated</label>
+			
+			<p><pre><code id="output_custom">Code will appear here</code></pre></p>
+		</div>
+		<button type="button" class="collapsible">Test generator</button>
+		<div class="content">
+			<h3>Pre Existing:</h3>
+		</div>
+	</body>
+	<style type="text/css">
+		b {
+			padding: 5px;
+			margin-left: 10px;
+		}
+		p, pre, code { word-break: break-all }
+		h3 {
+			margin-left: 10px;
+		}
+		.content {
+			display: none;
+			background-color: #888;
+		}
+		.collapsible {
+			background-color: #eee;
+			color: #444;
+			cursor: pointer;
+			padding: 18px;
+			width: 100%;
+			border: 1px, #ddd, none;
+			border-radius: 10px;
+			text-align: left;
+			outline: none;
+			font-size: 15px;
+		}
+		.active, .collapsible:hover {
+			background-color: #ccc;
+		}
+		body {
+			color: #dddddd;
+			background-color: #222222;
+			font-family: Menlo, Monaco, "Courier New", monospace;
+		}
+		pre, code {
+			font-family: Menlo, Monaco, "Courier New", monospace;
+			height: fit-content;
+		}
+		pre {
+			color: #fafafa;
+			background-color: #333;
+			padding: .5rem;
+			line-height: 1.25;
+			border: 1px solid #999;
+			page-break-inside: avoid;
+			height: fit-content;
+			white-space: pre-wrap;
+ 			word-wrap: break-word;
+		}
+	</style>
+	<script type="text/javascript">
+		function generateCode() {  
+			var myWood = document.getElementById("wood");
+			var myCore = document.getElementById("core");
+			wood = myWood.options[myWood.selectedIndex].text.toLowerCase().replace(/ /g, "_");
+			core = myCore.options[myCore.selectedIndex].text.toLowerCase().replace(/ /g, "_");
+			document.getElementById("output").innerHTML = "/function hp:items/wand/" + wood + "/" + wood + "_" + core
+		}
+
+		function generateCustomCode() {  
+			var myWood = document.getElementById("woodCustom");
+			var myCore = document.getElementById("coreCustom");
+			var myName = document.getElementById("wandName");
+
+			var name = myName.value ? myName.value : "Wand"
+			var wood = myWood.value ? myWood.value : "Wood"
+			var core = myCore.value ? myCore.value : "Core"
+			
+			woodDict = {
+				"Wood": 0,
+				"Acacia": 1,
+				"Alder": 2,
+				"Apple": 3,
+				"Ash": 4,
+				"Aspen": 5,
+				"Beech": 6,
+				"Birch": 7,
+				"Blackthorn": 8,
+				"Black Walnut": 9,
+				"Cedar": 10,
+				"Cherry": 11,
+				"Chestnut": 12,
+				"Cypress": 13,
+				"Dogwood": 14,
+				"Ebony": 15,
+				"Elder": 16,
+				"Elm": 17,
+				"English oak": 18,
+				"Fir": 19,
+				"Hawthorn": 20,
+				"Hazel": 21,
+				"Holly": 22,
+				"Hornbeam": 23,
+				"Ivy": 24,
+				"Larch": 25,
+				"Laurel": 26,
+				"Mahogany": 27,
+				"Maple": 28,
+				"Pear": 29,
+				"Pine": 30,
+				"Poplar": 31,
+				"Prickly ash": 32,
+				"Red oak": 33,
+				"Redwood": 34,
+				"Reed": 35,
+				"Rosewood": 36,
+				"Rowan": 37,
+				"Silver lime": 38,
+				"Spruce": 39,
+				"Sugar Maple": 40,
+				"Swamp mayhaw": 41,
+				"Sycamore": 42,
+				"Tamarack": 43,
+				"Vine": 44,
+				"Walnut": 45,
+				"Willow": 46,
+				"Yew": 47
+			}
+			woodID = woodDict[wood] ? woodDict[wood] : 48
+			coreDict = {
+				"Core": 0,
+				"African mermaid hair": 1,
+				"Basilisk horn": 2,
+				"Bone": 3,
+				"Curupira hair": 4,
+				"Dittany": 5,
+				"Dragon heartstring": 6,
+				"Horned Serpent horn": 7,
+				"Jackalope antler": 8,
+				"Kelpie hair": 9,
+				"Koralle": 10,
+				"Phoenix feather": 11,
+				"Rougarou hair": 12,
+				"Shell": 13,
+				"Snallygaster heartstring": 14,
+				"Supreme Cores": 15,
+				"Thestral tail hair": 16,
+				"Thunderbird tail feather": 17,
+				"Troll whisker": 18,
+				"Twin Wand Cores": 19,
+				"Unicorn hair": 20,
+				"Veela hair": 21,
+				"Wampus cat hair": 22,
+				"White River Monster spine": 23
+			}
+			coreID = coreDict[core] ? coreDict[core] : 24
+
+			bold = document.getElementById('bold').checked ? ',"bold":true' : ''
+			italic = document.getElementById('italic').checked ? ',"italic":true' : ',"italic":false'
+			underlined = document.getElementById('underlined').checked ? ',"underlined":true' : ''
+			strikethrough = document.getElementById('strikethrough').checked ? ',"strikethrough":true' : ''
+			obfuscated = document.getElementById('obfuscated').checked ? ',"obfuscated":true' : ''
+			document.getElementById("output_custom").innerHTML = "/give @s stick{display:{Name:'{\"text\":\"" + name + "\"" + bold + italic + underlined + strikethrough + obfuscated + "}'},CustomModelData:" + woodID + ('00' + coreID).slice(-2) + ",Wood:" + woodID + ",WoodName:'{\"text\":\"" + wood + "\"}',Core:" + coreID + ",CoreName:'{\"text\":\"" + core + "\"}',Wand:1b,Set:0b} 1"
+		}
+
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+		for (i = 0; i < coll.length; i++) {
+			coll[i].addEventListener("click", function() {
+				this.classList.toggle("active");
+				var content = this.nextElementSibling;
+				if (content.style.display === "block") {
+					content.style.display = "none";
+				} else {
+					content.style.display = "block";
+				}
+			});
+		}
+	</script>
+</html>
+
