@@ -183,60 +183,18 @@
 			
 			<p><pre><code id="output_custom">Code will appear here</code></pre></p>
 		</div>
-		<button type="button" class="collapsible">Test generator</button>
+
+
+		<button type="button" class="collapsible">Potion recipe generator</button>
 		<div class="content">
-			<h3>Pre Existing:</h3>
+			<b> Name: </b>
+			<input onchange="generatePotionCode()" id="potionName" type="text">
+			<p></p>
+			<div id="ingredientList"></div>
+			<p><pre><code id="output_potion">Code will appear here</code></pre></p>
+			<p>The code can be placed in hp:load and hp:potions/reset_potion_storage</p>
 		</div>
 	</body>
-	<style type="text/css">
-		b {
-			padding: 5px;
-			margin-left: 10px;
-		}
-		p, pre, code { word-break: break-all }
-		h3 {
-			margin-left: 10px;
-		}
-		.content {
-			display: none;
-			background-color: #888;
-		}
-		.collapsible {
-			background-color: #eee;
-			color: #444;
-			cursor: pointer;
-			padding: 18px;
-			width: 100%;
-			border: 1px, #ddd, none;
-			border-radius: 10px;
-			text-align: left;
-			outline: none;
-			font-size: 15px;
-		}
-		.active, .collapsible:hover {
-			background-color: #ccc;
-		}
-		body {
-			color: #dddddd;
-			background-color: #222222;
-			font-family: Menlo, Monaco, "Courier New", monospace;
-		}
-		pre, code {
-			font-family: Menlo, Monaco, "Courier New", monospace;
-			height: fit-content;
-		}
-		pre {
-			color: #fafafa;
-			background-color: #333;
-			padding: .5rem;
-			line-height: 1.25;
-			border: 1px solid #999;
-			page-break-inside: avoid;
-			height: fit-content;
-			white-space: pre-wrap;
- 			word-wrap: break-word;
-		}
-	</style>
 	<script type="text/javascript">
 		function generateCode() {  
 			var myWood = document.getElementById("wood");
@@ -355,6 +313,393 @@
 				}
 			});
 		}
+
+		ingredientDict = {
+			"Abraxan Hair": 10,
+			"Aconite": 20,
+			"Acromantula Venom": 30,
+			"Adders Fork": 40,
+			"African Red Pepper": 50,
+			"African Sea Salt": 60,
+			"Agrippa": 70,
+			"Alcohol": 80,
+			"Alihotsy": 90,
+			"Angels Trumpet": 100,
+			"Anjelica": 110,
+			"Antimony": 120,
+			"Armadillo Bile": 130,
+			"Armotentia": 140,
+			"Arnica": 150,
+			"Ashwinder Egg": 160,
+			"Asian Dragon Hair": 170,
+			"Asphodel": 180,
+			"Avocado": 190,
+			"Balm": 200,
+			"Banana": 210,
+			"Baneberry": 220,
+			"Bat Spleen": 230,
+			"Bat Wing": 240,
+			"Beetle Eye": 250,
+			"Belladonna": 260,
+			"Betony": 270,
+			"Bezoar": 280,
+			"Bezoar Crushed": 281,
+			"Bezoar Powdered": 282,
+			"Bicorn Horn": 290,
+			"Billywig Sting": 300,
+			"Billywig Sting Slime": 310,
+			"Billywig Wings": 320,
+			"Bitter Root": 330,
+			"Blatta Pulvereus": 340,
+			"Blind-worms Sting": 350,
+			"Blood": 360,
+			"Bloodroot": 370,
+			"Blowfly": 380,
+			"Bone": 390,
+			"Boom Berry": 400,
+			"Boomslang": 410,
+			"Boomslang Skin": 420,
+			"Borage": 430,
+			"Bouncing Bulb": 440,
+			"Bouncing Spider Juice": 450,
+			"Bubotuber Pus": 460,
+			"Bulbadox Juice": 470,
+			"Bundimun Secretion": 480,
+			"Bursting Mushroom": 490,
+			"Butterscotch": 500,
+			"Camphirated Spirit": 510,
+			"Castor Oil": 520,
+			"Cat Hair": 530,
+			"Caterpillar": 540,
+			"Centaury": 550,
+			"Cheese": 560,
+			"Chicken Lips": 570,
+			"Chinese Chomping Cabbage": 580,
+			"Chizpurfle Carapace": 590,
+			"Chizpurfle Fang": 600,
+			"Cinnamon": 610,
+			"Cockroach": 620,
+			"Corn Starch": 630,
+			"Cowbane": 640,
+			"Crocodile Heart": 650,
+			"Daisy": 660,
+			"Dandelion Root": 670,
+			"Dandruff": 680,
+			"Deadlyius": 690,
+			"Death-cap": 700,
+			"Dittany": 710,
+			"Doxy Egg": 720,
+			"Dragon Blood": 730,
+			"Dragon Claw": 740,
+			"Dragon Claw Ooze": 750,
+			"Dragon Dung": 760,
+			"Dragon Horn": 770,
+			"Dragon Liver": 780,
+			"Dragonfly Thorax": 790,
+			"Eagle Owl Feather": 800,
+			"Eel Eye": 810,
+			"Erumpent Horn": 820,
+			"Erumpent Tail": 830,
+			"Essence Of Comfrey": 840,
+			"Essence Of Daisyroot": 850,
+			"Exploding Fluid": 860,
+			"Exploding Ginger Eyelash": 870,
+			"Eye Of Newt": 880,
+			"Eyeball": 890,
+			"Fairy Wing": 900,
+			"Fanged Geranium": 910,
+			"Fillet Of A Fenny Snake": 920,
+			"Fire": 930,
+			"Fire Seed": 940,
+			"Firefly": 950,
+			"Flabberghasted Leech": 960,
+			"Flesh": 970,
+			"Flitterby": 980,
+			"Flobberworm Mucus": 990,
+			"Flower Head": 1000,
+			"Fluxweed": 1010,
+			"Flying Seahorses": 1020,
+			"Foxglove": 1030,
+			"Frog": 1040,
+			"Frog Brain": 1050,
+			"Galanthus Nivalis": 1060,
+			"Giant Purple Toad Wart": 1070,
+			"Gillyweed": 1080,
+			"Ginger Root": 1090,
+			"Gnat Heads": 1100,
+			"Gomas Barbadensis": 1110,
+			"Goosegrass": 1120,
+			"Granian Hair": 1130,
+			"Graphorn Horn": 1140,
+			"Gravy": 1150,
+			"Griffin Claw": 1160,
+			"Gulf": 1170,
+			"Gurdyroot": 1180,
+			"Haliwinkles": 1190,
+			"Hellebore": 1200,
+			"Hemlock": 1210,
+			"Herbaria": 1220,
+			"Hermit Crab Shell": 1230,
+			"Honey": 1240,
+			"Honeywater": 1250,
+			"Horklump Juice": 1260,
+			"Horned Slug": 1270,
+			"Horned Toad": 1280,
+			"Horse Hair": 1290,
+			"Horseradish": 1300,
+			"Howlets Wing": 1310,
+			"Iguana Blood": 1320,
+			"Infusion Of Wormwood": 1330,
+			"Jewelweed": 1340,
+			"Jobberknoll Feather": 1350,
+			"Kelp": 1360,
+			"Knarl Quills": 1370,
+			"Kneazle Hair": 1380,
+			"Knotgrass": 1390,
+			"Lacewing Fly": 1400,
+			"Ladys Mantle": 1410,
+			"Lard": 1420,
+			"Lavender": 1430,
+			"Leech": 1440,
+			"Leech Juice": 1450,
+			"Left Handed Nazle Powder": 1460,
+			"Lethe River Water": 1470,
+			"Lionfish": 1480,
+			"Lionfish Spine": 1490,
+			"Liver": 1500,
+			"Lizards Leg": 1510,
+			"Lobalug Venom": 1520,
+			"Lovage": 1530,
+			"Mackled Malaclaw Tail": 1540,
+			"Mallowsweet": 1550,
+			"Mandrake": 1560,
+			"Mandrake Root": 1570,
+			"Mandrake, Stewed": 1580,
+			"Maw": 1590,
+			"Mercury And Mars": 1600,
+			"Mint": 1610,
+			"Mistletoe Berry": 1620,
+			"Mistletoe Berry Crushed": 1621,
+			"Moly": 1630,
+			"Monkshhod": 1640,
+			"Moondew": 1650,
+			"Moonseed": 1660,
+			"Moonstone": 1670,
+			"Morning Dew": 1680,
+			"Motherwort": 1690,
+			"Murtlap Tentacle": 1700,
+			"Mushroom": 1710,
+			"Naginis Venom": 1720,
+			"Neem Oil": 1730,
+			"Nettle": 1740,
+			"Newt": 1750,
+			"Newt Spleen": 1760,
+			"Nifflers Fancy": 1770,
+			"Nightshade": 1780,
+			"Nux Myristica": 1790,
+			"Occamy Egg": 1800,
+			"Octopus Powder": 1810,
+			"Onion Juice": 1820,
+			"Peacock Feather": 1830,
+			"Pearl Dust": 1840,
+			"Peppermint": 1850,
+			"Petroleum Jelly": 1860,
+			"Pickled Slugs": 1870,
+			"Plangentine": 1880,
+			"Plantain": 1890,
+			"Poison Ivy": 1900,
+			"Polypody": 1910,
+			"Pomegranate Juice": 1920,
+			"Pond Slime": 1930,
+			"Poppy Head": 1940,
+			"Porcupine Quill": 1950,
+			"Powder Of Vipers-flesh": 1960,
+			"Pritchers Porritch": 1970,
+			"Ptolemy": 1980,
+			"Puffer-fish": 1990,
+			"Puffer-fish Eyes": 2000,
+			"Puffskein Hair": 2010,
+			"Pungous Onion": 2020,
+			"Pus": 2030,
+			"Rat Spleen": 2040,
+			"Rat Tail": 2050,
+			"Reem Blood": 2060,
+			"Rose": 2070,
+			"Rose Oil": 2080,
+			"Rose Petals": 2090,
+			"Rose Thorn": 2100,
+			"Rotten Egg": 2110,
+			"Rue": 2120,
+			"Runespoor Egg": 2130,
+			"Russians Dragon Nails": 2140,
+			"Sage": 2150,
+			"Sal Ammoniac": 2160,
+			"Salamander Blood": 2170,
+			"Salpeter": 2180,
+			"Salt": 2190,
+			"Salt Water": 2200,
+			"Saltpetre": 2210,
+			"Sardine": 2220,
+			"Scale Of Dragon": 2230,
+			"Scarab Beetle": 2240,
+			"Scurvy Grass": 2250,
+			"Shrake Spine": 2260,
+			"Shrivelfig": 2270,
+			"Silver": 2280,
+			"Silverweed": 2290,
+			"Sloth Brain": 2300,
+			"Snake Fang": 2310,
+			"Snake Fang Crushed": 2311,
+			"Snake Fang Powdered": 2312,
+			"Snakeweed": 2320,
+			"Sneezewort": 2330,
+			"Sopophorous Bean": 2340,
+			"Sopophorous Plant": 2350,
+			"Spiders": 2360,
+			"Spirit Of Myrrh": 2370,
+			"Spleenwart": 2380,
+			"Squill": 2390,
+			"Squill Bulb": 2400,
+			"St Johns-wort": 2410,
+			"Staghorn": 2420,
+			"Standard Ingredient": 2430,
+			"Standard Ingredient Crushed": 2431,
+			"Star Grass": 2440,
+			"Starthistle": 2450,
+			"Streeler Shells": 2460,
+			"Sulphur Vive": 2470,
+			"Syrup Of Arnica": 2480,
+			"Syrup Of Hellebore": 2490,
+			"Tar": 2500,
+			"Thaumatagoria": 2510,
+			"Thyme": 2520,
+			"Tincture Of Demiguise": 2530,
+			"Toe Of Frog": 2540,
+			"Tongue Of Dog": 2550,
+			"Tooth Of Wolf": 2560,
+			"Tormentil": 2570,
+			"Tubeworm": 2580,
+			"Turtle Shell": 2590,
+			"Unicorn Blood": 2600,
+			"Unicorn Hair": 2610,
+			"Unicorn Horn": 2620,
+			"Unicorn Horn Crushed": 2621,
+			"Unicorn Horn Powdered": 2622,
+			"Urine": 2630,
+			"Valerian": 2640,
+			"Valerian Root": 2650,
+			"Venomous Tentacula": 2660,
+			"Venomous Tentacula Leaf": 2670,
+			"Vervain": 2680,
+			"Vervain Infusion": 2690,
+			"Vinegar": 2700,
+			"Wartcap Powder": 2710,
+			"Wartizome": 2720,
+			"Water": 2730,
+			"White Spirit": 2740,
+			"White Wine": 2750,
+			"Wiggenbush": 2760,
+			"Wiggenbush Bark": 2770,
+			"Wiggentree": 2780,
+			"Wiggentree Bark": 2790,
+			"Witchs Ganglion": 2800,
+			"Witches Mummy": 2810,
+			"Wolfsbane": 2820,
+			"Wood Louse": 2830,
+			"Woodlice Extract 63": 2840,
+			"Wool Of Bat": 2850,
+			"Wormwood": 2860,
+			"Wormwood Essence": 2870,
+			"Increase Heat": 9999
+		}
+
+		for (i = 0; i < 32; i++) {
+			div = document.createElement("span")
+			temp = "<select id=\"ingredient\" class=\"ingredient\" onchange=\"generatePotionCode()\" >\n	<option> ---Choose Ingredient--- </option>\n"
+			for (var key in ingredientDict) {
+				temp += "<option> " + key + " </option>"
+			}
+			temp += "</select>"
+			div.innerHTML = temp
+			document.getElementById('ingredientList').appendChild(div);
+		}
+
+		function generatePotionCode() {
+			var name = document.getElementById("potionName").value ? document.getElementById("potionName").value : "Potion";
+			name = name.replace(/^(.)|\s+(.)/g, c => c.toUpperCase()).replace(/ /g,'');
+
+			console.log(name)
+
+			var ingredients = document.getElementsByClassName("ingredient");
+			var i;
+
+			outString = "/data modify storage hp:potions " + name + " set value ["
+
+			for (i = 0; i < ingredients.length; i++) {
+				selectedIngredient = ingredients[i].options[ingredients[i].selectedIndex].text != "---Choose Ingredient---" ? ingredients[i].options[ingredients[i].selectedIndex].text : ""
+				ingredientID = ingredientDict[selectedIngredient] ? ingredientDict[selectedIngredient] : "9999"
+				outString += ingredientID + (i == ingredients.length-1 ? "" : ", ")
+			}
+			outString += "]"
+
+			document.getElementById("output_potion").innerHTML = outString
+		}
+		
+
 	</script>
+	<style type="text/css">
+		input {
+			border-radius: 10px;
+			background-color: #444;
+		}
+		b {
+			padding: 5px;
+			margin-left: 10px;
+		}
+		p, pre, code { word-break: break-all }
+		h3 {
+			margin-left: 10px;
+		}
+		.content {
+			display: none;
+			background-color: #888;
+			border-radius: 10px;
+		}
+		.collapsible {
+			background-color: #eee;
+			color: #444;
+			cursor: pointer;
+			padding: 18px;
+			width: 100%;
+			border: 1px, #ddd, none;
+			border-radius: 10px;
+			text-align: left;
+			outline: none;
+			font-size: 15px;
+		}
+		.active, .collapsible:hover {
+			background-color: #ccc;
+		}
+		body {
+			color: #dddddd;
+			background-color: #222222;
+			font-family: Menlo, Monaco, "Courier New", monospace;
+		}
+		pre, code {
+			font-family: Menlo, Monaco, "Courier New", monospace;
+			height: fit-content;
+		}
+		pre {
+			color: #fafafa;
+			background-color: #333;
+			padding: .5rem;
+			line-height: 1.25;
+			border: 1px solid #999;
+			page-break-inside: avoid;
+			height: fit-content;
+			white-space: pre-wrap;
+ 			word-wrap: break-word;
+		}
+	</style>
 </html>
 
