@@ -1,7 +1,8 @@
 # Table of Contents
 1. [Wands](#wands)
 2. [Potions](#potions)
-3. [Generators](#generators)
+3. [Ingredients](#ingredients)
+4. [Generators](#generators)
 
 
 ## Wands
@@ -29,6 +30,17 @@ The ID for each element is the ingredient ID with a number denoting it's state:
 
 Heating up the cauldron uses the ID `9999`.
 
+## Ingredients
+Ingredients have a simple setup for an example we'll use the bezoar:  
+`give @s chain_command_block{display:{Name:'{"text":"Bezoar","color":"#B27C5C","italic":false}',Lore:['{"text":"Obtained from:","italic":false}','{"text":"Goat\'s Stomach","italic":false}']},Weight:588,Ingredient:1b,MortarPestle:1b,CustomModelData:280} 1`  
+
+The important parts are as follows:  
+<img title="Compound" src="./assets/compound.png" alt="Nbt icon" width="20" /> <b>Item data</b>    
+├<img title="Int" src="./assets/int.png" alt="Nbt icon" width="20" /> <b>Weight</b>: The weight that interacts with scales.  
+├<img title="Bool" src="./assets/bool.png" alt="Nbt icon" width="20" /> <b>Ingredient</b>: This states it's an ingredient and should always be set to 1b.  
+├<img title="Bool" src="./assets/bool.png" alt="Nbt icon" width="20" /> <b>MortarPestle</b>: This is 1 if it can be put in a mortar and pestle.  
+└<img title="Int" src="./assets/int.png" alt="Nbt icon" width="20" /> <b>CustomModelData</b>: This doubles as both the item model and ingredient ID. 
+
 ## Generators
 Command generators can be found [here](https://lemonhandgrenade.github.io/repos/hp-datapack/generator.html).  
-It currently includes a wand generator for both already existing and custom wands.
+It can be used to generate custom wands and potion recipes.
