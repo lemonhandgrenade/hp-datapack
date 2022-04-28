@@ -17,7 +17,7 @@ Wands are made with the following nbt:
 
 ## Potions
 Potions can have a maximum of 32 steps currently.  
-Each recipe is put in the `hp:potions` storage. eg:
+Each recipe is put in the `hp:potions` storage. eg:  
 `data modify storage hp:potions ForgetfulnessPotion set value [1470, 1470, 9999, 2640, 2640, 9999, 9999, 2431, 2431, 1621, 1621, 1621, 1621, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999]`  
 The ID for each element is the ingredient ID with a number denoting it's state:  
 
