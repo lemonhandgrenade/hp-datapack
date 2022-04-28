@@ -29,7 +29,7 @@
 28. - [ ] Silver Arrow
 29. - [ ] Starsweeper XXI
 30. - [ ] Swiftstick
-31. - [ ] Thunderbolt VII
+31. - [x] Thunderbolt VII
 32. - [ ] Tinderblast
 33. - [ ] Transylvanian Barb
 34. - [ ] Turbo XXX

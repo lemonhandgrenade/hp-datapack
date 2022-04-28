@@ -26,6 +26,10 @@ execute if entity @s[scores={broomType=24}] store result score broomSpeed Z run 
 execute if entity @s[scores={broomType=26}] store result score broomSpeed X run data get entity @s Motion[0] 2350
 execute if entity @s[scores={broomType=26}] store result score broomSpeed Y run data get entity @s Motion[1] 2350
 execute if entity @s[scores={broomType=26}] store result score broomSpeed Z run data get entity @s Motion[2] 2350
+#-Thunderbolt-VII----------------------------------------------------------------------------------#
+execute if entity @s[scores={broomType=31}] store result score broomSpeed X run data get entity @s Motion[0] 4333
+execute if entity @s[scores={broomType=31}] store result score broomSpeed Y run data get entity @s Motion[1] 3200
+execute if entity @s[scores={broomType=31}] store result score broomSpeed Z run data get entity @s Motion[2] 4333
 
 scoreboard players operation distancePos X += broomSpeed X
 scoreboard players operation distancePos Y += broomSpeed Y

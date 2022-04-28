@@ -5,11 +5,12 @@ execute if score @s broomType matches 4 as @p run function hp:items/broom/cleans
 execute if score @s broomType matches 5 as @p run function hp:items/broom/cleansweep_two
 execute if score @s broomType matches 6 as @p run function hp:items/broom/cleansweep_three
 execute if score @s broomType matches 11 as @p run function hp:items/broom/comet_140
+execute if score @s broomType matches 16 as @p run function hp:items/broom/firebolt
+execute if score @s broomType matches 18 as @p run function hp:items/broom/moontrimmer
 execute if score @s broomType matches 23 as @p run function hp:items/broom/nimbus2000
 execute if score @s broomType matches 24 as @p run function hp:items/broom/nimbus2001
 execute if score @s broomType matches 26 as @p run function hp:items/broom/shooting_star
-execute if score @s broomType matches 16 as @p run function hp:items/broom/firebolt
-execute if score @s broomType matches 18 as @p run function hp:items/broom/moontrimmer
+execute if score @s broomType matches 31 as @p run function hp:items/broom/thunderbolt_vii
 tp @e[type=marker,tag=distanceCheck,limit=1,sort=nearest,distance=..1] ~ -256 ~
 tp @e[type=armor_stand,tag=broomVisual,limit=1,sort=nearest,distance=..1] ~ -256 ~
 tp @e[type=pig,tag=broomSaddle,limit=1,sort=nearest,distance=..1] ~ -256 ~
