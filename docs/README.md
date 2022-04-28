@@ -15,8 +15,19 @@ Wands are made with the following nbt:
 ├<img title="Bool" src="./assets/bool.png" alt="Nbt icon" width="20" /> <b>Wand</b>: This confirms that it is a wand and should always be set to 1b.    
 └<img title="Bool" src="./assets/bool.png" alt="Nbt icon" width="20" /> <b>Set</b>: Whether the lore on the wand is set. (by default 0b).    
 
-
 ## Potions
+Potions can have a maximum of 32 steps currently.  
+Each recipe is put in the `hp:potions` storage. eg:
+`data modify storage hp:potions ForgetfulnessPotion set value [1470, 1470, 9999, 2640, 2640, 9999, 9999, 2431, 2431, 1621, 1621, 1621, 1621, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999]`  
+The ID for each element is the ingredient ID with a number denoting it's state:  
+
+| State    | ID |
+| -------- | -- |
+| Normal   | 0  |
+| Crushed  | 1  |
+| Powdered | 2  |
+
+Heating up the cauldron uses the ID `9999`.
 
 ## Generators
 Command generators can be found [here](https://lemonhandgrenade.github.io/repos/hp-datapack/generator.html).  
