@@ -17,5 +17,4 @@ scoreboard players operation #alternate values *= -1 values
 scoreboard players add #3 values 1
 execute if score #3 values matches 4.. run scoreboard players set #3 values 1
 
-
-execute as @e[type=armor_stand,tag=broomElytra,tag=broom] at @s as @e[type=armor_stand,tag=broomVisual,tag=broom] if score @s broomID = @e[type=armor_stand,tag=broom,limit=1,sort=nearest] broomID run tp @s ~ ~ ~ ~ ~
+execute as @e[type=armor_stand,tag=broomElytra,tag=broom] at @s run function hp:broom/tp
