@@ -9,7 +9,7 @@
 8. - [ ] Cleansweep Six
 9. - [ ] Cleansweep Seven
 10. - [ ] Cleansweep Eleven
-11. - [ ] Comet 140
+11. - [x] Comet 140
 12. - [ ] Comet 180
 13. - [ ] Comet 220
 14. - [ ] Comet 260

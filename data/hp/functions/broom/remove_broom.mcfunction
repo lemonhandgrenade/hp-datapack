@@ -4,6 +4,7 @@
 execute if score @s broomType matches 4 as @p run function hp:items/broom/cleansweep_one
 execute if score @s broomType matches 5 as @p run function hp:items/broom/cleansweep_two
 execute if score @s broomType matches 6 as @p run function hp:items/broom/cleansweep_three
+execute if score @s broomType matches 11 as @p run function hp:items/broom/comet_140
 execute if score @s broomType matches 23 as @p run function hp:items/broom/nimbus2000
 execute if score @s broomType matches 24 as @p run function hp:items/broom/nimbus2001
 execute if score @s broomType matches 26 as @p run function hp:items/broom/shooting_star
