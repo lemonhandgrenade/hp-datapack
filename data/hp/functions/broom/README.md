@@ -23,7 +23,7 @@
 22. - [ ] Nimbus 1700
 23. - [x] Nimbus 2000
 24. - [x] Nimbus 2001
-25. - [ ] Oakshaft 79
+25. - [x] Oakshaft 79
 26. - [x] Shooting Star
 27. - [ ] Siberian Arrow
 28. - [ ] Silver Arrow

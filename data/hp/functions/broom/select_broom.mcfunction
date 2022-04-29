@@ -10,6 +10,7 @@ scoreboard players set @s[nbt={Item:{id:"minecraft:stick",tag:{Firebolt:1b}}}] b
 scoreboard players set @s[nbt={Item:{id:"minecraft:stick",tag:{Moontrimmer:1b}}}] broomType 18
 scoreboard players set @s[nbt={Item:{id:"minecraft:stick",tag:{Nimbus2000:1b}}}] broomType 23
 scoreboard players set @s[nbt={Item:{id:"minecraft:stick",tag:{Nimbus2001:1b}}}] broomType 24
+scoreboard players set @s[nbt={Item:{id:"minecraft:stick",tag:{Oakshaft79:1b}}}] broomType 25
 scoreboard players set @s[nbt={Item:{id:"minecraft:stick",tag:{ShootingStar:1b}}}] broomType 26
 scoreboard players set @s[nbt={Item:{id:"minecraft:stick",tag:{ThunderboltVII:1b}}}] broomType 31
 function hp:broom/summon

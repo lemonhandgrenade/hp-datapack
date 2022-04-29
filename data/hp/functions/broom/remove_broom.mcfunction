@@ -11,8 +11,9 @@ execute if score @s broomType matches 14 as @p run function hp:items/broom/comet
 execute if score @s broomType matches 15 as @p run function hp:items/broom/comet_290
 execute if score @s broomType matches 16 as @p run function hp:items/broom/firebolt
 execute if score @s broomType matches 18 as @p run function hp:items/broom/moontrimmer
-execute if score @s broomType matches 23 as @p run function hp:items/broom/nimbus2000
-execute if score @s broomType matches 24 as @p run function hp:items/broom/nimbus2001
+execute if score @s broomType matches 23 as @p run function hp:items/broom/nimbus_2000
+execute if score @s broomType matches 24 as @p run function hp:items/broom/nimbus_2001
+execute if score @s broomType matches 25 as @p run function hp:items/broom/oakshaft_79
 execute if score @s broomType matches 26 as @p run function hp:items/broom/shooting_star
 execute if score @s broomType matches 31 as @p run function hp:items/broom/thunderbolt_vii
 tp @e[type=marker,tag=distanceCheck,limit=1,sort=nearest,distance=..1] ~ -256 ~

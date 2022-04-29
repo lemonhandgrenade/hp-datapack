@@ -1,0 +1,1 @@
+give @s stick{display:{Name:'{"text":"Oakshaft 79","italic":false}',Lore:['{"text":"[Elias Grimstone]","color":"#faf0be","bold":true,"italic":false}','{"text":"Oakshaft 79","color":"#482912","italic":false}','{"text":"An antique broom.","italic":false}']},CustomModelData:6025,Broom:1b,Oakshaft79:1b}
