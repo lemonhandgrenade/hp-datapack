@@ -19,7 +19,7 @@ A datapack for Minecraft revolving around the Harry Potter universe.
 - Animagus. [![Animagi Animals](https://img.shields.io/badge/Animagi_Animals-54-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/animagus "Animagus IDs")
 - Potion brewing. [![Potions](https://img.shields.io/badge/Potions-4-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/potions "Potions IDs")
 - Corporeal Patronuses. [![Patronus](https://img.shields.io/badge/Patronuses-4-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/spells/_entities/patronus "Patronus IDs")
-- Brooms. [![Brooms](https://img.shields.io/badge/Brooms-10-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/broom)
+- Brooms. [![Brooms](https://img.shields.io/badge/Brooms-14-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/broom)
 - The Hogwarts house teams.
 - More coming.
 

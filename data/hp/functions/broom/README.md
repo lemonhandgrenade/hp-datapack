@@ -10,10 +10,10 @@
 9. - [ ] Cleansweep Seven
 10. - [ ] Cleansweep Eleven
 11. - [x] Comet 140
-12. - [ ] Comet 180
-13. - [ ] Comet 220
-14. - [ ] Comet 260
-15. - [ ] Comet 290
+12. - [x] Comet 180
+13. - [x] Comet 220
+14. - [x] Comet 260
+15. - [x] Comet 290
 16. - [x] Firebolt
 17. - [ ] Firebolt Supreme
 18. - [x] Moontrimmer
