@@ -226,6 +226,7 @@ Basic docs can be found [here](https://github.com/lemonhandgrenade/hp-datapack/t
 ## Notes
 - This is a very big pack and so it's recommended Minecraft have at least 2-4gb minimum.
 - The pack is very far from survival friendly and has 0 recipes so all items have to be obtained with commands.
+- As far as multiplayer compatibility, it has only been tested with 2 players.
 
 ## License
 The code is available at [Github][home] under the [MIT license][license].
