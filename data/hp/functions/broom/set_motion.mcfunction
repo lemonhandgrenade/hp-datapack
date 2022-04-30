@@ -1,3 +1,11 @@
+#-Air-Wave-Gold------------------------------------------------------------------------------------#
+execute if entity @s[scores={broomType=1}] store result score broomSpeed X run data get entity @s Motion[0] 3550
+execute if entity @s[scores={broomType=1}] store result score broomSpeed Y run data get entity @s Motion[1] 3089
+execute if entity @s[scores={broomType=1}] store result score broomSpeed Z run data get entity @s Motion[2] 3550
+#-Bluebottle---------------------------------------------------------------------------------------#
+execute if entity @s[scores={broomType=3}] store result score broomSpeed X run data get entity @s Motion[0] 2066
+execute if entity @s[scores={broomType=3}] store result score broomSpeed Y run data get entity @s Motion[1] 2210
+execute if entity @s[scores={broomType=3}] store result score broomSpeed Z run data get entity @s Motion[2] 2066
 #-Cleansweep-Series--------------------------------------------------------------------------------#
 execute if entity @s[scores={broomType=4..6}] store result score broomSpeed X run data get entity @s Motion[0] 3333
 execute if entity @s[scores={broomType=4..6}] store result score broomSpeed Y run data get entity @s Motion[1] 2888
@@ -33,6 +41,10 @@ execute if entity @s[scores={broomType=25}] store result score broomSpeed Z run 
 execute if entity @s[scores={broomType=26}] store result score broomSpeed X run data get entity @s Motion[0] 2350
 execute if entity @s[scores={broomType=26}] store result score broomSpeed Y run data get entity @s Motion[1] 2350
 execute if entity @s[scores={broomType=26}] store result score broomSpeed Z run data get entity @s Motion[2] 2350
+#-Starsweeper-XXI----------------------------------------------------------------------------------#
+execute if entity @s[scores={broomType=29}] store result score broomSpeed X run data get entity @s Motion[0] 3450
+execute if entity @s[scores={broomType=29}] store result score broomSpeed Y run data get entity @s Motion[1] 2989
+execute if entity @s[scores={broomType=29}] store result score broomSpeed Z run data get entity @s Motion[2] 3450
 #-Thunderbolt-VII----------------------------------------------------------------------------------#
 execute if entity @s[scores={broomType=31}] store result score broomSpeed X run data get entity @s Motion[0] 4333
 execute if entity @s[scores={broomType=31}] store result score broomSpeed Y run data get entity @s Motion[1] 3200

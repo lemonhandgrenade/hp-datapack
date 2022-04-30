@@ -605,22 +605,24 @@
 603. Vomitare Viridis
 604. Vulnera Sanentur
 605. Wakefield's Sambata
-606. Wand-Lighting Charm
-607. Washing up spell
-608. Water-heating spell
-609. Water-Making Spell
-610. Weakening Hex
-611. Webbed Spell
-612. Whip spell
-613. Whirlwind
-614. Whisky-conjuring spell
-615. Whistle into watch spell
-616. White sparks
-617. William Weasley's modified cursed barrier
-618. Windy Spell
-619. Wingardium Leviosa Duo
-620. Wiping Spell
-621. Yellow Special Jinx
-622. Straight Line
-623. Homing Ray
-624. Controlled Ray
+606. Wall Trapping Spell
+607. Wand-Lighting Charm
+608. Washing up spell
+609. Water-heating spell
+610. Water-Making Spell
+611. Weakening Hex
+612. Webbed Spell
+613. Whip spell
+614. Whirlwind
+615. Whisky-conjuring spell
+616. Whistle into watch spell
+617. White sparks
+618. William Weasley's modified cursed barrier
+619. Windy Spell
+620. Wingardium Leviosa Duo
+621. Wiping Spell
+622. Yellow Special Jinx
+622. Yusuf Kama's Earth Rupture Spell
+623. Straight Line
+624. Homing Ray
+625. Controlled Ray

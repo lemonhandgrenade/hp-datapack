@@ -6,5 +6,3 @@ execute as @a[tag=lumosMaxima] at @s run function hp:spells/l/lumos_maxima/light
 execute as @a[tag=wandLightingCharm] at @s run function hp:spells/w/wand-lighting_charm/light
 
 execute as @a[tag=flyingBroom] at @s run function hp:broom/player_rotation
-
-kill @e[type=item,nbt={Item:{id:"minecraft:oak_button",Count:1b,tag:{KILL:1B}}}]

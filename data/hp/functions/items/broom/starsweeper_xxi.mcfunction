@@ -1,0 +1,1 @@
+give @s stick{display:{Name:'{"text":"Starsweeper XXI","italic":false}',Lore:['{"text":"[Unknown]","color":"light_purple","bold":true,"italic":false}','{"text":"Starsweeper XXI","color":"#75655c","italic":false}','{"text":"A world class racing broom.","italic":false}']},CustomModelData:6029,Broom:1b,StarsweeperXXI:1b}

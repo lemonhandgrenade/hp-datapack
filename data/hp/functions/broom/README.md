@@ -1,7 +1,7 @@
 ## Broom IDs
-1. - [ ] Air Wave Gold
+1. - [x] Air Wave Gold
 2. - [ ] Australian Flyabout
-3. - [ ] Bluebottle
+3. - [x] Bluebottle
 4. - [x] Cleansweep One
 5. - [x] Cleansweep Two
 6. - [x] Cleansweep Three
@@ -27,7 +27,7 @@
 26. - [x] Shooting Star
 27. - [ ] Siberian Arrow
 28. - [ ] Silver Arrow
-29. - [ ] Starsweeper XXI
+29. - [x] Starsweeper XXI
 30. - [ ] Swiftstick
 31. - [x] Thunderbolt VII
 32. - [ ] Tinderblast

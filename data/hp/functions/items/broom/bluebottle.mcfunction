@@ -1,0 +1,1 @@
+give @s stick{display:{Name:'{"text":"Bluebottle","italic":false}',Lore:['{"text":"[Unknown]","color":"light_purple","bold":true,"italic":false}','{"text":"Bluebottle","color":"#189cc4","italic":false}','{"text":"A broom for family use.","italic":false}']},CustomModelData:6003,Broom:1b,Bluebottle:1b}
