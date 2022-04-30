@@ -13,6 +13,7 @@ function hp:items/broom/comet_180
 function hp:items/broom/comet_220
 function hp:items/broom/comet_260
 function hp:items/broom/comet_290
+function hp:items/broom/fambus_station_wagon
 function hp:items/broom/firebolt
 function hp:items/broom/firebolt_supreme
 function hp:items/broom/moontrimmer

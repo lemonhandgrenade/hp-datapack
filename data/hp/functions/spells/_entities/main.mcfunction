@@ -13,7 +13,7 @@ execute if entity @s[type=snowball] if score #alternate values matches 1 run dat
 execute if entity @s[type=snowball] if score #alternate values matches -1 run data modify entity @s Air set value 1s
 
 # Brooms
-execute as @s[type=armor_stand,tag=broom,tag=broomElytra] run function hp:broom/base
+#execute as @s[type=armor_stand,tag=broom,tag=broomElytra] run function hp:broom/base
 
 execute if entity @s[tag=portkeyItem] run function hp:spells/_entities/portkey/main
 

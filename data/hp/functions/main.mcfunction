@@ -3,7 +3,7 @@ execute as @a run function hp:player/main
 
 execute if entity @e[type=area_effect_cloud,tag=slowcast] run function hp:spells/main
 
-execute as @e[tag=transfigured] run function hp:transfigure/main
+execute as @e[tag=transfigured,tag=!broom] run function hp:transfigure/main
 
 #execute as @e[type=item,tag=!expelled,nbt={OnGround:0b,Item:{tag:{Wand:1b}}}] at @s unless entity @p[x_rotation=90] run function hp:wand/change_spell
 execute as @e[tag=spellEntity] at @s run function hp:spells/_entities/main

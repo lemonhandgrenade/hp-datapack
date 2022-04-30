@@ -1,0 +1,1 @@
+give @s stick{display:{Name:'{"text":"Silver Arrow","italic":false}',Lore:['{"text":"[Leonard Jewkes]","color":"#e8e4d7","bold":true,"italic":false}','{"text":"Silver Arrow","color":"#838383","italic":false}','{"text":"An old broom.","italic":false}']},CustomModelData:6029,Broom:1b,SilverArrow:1b}

@@ -1,0 +1,1 @@
+give @s stick{display:{Name:'{"text":"Fambus Station Wagon","italic":false}',Lore:['{"text":"[Nimbus Racing Broom Company]","color":"gray","bold":true,"italic":false}','{"text":"Fambus Station Wagon","color":"#964B00","italic":false}','{"text":"A broom for the family.","italic":false}']},CustomModelData:6016,Broom:1b,FambusStationWagon:1b}

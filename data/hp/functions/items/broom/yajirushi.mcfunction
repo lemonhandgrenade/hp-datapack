@@ -1,0 +1,1 @@
+give @s stick{display:{Name:'{"text":"Yajirushi","italic":false}',Lore:['{"text":"[Unknown]","color":"light_purple","bold":true,"italic":false}','{"text":"Yajirushi","color":"#894334","italic":false}','{"text":"A world class racing broom.","italic":false}']},CustomModelData:6038,Broom:1b,Yajirushi:1b}

@@ -1,0 +1,1 @@
+give @s stick{display:{Name:'{"text":"Transylvanian Barb","italic":false}',Lore:['{"text":"[Unknown]","color":"light_purple","bold":true,"italic":false}','{"text":"Transylvanian Barb","color":"#232323","italic":false}','{"text":"A racing broom.","italic":false}']},CustomModelData:6034,Broom:1b,TransylvanianBarb:1b}
