@@ -1,0 +1,1 @@
+give @s wooden_hoe{display:{Name:'{"text":"Beater\'s Bat","color":"#693C2F","italic":false}',Lore:['{"text":"Used for knocking away bludgers.","italic":false}']},HideFlags:3,CustomModelData:1,Enchantments:[{id:"minecraft:knockback",lvl:3s}]} 1

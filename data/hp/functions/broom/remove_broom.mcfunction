@@ -7,6 +7,9 @@ execute if score @s broomType matches 3 as @p run function hp:items/broom/bluebo
 execute if score @s broomType matches 4 as @p run function hp:items/broom/cleansweep_one
 execute if score @s broomType matches 5 as @p run function hp:items/broom/cleansweep_two
 execute if score @s broomType matches 6 as @p run function hp:items/broom/cleansweep_three
+execute if score @s broomType matches 7 as @p run function hp:items/broom/cleansweep_five
+execute if score @s broomType matches 8 as @p run function hp:items/broom/cleansweep_six
+execute if score @s broomType matches 9 as @p run function hp:items/broom/cleansweep_seven
 execute if score @s broomType matches 10 as @p run function hp:items/broom/cleansweep_eleven
 execute if score @s broomType matches 11 as @p run function hp:items/broom/comet_140
 execute if score @s broomType matches 12 as @p run function hp:items/broom/comet_180

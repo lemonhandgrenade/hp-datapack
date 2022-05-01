@@ -1,0 +1,1 @@
+give @s stick{display:{Name:'{"text":"Cleansweep Seven","italic":false}',Lore:['{"text":"[Cleansweep Broom Company]","color":"#9D7753","bold":true,"italic":false}','[{"text":"Cleansweep Seven","color":"#64461c","italic":false}]','{"text":"For quidditch playing.","italic":false}']},CustomModelData:6009,Broom:1b,CleansweepSeven:1b} 1

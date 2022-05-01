@@ -5,9 +5,9 @@
 4. - [x] Cleansweep One
 5. - [x] Cleansweep Two
 6. - [x] Cleansweep Three
-7. - [ ] Cleansweep Five
-8. - [ ] Cleansweep Six
-9. - [ ] Cleansweep Seven
+7. - [x] Cleansweep Five
+8. - [x] Cleansweep Six
+9. - [x] Cleansweep Seven
 10. - [x] Cleansweep Eleven
 11. - [x] Comet 140
 12. - [x] Comet 180
