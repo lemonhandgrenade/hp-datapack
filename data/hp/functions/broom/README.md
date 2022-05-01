@@ -8,7 +8,7 @@
 7. - [ ] Cleansweep Five
 8. - [ ] Cleansweep Six
 9. - [ ] Cleansweep Seven
-10. - [ ] Cleansweep Eleven
+10. - [x] Cleansweep Eleven
 11. - [x] Comet 140
 12. - [x] Comet 180
 13. - [x] Comet 220
@@ -16,7 +16,7 @@
 15. - [x] Comet 290
 16. - [x] Fambus Station Wagon
 17. - [x] Firebolt
-18. - [ ] Firebolt Supreme
+18. - [x] Firebolt Supreme
 19. - [x] Moontrimmer
 20. - [ ] Nimbus 1000
 21. - [ ] Nimbus 1001

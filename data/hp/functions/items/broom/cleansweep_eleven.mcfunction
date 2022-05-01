@@ -1,0 +1,1 @@
+give @s stick{display:{Name:'{"text":"Cleansweep Eleven","italic":false}',Lore:['{"text":"[Cleansweep Broom Company]","color":"#9D7753","bold":true,"italic":false}','[{"text":"Cleansweep Eleven","color":"#9f6e3d","italic":false}]','{"text":"Made of Spanish oak.","italic":false}']},CustomModelData:6010,Broom:1b,CleansweepEleven:1b} 1

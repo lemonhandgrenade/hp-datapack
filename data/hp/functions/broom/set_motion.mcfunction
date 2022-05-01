@@ -7,9 +7,12 @@ execute if entity @s[scores={broomType=3}] store result score broomSpeed X run d
 execute if entity @s[scores={broomType=3}] store result score broomSpeed Y run data get entity @s Motion[1] 2210
 execute if entity @s[scores={broomType=3}] store result score broomSpeed Z run data get entity @s Motion[2] 2066
 #-Cleansweep-Series--------------------------------------------------------------------------------#
-execute if entity @s[scores={broomType=4..6}] store result score broomSpeed X run data get entity @s Motion[0] 3333
-execute if entity @s[scores={broomType=4..6}] store result score broomSpeed Y run data get entity @s Motion[1] 2888
-execute if entity @s[scores={broomType=4..6}] store result score broomSpeed Z run data get entity @s Motion[2] 3333
+execute if entity @s[scores={broomType=4..6}] store result score broomSpeed X run data get entity @s Motion[0] 3000
+execute if entity @s[scores={broomType=4..6}] store result score broomSpeed Y run data get entity @s Motion[1] 2555
+execute if entity @s[scores={broomType=4..6}] store result score broomSpeed Z run data get entity @s Motion[2] 3000
+execute if entity @s[scores={broomType=7..10}] store result score broomSpeed X run data get entity @s Motion[0] 3333
+execute if entity @s[scores={broomType=7..10}] store result score broomSpeed Y run data get entity @s Motion[1] 2888
+execute if entity @s[scores={broomType=7..10}] store result score broomSpeed Z run data get entity @s Motion[2] 3333
 #-Comet-Series-------------------------------------------------------------------------------------#
 execute if entity @s[scores={broomType=11..13}] store result score broomSpeed X run data get entity @s Motion[0] 2666
 execute if entity @s[scores={broomType=11..13}] store result score broomSpeed Y run data get entity @s Motion[1] 2310
@@ -25,6 +28,10 @@ execute if entity @s[scores={broomType=16}] store result score broomSpeed Z run 
 execute if entity @s[scores={broomType=17}] store result score broomSpeed X run data get entity @s Motion[0] 4000
 execute if entity @s[scores={broomType=17}] store result score broomSpeed Y run data get entity @s Motion[1] 2989
 execute if entity @s[scores={broomType=17}] store result score broomSpeed Z run data get entity @s Motion[2] 4000
+#-Firebolt-Supreme---------------------------------------------------------------------------------#
+execute if entity @s[scores={broomType=18}] store result score broomSpeed X run data get entity @s Motion[0] 4200
+execute if entity @s[scores={broomType=18}] store result score broomSpeed Y run data get entity @s Motion[1] 3200
+execute if entity @s[scores={broomType=18}] store result score broomSpeed Z run data get entity @s Motion[2] 4200
 #-Moontrimmer--------------------------------------------------------------------------------------#
 execute if entity @s[scores={broomType=19}] store result score broomSpeed X run data get entity @s Motion[0] 2000
 execute if entity @s[scores={broomType=19}] store result score broomSpeed Y run data get entity @s Motion[1] 4000
