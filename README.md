@@ -3,11 +3,20 @@
 <a href="https://github.com/lemonhandgrenade/hp-datapack/actions"><img src="https://github.com/lemonhandgrenade/hp-datapack/actions/workflows/build.yml/badge.svg" alt="CI"></a>
 <a href="https://github.com/lemonhandgrenade/hp-datapack/issues"><img src="https://img.shields.io/github/issues/lemonhandgrenade/hp-datapack" alt="Github issues"></a>
 <a href=""><img src="https://img.shields.io/badge/files-3448-ff69b4"></a>
-<a href=""><img src="https://img.shields.io/badge/total%20lines-19691-blueviolet"></a>
+<a href=""><img src="https://img.shields.io/badge/total%20lines-31220-blueviolet"></a>
 </p>
 
 # hp-datapack
 A datapack for Minecraft revolving around the Harry Potter universe.
+
+Contents
+- [Attribution](#attribution)
+- [Features](#features)
+- [How to start.](#How-to-start.)
+- [Docs For Devs](#docs-for-devs)
+- [Bugs/Additions](#bugs-and-additions)
+- [Notes](#notes)
+- [License](#license)
 
 ## Attribution
 - Some of the broom's code was modified from [@the_floo_network][floo]'s map that can be found [here][floomap].
@@ -220,7 +229,7 @@ True and false are represented as 1 and 0 respectively
 ## Docs For Devs
 Basic docs can be found [here](https://github.com/lemonhandgrenade/hp-datapack/tree/main/docs).
 
-## Bugs/Additions
+## Bugs and Additions
 - If you find any bugs in the datapack feel free to report [here][issue].
 - If you find any optimisations or want to propose an addition to the code please create a new pull request [here][pull].
 
