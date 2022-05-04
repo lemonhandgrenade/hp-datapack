@@ -7,6 +7,7 @@
       - [Wand nbt structure](#wand-nbt-structure)
       - [Understanding the JSON](#understanding-the-json)
 - [How commands use wands](#how-commands-use-wands)
+- [A simple generator](#a-simple-generator)
 
 
 # Making a wand
@@ -46,55 +47,55 @@ Below is an ID table featuring all existing IDs.
 
 <details><summary>ID Table</summary><p>
 
-| ID  | Wood         | Cores                     |
-| --- | ------------ | ------------------------- |
-| 1   | Acacia       | African mermaid hair      |
-| 2   | Alder        | Basilisk horn             |
-| 3   | Apple        | Bone                      |
-| 4   | Ash          | Curupira hair             |
-| 5   | Aspen        | Dittany                   |
-| 6   | Beech        | Dragon heartstring        |
-| 7   | Birch        | Horned Serpent horn       |
-| 8   | Blackthorn   | Jackalope antler          |
-| 9   | Black Walnut | Kelpie hair               |
-| 10  | Cedar        | Koralle                   |
-| 11  | Cherry       | Phoenix feather           |
-| 12  | Chestnut     | Rougarou hair             |
-| 13  | Cypress      | Shell                     |
-| 14  | Dogwood      | Snallygaster heartstring  |
-| 15  | Ebony        | Supreme Cores             |
-| 16  | Elder        | Thestral tail hair        |
-| 17  | Elm          | Thunderbird tail feather  |
-| 18  | English oak  | Troll whisker             |
-| 19  | Fir          | Twin Wand Cores           |
-| 20  | Hawthorn     | Unicorn hair              |
-| 21  | Hazel        | Veela hair                |
-| 22  | Holly        | Wampus cat hair           |
-| 23  | Hornbeam     | White River Monster spine |
-| 24  | Ivy          |                           |
-| 25  | Larch        |                           |
-| 26  | Laurel       |                           |
-| 27  | Mahogany     |                           |
-| 28  | Maple        |                           |
-| 29  | Pear         |                           |
-| 30  | Pine         |                           |
-| 31  | Poplar       |                           |
-| 32  | Prickly ash  |                           |
-| 33  | Red oak      |                           |
-| 34  | Redwood      |                           |
-| 35  | Reed         |                           |
-| 36  | Rosewood     |                           |
-| 37  | Rowan        |                           |
-| 38  | Silver lime  |                           |
-| 39  | Spruce       |                           |
-| 40  | Sugar Maple  |                           |
-| 41  | Swamp mayhaw |                           |
-| 42  | Sycamore     |                           |
-| 43  | Tamarack     |                           |
-| 44  | Vine         |                           |
-| 45  | Walnut       |                           |
-| 46  | Willow       |                           |
-| 47  | Yew          |                           |
+| ID | Wood         | Cores                     |
+| -- | ------------ | ------------------------- |
+| 1  | Acacia       | African mermaid hair      |
+| 2  | Alder        | Basilisk horn             |
+| 3  | Apple        | Bone                      |
+| 4  | Ash          | Curupira hair             |
+| 5  | Aspen        | Dittany                   |
+| 6  | Beech        | Dragon heartstring        |
+| 7  | Birch        | Horned Serpent horn       |
+| 8  | Blackthorn   | Jackalope antler          |
+| 9  | Black Walnut | Kelpie hair               |
+| 10 | Cedar        | Koralle                   |
+| 11 | Cherry       | Phoenix feather           |
+| 12 | Chestnut     | Rougarou hair             |
+| 13 | Cypress      | Shell                     |
+| 14 | Dogwood      | Snallygaster heartstring  |
+| 15 | Ebony        | Supreme Cores             |
+| 16 | Elder        | Thestral tail hair        |
+| 17 | Elm          | Thunderbird tail feather  |
+| 18 | English oak  | Troll whisker             |
+| 19 | Fir          | Twin Wand Cores           |
+| 20 | Hawthorn     | Unicorn hair              |
+| 21 | Hazel        | Veela hair                |
+| 22 | Holly        | Wampus cat hair           |
+| 23 | Hornbeam     | White River Monster spine |
+| 24 | Ivy          |                           |
+| 25 | Larch        |                           |
+| 26 | Laurel       |                           |
+| 27 | Mahogany     |                           |
+| 28 | Maple        |                           |
+| 29 | Pear         |                           |
+| 30 | Pine         |                           |
+| 31 | Poplar       |                           |
+| 32 | Prickly ash  |                           |
+| 33 | Red oak      |                           |
+| 34 | Redwood      |                           |
+| 35 | Reed         |                           |
+| 36 | Rosewood     |                           |
+| 37 | Rowan        |                           |
+| 38 | Silver lime  |                           |
+| 39 | Spruce       |                           |
+| 40 | Sugar Maple  |                           |
+| 41 | Swamp mayhaw |                           |
+| 42 | Sycamore     |                           |
+| 43 | Tamarack     |                           |
+| 44 | Vine         |                           |
+| 45 | Walnut       |                           |
+| 46 | Willow       |                           |
+| 47 | Yew          |                           |
 
 </p></details>
 
@@ -125,3 +126,6 @@ because the interpret tag is set to true it means that `WoodName` and `CoreName`
 
 This modifier is executed in `...\data\hp\functions\wand\set_lore.mcfunction`  
 which is called from `...\data\hp\functions\50tick.mcfunction`  
+
+# A simple generator
+A generator for making your own wand can be found [here](https://lemonhandgrenade.github.io/repos/hp-datapack/generator.html).
