@@ -13,16 +13,16 @@
 
 ## Existing wands
 Wands follow a simple naming convention to obtain.  
-The wands are sorted into the folder `.../items/wands/`  
+The wands are sorted into the folder `...\items\wands\`  
 What follows is a folder of the wand's wood.  
 
 Inside that folder will be many mcfunction files which give the entity executing a wand.  
 The files are named as follows:
-`.../items/wands/{wood name}/{wood name}_{core name}`  
+`...\items\wands\{wood name}\{wood name}_{core name}`  
 
 Both the wood and core names are both fully lowercase and all spaces are underscores.  
 For example:
-`.../items/wand/apple/apple_dragon_heartstring`
+`...\items\wand\apple\apple_dragon_heartstring`
 
 Currently there are 1081 possible wands.  
 This is because there are 47 different types of wood and 23 different wand cores.  
@@ -112,3 +112,6 @@ It should be noted the Owner tag is automatically set and can't be customised.
 ---
 
 # How commands use wands
+
+The file that sets the wand lore can be found:  
+`...\data\hp\item_modifiers\wand_lore.json`

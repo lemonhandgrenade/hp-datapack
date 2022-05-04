@@ -16,6 +16,8 @@ Wands are made with the following nbt:
 ├<img title="Bool" src="./assets/bool.png" alt="Nbt icon" width="20" /> <b>Wand</b>: This confirms that it is a wand and should always be set to 1b.    
 └<img title="Bool" src="./assets/bool.png" alt="Nbt icon" width="20" /> <b>Set</b>: Whether the lore on the wand is set. (by default 0b).    
 
+More info on wands can be found [here](https://github.com/lemonhandgrenade/hp-datapack/blob/main/docs/Wands.md).
+
 ## Potions
 Potions can have a maximum of 32 steps currently.  
 Each recipe is put in the `hp:potions` storage. eg:  
