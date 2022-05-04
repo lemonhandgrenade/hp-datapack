@@ -109,6 +109,12 @@ This'll be seen when the wands data is automatically set.
 
 It should be noted the Owner tag is automatically set and can't be customised.
 
+`CustomModelData` is used to set the model of the wand for obvious reasons.  
+The way it is used now is the custom model data is set to the core id appended to the wood ID.  
+The core ID is formatted with leading 0s to 2 spaces.  
+For example if the wood ID was `17` and the core ID was `6`.  
+The resulting tag would be `CustomModelData:1706`
+
 ---
 
 # How commands use wands
