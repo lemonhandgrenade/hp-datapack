@@ -1,12 +1,12 @@
 # Wands
 
 ## Table of Contents
-1. [Making a wand](#making-a-wand)
+- [Making a wand](#making-a-wand)
   - [Using existing wands](#existing-wands)
   - [Making a new wand](#making-a-new-wand)
       - [Wand nbt structure](#wand-nbt-structure)
       - [Understanding the JSON](#understanding-the-json)
-2. [How commands use wands](#how-commands-use-wands)
+- [How commands use wands](#how-commands-use-wands)
 
 
 # Making a wand
@@ -114,4 +114,8 @@ It should be noted the Owner tag is automatically set and can't be customised.
 # How commands use wands
 
 The file that sets the wand lore can be found:  
-`...\data\hp\item_modifiers\wand_lore.json`
+`...\data\hp\item_modifiers\wand_lore.json`  
+because the interpret tag is set to true it means that `WoodName` and `CoreName` can have formats.
+
+This modifier is executed in `...\data\hp\functions\wand\set_lore.mcfunction`  
+which is called from `...\data\hp\functions\50tick.mcfunction`  
