@@ -2,6 +2,8 @@ execute if entity @s[tag=new,tag=hoppingPot,tag=summon] run function hp:entities
 execute if entity @s[tag=new,tag=cauldron,tag=summon] run function hp:entities/cauldron/summon
 execute if entity @s[tag=new,tag=mortarpestle,tag=summon] run function hp:entities/mortarpestle/summon
 
+execute if entity @s[tag=trunk] at @s if entity @e[type=item,distance=..1] run function hp:item_functions/trunk/store_item
+
 execute if entity @s[tag=new,tag=scales] run function hp:entities/scales/pick_summon
 
 execute if entity @s[tag=scales,tag=left] at @s if entity @e[type=item,sort=nearest,distance=..0.5] unless data entity @s HandItems[0].Count run function hp:entities/scales/set_item
