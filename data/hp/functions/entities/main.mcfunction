@@ -18,6 +18,7 @@ execute if entity @s[type=item,tag=flyingEntity] if score #alternate values matc
 execute if entity @s[type=armor_stand,tag=scales,tag=scalesMain] unless predicate hp:player/is_wearing_armor run function hp:entities/scales/kill
 kill @s[type=armor_stand,tag=hoppingPot,predicate=hp:player/no_helmet]
 kill @s[type=armor_stand,tag=cauldron,predicate=hp:player/no_helmet]
+kill @s[type=armor_stand,tag=trunk,predicate=hp:player/no_helmet]
 kill @s[type=armor_stand,tag=mortarpestleMain,predicate=!hp:player/is_wearing_armor]
 
 execute if entity @s[tag=wingardium] run scoreboard players operation #current UID = @s UID

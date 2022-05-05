@@ -1,0 +1,1 @@
+give @s armor_stand{display:{Name:'[{"text":"Voodoo ","color":"dark_red","italic":false},{"text":"Fountain","color":"reset"}]',Lore:['{"text":"Firework","color":"dark_red","italic":false}','{"text":"ENGAGE WITH THE LOST ARTS OF THE VOODOO","color":"#29003B","italic":false}']},HideFlags:16,EntityTag:{Silent:1b,Invulnerable:1b,Invisible:1b,Tags:["VoodooFountain","Firework"]}} 1

@@ -17,15 +17,9 @@ execute as @e[type=armor_stand,tag=caveInimicum] at @s as @a[distance=..8] if sc
 execute as @a[nbt={SelectedItem:{id:"minecraft:stick",Count:1b,tag:{Wand:1b,Set:0b}}}] run function hp:wand/set_lore
 execute as @a[predicate=hp:player/holding_item,predicate=hp:wand/wand_mainhand] store result score @s wandType run data get entity @s SelectedItem.tag.Wood
 
+execute as @e[type=item,nbt={OnGround:1b}] run function hp:item_functions/main
 
-
-execute as @e[type=item,tag=!FloorCraft,nbt={Item:{id:"minecraft:paper",Count:1b}},nbt=!{Item:{tag:{IsPackage:1b}}}] run tag @s add FloorCraft
-execute as @e[type=item,tag=FloorCraft,nbt={Item:{id:"minecraft:paper",Count:1b}}] at @s if entity @e[type=item,distance=..1,nbt=!{Item:{id:"minecraft:paper",Count:1b}}] run function hp:crafting/package
-
-execute as @e[type=item,nbt={OnGround:1b,Item:{tag:{Portkey:1b,PortkeyActive:0b}}}] run tag @s add portkeyItem
-execute as @e[type=item,nbt={OnGround:1b,Item:{tag:{Portkey:1b,PortkeyActive:0b}}}] run tag @s add spellEntity
-
-
+execute at @e[type=armor_stand,tag=trunk] run particle end_rod ~ ~1 ~ 0 0 0 0 0
 execute as @e[type=armor_stand,tag=specialEntity,tag=left] if predicate hp:player/holding_item at @s as @e[type=armor_stand,tag=specialEntity,tag=scalesMain,limit=1,sort=nearest] run function hp:entities/scales/update
 execute as @e[type=armor_stand,tag=specialEntity,tag=right] if predicate hp:player/holding_item at @s as @e[type=armor_stand,tag=specialEntity,tag=scalesMain,limit=1,sort=nearest] run function hp:entities/scales/update
 

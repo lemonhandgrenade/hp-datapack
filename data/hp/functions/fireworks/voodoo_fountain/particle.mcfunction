@@ -1,0 +1,7 @@
+execute if score @s anim matches 1 run playsound minecraft:entity.tnt.primed master @a
+execute if score @s anim matches 40 run summon firework_rocket ~ ~0.8 ~ {Life:0,LifeTime:0,ShotAtAngle:1b,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:4,Flicker:1b,Trail:1b,Colors:[I;0,6565007,65457]}]}}}}
+execute if score @s anim matches 70 run summon firework_rocket ~ ~0.8 ~ {Life:0,LifeTime:0,ShotAtAngle:1b,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:4,Flicker:1b,Trail:1b,Colors:[I;0,6565007,65457]}]}}}}
+execute if score @s anim matches 100 run summon firework_rocket ~ ~0.8 ~ {Life:0,LifeTime:0,ShotAtAngle:1b,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:4,Flicker:1b,Trail:1b,Colors:[I;0,6565007,65457]}]}}}}
+execute if score @s anim matches 130 run summon firework_rocket ~ ~0.8 ~ {Life:0,LifeTime:0,ShotAtAngle:1b,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:4,Flicker:1b,Trail:1b,Colors:[I;0,6565007,65457]}]}}}}
+execute if score @s anim matches 160 run summon firework_rocket ~ ~0.8 ~ {Life:0,LifeTime:0,ShotAtAngle:1b,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:4,Flicker:1b,Trail:1b,Colors:[I;0,6565007,65457]}]}}}}
+kill @s[scores={anim=171..}]
