@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title": "Ravenclaw",
+        "description": "Get sorted into Ravenclaw",
+        "icon": {
+            "item": "minecraft:emerald_block",
+            "nbt": "{CustomModelData:1004}"
+        },
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "hp:pack/sorted",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

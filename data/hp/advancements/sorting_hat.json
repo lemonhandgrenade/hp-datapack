@@ -7,7 +7,7 @@
           "equipment": {
             "head": {
               "items": [
-                "minecraft:carved_pumpkin"
+                "minecraft:emerald_block"
               ],
               "nbt": "{SortingHat:1b}"
             }

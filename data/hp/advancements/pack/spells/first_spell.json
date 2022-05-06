@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "Cast a spell",
+        "description": "Cast your first spell",
+        "icon": {
+            "item": "minecraft:nether_star"
+        },
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "hp:pack/first_wand",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

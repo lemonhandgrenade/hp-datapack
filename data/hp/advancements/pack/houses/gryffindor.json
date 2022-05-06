@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title": "Gryffindor",
+        "description": "Get sorted into Gryffindor",
+        "icon": {
+            "item": "minecraft:emerald_block",
+            "nbt": "{CustomModelData:1001}"
+        },
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "hp:pack/sorted",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

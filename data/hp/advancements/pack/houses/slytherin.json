@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title": "Slytherin",
+        "description": "Get sorted into Slytherin",
+        "icon": {
+            "item": "minecraft:emerald_block",
+            "nbt": "{CustomModelData:1002}"
+        },
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "hp:pack/sorted",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+      "nbt": "{CustomModelData:306}"
+    },
+    "title": "First wand",
+    "description": "Get your first wand"
+  },
+  "parent": "hp:pack/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stick"
+            ],
+            "nbt": "{Wand:1b}"
+          }
+        ]
+      }
+    }
+  }
+}

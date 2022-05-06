@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "Get Sorted!  ",
+        "description": "Get sorted into one of the 4 Hogwart's houses",
+        "icon": {
+            "item": "minecraft:emerald_block",
+            "nbt": "{CustomModelData:999}"
+        },
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "hp:pack/root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
