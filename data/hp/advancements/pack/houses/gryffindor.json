@@ -3,7 +3,7 @@
         "title": "Gryffindor",
         "description": "Get sorted into Gryffindor",
         "icon": {
-            "item": "minecraft:emerald_block",
+            "item": "minecraft:repeating_command_block",
             "nbt": "{CustomModelData:1001}"
         },
         "frame": "goal",

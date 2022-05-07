@@ -11,7 +11,7 @@
               "equipment": {
                 "offhand": {
                   "items": [
-                    "minecraft:emerald_block"
+                    "minecraft:repeating_command_block"
                   ],
                   "nbt": "{SortingHat:1b}"
                 },

@@ -3,7 +3,7 @@
         "title": "Ravenclaw",
         "description": "Get sorted into Ravenclaw",
         "icon": {
-            "item": "minecraft:emerald_block",
+            "item": "minecraft:repeating_command_block",
             "nbt": "{CustomModelData:1004}"
         },
         "frame": "goal",

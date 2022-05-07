@@ -3,7 +3,7 @@
         "title": "Hufflepuff",
         "description": "Get sorted into Hufflepuff",
         "icon": {
-            "item": "minecraft:emerald_block",
+            "item": "minecraft:repeating_command_block",
             "nbt": "{CustomModelData:1003}"
         },
         "frame": "goal",

@@ -1,1 +1,1 @@
-give @s emerald_block{display:{Name:'[{"text":"Top Hat","color":"black","italic":false}]'},HideFlags:33,CustomModelData:2} 1
+give @s repeating_command_block{display:{Name:'[{"text":"Top Hat","color":"black","italic":false}]'},HideFlags:33,CustomModelData:2} 1
