@@ -3,7 +3,7 @@
 <a href="https://github.com/lemonhandgrenade/hp-datapack/actions"><img src="https://github.com/lemonhandgrenade/hp-datapack/actions/workflows/build.yml/badge.svg" alt="CI"></a>
 <a href="https://github.com/lemonhandgrenade/hp-datapack/issues"><img src="https://img.shields.io/github/issues/lemonhandgrenade/hp-datapack" alt="Github issues"></a>
 <a href=""><img src="https://img.shields.io/badge/files-3473-ff69b4"></a>
-<a href=""><img src="https://img.shields.io/badge/total%20lines-31239-blueviolet"></a>
+<a href=""><img src="https://img.shields.io/badge/total%20lines-30970-blueviolet"></a>
 </p>
 
 # hp-datapack

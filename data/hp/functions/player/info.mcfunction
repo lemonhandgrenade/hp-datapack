@@ -19,4 +19,9 @@ tellraw @s[scores={fearID=12}] ["",{"text":"Biggest fear","color":"dark_green"},
 tellraw @s[scores={fearID=13}] ["",{"text":"Biggest fear","color":"dark_green"},": ",{"text":"Drowning"}]
 tellraw @s[scores={fearID=14}] ["",{"text":"Biggest fear","color":"dark_green"},": ",{"text":"Werewolves"}]
 tellraw @s[scores={fearID=15}] ["",{"text":"Biggest fear","color":"dark_green"},": ",{"text":"Zombies"}]
+
+tellraw @s[tag=gryffindor] ["",{"text": "House: "},{"text":"\uE000"},{"text":"Gryffindor","color":"dark_red"}]
+tellraw @s[tag=slytherin] ["",{"text": "House: "},{"text":"\uE001"},{"text":"Slytherin","color":"dark_green"}]
+tellraw @s[tag=hufflepuff] ["",{"text": "House: "},{"text":"\uE002"},{"text":"Hufflepuff","color":"gold"}]
+tellraw @s[tag=ravenclaw] ["",{"text": "House: "},{"text":"\uE003"},{"text":"Ravenclaw","color":"dark_blue"}]
 scoreboard players set @s player 0
