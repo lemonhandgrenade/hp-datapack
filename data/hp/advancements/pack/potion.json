@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "Potion Maker  ",
+        "description": "Brew your first potion",
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{CustomModelData:6}"
+        },
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "hp:pack/root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
