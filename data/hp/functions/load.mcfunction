@@ -1,5 +1,7 @@
 forceload add 0 0
 
+gamerule maxEntityCramming 100
+
 #-General------------------------------------------------------------------------------------------#
 scoreboard objectives add settings dummy
 scoreboard players add charmsBreakBlocks settings 0
@@ -19,6 +21,9 @@ scoreboard players set 20 values 20
 scoreboard players set 40 values 40
 scoreboard players set 100 values 100
 scoreboard players set 256 values 256
+
+scoreboard players set #max values 77
+
 execute store result score #rng_animagus values run loot spawn 0 0 0 loot hp:rng/rng_animagus
 execute store result score #rng_fear values run loot spawn 0 0 0 loot hp:rng/rng_fear
 
@@ -33,7 +38,7 @@ team modify noCollision collisionRule never
 team modify noCollision nametagVisibility never
 
 team add noName
-team modify noCollision nametagVisibility never
+team modify noName nametagVisibility never
 
 #-Spell-Entities-----------------------------------------------------------------------------------#
 scoreboard objectives add slowcast dummy
@@ -81,8 +86,15 @@ scoreboard objectives add broomID dummy
 scoreboard objectives add fearID dummy
 scoreboard objectives add deaths deathCount
 scoreboard objectives add X dummy
+scoreboard objectives add motionX dummy
 scoreboard objectives add Y dummy
+scoreboard objectives add motionY dummy
 scoreboard objectives add Z dummy
+scoreboard objectives add motionZ dummy
+
+scoreboard objectives add xzMotionTime dummy
+scoreboard objectives add yMotionTime dummy
+
 scoreboard objectives add selectedSlot dummy
 scoreboard objectives add injuries trigger
 scoreboard objectives add player trigger

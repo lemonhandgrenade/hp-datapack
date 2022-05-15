@@ -18,3 +18,10 @@ scoreboard players add #3 values 1
 execute if score #3 values matches 4.. run scoreboard players set #3 values 1
 
 execute as @e[type=armor_stand,tag=broomElytra,tag=broom] at @s run function hp:broom/tp
+
+
+
+
+scoreboard players add @e[tag=xzMotionApply] xzMotionTime 1
+execute as @e[tag=xzMotionApply,scores={xzMotionTime=1..}] run function hp:player/motion/delete
+kill @e[tag=motionStop]
