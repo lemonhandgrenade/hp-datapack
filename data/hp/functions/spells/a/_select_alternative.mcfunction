@@ -28,7 +28,7 @@ execute if score @s spell matches 27 run function hp:spells/a/armchair_to_human_
 execute if score @s spell matches 28 run function hp:spells/a/arrest_spell/cast
 execute if score @s spell matches 29 run function hp:spells/a/arresto_momento_duo/hit_entity
 execute if score @s spell matches 30 run function hp:spells/a/arrow_shooting_spell/cast_alternative
-execute if score @s spell matches 31 run function hp:spells/a/ascendio/cast
+execute if score @s spell matches 31 run function hp:spells/a/ascendio/cast_alternative
 execute if score @s spell matches 32 run function hp:spells/a/atmospheric_charm/cast_alternative
 execute if score @s spell matches 33 run function hp:spells/a/avenseguim/cast
 execute if score @s spell matches 34 run function hp:spells/a/aviatus/cast
