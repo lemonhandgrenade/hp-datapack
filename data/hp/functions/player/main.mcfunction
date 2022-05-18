@@ -14,14 +14,13 @@ scoreboard players set @s[scores={sneak=1..}] sneak 0
 
 execute as @s[tag=flyingBroom] at @s run function hp:broom/input
 
-effect clear @s[tag=!motionEffected,predicate=hp:is_being_launched] levitation
-effect clear @s[tag=!motionEffected,predicate=hp:is_being_launched] unluck
 
 execute as @s[predicate=hp:is_being_launched] run scoreboard players add @s yMotionTime 1
-execute as @s[scores={yMotionTime=1..}] run effect clear @s levitation
-execute as @s[scores={yMotionTime=1..}] run effect clear @s unluck
-effect clear @s[tag=!motionEffected,predicate=hp:is_being_launched] levitation
-effect clear @s[tag=!motionEffected,predicate=hp:is_being_launched] unluck
+#execute as @s[scores={yMotionTime=1..}] run say hi
+#execute as @s[scores={yMotionTime=1..}] run effect clear @s levitation
+#execute as @s[scores={yMotionTime=1..}] run effect clear @s unluck
+#effect clear @s[tag=!motionEffected,predicate=hp:is_being_launched] levitation
+#effect clear @s[tag=!motionEffected,predicate=hp:is_being_launched] unluck
 tag @s[scores={yMotionTime=1..}] remove motionEffected
 scoreboard players set @s[predicate=!hp:is_being_launched] yMotionTime 0
 

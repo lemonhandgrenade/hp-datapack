@@ -23,5 +23,5 @@ execute as @e[type=armor_stand,tag=broomElytra,tag=broom] at @s run function hp:
 
 
 scoreboard players add @e[tag=xzMotionApply] xzMotionTime 1
-execute as @e[tag=xzMotionApply,scores={xzMotionTime=1..}] run function hp:player/motion/delete
+execute as @e[tag=xzMotionApply,scores={xzMotionTime=4..}] run function hp:player/motion/delete
 kill @e[tag=motionStop]
