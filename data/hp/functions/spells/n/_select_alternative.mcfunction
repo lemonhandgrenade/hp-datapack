@@ -1,1 +1,1 @@
-execute if score @s spell matches 382 run function hp:spells/n/necromancy/cast
+execute if score @s spell matches 383 run function hp:spells/n/necromancy/cast

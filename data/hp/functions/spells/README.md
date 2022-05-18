@@ -1,8 +1,8 @@
 ## Spell IDs
 0. Null
 1. Aberforth Dumbledore's goat charm
-2. Age Line
-3. Alarte Ascendare
+2. ⌛ Age Line
+3. ↑ Alarte Ascendare ↑
 4. Albus Dumbledore's forceful spell
 5. Albus Dumbledore's theft sensory spell
 6. Amplifying Charm
@@ -10,7 +10,7 @@
 8. Animagus reversal spell
 9. Animagus Spell
 10. Annihilare
-11. Anteoculatia
+11. ╕ Anteoculatia╒
 12. Anti-Alohomora Charm
 13. Anti-Apparition Charm
 14. Anti-Cheating Spell
@@ -19,7 +19,7 @@
 17. Anti-jinx
 18. Anti-theft charm
 19. Anti-unlocking charms
-20. Antonin Dolohov's curse
+20. 🗡 Antonin Dolohov's curse 🗡
 21. Apparition
 22. Aqua Eructo
 23. Aqua Eructo Duo
@@ -30,8 +30,8 @@
 28. Arrest spell
 29. Arresto Momento Duo
 30. Arrow Shooting Spell
-31. Ascendio
-32. Atmospheric Charm
+31. ↑ Ascendio ↑
+32. ☽ Atmospheric Charm ☀
 33. Avenseguim
 34. Aviatus
 35. Avifors Spell
@@ -51,8 +51,8 @@
 49. Bewitched Snowballs
 50. Bird-Conjuring Charm
 51. Biting jinx
-52. Blackboard Writing Spell
-53. Blasting Curse
+52. ✎ Blackboard Writing Spell ✎
+53. ※ Blasting Curse ※
 54. Blocked Barrier
 55. Blood malediction
 56. Blood pact
@@ -61,7 +61,7 @@
 59. Blue Special Jinx
 60. Bluebell Flames
 61. Boggart-Banishing Spell
-62. Bombarda Maxima
+62. ⁂ Bombarda Maxima ⁂
 63. Bond of blood charm
 64. Book transfiguring spell
 65. Bouquet Spell
@@ -76,7 +76,7 @@
 74. Broom jinx
 75. Broom-caring charms
 76. Bubble Spell
-77. Bubble-Head Charm
+77. ○ Bubble-Head Charm ○
 78. Butterfly-conjuring spell
 79. Candle conjuring spell
 80. Candle to purple rabbit spell
@@ -159,470 +159,471 @@
 157. Dunamis
 158. Ear-Shrivelling Curse
 159. Ears to kumquats spell
-160. Ebublio Jinx
-161. Ecto Spell
-162. Emancipare
-163. Endless Sandwiches
-164. Engorgement Charm
-165. Engorgio Skullus
-166. Enlargement Charm
-167. Enlarging Spell
-168. Entrail-Expelling Curse
-169. Episkey
-170. Epoximise
-171. Eradication Spell
-172. Erecto
-173. Everte Statum
-174. Ex Cappa
-175. Exploding Charm
-176. Expulso Curse
-177. Extension Charm
-178. Extinguishing Spell
-179. Eye of rabbit, harp string hum, turn this water into rum
-180. Fairy Cakes to Fairies
-181. False memory spell
-182. Fan conjuring spell
-183. Feather Duster to Ferret
-184. Feather-light charm
-185. Felifors Spell
-186. Felixempra
-187. Ferret to Feather Duster
-188. Ferret to human spell
-189. Fianto Duri
-190. Fidelius Charm
-191. Fiendfyre
-192. Finestra spell
-193. Finger-removing jinx
-194. Fire-Making Spell
-195. Fire rope
-196. Fire to snake spell
-197. Firestorm
-198. Fixing Charm
-199. Flagrante Curse
-200. Flagrate
-201. Flame-Freezing Charm
-202. Flashing paint charm
-203. Flask-conjuring spell
-204. Flesh Memory
-205. Flintifors
-206. Flipendo Maxima
-207. Flipendo Tria
-208. Floating Charm
-209. Floating eye curse
-210. Flobberworm to Fritter
-211. Flying charm
-212. Focus Charm
-213. Fogging Spell
-214. Foundables Spell
-215. Fountain of wine
-216. Four-Point Spell
-217. Fracto Strata
-218. Freeze!
-219. Freezing Charm
-220. Freezing Spell
-221. Fulgari
-222. Full Body-Bind Curse
-223. Fumos Duo
-224. Fur spell
-225. Gellert Grindelwald's lightning bolt spell
-226. Gellert Grindelwald's ripple spell
-227. Gellert Grindelwald's water filling spell
-228. General Counter-Spell
-229. Ghostly head spell
-230. Gilderoy Lockhart's holographic spell
-231. Glacius Duo
-232. Glacius Maxima
-233. Glacius Tria
-234. Glass to jelly spell
-235. Glass to sand spell
-236. Glisseo
-237. Gnomes to Lawn Gnomes
-238. Gobstone to Skunk
-239. Golden flame
-240. Golden jinx
-241. Goldfinch to Golden Snitch
-242. Gormlaith Gaunt's curse
-243. Gouging Spell
-244. Green Sparks
-245. Green Special Jinx
-246. Greenhouse Charm
-247. Gripping Charm
-248. Growth Charm
-249. Gubraithian Fire
-250. Guinea fowl to guinea pig spell
-251. Gytrash-conjuring spell
-252. Hair Loss Curse
-253. Hair-thickening Charm
-254. Hand-held flames
-255. Hardening Charm
-256. Harmonia Nectere Passus
-257. Head growing curse
-258. Head Shrink Spell
-259. Hedgehog to pincushion spell
-260. Herbifors
-261. Herbivicus Charm
-262. Herbivicus Duo
-263. Hex Zapper
-264. Hex-Breaker
-265. Hive-conjuring spell
-266. Hocus Pocus
-267. Homing spell
-268. Homonculous Charm
-269. Homorphus Charm
-270. Hoop conjuring spell
-271. Horcrux-making spell
-272. Horn tongue hex
-273. Horn-growing spell
-274. Horton-Keitch Braking Charm
-275. Hot Air Charm
-276. Hour-Reversal Charm
-277. Hover Charm
-278. Human to armchair spell
-279. Human to bat spell
-280. Human to bone spell
-281. Human to bull spell
-282. Human to ferret spell
-283. Human to hedgehog spell
-284. Human to pig spell
-285. Human to pocket watch spell
-286. Human to polecat spell
-287. Human to shark spell
-288. Human to teapot spell
-289. Human to thunderbird spell
-290. Human to toad spell
-291. Human to viper spell
-292. Human to yak spell
-293. Human-presence-revealing Spell
-294. Hurling Hex
-295. Ice Jinx
-296. Ignition Spell
-297. Illegal growth hex
-298. Illegibilus
-299. Impediment Jinx
-300. Imperius Curse
-301. Imperturbable Charm
-302. Impervius Charm
-303. Inanimatus Conjurus Spell
-304. Incacerata
-305. Incarcerous Spell
-306. Incarcifors
-307. Incendio Duo Spell
-308. Incendio Tria
-309. Inflating Charm
-310. Informous Spell
-311. Inn Charm
-312. Insect Hex
-313. Instant scalping hex
-314. Intercepting a Counter Incantation 'On-the-Go'
-315. Invisible ropes spell
-316. Jelly-Brain Jinx
-317. Jelly-Fingers Curse
-318. Jelly-Legs Curse
-319. Jiggery Pokery
-320. Jinx against marriage
-321. Jinx on the post of Defence Against the Dark Arts teacher
-322. Killing Curse
-323. Knee-reversal hex
-324. Knife to paper aeroplane spell
-325. Knitting Charm
-326. Knockback Jinx
-327. Knockback Jinx Duo
-328. Lacarnum Inflamari
-329. Langlock
-330. Lapifors Spell
-331. Laughing curse
-332. Lawn-creating spell
-333. Leek jinx
-334. Leg-Locker Curse
-335. Legilimency Spell
-336. Leviosa
-337. Levitation Charm
-338. Levitation Spell
-339. Liberacorpus
-340. Liberare
-341. Lightning spell
-342. Limbo Mist
-343. Limbo Mist anticharm
-344. Litter-box to wildebeest spell
-345. Locking Spell
-346. Locomotion Charm
-347. Lovebird to Love Note
-348. Lumos Duo
-349. Lumos Maxima
-350. Lumos Solem Spell
-351. Lycacomia Curse
-352. Magicus Extremos
-353. Manacle conjuring spell
-354. Match to needle spell
-355. Maximus Confidencia
-356. Meddling Man to Monkey
-357. Memory Charm
-358. Memory extraction spell
-359. Mending Charm
-360. Merope Gaunt's charm
-361. Metelojinx
-362. Meteolojinx Recanto
-363. Mice to Snuffboxes
-364. Minerva McGonagall's Spell
-365. Ministry of Magic Fog
-366. Mobiliarbus
-367. Mobilicorpus
-368. Molly Weasley's curse
-369. Momentum-reversing spell
-370. Morsmordre
-371. Mountain-moving spell
-372. Mucus ad Nauseam Duo
-373. Mucus ad Nauseam Tria
-374. Mucus Projectum
-375. Muffliato Charm
-376. Mug to mongoose spell
-377. Muggle-Repelling Charm
-378. Multi-Shot Jinx
-379. Multicorfors Spell
-380. Music Spell
-381. Mutatio Skullus
-382. Necromancy
-383. Obliteration Charm
-384. Obscuro
-385. Oculus Reparo
-386. Offero
-387. One-Eyed Witch Spell
-388. Open Sesame
-389. Opening Charm
-390. Oppugno Jinx
-391. Orange spell
-392. Orb of water
-393. Orbis
-394. Oscausi
-395. Ossio Dispersimus
-396. Owl to Opera Glasses
-397. Pack Charm
-398. Pandora Lovegood's unknown spell
-399. Paper bird charm
-400. Paper to quill spell
-401. Papers to rat spell
-402. Papyrus Reparo
-403. Parchment-sealing spell
-404. Partial Vanishment
-405. Partis Temporus
-406. Patronus Charm
-407. Pawn to Queen
-408. Pepper Breath
-409. Periculum
-410. Permanent Sticking Charm
-411. Peskipiksi Pesternomi
-412. Petrificus Totalus Duo
-413. Petrificus Totalus Tria
-414. Piertotum Locomotor
-415. Pig into desk spell
-416. Pimple Jinx
-417. Piscifors
-418. Placement Charm
-419. Porcupine to Pin Cushion
-420. Portaberto
-421. Portkey Spell
-422. Portrait curse
-423. Post-box to wildebeest spell
-424. Potato peeling spell
-425. Potion-making spell
-426. Proficiency Charm
-427. Projectile Jinx
-428. Protean Charm
-429. Protection Charm
-430. Protection orb
-431. Protego Diabolica
-432. Protego Duo
-433. Protego horribilis
-434. Protego Maxima
-435. Protego totalum
-436. Puffskein to Paperweight
-437. Pullus
-438. Pumpkin-Head Jinx
-439. Purple Firecrackers
-440. Pus Squirting Hex
-441. Quitening Charm
-442. Rabbit Slippers
-443. Rabbit to footstool spell
-444. Ragnuk's curse
-445. Raven to Writing Desk
-446. Red Sparks
-447. Red Special Jinx
-448. Reductor Curse
-449. Refilling Charm
-450. Reparifarge
-451. Reparifors
-452. Reparo Duo
-453. Repelling Spell
-454. Repello Inimicum
-455. Revealing Charm
-456. Revelio Charm
-457. Reverse Spell
-458. Reverte
-459. Reviving Spell
-460. Revulsion Jinx
-461. Ribbon conjuring spell
-462. Rock to dog spell
-463. Rocket Charm
-464. Room-sealing spell
-465. Rope Bind
-466. Rope to snake spell
-467. Rose Growth
-468. Rowboat spell
-469. Sacrificial protection
-470. Salvio hexia
-471. Sardine spell
-472. Sauce-making spell
-473. Scarpin's Revelaspell
-474. Scouring Charm
-475. Scribblifors
-476. Sea Urchin Jinx
-477. Sealant Charm
-478. Sectumsempra
-479. Security Spell
-480. Seize and pull charm
-481. Severing Charm
-482. Shield Charm
-483. Shield penetration spell
-484. Shock Spell
-485. Shooting spell
-486. Shrinking Charm
-487. Sign of the deathly hallows spell
-488. Silencing Charm
-489. Silver net-conjuring spell
-490. Silver rope-conjuring spell
-491. Silver shield spell
-492. Silver smoke spell
-493. Silver spell
-494. Skurge Charm
-495. Sleeping bag-conjuring spell
-496. Sleeping Charm
-497. Sleepwalking curse
-498. Slippery Jinx
-499. Slowing Charm
-500. Slug-vomiting Charm
-501. Small Child to Rat
-502. Smashing spell
-503. Smoke to daggers spell
-504. Smokescreen Spell
-505. Smudge-removing spell
-506. Snail to Teapot
-507. Snake Summons Spell
-508. Snake-Vanishing Spell
-509. Snowfall spell
-510. Snowflake-making spell
-511. Snufflifors Spell
-512. Sofa-conjuring spell
-513. Softening Charm
-514. Somnambulist Charm
-515. Sonorous Charm
-516. Specialis Revelio
-517. Spell to cure Wartcap powder infection
-518. Spell-harvesting spell
-519. Spider-conjuring spell
-520. Sponge-Knees Curse
-521. Squiggle Quill
-522. Squiggly wiggly
-523. Stamina Charm
-524. Star Shower Spell
-525. Statue curse
-526. Stealth Sensoring Spell
-527. Steelclaw
-528. Sternius
-529. Stickfast Hex
-530. Sticking Charm
-531. Stinging Jinx
-532. Stream of Flames
-533. Stretcher-conjuring spell
-534. Stretching Jinx
-535. Stunning Spell
-536. Stupefy Duo
-537. Substantive Charm
-538. Summoning Charm
-539. Sunshine, daisies, butter mellow, turn this stupid, fat rat yellow
-540. Supersensory Charm
-541. Surgito
-542. Switching Spell
-543. Table Trouble
-544. Tablecloth-conjuring spell
-545. Taboo
-546. Tail-growing spell
-547. Take Root
-548. Talon-clipping charm
-549. Teacup into Gerbil
-550. Teacup to Rat
-551. Teacup to tortoise spell
-552. Teapot to ferret spell
-553. Teapot to tortoise spell
-554. Teddy bear to spider spell
-555. Teeth-straightening spell
-556. Teleportation spell
-557. Tempest Jinx
-558. Tentaclifors
-559. Thief's Curse
-560. Thief's Downfall
-561. Thimble to Thestral
-562. Tickling Charm
-563. Tickling Hex
-564. Toad to prince spell
-565. Toad to Toadstool
-566. Toe Biter
-567. Toenail-growing hex
-568. Tom Riddle's explosive spell
-569. Tongue-Tying Curse
-570. Tortoise to Trumpet
-571. Trace
-572. Trace Charm
-573. Tracking spell
-574. Transmogrifian Torture
-575. Transmogrify
-576. Tree animating jinx
-577. Trip Jinx
-578. Twitchy-Ears Hex
-579. Umbrella spell
-580. Unbreakable Charm
-581. Unbreakable Vow
-582. Unidentified buffalo spell
-583. Unidentified Durmstrang student's fire spell
-584. Unidentified protective spell
-585. Unlocking Charm
-586. Unplottability
-587. Unsupported flight
-588. Vacuum cleaner spell
-589. Vanishing Spell
-590. Vaulting Charm
-591. Ventus Duo
-592. Ventus Tria
-593. Vera Verto
-594. Verdillious
-595. Verdimillious Charm
-596. Verdimillious Duo Spell
-597. Verdimillious Tria
-598. Vermiculus
-599. Vermillious Duo
-600. Vermillious Tria
-601. Vinegar to wine spell
-602. Violet fire
-603. Vomitare Viridis
-604. Vulnera Sanentur
-605. Wakefield's Sambata
-606. Wall Trapping Spell
-607. Wand-Lighting Charm
-608. Washing up spell
-609. Water-heating spell
-610. Water-Making Spell
-611. Weakening Hex
-612. Webbed Spell
-613. Whip spell
-614. Whirlwind
-615. Whisky-conjuring spell
-616. Whistle into watch spell
-617. White sparks
-618. William Weasley's modified cursed barrier
-619. Windy Spell
-620. Wingardium Leviosa Duo
-621. Wiping Spell
-622. Yellow Special Jinx
-622. Yusuf Kama's Earth Rupture Spell
-623. Straight Line
-624. Homing Ray
-625. Controlled Ray
+160. Earth Rupture spell
+161. Ebublio Jinx
+162. Ecto Spell
+163. Emancipare
+164. Endless Sandwiches
+165. Engorgement Charm
+166. Engorgio Skullus
+167. Enlargement Charm
+168. Enlarging Spell
+169. Entrail-Expelling Curse
+170. Episkey
+171. Epoximise
+172. Eradication Spell
+173. Erecto
+174. Everte Statum
+175. Ex Cappa
+176. ⁎ Exploding Charm ⁎
+177. Expulso Curse
+178. Extension Charm
+179. Extinguishing Spell
+180. Eye of rabbit, harp string hum, turn this water into rum
+181. Fairy Cakes to Fairies
+182. False memory spell
+183. Fan conjuring spell
+184. Feather Duster to Ferret
+185. Feather-light charm
+186. Felifors Spell
+187. Felixempra
+188. Ferret to Feather Duster
+189. Ferret to human spell
+190. Fianto Duri
+191. Fidelius Charm
+192. Fiendfyre
+193. Finestra spell
+194. Finger-removing jinx
+195. Fire-Making Spell
+196. Fire rope
+197. Fire to snake spell
+198. Firestorm
+199. Fixing Charm
+200. Flagrante Curse
+201. Flagrate
+202. Flame-Freezing Charm
+203. Flashing paint charm
+204. Flask-conjuring spell
+205. Flesh Memory
+206. Flintifors
+207. Flipendo Maxima
+208. Flipendo Tria
+209. Floating Charm
+210. Floating eye curse
+211. Flobberworm to Fritter
+212. Flying charm
+213. Focus Charm
+214. Fogging Spell
+215. Foundables Spell
+216. Fountain of wine
+217. Four-Point Spell
+218. Fracto Strata
+219. Freeze!
+220. Freezing Charm
+221. Freezing Spell
+222. Fulgari
+223. Full Body-Bind Curse
+224. Fumos Duo
+225. Fur spell
+226. Gellert Grindelwald's lightning bolt spell
+227. Gellert Grindelwald's ripple spell
+228. Gellert Grindelwald's water filling spell
+229. General Counter-Spell
+230. Ghostly head spell
+231. Gilderoy Lockhart's holographic spell
+232. Glacius Duo
+233. Glacius Maxima
+234. Glacius Tria
+235. Glass to jelly spell
+236. Glass to sand spell
+237. Glisseo
+238. Gnomes to Lawn Gnomes
+239. Gobstone to Skunk
+240. Golden flame
+241. Golden jinx
+242. Goldfinch to Golden Snitch
+243. Gormlaith Gaunt's curse
+244. Gouging Spell
+245. Green Sparks
+246. Green Special Jinx
+247. Greenhouse Charm
+248. Gripping Charm
+249. Growth Charm
+250. Gubraithian Fire
+251. Guinea fowl to guinea pig spell
+252. Gytrash-conjuring spell
+253. Hair Loss Curse
+254. Hair-thickening Charm
+255. Hand-held flames
+256. Hardening Charm
+257. Harmonia Nectere Passus
+258. Head growing curse
+259. Head Shrink Spell
+260. Hedgehog to pincushion spell
+261. Herbifors
+262. Herbivicus Charm
+263. Herbivicus Duo
+264. Hex Zapper
+265. Hex-Breaker
+266. Hive-conjuring spell
+267. Hocus Pocus
+268. Homing spell
+269. Homonculous Charm
+270. Homorphus Charm
+271. Hoop conjuring spell
+272. Horcrux-making spell
+273. Horn tongue hex
+274. Horn-growing spell
+275. Horton-Keitch Braking Charm
+276. Hot Air Charm
+277. Hour-Reversal Charm
+278. Hover Charm
+279. Human to armchair spell
+280. Human to bat spell
+281. Human to bone spell
+282. Human to bull spell
+283. Human to ferret spell
+284. Human to hedgehog spell
+285. Human to pig spell
+286. Human to pocket watch spell
+287. Human to polecat spell
+288. Human to shark spell
+289. Human to teapot spell
+290. Human to thunderbird spell
+291. Human to toad spell
+292. Human to viper spell
+293. Human to yak spell
+294. Human-presence-revealing Spell
+295. Hurling Hex
+296. Ice Jinx
+297. Ignition Spell
+298. Illegal growth hex
+299. Illegibilus
+300. Impediment Jinx
+301. Imperius Curse
+302. Imperturbable Charm
+303. Impervius Charm
+304. Inanimatus Conjurus Spell
+305. Incacerata
+306. Incarcerous Spell
+307. Incarcifors
+308. Incendio Duo Spell
+309. Incendio Tria
+310. Inflating Charm
+311. Informous Spell
+312. Inn Charm
+313. Insect Hex
+314. Instant scalping hex
+315. Intercepting a Counter Incantation 'On-the-Go'
+316. Invisible ropes spell
+317. Jelly-Brain Jinx
+318. Jelly-Fingers Curse
+319. Jelly-Legs Curse
+320. Jiggery Pokery
+321. Jinx against marriage
+322. Jinx on the post of Defence Against the Dark Arts teacher
+323. Killing Curse
+324. Knee-reversal hex
+325. Knife to paper aeroplane spell
+326. Knitting Charm
+327. Knockback Jinx
+328. Knockback Jinx Duo
+329. Lacarnum Inflamari
+330. Langlock
+331. Lapifors Spell
+332. Laughing curse
+333. Lawn-creating spell
+334. Leek jinx
+335. Leg-Locker Curse
+336. Legilimency Spell
+337. Leviosa
+338. Levitation Charm
+339. Levitation Spell
+340. Liberacorpus
+341. Liberare
+342. Lightning spell
+343. Limbo Mist
+344. Limbo Mist anticharm
+345. Litter-box to wildebeest spell
+346. Locking Spell
+347. Locomotion Charm
+348. Lovebird to Love Note
+349. Lumos Duo
+350. Lumos Maxima
+351. Lumos Solem Spell
+352. Lycacomia Curse
+353. Magicus Extremos
+354. Manacle conjuring spell
+355. Match to needle spell
+356. Maximus Confidencia
+357. Meddling Man to Monkey
+358. Memory Charm
+359. Memory extraction spell
+360. Mending Charm
+361. Merope Gaunt's charm
+362. Metelojinx
+363. Meteolojinx Recanto
+364. Mice to Snuffboxes
+365. Minerva McGonagall's Spell
+366. Ministry of Magic Fog
+367. Mobiliarbus
+368. Mobilicorpus
+369. Molly Weasley's curse
+370. Momentum-reversing spell
+371. Morsmordre
+372. Mountain-moving spell
+373. Mucus ad Nauseam Duo
+374. Mucus ad Nauseam Tria
+375. Mucus Projectum
+376. Muffliato Charm
+377. Mug to mongoose spell
+378. Muggle-Repelling Charm
+379. Multi-Shot Jinx
+380. Multicorfors Spell
+381. Music Spell
+382. Mutatio Skullus
+383. Necromancy
+384. Obliteration Charm
+385. Obscuro
+386. Oculus Reparo
+387. Offero
+388. One-Eyed Witch Spell
+389. Open Sesame
+390. Opening Charm
+391. Oppugno Jinx
+392. Orange spell
+393. Orb of water
+394. Orbis
+395. Oscausi
+396. Ossio Dispersimus
+397. Owl to Opera Glasses
+398. Pack Charm
+399. Pandora Lovegood's unknown spell
+400. Paper bird charm
+401. Paper to quill spell
+402. Papers to rat spell
+403. Papyrus Reparo
+404. Parchment-sealing spell
+405. Partial Vanishment
+406. Partis Temporus
+407. Patronus Charm
+408. Pawn to Queen
+409. Pepper Breath
+410. Periculum
+411. Permanent Sticking Charm
+412. Peskipiksi Pesternomi
+413. Petrificus Totalus Duo
+414. Petrificus Totalus Tria
+415. Piertotum Locomotor
+416. Pig into desk spell
+417. Pimple Jinx
+418. Piscifors
+419. Placement Charm
+420. Porcupine to Pin Cushion
+421. Portaberto
+422. Portkey Spell
+423. Portrait curse
+424. Post-box to wildebeest spell
+425. Potato peeling spell
+426. Potion-making spell
+427. Proficiency Charm
+428. Projectile Jinx
+429. Protean Charm
+430. Protection Charm
+431. Protection orb
+432. Protego Diabolica
+433. Protego Duo
+434. Protego horribilis
+435. Protego Maxima
+436. Protego totalum
+437. Puffskein to Paperweight
+438. Pullus
+439. Pumpkin-Head Jinx
+440. Purple Firecrackers
+441. Pus Squirting Hex
+442. Quitening Charm
+443. Rabbit Slippers
+444. Rabbit to footstool spell
+445. Ragnuk's curse
+446. Raven to Writing Desk
+447. Red Sparks
+448. Red Special Jinx
+449. Reductor Curse
+450. Refilling Charm
+451. Reparifarge
+452. Reparifors
+453. Reparo Duo
+454. Repelling Spell
+455. Repello Inimicum
+456. Revealing Charm
+457. Revelio Charm
+458. Reverse Spell
+459. Reverte
+460. Reviving Spell
+461. Revulsion Jinx
+462. Ribbon conjuring spell
+463. Rock to dog spell
+464. Rocket Charm
+465. Room-sealing spell
+466. Rope Bind
+467. Rope to snake spell
+468. Rose Growth
+469. Rowboat spell
+470. Sacrificial protection
+471. Salvio hexia
+472. Sardine spell
+473. Sauce-making spell
+474. Scarpin's Revelaspell
+475. Scouring Charm
+476. Scribblifors
+477. Sea Urchin Jinx
+478. Sealant Charm
+479. Sectumsempra
+480. Security Spell
+481. Seize and pull charm
+482. Severing Charm
+483. Shield Charm
+484. Shield penetration spell
+485. Shock Spell
+486. Shooting spell
+487. Shrinking Charm
+488. Sign of the Deathly Hallows Spell
+489. Silencing Charm
+490. Silver net-conjuring spell
+491. Silver rope-conjuring spell
+492. Silver shield spell
+493. Silver smoke spell
+494. Silver spell
+495. Skurge Charm
+496. Sleeping bag-conjuring spell
+497. Sleeping Charm
+498. Sleepwalking curse
+499. Slippery Jinx
+500. Slowing Charm
+501. Slug-vomiting Charm
+502. Small Child to Rat
+503. Smashing spell
+504. Smoke to daggers spell
+505. Smokescreen Spell
+506. Smudge-removing spell
+507. Snail to Teapot
+508. Snake Summons Spell
+509. Snake-Vanishing Spell
+510. Snowfall spell
+511. Snowflake-making spell
+512. Snufflifors Spell
+513. Sofa-conjuring spell
+514. Softening Charm
+515. Somnambulist Charm
+516. Sonorous Charm
+517. Specialis Revelio
+518. Spell to cure Wartcap powder infection
+519. Spell-harvesting spell
+520. Spider-conjuring spell
+521. Sponge-Knees Curse
+522. Squiggle Quill
+523. Squiggly wiggly
+524. Stamina Charm
+525. Star Shower Spell
+526. Statue curse
+527. Stealth Sensoring Spell
+528. Steelclaw
+529. Sternius
+530. Stickfast Hex
+531. Sticking Charm
+532. Stinging Jinx
+533. Stream of Flames
+534. Stretcher-conjuring spell
+535. Stretching Jinx
+536. Stunning Spell
+537. Stupefy Duo
+538. Substantive Charm
+539. Summoning Charm
+540. Sunshine, daisies, butter mellow, turn this stupid, fat rat yellow
+541. Supersensory Charm
+542. Surgito
+543. Switching Spell
+544. Table Trouble
+545. Tablecloth-conjuring spell
+546. Taboo
+547. Tail-growing spell
+548. Take Root
+549. Talking Spell
+550. Talon-clipping charm
+551. Teacup into Gerbil
+552. Teacup to Rat
+553. Teacup to tortoise spell
+554. Teapot to ferret spell
+555. Teapot to tortoise spell
+556. Teddy bear to spider spell
+557. Teeth-straightening spell
+558. Teleportation spell
+559. Tempest Jinx
+560. Tentaclifors
+561. Thief's Curse
+562. Thief's Downfall
+563. Thimble to Thestral
+564. Tickling Charm
+565. Tickling Hex
+566. Toad to prince spell
+567. Toad to Toadstool
+568. Toe Biter
+569. Toenail-growing hex
+570. Tom Riddle's explosive spell
+571. Tongue-Tying Curse
+572. Tortoise to Trumpet
+573. Trace
+574. Trace Charm
+575. Tracking spell
+576. Transmogrifian Torture
+577. Transmogrify
+578. Tree animating jinx
+579. Trip Jinx
+580. Twitchy-Ears Hex
+581. Umbrella spell
+582. Unbreakable Charm
+583. Unbreakable Vow
+584. Unidentified buffalo spell
+585. Unidentified Durmstrang student's fire spell
+586. Unidentified protective spell
+587. Unlocking Charm
+588. Unplottability
+589. Unsupported flight
+590. Vacuum cleaner spell
+591. Vanishing Spell
+592. Vaulting Charm
+593. Ventus Duo
+594. Ventus Tria
+595. Vera Verto
+596. Verdillious
+597. Verdimillious Charm
+598. Verdimillious Duo Spell
+599. Verdimillious Tria
+600. Vermiculus
+601. Vermillious Duo
+602. Vermillious Tria
+603. Vinegar to wine spell
+604. Violet fire
+605. Vomitare Viridis
+606. Vulnera Sanentur
+607. Wakefield's Sambata
+608. Wall Trapping Spell
+609. Wand-Lighting Charm
+610. Washing up spell
+611. Water-heating spell
+612. Water-Making Spell
+613. Weakening Hex
+614. Webbed Spell
+615. Whip spell
+616. Whirlwind
+617. Whisky-conjuring spell
+618. Whistle into watch spell
+619. White sparks
+620. William Weasley's modified cursed barrier
+621. Windy Spell
+622. Wingardium Leviosa Duo
+623. Wiping Spell
+624. Yellow Special Jinx
+625. Straight Line
+626. Homing Ray
+627. Controlled Ray
