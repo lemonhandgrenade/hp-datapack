@@ -1,0 +1,1 @@
+give @s chain_command_block{display:{Name:'{"text":"Dragon Liver","color":"#A80303","italic":false}',Lore:['{"text":"Obtained from:","italic":false}','{"text":"Dragons","italic":false}']},CustomModelData:780,PotionID:780,Weight:1500,Ingredient:1b} 1

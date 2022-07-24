@@ -1,0 +1,1 @@
+give @s elytra{display:{Name:'{"text":"Invisibility Cloak","color":"#FFFFFC","italic":false}',Lore:['{"text":"An Enchanted Cloak That Makes It\'s Wearer Invisible.","italic":false}','{"text":"Sneak and look up to take off."}']},RepairCost:-1,Unbreakable:1b,Damage:432,CustomModelData:2b,InvisibilityCloak:1b,Enchantments:[{}]} 1

@@ -1,0 +1,65 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Polyjuice",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Transforms you into",
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "Player: ",
+                    "italic": false
+                  },
+                  {
+                    "nbt": "ArmorItems[3].tag.Name",
+                    "entity": "@s",
+                    "italic": false
+                  }
+                ]
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:108,Potion:\"minecraft:empty\",CustomPotionColor:7764352,HideFlags:32}"
+            },
+            {
+              "function": "minecraft:copy_nbt",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "ArmorItems[3].tag.Name",
+                  "target": "playerName",
+                  "op": "replace"
+                },
+                {
+                  "source": "ArmorItems[3].tag.SpecialUUID",
+                  "target": "playerUUID",
+                  "op": "replace"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

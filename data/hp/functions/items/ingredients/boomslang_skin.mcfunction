@@ -1,0 +1,1 @@
+give @s chain_command_block{display:{Name:'{"text":"Boomslang Skin","color":"#7A994A","italic":false}',Lore:['{"text":"Obtained from:","italic":false}','{"text":"Boomslangs","italic":false}']},Weight:10,Ingredient:1b,CustomModelData:420,PotionID:420} 1

@@ -1,0 +1,1 @@
+give @s potion{display:{Name:'{"text":"Draught of Living Death","color":"#333346","italic":false}',Lore:['{"text":"Causes the drinker to fall","italic":false}','{"text":"into a deep, death-like slumber","italic":false}']},HideFlags:32,CustomModelData:47,Potion:"minecraft:empty",CustomPotionColor:3355462} 1

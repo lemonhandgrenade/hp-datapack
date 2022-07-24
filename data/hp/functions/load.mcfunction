@@ -8,15 +8,24 @@ scoreboard players add charmsBreakBlocks settings 0
 scoreboard players add charmsBreakConnected settings 0
 scoreboard players add easySortingHat settings 0
 scoreboard players add repairParticles settings 0
+scoreboard players add toolEntityParticles settings 0
 scoreboard players add playerInfo settings 0
+execute unless score resourcepackMobs settings matches 0 run scoreboard players set resourcepackMobs settings 1
+scoreboard players add resourcepackMobs settings 0
+execute unless score respawnWerewolf settings matches 0 run scoreboard players set respawnWerewolf settings 1
+scoreboard players add respawnWerewolf settings 0
+
 
 scoreboard objectives add values dummy
 scoreboard players set tpCheck values 1
 scoreboard players set #alternate values 1
 scoreboard players set #alternate2 values 1
+scoreboard players set -10 values -10
 scoreboard players set -1 values -1
 scoreboard players set 2 values 2
+scoreboard players set 8 values 8
 scoreboard players set 10 values 10
+scoreboard players set 14 values 14
 scoreboard players set 20 values 20
 scoreboard players set 40 values 40
 scoreboard players set 100 values 100
@@ -105,6 +114,16 @@ scoreboard objectives add sneakTest dummy
 #-Wand---------------------------------------------------------------------------------------------#
 scoreboard objectives add wandType dummy
 
+#-Potion-------------------------------------------------------------------------------------------#
+scoreboard objectives add potionCount dummy
+scoreboard objectives add polyjuiceTime dummy
+
+#-Items--------------------------------------------------------------------------------------------#
+scoreboard objectives add wfoas minecraft.used:minecraft.warped_fungus_on_a_stick
+
+#-Moon-Related-------------------------------------------------------------------------------------#
+scoreboard objectives add moon dummy
+scoreboard objectives add lycanthropy dummy
 
 function hp:100tick
 function hp:50tick
@@ -113,11 +132,8 @@ function hp:10tick
 function hp:5tick
 function hp:2tick
 
-
-
 fill -1 -64 -1 2 -61 1 bedrock
 fill 0 -64 0 0 -63 0 yellow_shulker_box
-
 
 
 team add gryffindor {"text":"Gryffindor","color":"dark_red"}
@@ -141,11 +157,24 @@ team modify ravenclaw prefix [{"text":"\uE003"},{"text":"[Ravenclaw] ","color":"
 team modify ravenclaw seeFriendlyInvisibles false
 
 
+data modify storage hp:potions Empty set value [10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000]
 
-data modify storage hp:potions Empty set value [9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999]
-data modify storage hp:potions AntidoteToCommonPoisons set value [281, 281, 281, 281, 2430, 2430, 9999, 2622, 1620, 1620, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999]
-data modify storage hp:potions CureForBoils set value [2312, 2312, 2312, 2312, 9999, 1270, 1270, 1270, 1270, 1950, 1950, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999]
-data modify storage hp:potions ForgetfulnessPotion set value [1470, 1470, 9999, 2640, 2640, 9999, 9999, 2431, 2431, 1621, 1621, 1621, 1621, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999]
-data modify storage hp:potions SleepingDraught set value [1430, 1430, 1430, 1430, 990, 990, 2430, 2430, 9999, 2431, 2431, 2431, 2430, 2430, 9999, 2640, 2640, 2640, 2640, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999]
+data modify storage hp:potions AntidoteToCommonPoisons set value [281, 281, 281, 281, 2430, 2430, 10000, 2622, 1620, 1620, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000]
+
+data modify storage hp:potions CureForBoils set value [2312, 2312, 2312, 2312, 9999, 1270, 1270, 1270, 1270, 1950, 1950, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000]
+
+data modify storage hp:potions DraughtOfLivingDeath set value [2190, 9999, 1330, 1330, 9999, 2640, 2341, 2341, 2341, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 2300, 9999, 180, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000]
+
+data modify storage hp:potions EssenceOfDittany set value [2200, 9999, 710, 710, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000]
+
+data modify storage hp:potions ForgetfulnessPotion set value [1470, 1470, 9999, 2640, 2640, 9999, 9999, 2431, 2431, 1621, 1621, 1621, 1621, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000]
+
+data modify storage hp:potions MixtureOfPowderedSilverAndDittany set value [2900, 710, 2290, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000]
+
+data modify storage hp:potions Polyjuice set value [1010, 1010, 1010, 1400, 1400, 9999, 9999, 9999, 9999, 1450, 1450, 1450, 1450, 1411, 1411, 9999, 420, 420, 420, 292, 9999, 1410, 9999, 9999, 9999, 1190, 10000, 10000, 10000, 10000, 10000, 10000]
+
+data modify storage hp:potions SleepingDraught set value [1430, 1430, 1430, 1430, 990, 990, 2430, 2430, 9999, 2431, 2431, 2431, 2430, 2430, 9999, 2640, 2640, 2640, 2640, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000]
+
+data modify storage hp:potions Wolfsbane set value [2830, 2830, 2830, 9999, 1681, 1681, 2440, 9999, 710, 710, 9999, 2632, 2632, 9999, 2650, 2631, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000]
 
 tellraw @a [{"text":"Loaded "},{"text":"[HP]","color":"green"},{"text":" for MC 1.18+\n"}]

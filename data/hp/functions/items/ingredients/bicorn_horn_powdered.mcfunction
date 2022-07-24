@@ -1,0 +1,1 @@
+give @s chain_command_block{display:{Name:'{"text":"Powdered Bicorn Horn","color":"#003553","italic":false}',Lore:['{"text":"Obtained from:","italic":false}','{"text":"Bicorn","italic":false}']},Weight:180,Ingredient:1b,CustomModelData:292,PotionID:292} 1

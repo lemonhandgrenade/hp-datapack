@@ -4,7 +4,7 @@
         "description": "Get sorted into one of the 4 Hogwart's houses",
         "icon": {
             "item": "minecraft:repeating_command_block",
-            "nbt": "{CustomModelData:999}"
+            "nbt": "{CustomModelData:1000}"
         },
         "show_toast": true,
         "announce_to_chat": true

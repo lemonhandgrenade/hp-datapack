@@ -1,1 +1,1 @@
-give @s snowball{display:{Name:'{"text":"Quaffle","color":"red","italic":false}',Lore:['{"text":"A ball used for Quidditch","italic":false}']},CustomModelData:2,quidditchBall:1b} 1
+give @s snowball{display:{Name:'{"text":"Quaffle","color":"red","italic":false}',Lore:['{"text":"A ball used for Quidditch","italic":false}']},CustomModelData:2,quidditchBall:1b,specialBall:1b} 1

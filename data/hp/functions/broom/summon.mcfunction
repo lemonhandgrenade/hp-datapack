@@ -29,14 +29,11 @@ execute as @s[scores={broomType=37}] at @s run summon armor_stand ~ ~ ~ {CustomN
 execute as @s[scores={broomType=38}] at @s run summon armor_stand ~ ~ ~ {CustomName:'{"text":"Yajirushi"}',Team:"noCollision",ActiveEffects:[{Id:28b,Amplifier:20b,Duration:19999980,ShowParticles:0b}],DisabledSlots:4144959,Silent:1b,NoGravity:1b,Invulnerable:1b,Small:1b,Marker:1b,Invisible:1b,Tags:["broomVisual","broomVisualBeingSpawned","broom"],Passengers:[{id:"minecraft:pig",NoGravity:1b,Silent:1b,Attributes:[{Name:generic.max_health,Base:0}],Invulnerable:1b,NoAI:1b,Saddle:1b,Team:"noCollision",Tags:["broomSaddle","broomSaddleBeingSpawned","broom"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:19999980,ShowParticles:0b}]}],Pose:{Head:[0f,0f,0.00001f]},ArmorItems:[{},{},{},{id:"minecraft:stick",Count:1b,tag:{CustomModelData:6038,Unbreakable:1b}}]}
 
 
-
 ## MultiSeat
 execute as @s[scores={broomType=3}] at @s run summon minecraft:pig ~ ~ ~ {NoGravity:1b,Silent:1b,Attributes:[{Name:generic.max_health,Base:0}],Invulnerable:1b,NoAI:1b,Saddle:1b,Team:"noCollision",Tags:["broomSaddle","broomSaddleBeingSpawned","broom","broomOffset","new"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:19999980,ShowParticles:0b}]}
 execute as @s[scores={broomType=16}] at @s run summon minecraft:pig ~ ~ ~ {NoGravity:1b,Silent:1b,Attributes:[{Name:generic.max_health,Base:0}],Invulnerable:1b,NoAI:1b,Saddle:1b,Team:"noCollision",Tags:["broomSaddle","broomSaddleBeingSpawned","broom","broomOffset1","new"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:19999980,ShowParticles:0b}]}
 execute as @s[scores={broomType=16}] at @s run summon minecraft:pig ~ ~ ~ {NoGravity:1b,Silent:1b,Attributes:[{Name:generic.max_health,Base:0}],Invulnerable:1b,NoAI:1b,Saddle:1b,Team:"noCollision",Tags:["broomSaddle","broomSaddleBeingSpawned","broom","broomOffset2","new"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:19999980,ShowParticles:0b}]}
 execute as @s[scores={broomType=16}] at @s run summon minecraft:pig ~ ~ ~ {NoGravity:1b,Silent:1b,Attributes:[{Name:generic.max_health,Base:0}],Invulnerable:1b,NoAI:1b,Saddle:1b,Team:"noCollision",Tags:["broomSaddle","broomSaddleBeingSpawned","broom","broomOffset3","new"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:19999980,ShowParticles:0b}]}
-
-
 
 
 execute at @s run summon armor_stand ~ ~ ~ {Tags:["broomElytra","new","broom"],DisabledSlots:4144959,ArmorItems:[{},{},{id:"minecraft:elytra",Count:1b},{}],Invisible:1b,Silent:1b,ActiveEffects:[{Id:28b,Amplifier:20b,Duration:19999980,ShowParticles:0b}]}

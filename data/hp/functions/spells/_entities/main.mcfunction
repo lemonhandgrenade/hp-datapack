@@ -1,3 +1,4 @@
+execute if entity @s[tag=witherSkull] run function hp:spells/_entities/ghostly_head
 execute if entity @s[tag=weather,tag=cloud] run function hp:spells/_entities/weather/cloud
 execute if entity @s[tag=weather,tag=rain] run function hp:spells/_entities/weather/rain_cloud
 execute if entity @s[tag=weather,tag=snow] run function hp:spells/_entities/weather/snow_cloud
@@ -9,8 +10,11 @@ execute if entity @s[tag=patronus] run function hp:spells/_entities/patronus/sel
 
 execute if entity @s[tag=web] run function hp:spells/_entities/web/anim
 
-execute if entity @s[type=snowball] if score #alternate values matches 1 run data modify entity @s Air set value 0s
-execute if entity @s[type=snowball] if score #alternate values matches -1 run data modify entity @s Air set value 1s
+execute if entity @s[tag=airMod] if score #alternate values matches 1 run data modify entity @s Air set value 0s
+execute if entity @s[tag=airMod] if score #alternate values matches -1 run data modify entity @s Air set value 1s
+
+execute if entity @s[tag=lockingSlime] unless block ~ ~ ~ #minecraft:doors run tp @s ~ -128 ~ 
+execute if entity @s[tag=lockingSlime] unless block ~ ~ ~ #minecraft:doors run kill @s 
 
 # Brooms
 #execute as @s[type=armor_stand,tag=broom,tag=broomElytra] run function hp:broom/base

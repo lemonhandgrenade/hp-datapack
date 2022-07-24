@@ -16,12 +16,17 @@ execute as @s[tag=flyingBroom] at @s run function hp:broom/input
 
 
 execute as @s[predicate=hp:is_being_launched] run scoreboard players add @s yMotionTime 1
-#execute as @s[scores={yMotionTime=1..}] run say hi
-#execute as @s[scores={yMotionTime=1..}] run effect clear @s levitation
-#execute as @s[scores={yMotionTime=1..}] run effect clear @s unluck
-#effect clear @s[tag=!motionEffected,predicate=hp:is_being_launched] levitation
-#effect clear @s[tag=!motionEffected,predicate=hp:is_being_launched] unluck
 tag @s[scores={yMotionTime=1..}] remove motionEffected
 scoreboard players set @s[predicate=!hp:is_being_launched] yMotionTime 0
 
-execute as @s[tag=motionEffected] at @s run tp @s @e[tag=motionStop,sort=nearest,limit=1]
+execute as @s[tag=motionEffected] at @s run tp @s @e[type=armor_stand,tag=motionStop,sort=nearest,limit=1]
+
+execute if score @s wfoas matches 1.. run function hp:equipment/wfoas
+
+execute if entity @s[tag=handOfGlory,predicate=!hp:holding_hand_of_glory] run tag @s remove handOfGlory
+
+tag @s[tag=werewolf,tag=animagus] remove animagus
+execute if entity @s[gamemode=!spectator,tag=werewolf,tag=!wereTransform] if score moonTime moon matches 13000.. if score moonTime moon matches ..22499 if score moonPhase moon matches 0 run function hp:werewolf/transform
+execute if entity @s[tag=werewolf,tag=wereTransform] if score moonTime moon matches 22500.. if score moonTime moon matches ..23999 run function hp:werewolf/untransform
+execute if entity @s[tag=werewolf,tag=wereTransform] if score moonTime moon matches 0.. if score moonTime moon matches ..12999 run function hp:werewolf/untransform
+execute if entity @s[tag=werewolf,tag=wereTransform] unless score moonPhase moon matches 0 run function hp:werewolf/untransform

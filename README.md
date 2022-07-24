@@ -1,9 +1,8 @@
 <p align="center">
 <a href="https://github.com/lemonhandgrenade/hp-datapack/license"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
-<a href="https://github.com/lemonhandgrenade/hp-datapack/actions"><img src="https://github.com/lemonhandgrenade/hp-datapack/actions/workflows/build.yml/badge.svg" alt="CI"></a>
 <a href="https://github.com/lemonhandgrenade/hp-datapack/issues"><img src="https://img.shields.io/github/issues/lemonhandgrenade/hp-datapack" alt="Github issues"></a>
-<a href=""><img src="https://img.shields.io/badge/files-3488-ff69b4"></a>
-<a href=""><img src="https://img.shields.io/badge/total%20lines-31889-blueviolet"></a>
+<a href=""><img src="https://img.shields.io/badge/files-3507-ff69b4"></a>
+<a href=""><img src="https://img.shields.io/badge/total%20lines-32177-blueviolet"></a>
 </p>
 
 # hp-datapack
@@ -21,15 +20,17 @@ Contents
 ## Attribution
 - Some of the broom's code was modified from [@the_floo_network][floo]'s map that can be found [here][floomap].
 - Spells work on the foundation of [@CloudWolfYT][cloudwolf]'s [Slow raycasting tutorial][cloudwolfvid].
+- I would recommend the [Better Dogs][betterdogslink] texture pack by [mrblueyeti][mrblueyeti].
 
 ---
 
 ## Features
 - Spell casting. [![Spells](https://img.shields.io/badge/Spells-224-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/spells "Spells IDs")
 - Animagus. [![Animagi Animals](https://img.shields.io/badge/Animagi_Animals-54-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/animagus "Animagus IDs")
-- Potion brewing. [![Potions](https://img.shields.io/badge/Potions-4-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/potions "Potions IDs")
+- Potion brewing. [![Potions](https://img.shields.io/badge/Potions-8-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/potions "Potions IDs")
 - Corporeal Patronuses. [![Patronus](https://img.shields.io/badge/Patronuses-4-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/spells/_entities/patronus "Patronus IDs")
 - Brooms. [![Brooms](https://img.shields.io/badge/Brooms-29-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/broom)
+- Wizard cards. [![Wizard Cards](https://img.shields.io/badge/Wizard%20Cards-135-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/broom)
 - The Hogwarts house teams.
 - More coming.
 
@@ -98,11 +99,10 @@ Either by the sorting hat:
 - Complete the quiz in chat.
 
 Or by commands:
-- `/team join gryffindor @s`
-- `/team join slytherin @s`
-- `/team join ravenclaw @s`
-- `/team join hufflepuff @s`
-- Use `tag @s add housed` to disable the sorting hat if put on in future.
+- `/function hp:admin/house/gryffindor`
+- `/function hp:admin/house/slytherin`
+- `/function hp:admin/house/ravenclaw`
+- `/function hp:admin/house/hufflepuff`
 
 ---
 
@@ -246,6 +246,8 @@ The code is available at [Github][home] under the [MIT license][license].
 [floo]: https://www.planetminecraft.com/member/the_floo_network
 [cloudwolfvid]: https://www.youtube.com/watch?v=peRO138IgCA
 [cloudwolf]: https://github.com/CloudWolfYT
+[betterdogslink]: https://www.curseforge.com/minecraft/texture-packs/better-dogs
+[mrblueyeti]: https://www.curseforge.com/members/mrblueyeti/projects
 [home]: https://github.com/lemonhandgrenade/hp-datapack
 [issue]: https://github.com/lemonhandgrenade/hp-datapack/issues
 [license]: http://revolunet.mit-license.org

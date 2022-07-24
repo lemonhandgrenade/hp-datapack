@@ -1,0 +1,10 @@
+scoreboard players remove temp values 1
+
+tag @s add temp
+execute at @s if score temp values matches 1.. positioned ~1 ~ ~ if block ~ ~ ~ air unless entity @e[type=marker,tag=specialEntity,tag=!temp,tag=instantDarknessPowder,tag=init,distance=..1] run summon marker ~ ~ ~ {Tags:["specialEntity","instantDarknessPowder","init"]}
+execute at @s if score temp values matches 1.. positioned ~-1 ~ ~ if block ~ ~ ~ air unless entity @e[type=marker,tag=specialEntity,tag=!temp,tag=instantDarknessPowder,tag=init,distance=..1] run summon marker ~ ~ ~ {Tags:["specialEntity","instantDarknessPowder","init"]}
+execute at @s if score temp values matches 1.. positioned ~ ~1 ~ if block ~ ~ ~ air unless entity @e[type=marker,tag=specialEntity,tag=!temp,tag=instantDarknessPowder,tag=init,distance=..1] run summon marker ~ ~ ~ {Tags:["specialEntity","instantDarknessPowder","init"]}
+execute at @s if score temp values matches 1.. positioned ~ ~-1 ~ if block ~ ~ ~ air unless entity @e[type=marker,tag=specialEntity,tag=!temp,tag=instantDarknessPowder,tag=init,distance=..1] run summon marker ~ ~ ~ {Tags:["specialEntity","instantDarknessPowder","init"]}
+execute at @s if score temp values matches 1.. positioned ~ ~ ~1 if block ~ ~ ~ air unless entity @e[type=marker,tag=specialEntity,tag=!temp,tag=instantDarknessPowder,tag=init,distance=..1] run summon marker ~ ~ ~ {Tags:["specialEntity","instantDarknessPowder","init"]}
+execute at @s if score temp values matches 1.. positioned ~ ~ ~-1 if block ~ ~ ~ air unless entity @e[type=marker,tag=specialEntity,tag=!temp,tag=instantDarknessPowder,tag=init,distance=..1] run summon marker ~ ~ ~ {Tags:["specialEntity","instantDarknessPowder","init"]}
+execute at @s if score temp values matches 1.. as @e[type=marker,tag=!temp,tag=specialEntity,tag=instantDarknessPowder,tag=init] at @s align xyz positioned ~0.5 ~0.5 ~0.5 run function hp:equipment/instant_darkness_powder/move

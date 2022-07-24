@@ -1,0 +1,1 @@
+give @s leather_helmet{display:{Name:'{"text":"Ravenclaw Scarf","italic":false}',color:7248624},CustomModelData:1} 1

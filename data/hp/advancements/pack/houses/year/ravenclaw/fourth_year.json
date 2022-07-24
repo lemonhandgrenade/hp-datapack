@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:repeating_command_block",
+      "nbt": "{CustomModelData:1004}"
+    },
+    "title": "Fourth Year",
+    "description": "Become a Ravenclaw Fourth Year",
+    "frame": "goal",
+		"announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "hp:pack/houses/year/ravenclaw/third_year",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"ravenclaw\",\"fourthYear\"]}"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

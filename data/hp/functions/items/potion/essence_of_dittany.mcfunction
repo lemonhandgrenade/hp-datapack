@@ -1,0 +1,1 @@
+give @s potion{HideFlags:32,display:{Name:'{"text":"Essence of Dittany","color":"#5A792A","italic":false}',Lore:['{"text":"Heals minor wounds","italic":false}']},Potion:"minecraft:empty",Ingredient:1b,CustomPotionColor:5929258,CustomModelData:56,PotionID:2900} 1

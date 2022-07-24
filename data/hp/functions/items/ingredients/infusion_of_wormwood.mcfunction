@@ -1,0 +1,1 @@
+give @s chain_command_block{display:{Name:'{"text":"Infusion of Wormwood","color":"#32724f","italic":false}',Lore:['{"text":"Obtained from:","italic":false}','{"text":"Wormwood","italic":false}']},Weight:300,Ingredient:1b,CustomModelData:1340,PotionID:1340} 1

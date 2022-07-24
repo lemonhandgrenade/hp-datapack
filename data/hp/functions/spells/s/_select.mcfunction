@@ -28,7 +28,7 @@ execute if score @s spell matches 496 run function hp:spells/s/sleeping_bag-conj
 execute if score @s spell matches 497 run function hp:spells/s/sleeping_charm/cast
 execute if score @s spell matches 498 run function hp:spells/s/sleepwalking_curse/cast
 execute if score @s spell matches 499 run function hp:spells/s/slippery_jinx/cast
-execute if score @s spell matches 500 run function hp:spells/s/slowing_charm/hit_entity
+execute if score @s spell matches 500 run function hp:spells/s/slowing_charm/cast
 execute if score @s spell matches 501 run function hp:spells/s/slug-vomiting_charm/cast
 execute if score @s spell matches 502 run function hp:spells/s/small_child_to_rat/cast
 execute if score @s spell matches 503 run function hp:spells/s/smashing_spell/cast

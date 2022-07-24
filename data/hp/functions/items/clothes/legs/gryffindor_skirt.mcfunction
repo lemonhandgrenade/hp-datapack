@@ -1,0 +1,1 @@
+give @s leather_leggings{display:{Name:'{"text":"Gryffindor Skirt","italic":false}',color:16719105},CustomModelData:2} 1

@@ -1,0 +1,1 @@
+give @s leather_chestplate{display:{Name:'{"text":"Hufflepuff Upper Robes","italic":false}',color:16770365},CustomModelData:1} 1

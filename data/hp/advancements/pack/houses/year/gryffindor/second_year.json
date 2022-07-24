@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:repeating_command_block",
+      "nbt": "{CustomModelData:1001}"
+    },
+    "title": "Second Year",
+    "description": "Become a Gryffindor Second Year",
+    "frame": "goal",
+		"announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "hp:pack/houses/year/gryffindor/first_year",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"gryffindor\",\"secondYear\"]}"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

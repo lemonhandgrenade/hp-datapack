@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"wereTransform\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "hp:werewolf/main"
+  }
+}

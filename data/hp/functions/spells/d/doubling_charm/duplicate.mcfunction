@@ -7,3 +7,4 @@ data modify storage hp:geminio DupedItem.Slot set value 0b
 data modify block 0 -64 0 Items append from storage hp:geminio DupedItem
 
 loot spawn ~ ~ ~ mine 0 -64 0 minecraft:air{drop_contents:1b}
+tag @e[type=item,distance=..1] add set

@@ -1,0 +1,1 @@
+tellraw @s ["",{"text":"Polyjuice potion can't be given as it needs a player's hair to work","color":"dark_red"}]

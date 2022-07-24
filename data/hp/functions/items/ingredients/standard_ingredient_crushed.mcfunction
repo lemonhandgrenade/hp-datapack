@@ -1,1 +1,1 @@
-give @s chain_command_block{display:{Name:'{"text":"Standard Ingredient Paste","color":"#394000","italic":false}',Lore:['{"text":"Paste like mixture of dried herbs","italic":false}']},Ingredient:1b,CustomModelData:2431} 1
+give @s chain_command_block{display:{Name:'{"text":"Standard Ingredient Paste","color":"#394000","italic":false}',Lore:['{"text":"Paste like mixture of dried herbs","italic":false}']},Ingredient:1b,CustomModelData:2441,PotionID:2441} 1

@@ -1,0 +1,1 @@
+give @s chain_command_block{display:{Name:'{"text":"Asphodel","color":"#EEEEFF","italic":false}',Lore:['{"text":"Used in potion making.","italic":false}']},Weight:10,Ingredient:1b,CustomModelData:180,PotionID:180} 1

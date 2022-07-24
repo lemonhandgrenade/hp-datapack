@@ -1,0 +1,812 @@
+{"arr": [
+	{
+		"Name": "Adalbert Waffling",
+		"Year": "1899-1981",
+		"Description": "Famous magical theoretician.",
+		"Card": "#24 Bronze"
+	},
+	{
+		"Name": "Alberic Grunnion",
+		"Year": "1803-1882",
+		"Description": "This nineteenth-century wizard\ninvented the Dungbomb.",
+		"Card": "#97 Silver"
+	},
+	{
+		"Name": "Alberta Toothill",
+		"Year": "1391-1483",
+		"Description": "Winner of the All-England Wizarding\nDuelling Competition of 1430.\nFamously overcame the favourite,\nSamson Wiblin, with a Blasting Curse.",
+		"Card": "#89 Silver"
+	},
+	{
+		"Name": "Albus Dumbledore",
+		"Year": "1881-1996",
+		"Description": "Considered by many the greatest\nwizard of modern times,Professor Dumbledore\nis particularly famous for his defeat\nof the dark wizard Grindelwald in 1945,\nfor the discovery of the twelve uses of\ndragon’s blood and his work on alchemy with his\npartner, Nicolas Flamel. Professor Dumbledore\nenjoys chamber music and tenpin bowling.",
+		"Card": "#100 Gold"
+	},
+	{
+		"Name": "Albus Dumbledore 2",
+		"Year": "1881-1996",
+		"Description": "Considered by many the greatest\nwizard of modern times,Professor Dumbledore\nis particularly famous for his defeat\nof the dark wizard Grindelwald in 1945,\nfor the discovery of the twelve uses of\ndragon’s blood and his work on alchemy with his\npartner, Nicolas Flamel. Professor Dumbledore\nenjoys chamber music and tenpin bowling.",
+		"Card": "#5 Bonus Cards"
+	},
+	{
+		"Name": "Almeric Sawbridge",
+		"Year": "1602-1699",
+		"Description": "Famous for conquering the\nriver troll that was terrorising\nthose trying to cross the Wye River.\nRiver troll in question believed to\nbe one of the largest ever\nto exist in Britain\nwith a weight of one tonne.",
+		"Card": "#26 Bronze"
+	},
+	{
+		"Name": "Andros the Invincible",
+		"Year": "Ancient Greek",
+		"Description": "Alleged to have been the only known\nwizard to produce a Patronus the size of a giant.",
+		"Card": "#13 Silver"
+	},
+	{
+		"Name": "Archibald Alderton",
+		"Year": "1568-1623",
+		"Description": "Famous for blowing up a hamlet of Little Dropping,\nHampshire whilst attempting to magically mix a birthday cake.",
+		"Card": "#29 Bronze"
+	},
+	{
+		"Name": "Artemisia Lufkin",
+		"Year": "1754-1825",
+		"Description": "In 1798 Artemisia Lufkin was the\nfirst witch to become Minister for Magic.",
+		"Card": "#30 Silver"
+	},
+	{
+		"Name": "Balfour Blane",
+		"Year": "1566-1629",
+		"Description": "Established the Committee on Experimental Charms.",
+		"Card": "#31 Bronze"
+	},
+	{
+		"Name": "Beatrix Bloxam",
+		"Year": "1794-1910",
+		"Description": "Author of the Toadstool Tales, a series of\nchildrens' books since banned because they\nhave been found to cause nausea and vomiting.",
+		"Card": "#80 Bronze"
+	},
+	{
+		"Name": "Beatrix Bloxam 2",
+		"Year": "1794-1910",
+		"Description": "Author of the Toadstool Tales, a series of\nchildrens' books since banned because they\nhave been found to cause nausea and vomiting.",
+		"Card": "#1 Famous Witches Cards"
+	},
+	{
+		"Name": "Beaumont Marjoribanks",
+		"Year": "1742-1845",
+		"Description": "Pioneer of Herbology and collector\nof many rare and magical flowers.\nDiscovered Gillyweed.",
+		"Card": "#33 Bronze"
+	},
+	{
+		"Name": "Bertie Bott",
+		"Year": "1935–present",
+		"Description": "Inventor of Bertie Bott's\nEvery Flavour Beans.",
+		"Card": "#69 Gold"
+	},
+	{
+		"Name": "Blenheim Stalk",
+		"Year": "1920-present",
+		"Description": "Muggle expert and author of many books\nincluding 'Muggles Who Notice.'\na study of muggle awareness of magic.",
+		"Card": "#85 Silver"
+	},
+	{
+		"Name": "Bowman Wright",
+		"Year": "1492-1560",
+		"Description": "Famous for developing the Golden Snitch.",
+		"Card": "#35 Silver"
+	},
+	{
+		"Name": "Bowman Wright 2",
+		"Year": "1492-1560",
+		"Description": "Famous for developing the Golden Snitch.",
+		"Card": "#5 Quidditch Cards"
+	},
+	{
+		"Name": "Bridget Wenlock",
+		"Year": "1202-1285",
+		"Description": "Famous Arithmancer. First to establish\nthe magical properties of the number seven.",
+		"Card": "#32 Bronze"
+	},
+	{
+		"Name": "Burdock Muldoon",
+		"Year": "1429-1490",
+		"Description": "Chief of Wizards' Council 1448-50.",
+		"Card": "#10 Bronze"
+	},
+	{
+		"Name": "Carlotta Pinkstone",
+		"Year": "1922-present",
+		"Description": "Famous campaigner for lifting the\nInternational Confederation of Wizard’s\nStatute of Secrecy and telling\nMuggle folks that wizards still exist.\nMs. Pinkstone has been imprisoned several\ntimes for her blatant and deliberate\nuse of magic in public places.",
+		"Card": "#40 Gold"
+	},
+	{
+		"Name": "Cassandra Vablatsky",
+		"Year": "1894-1997",
+		"Description": "Celebrated Seer and author\nof 'Unfogging the Future'.",
+		"Card": "#37 Bronze"
+	},
+	{
+		"Name": "Celestina Warbeck",
+		"Year": "1917–present",
+		"Description": "Popular singing sorceress.",
+		"Card": "#88 Bronze"
+	},
+	{
+		"Name": "Chauncey Oldridge",
+		"Year": "1342-1379",
+		"Description": "First known victim of Dragon Pox.",
+		"Card": "#38 Silver"
+	},
+	{
+		"Name": "Circe",
+		"Year": "Ancient Greek",
+		"Description": "Witch who lived on\nIsland of Aeaea. Expert at\nturning lost sailors into pigs.",
+		"Card": "#22 Silver"
+	},{
+		"Name": "Cornelius Agrippa",
+		"Year": "1486-1535",
+		"Description": "Agrippa was a celebrated wizard\nimprisoned by Muggles for his writings.",
+		"Card": "#2 Bronze"
+	},
+	{
+		"Name": "Crispin Cronk",
+		"Year": "1795-1872",
+		"Description": "Sent to Azkaban for continuing to\nkeep Sphinxes in his back garden\ndespite repeated warnings.",
+		"Card": "#42 Silver"
+	},
+	{
+		"Name": "Crispin Cronk 2",
+		"Year": "1795-1872",
+		"Description": "Sent to Azkaban for continuing to\nkeep Sphinxes in his back garden\ndespite repeated warnings.",
+		"Card": "#3 Famous Wizards Cards"
+	},
+	{
+		"Name": "Cyprian Youdle",
+		"Year": "1312-1357",
+		"Description": "Only Quidditch referee ever to die\nduring a match.\nThe originator of the curse was never\ncaught but believed to have\nbeen a member of the crowd.",
+		"Card": "#43 Silver"
+	},
+	{
+		"Name": "Daisy Dodderidge",
+		"Year": "1467-1555",
+		"Description": "Daisy Dodderidge built the Leaky Cauldron\nto serve as a gateway between the Muggle world\nand Diagon Alley. Wizards and witches\nof her day loved her generosity and\nthe welcoming atmosphere of her pub.",
+		"Card": "#99 Silver"
+	},
+	{
+		"Name": "Derwent Shimpling",
+		"Year": "1912-present",
+		"Description": "Ate an entire Venomous Tentacula\non a bet and survived,\nthough is still purple.",
+		"Card": "#8 Silver"
+	},
+	{
+		"Name": "Devlin Whitehorn",
+		"Year": "1945-present",
+		"Description": "Founder of the Nimbus\nracing broom company.",
+		"Card": "#44 Bronze"
+	},
+	{
+		"Name": "Donaghan Tremlett",
+		"Year": "1972-present",
+		"Description": "Bass player with the popular wizarding\nband The Weird Sisters.",
+		"Card": "#34 Silver"
+	},
+	{
+		"Name": "Dorcas Wellbeloved",
+		"Year": "1812-1904",
+		"Description": "Founder of the Society for Distressed Witches.",
+		"Card": "#86 Bronze"
+	},
+	{
+		"Name": "Dorcas Wellbeloved 2",
+		"Year": "1812-1904",
+		"Description": "Founder of the Society for Distressed Witches.",
+		"Card": "#7 Famous Witches Cards"
+	},
+	{
+		"Name": "Dunbar Oglethorpe",
+		"Year": "1968-present",
+		"Description": "Chief of Q.U.A.B.B.L.E.\n(Quidditch Union for the\nAdministration and Betterment\nof the British League\nand its Endeavours).",
+		"Card": "#45 Silver"
+	},
+	{
+		"Name": "Dunbar Oglethorpe 2",
+		"Year": "1968-present",
+		"Description": "Chief of Q.U.A.B.B.L.E.\n(Quidditch Union for the\nAdministration and Betterment\nof the British League\nand its Endeavours).",
+		"Card": "#16 Silver"
+	},
+	{
+		"Name": "Dymphna Furmage",
+		"Year": "1612—1698",
+		"Description": "Famously abducted by pixies while on\nholiday in Cornwall and lived in\nmortal dread of them thereafter.\nFailed to persuade the Ministry of Magic\nto have all pixies humanely destroyed.",
+		"Card": "#98 Silver"
+	},
+	{
+		"Name": "Dzou Yen",
+		"Year": "4th century B.C",
+		"Description": "Chinese alchemist.",
+		"Card": "#12 Famous Wizards Cards"
+	},
+	{
+		"Name": "Edgar Stroulger",
+		"Year": "1703-1798",
+		"Description": "Inventor of the Sneakoscope.",
+		"Card": "#47 Bronze"
+	},
+	{
+		"Name": "Edgar Stroulger 2",
+		"Year": "1703-1798",
+		"Description": "Inventor of the Sneakoscope.",
+		"Card": "#4 Famous Wizards Cards"
+	},
+	{
+		"Name": "Elfrida Clagg",
+		"Year": "1612-1687",
+		"Description": "Chieftaness of Warlock's Council.",
+		"Card": "#3 Silver"
+	},
+	{
+		"Name": "Elfrida Clagg 2",
+		"Year": "1612-1687",
+		"Description": "Chieftaness of Warlock's Council.",
+		"Card": "#8 Famous Witches Cards"
+	},
+	{
+		"Name": "Elladora Ketteridge",
+		"Year": "1656-1729",
+		"Description": "Witch who discovered the use of Gillyweed\nwhen she nearly suffocated after eating it\nand recovered only when she\nstuck her head into a bucket of water.",
+		"Card": "#49 Bronze"
+	},
+	{
+		"Name": "Ethelred the Ever-Ready",
+		"Year": "Medieval, dates unknown",
+		"Description": "Famous for taking offence at nothing and\ncursing innocent bystanders. Died in Gaol.",
+		"Card": "#51 Bronze"
+	},
+	{
+		"Name": "Ethelred the Ever-Ready 2",
+		"Year": "Medieval, dates unknown",
+		"Description": "Famous for taking offence at nothing and\ncursing innocent bystanders. Died in Gaol.",
+		"Card": "#2 Famous Wizards Cards"
+	},
+	{
+		"Name": "Falco Aesalon",
+		"Year": "Ancient Greek",
+		"Description": "The first recorded example of an Animagus,\nhe could transform himself into a falcon.",
+		"Card": "#13 Famous Wizards Cards"
+	},
+	{
+		"Name": "Felix Summerbee",
+		"Year": "1447-1508",
+		"Description": "Inventor of Cheering Charms.",
+		"Card": "#52 Silver"
+	},
+	{
+		"Name": "Flavius Belby",
+		"Year": "1715-1791",
+		"Description": "Flavius Belby wrote the earliest\nknown account of a Lethifold after he\nsurvived an attack whilst holidaying\nin Papua New Guinea in 1782.",
+		"Card": "#66 Bronze"
+	},
+	{
+		"Name": "Fulbert the Fearful",
+		"Year": "1014-1097",
+		"Description": "Famous for being so cowardly\nhe never ventured out of his house.\nDied when a Defensive Charm backfired\nand the roof fell in.",
+		"Card": "#14 Silver"
+	},
+	{
+		"Name": "Fulbert the Fearful 2",
+		"Year": "1014-1097",
+		"Description": "Famous for being so cowardly\nhe never ventured out of his house.\nDied when a Defensive Charm backfired\nand the roof fell in.",
+		"Card": "#1 Famous Wizards Cards"
+	},
+	{
+		"Name": "Gaspard Shingleton",
+		"Year": "1959-present",
+		"Description": "Celebrated inventor of the\nSelf-Stirring Cauldron.",
+		"Card": "#54 Silver"
+	},
+	{
+		"Name": "Gideon Crumb",
+		"Year": "1975-present",
+		"Description": "Plays bagpipes with the popular\nwizarding band The Weird Sisters.",
+		"Card": "#56 Silver"
+	},
+	{
+		"Name": "Gifford Ollerton",
+		"Year": "1390-1441",
+		"Description": "Famous giant-slayer, killed the\ngiant Hengist of Upper Barnton.",
+		"Card": "#57 Bronze"
+	},
+	{
+		"Name": "Glanmore Peakes",
+		"Year": "1677-1761",
+		"Description": "Famous slayer of the Sea Serpent of Cromer.",
+		"Card": "#6 Bronze"
+	},
+	{
+		"Name": "Glanmore Peakes 2",
+		"Year": "1677-1761",
+		"Description": "Famous slayer of the Sea Serpent of Cromer.",
+		"Card": "#8 Famous Wizards Cards"
+	},
+	{
+		"Name": "Glenda Chittock",
+		"Year": "1964-present",
+		"Description": "Popular presenter of the W.W.N.\n(Wizarding Wireless Network)\nprogramme Witching Hour.",
+		"Card": "#23 Silver"
+	},
+	{
+		"Name": "Glover Hipworth",
+		"Year": "1742-1805",
+		"Description": "Inventor of the Pepperup Potion,\ncure for the common cold.",
+		"Card": "#58 Bronze"
+	},
+	{
+		"Name": "Godric Gryffindor",
+		"Year": "Medieval, dates unknown",
+		"Description": "Co-founder of Hogwarts.\nGave his name to one of\nthe four Hogwarts houses.",
+		"Card": "#41 Gold"
+	},
+	{
+		"Name": "Godric Gryffindor 2",
+		"Year": "Medieval, dates unknown",
+		"Description": "Co-founder of Hogwarts.\nGave his name to one of\nthe four Hogwarts houses.",
+		"Card": "#1 Bonus Cards"
+	},
+	{
+		"Name": "Gondoline Oliphant",
+		"Year": "1720-1799",
+		"Description": "Famous for studies of\nlife and habits of trolls.\nClubbed to death in the Cotswolds\nwhile sketching.",
+		"Card": "#65 Silver"
+	},
+	{
+		"Name": "Gregory the Smarmy",
+		"Year": "Medieval, dates unknown",
+		"Description": "Famous originator of Gregory's Unctuous Unction\npotion to persuade the drinker that the giver\nis their very best friend.\nAlleged to have wormed his way into\nKing Richard's confidence and\nthus made his fortune.",
+		"Card": "#59 Silver"
+	},
+	{
+		"Name": "Greta Catchlove",
+		"Year": "1960-present",
+		"Description": "Author of 'Charm Your Own Cheese'.",
+		"Card": "#53 Bronze"
+	},
+	{
+		"Name": "Grogan Stump",
+		"Year": "1770-1884",
+		"Description": "Popular Minister for Magic, appointed 1811.",
+		"Card": "#4 Bronze"
+	},
+	{
+		"Name": "Grogan Stump 2",
+		"Year": "1770-1884",
+		"Description": "Popular Minister for Magic, appointed 1811.",
+		"Card": "#7 Famous Wizards Cards"
+	},
+	{
+		"Name": "Gulliver Pokeby",
+		"Year": "1750-1839",
+		"Description": "Expert on magical birds.\nFirst to identify meaning of Augurey song.",
+		"Card": "#5 Bronze"
+	},
+	{
+		"Name": "Gunhilda of Gorsemoor",
+		"Year": "1556-1639",
+		"Description": "One-eyed, hump-backed witch\nfamous for developing a cure for Dragon pox.",
+		"Card": "#9 Bronze"
+	},
+	{
+		"Name": "Gunhilda of Gorsemoor 2",
+		"Year": "1556-1639",
+		"Description": "One-eyed, hump-backed witch\nfamous for developing a cure for Dragon pox.",
+		"Card": "#15 Famous Witches Cards"
+	},
+	{
+		"Name": "Gwenog Jones",
+		"Year": "1968-present",
+		"Description": "Captain and Beater of the all-female\nnational Quidditch team, the Holyhead Harpies.",
+		"Card": "#39 Silver"
+	},
+	{
+		"Name": "Gwenog Jones 2",
+		"Year": "1968-present",
+		"Description": "Captain and Beater of the all-female\nnational Quidditch team, the Holyhead Harpies.",
+		"Card": "#2 Quidditch Cards"
+	},
+	{
+		"Name": "Harry Potter",
+		"Year": "1980-present",
+		"Description": "The boy who lived.",
+		"Card": "#100 Gold"
+	},
+	{
+		"Name": "Harry Potter 2",
+		"Year": "1980-present",
+		"Description": "The boy who lived.",
+		"Card": "#15 Famous Wizards Cards"
+	},
+	{
+		"Name": "Havelock Sweeting",
+		"Year": "1634-1710",
+		"Description": "Unicorn expert. Helped set up unicorn\nreservations throughout Britain.",
+		"Card": "#61 Bronze"
+	},
+	{
+		"Name": "Heathcote Barbary",
+		"Year": "1974-present",
+		"Description": "Plays rhythm guitar with the popular\nwizarding band The Weird Sisters.",
+		"Card": "#93 Bronze"
+	},
+	{
+		"Name": "Helga Hufflepuff",
+		"Year": "Medieval, dates unknown",
+		"Description": "Co-founder of Hogwarts.\nGave her name to one of\nthe four Hogwarts houses.",
+		"Card": "#72 Gold"
+	},
+	{
+		"Name": "Helga Hufflepuff 2",
+		"Year": "Medieval, dates unknown",
+		"Description": "Co-founder of Hogwarts.\nGave her name to one of\nthe four Hogwarts houses.",
+		"Card": "#3 Bonus Card"
+	},
+	{
+		"Name": "Hengist of Woodcroft",
+		"Year": "Medieval, dates unknown",
+		"Description": "Founder of the village of\nHogsmeade in Scotland",
+		"Card": "#96 Bronze"
+	},
+	{
+		"Name": "Herman Wintringham",
+		"Year": "1974-present",
+		"Description": "Plays lute with the popular\nwizarding band The Weird Sisters.",
+		"Card": "#63 Bronze"
+	},
+	{
+		"Name": "Herpo the Foul",
+		"Year": "Ancient Greek",
+		"Description": "First known creator of the basilisk.",
+		"Card": "#11 Gold"
+	},
+	{
+		"Name": "Hesper Starkey",
+		"Year": "1881-1973",
+		"Description": "Hesper Starkey studied the\nuse of phases of the moon\nin potion-making.",
+		"Card": "#7 Bronze"
+	},
+	{
+		"Name": "Hesper Starkey 2",
+		"Year": "1881-1973",
+		"Description": "Hesper Starkey studied the\nuse of phases of the moon\nin potion-making.",
+		"Card": "#11 Famous Witches Cards"
+	},
+	{
+		"Name": "Honoria Nutcombe",
+		"Year": "1665-1743",
+		"Description": "Founded the Society for\nthe Reformation of Hags.",
+		"Card": "#55 Silver"
+	},
+	{
+		"Name": "Honoria Nutcombe 2",
+		"Year": "1665-1743",
+		"Description": "Founded the Society for\nthe Reformation of Hags.",
+		"Card": "#3 Famous Witches Cards"
+	},
+	{
+		"Name": "Ignatia Wildsmith",
+		"Year": "1227-1320",
+		"Description": "Ignatia Wildsmith was a\nwizarding inventor and the\ncreator of Floo powder.",
+		"Card": "#62 Silver"
+	},
+	{
+		"Name": "Ignatia Wildsmith 2",
+		"Year": "1227-1320",
+		"Description": "Ignatia Wildsmith was a\nwizarding inventor and the\ncreator of Floo powder.",
+		"Card": "#10 Famous Witches Cards"
+	},
+	{
+		"Name": "Jocunda Sykes",
+		"Year": "1915–present",
+		"Description": "Famous for flying across the Atlantic\non a broomstick\nthe first person to do so.",
+		"Card": "#64 Bronze"
+	},
+	{
+		"Name": "Jocunda Sykes 2",
+		"Year": "1915–present",
+		"Description": "Famous for flying across the Atlantic\non a broomstick\nthe first person to do so.",
+		"Card": "#5 Famous Witches Cards"
+	},
+	{
+		"Name": "Joscelind Wadcock",
+		"Year": "1911-present",
+		"Description": "Chaser for Puddlemere United Quidditch team.\nRecord for highest number of goals\nduring British season this century.",
+		"Card": "#36 Silver"
+	},
+	{
+		"Name": "Joscelind Wadcock 2",
+		"Year": "1911-present",
+		"Description": "Chaser for Puddlemere United Quidditch team.\nRecord for highest number of goals\nduring British season this century.",
+		"Card": "#1 Quidditch Cards"
+	},
+	{
+		"Name": "Justus Pilliwickle",
+		"Year": "1862-1953",
+		"Description": "Celebrated Head of the Department\nof Magical Law Enforcement.",
+		"Card": "#67 Bronze"
+	},
+	{
+		"Name": "Kirley Duke",
+		"Year": "1971-present",
+		"Description": "Plays lead guitar with the\npopular wizarding band The Weird Sisters.",
+		"Card": "#68 Silver"
+	},
+	{
+		"Name": "Laverne de Montmorency",
+		"Year": "1823-1893",
+		"Description": "Inventor of many Love Potions.",
+		"Card": "#60 Silver"
+	},
+	{
+		"Name": "Leopoldina Smethwyck",
+		"Year": "1829-1910",
+		"Description": "Leopoldina was the first British\nwitch to referee a Quidditch match.",
+		"Card": "#70 Silver"
+	},
+	{
+		"Name": "Merlin",
+		"Year": "Medieval, dates unknown",
+		"Description": "Merlin is the most famous wizard\nof all time. He is sometimes known as\nthe Prince of Enchanters and was\npart of the Court of King Arthur.",
+		"Card": "#1 Bronze"
+	},
+	{
+		"Name": "Merton Graves",
+		"Year": "1978-present",
+		"Description": "Plays cello with the popular\nwizarding band The Weird Sisters.",
+		"Card": "#94 Bronze"
+	},
+	{
+		"Name": "Merwyn the Malicious",
+		"Year": "Medieval,dates unknown",
+		"Description": "Merwyn the Malicious was a medieval wizard\ncredited with the invention of many\nunpleasant jinxes and hexes.",
+		"Card": "#12 Bronze"
+	},
+	{
+		"Name": "Mirabella Plunkett",
+		"Year": "1839-unknown",
+		"Description": "Famous for falling in love with a merman\nin Loch Lomond while on holiday.\nWhen her parents forbade her to marry him,\nshe transfigured herself into a haddock\nand was never seen again.",
+		"Card": "#27 Silver"
+	},
+	{
+		"Name": "Mirabella Plunkett 2",
+		"Year": "1839-unknown",
+		"Description": "Famous for falling in love with a merman\nin Loch Lomond while on holiday.\nWhen her parents forbade her to marry him,\nshe transfigured herself into a haddock\nand was never seen again.",
+		"Card": "#13 Famous Witches Cards"
+	},
+	{
+		"Name": "Miranda Goshawk",
+		"Year": "1921-present",
+		"Description": "Miranda Goshawk is the author of\nThe Standard Book of Spells series,\nwhich are set textbooks for the\nstudents of Hogwarts.",
+		"Card": "#46 Bronze"
+	},
+	{
+		"Name": "Montague Knightley",
+		"Year": "1506-1588",
+		"Description": "Wizard's Chess Champion.",
+		"Card": "#74 Gold"
+	},
+	{
+		"Name": "Mopsus",
+		"Year": "Ancient Greek",
+		"Description": "Soothsayer who vanquished the\nSeer Calchas in a contest of their powers.",
+		"Card": "#73 Silver"
+	},
+	{
+		"Name": "Morgan le Fay",
+		"Year": "Medieval, dates unknown",
+		"Description": "King Arthur's half sister.\nDark sorceress. Enemy of Merlin.",
+		"Card": "#17 Silver"
+	},
+	{
+		"Name": "Morgan le Fay 2",
+		"Year": "Medieval, dates unknown",
+		"Description": "King Arthur's half sister.\nDark sorceress. Enemy of Merlin.",
+		"Card": "#14 Famous Witches Cards"
+	},
+	{
+		"Name": "Mungo Bonham",
+		"Year": "1560-1659",
+		"Description": "Famous wizard healer.\nFounded Saint Mungo's Hospital\nfor Magical Ailments and Injuries.",
+		"Card": "#75 Bronze"
+	},
+	{
+		"Name": "Mungo Bonham 2",
+		"Year": "1560-1659",
+		"Description": "Famous wizard healer.\nFounded Saint Mungo's Hospital\nfor Magical Ailments and Injuries.",
+		"Card": "#11 Famous Wizards Cards"
+	},
+	{
+		"Name": "Musidora Barkwith",
+		"Year": "1520-1666",
+		"Description": "Composer of the unfinished Wizarding Suite,\nwhich features an exploding tuba.\nIts performance has been banned since\nits last performance in 1902, when it\nblew the roof out of Ackerley Town Hall.",
+		"Card": "#50 Bronze"
+	},
+	{
+		"Name": "Myron Wagtail",
+		"Year": "1970-present",
+		"Description": "Lead singer of popular\nwizarding band the Weird Sisters.",
+		"Card": "#76 Bronze"
+	},
+	{
+		"Name": "Newt Scamander",
+		"Year": "1897–present",
+		"Description": "Celebrated author of\n'Fantastic Beasts and Where to Find Them'.",
+		"Card": "#19 Bronze"
+	},
+	{
+		"Name": "Norvel Twonk",
+		"Year": "1888-1957",
+		"Description": "Died saving a Muggle child\nfrom a runaway Manticore.\nPosthumously awarded the\nOrder of Merlin, First Class.",
+		"Card": "#77 Silver"
+	},
+	{
+		"Name": "Norvel Twonk 2",
+		"Year": "1888-1957",
+		"Description": "Died saving a Muggle child\nfrom a runaway Manticore.\nPosthumously awarded the\nOrder of Merlin, First Class.",
+		"Card": "#6 Famous Wizards Cards"
+	},
+	{
+		"Name": "Orsino Thruston",
+		"Year": "1976-present",
+		"Description": "Plays drums with the popular\nwizarding band the Weird Sisters.",
+		"Card": "#78 Bronze"
+	},
+	{
+		"Name": "Oswald Beamish",
+		"Year": "1850-1932",
+		"Description": "Pioneer of Goblin rights.",
+		"Card": "#79 Silver"
+	},
+	{
+		"Name": "Oswald Beamish 2",
+		"Year": "1850-1932",
+		"Description": "Pioneer of Goblin rights.",
+		"Card": "#5 Famous Wizards Cards"
+	},
+	{
+		"Name": "Paracelsus",
+		"Year": "1493-1591",
+		"Description": "Contemporary of Copernicus and Leonardo Da Vinci,\na medical genius whose bold theories\nChallenged medieval thought.\nCredited with discovering Parseltongue.",
+		"Card": "#15 Gold"
+	},
+	{
+		"Name": "Perpetua Fancourt",
+		"Year": "1900-1991",
+		"Description": "Witch who invented the Lunascope.",
+		"Card": "#25 Bronze"
+	},
+	{
+		"Name": "Quong Po",
+		"Year": "1443-1539",
+		"Description": "Chinese wizard who discovered\nthe uses of powered fireball eggs.",
+		"Card": "#81 Bronze"
+	},
+	{
+		"Name": "Roderick Plumpton",
+		"Year": "1889-1987",
+		"Description": "Seeker for the English Quidditch Team.\nHolds British record for fastest\ncapture of Snitch during game:\nthree and a half seconds.",
+		"Card": "#83 Bronze"
+	},
+	{
+		"Name": "Roderick Plumpton 2",
+		"Year": "1889-1987",
+		"Description": "Seeker for the English Quidditch Team.\nHolds British record for fastest\ncapture of Snitch during game:\nthree and a half seconds.",
+		"Card": "#4 Quidditch Cards"
+	},
+	{
+		"Name": "Roland Kegg",
+		"Year": "1903-present",
+		"Description": "President of English Gobstones Team.",
+		"Card": "#84 Bronze"
+	},
+	{
+		"Name": "Rowena Ravenclaw",
+		"Year": "Medieval, dates unknown.",
+		"Description": "Co-founder of Hogwarts.\nGave her name to one of\nthe four Hogwarts houses.",
+		"Card": "#82 Gold"
+	},
+	{
+		"Name": "Rowena Ravenclaw 2",
+		"Year": "Medieval, dates unknown.",
+		"Description": "Co-founder of Hogwarts.\nGave her name to one of\nthe four Hogwarts houses.",
+		"Card": "#2 Bonus Cards"
+	},
+	{
+		"Name": "Sacharissa Tugwood",
+		"Year": "1874-1966",
+		"Description": "Pioneer of Beautifying Potions.\nDiscovered the pimple-curing\nproperties of Bubotuber Pus.",
+		"Card": "#90 Silver"
+	},
+	{
+		"Name": "Sacharissa Tugwood 2",
+		"Year": "1874-1966",
+		"Description": "Pioneer of Beautifying Potions.\nDiscovered the pimple-curing\nproperties of Bubotuber Pus.",
+		"Card": "#9 Famous Witches Cards"
+	},
+	{
+		"Name": "Salazar Slytherin",
+		"Year": "Medieval, dates unknown",
+		"Description": "Co-founder of Hogwarts.\nGave his name to one of\nthe four Hogwarts Houses.",
+		"Card": "#48 Gold"
+	},
+	{
+		"Name": "Salazar Slytherin 2",
+		"Year": "Medieval, dates unknown",
+		"Description": "Co-founder of Hogwarts.\nGave his name to one of\nthe four Hogwarts Houses.",
+		"Card": "#4 Bonus Cards"
+	},
+	{
+		"Name": "Lord Stoddard Withers",
+		"Year": "1672-1769",
+		"Description": "Breeder of flying horses.",
+		"Card": "#21 Bronze"
+	},
+	{
+		"Name": "Thaddeus Thurkell",
+		"Year": "1632-1692",
+		"Description": "Famous for producing seven Squib\nsons and turning them all\ninto hedgehogs in disgust.",
+		"Card": "#87 Silver"
+	},
+	{
+		"Name": "Thaddeus Thurkell 2",
+		"Year": "1632-1692",
+		"Description": "Famous for producing seven Squib\nsons and turning them all\ninto hedgehogs in disgust.",
+		"Card": "#14 Famous Wizards Cards"
+	},
+	{
+		"Name": "Tilly Toke",
+		"Year": "1903-1991",
+		"Description": "Gained Order of Merlin, First Class\nfor saving Muggle lives during the\nIlfracombe Incident of 1932,\nwhen a dragon swooped down on a\nbeach full of sunbathers.",
+		"Card": "#28 Bronze"
+	},
+	{
+		"Name": "Uric the Oddball",
+		"Year": "Medieval, dates unknown",
+		"Description": "Highly eccentric wizard who\nis famed, among other things,\nfor wearing a jellyfish for a hat.",
+		"Card": "#18 Bronze"
+	},
+	{
+		"Name": "Wendelin the Weird",
+		"Year": "Medieval, dates unknown",
+		"Description": "Alleged to have enjoyed being burnt\nat the stake so much that she\nallowed herself to be captured\nfourteen times in various\ndisguises.",
+		"Card": "#20 Silver"
+	},
+	{
+		"Name": "Wendelin the Weird 2",
+		"Year": "Medieval, dates unknown",
+		"Description": "Alleged to have enjoyed being burnt\nat the stake so much that she\nallowed herself to be captured\nfourteen times in various\ndisguises.",
+		"Card": "#4 Famous Witches Cards"
+	},
+	{
+		"Name": "Wilfred Elphick",
+		"Year": "1112-1199",
+		"Description": "First wizard to be gored by an African Erumpent.",
+		"Card": "#91 Bronze"
+	},
+	{
+		"Name": "Wilfred Elphick 2",
+		"Year": "1112-1199",
+		"Description": "First wizard to be gored by an African Erumpent.",
+		"Card": "#9 Famous Wizards Cards"
+	},
+	{
+		"Name": "Xavier Rastrick",
+		"Year": "1750-1836",
+		"Description": "Flamboyant wizard entertainer\nwho vanished unexpectedly while tapdancing\nto a crowd of three hundred\nin Painswick and was never\nseen again.",
+		"Card": "#92 Silver"
+	},
+	{
+		"Name": "Yardley Platt",
+		"Year": "1446-1557",
+		"Description": "Serial goblin-killer.",
+		"Card": "#95 Bronze"
+	}
+]
+}

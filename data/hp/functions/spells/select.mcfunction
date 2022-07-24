@@ -217,9 +217,6 @@ execute as @s[tag=whiteSparks] run function hp:spells/w/white_sparks/private/lau
 
 execute as @s[tag=yellowSpecialJinx] run function hp:spells/y/yellow_special_jinx/private/launch
 
-
-
-
 execute as @s[tag=straightLine] run function hp:spells/_custom/straight_line/private/launch
 execute as @s[tag=homingRay] run function hp:spells/_custom/homing_ray/private/launch
 execute as @s[tag=controlledRay] run function hp:spells/_custom/controlled_ray/private/launch

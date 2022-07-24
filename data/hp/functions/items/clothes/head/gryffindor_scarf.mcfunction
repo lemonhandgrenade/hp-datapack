@@ -1,0 +1,1 @@
+give @s leather_helmet{display:{Name:'{"text":"Gryffindor Scarf","italic":false}',color:16719104},CustomModelData:1} 1

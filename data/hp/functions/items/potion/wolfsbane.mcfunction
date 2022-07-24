@@ -1,0 +1,1 @@
+give @s potion{HideFlags:32,display:{Name:'{"text":"Wolfsbane","color":"#5A792A","italic":false}',Lore:['{"text":"Allows a werewolf to be concious during the full moon","italic":false}']},Potion:"minecraft:empty",CustomPotionColor:740433,CustomModelData:154} 1

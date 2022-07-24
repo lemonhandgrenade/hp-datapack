@@ -11,5 +11,8 @@ execute unless score @s spell matches 457 run item modify entity @s weapon.mainh
 
 scoreboard players add @s spellCount 1
 
+advancement grant @s[scores={spell=124}] only hp:pack/spells/unforgivable
+advancement grant @s[scores={spell=301}] only hp:pack/spells/unforgivable
+advancement grant @s[scores={spell=323}] only hp:pack/spells/unforgivable
 advancement grant @s only hp:pack/spells/first_spell
 advancement revoke @s only hp:cast

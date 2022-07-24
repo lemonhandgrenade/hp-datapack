@@ -1,0 +1,1 @@
+give @s leather_leggings{display:{Name:'{"text":"Gryffindor Lower Robes","italic":false}',color:16719104},CustomModelData:1} 1

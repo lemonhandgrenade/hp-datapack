@@ -1,4 +1,5 @@
 #particle dust_color_transition 0.8 0.2 0.3 1 1 0 0 ~ ~ ~ 0 0 0 0 1
+particle minecraft:falling_obsidian_tear ~ ~ ~ 0 0 0 0 1
 
 execute if entity @a[tag=!this,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @a[tag=!this,dx=0] positioned ~0.7 ~0.7 ~0.7 run function hp:spells/l/langlock/hit_entity
 

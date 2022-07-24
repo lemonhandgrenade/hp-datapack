@@ -4,7 +4,7 @@
   "predicate": {
     "vehicle": {
       "type": "minecraft:snowball",
-      "nbt": "{Tags:[\"quidditchBall\"]}"
+      "nbt": "{Tags:[\"specialBall\"]}"
     }
   }
 }

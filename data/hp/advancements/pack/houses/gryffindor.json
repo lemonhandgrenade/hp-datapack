@@ -6,7 +6,7 @@
             "item": "minecraft:repeating_command_block",
             "nbt": "{CustomModelData:1001}"
         },
-        "frame": "goal",
+        "frame": "challenge",
         "show_toast": false,
         "announce_to_chat": false
     },

@@ -32,9 +32,9 @@ execute if score #lev_amp values > #max values run scoreboard players remove tem
 execute if score #lev_amp values > #max values run scoreboard players operation temp values *= #max values
 execute if score #lev_amp values > #max values run scoreboard players operation #lev_amp values -= temp values
 
-tellraw @s[tag=debug] ["temp:     ", {"score":{"name":"temp","objective":"values"}}]
-tellraw @s[tag=debug] ["#lev_dur: ", {"score":{"name":"#lev_dur","objective":"values"}}]
-tellraw @s[tag=debug] ["#lev_amp: ", {"score":{"name":"#lev_amp","objective":"values"}}]
+tellraw @s[tag=debug] [{"text":"temp:     ","color":"#4B0082"}, {"score":{"name":"temp","objective":"values"},"color":"#4B0082"}]
+tellraw @s[tag=debug] [{"text":"#lev_dur: ","color":"#4B0082"}, {"score":{"name":"#lev_dur","objective":"values"},"color":"#4B0082"}]
+tellraw @s[tag=debug] [{"text":"#lev_amp: ","color":"#4B0082"}, {"score":{"name":"#lev_amp","objective":"values"},"color":"#4B0082"}]
 
 
 # What all this does and how to use it for when I forget later

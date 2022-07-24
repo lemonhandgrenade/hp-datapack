@@ -1,0 +1,1 @@
+give @s chain_command_block{display:{Name:'{"text":"Sloth Brain","color":"#946b5D","italic":false}',Lore:['{"text":"Obtained from:","italic":false}','{"text":"Sloths","italic":false}']},Weight:48,Ingredient:1b,CustomModelData:2310,PotionID:2310} 1

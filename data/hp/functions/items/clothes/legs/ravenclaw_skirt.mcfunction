@@ -1,0 +1,1 @@
+give @s leather_leggings{display:{Name:'{"text":"Ravenclaw Skirt","italic":false}',color:7248625},CustomModelData:2} 1

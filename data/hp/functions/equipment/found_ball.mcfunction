@@ -1,0 +1,15 @@
+execute if entity @s[nbt={Item:{tag:{dungbomb:1b}}}] run summon snowball ~ ~ ~ {Tags:["dungbomb","init","spellEntity","specialBall"],Passengers:[{id:"minecraft:area_effect_cloud",Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["dungbomb","specialAEC"]}]}
+execute if entity @s[nbt={Item:{tag:{instantDarknessPowder:1b}}}] run summon snowball ~ ~ ~ {Tags:["darknessPowder","init","spellEntity","specialBall"],Passengers:[{id:"minecraft:area_effect_cloud",Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["instantDarknessPowder","specialAEC"]}]}
+execute if entity @s[nbt={Item:{tag:{quidditchBall:1b}}}] run summon snowball ~ ~ ~ {Tags:["quidditchBall","init","spellEntity","specialBall"],Passengers:[{id:"minecraft:area_effect_cloud",Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["quidditchItem","specialAEC"]}]}
+execute store result score temp values run data get entity @s Item.tag.CustomModelData
+execute if score temp values matches 2 run tag @e[type=area_effect_cloud,tag=quidditchItem,limit=1] add quidditchQuaffle
+
+execute rotated as @p run tp @e[type=snowball,tag=specialBall,tag=init,limit=1] ^ ^ ^1
+
+data modify entity @e[type=snowball,tag=specialBall,tag=init,limit=1] Item set from entity @s Item
+data modify entity @e[type=snowball,tag=specialBall,tag=init,limit=1] Owner set from entity @s Owner
+data modify entity @e[type=snowball,tag=specialBall,tag=init,limit=1] Motion set from entity @s Motion
+
+tag @e[type=snowball,tag=specialBall,tag=init,limit=1] remove init
+
+kill @s

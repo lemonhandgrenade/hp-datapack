@@ -1,0 +1,1 @@
+give @s leather_helmet{display:{Name:'{"text":"Hufflepuff Scarf","italic":false}',color:16770365},CustomModelData:1} 1

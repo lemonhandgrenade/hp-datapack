@@ -12,21 +12,3 @@ execute if score @s quizTrigger matches 362396 run scoreboard players add @s sly
 execute if score @s quizTrigger matches 362396 run scoreboard players set temp values 1
 execute if score @s quizTrigger matches 599860 run scoreboard players add @s slytherinQuiz 2
 execute if score @s quizTrigger matches 599860 run scoreboard players set temp values 1
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -1,8 +1,9 @@
 # Table of Contents
-1. [Wands](#wands)
-2. [Potions](#potions)
-3. [Ingredients](#ingredients)
-4. [Generators](#generators)
+- [Wands](#wands)
+- [Potions](#potions)
+- [Ingredients](#ingredients)
+- [Generators](#generators)
+- [What This Replaces](#what-this-replaces)
 
 
 ## Wands
@@ -46,3 +47,6 @@ The important parts are as follows:
 ## Generators
 Command generators can be found [here](https://lemonhandgrenade.github.io/repos/hp-datapack/generator.html).  
 It can be used to generate custom wands and potion recipes.
+
+## What This Replaces
+To see a list of what the pack replaces see [here](https://github.com/lemonhandgrenade/hp-datapack/blob/main/docs/Replaces.md).

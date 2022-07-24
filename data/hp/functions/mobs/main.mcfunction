@@ -1,0 +1,1 @@
+execute if entity @s[type=zombie,tag=werewolf] run function hp:werewolf/animation

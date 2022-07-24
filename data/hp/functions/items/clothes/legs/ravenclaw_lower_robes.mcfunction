@@ -1,0 +1,1 @@
+give @s leather_leggings{display:{Name:'{"text":"Ravenclaw Lower Robes","italic":false}',color:7248624},CustomModelData:1} 1

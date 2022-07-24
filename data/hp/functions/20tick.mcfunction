@@ -1,9 +1,5 @@
 schedule function hp:20tick 20t
 
-scoreboard players add @a spellCooldown 0
-scoreboard players add @a currentSpellSlot 0
-scoreboard players add @a deaths 0
-
 scoreboard players remove @a[scores={vc=1..}] vc 1
 execute as @a[scores={vc=0}] run function hp:player/remove_talking
 scoreboard players remove @a[scores={transfigureTimer=1..}] transfigureTimer 1
@@ -11,6 +7,8 @@ execute as @a[scores={transfigureTimer=1}] run function hp:transfigure/untransfi
 
 kill @e[type=arrow,tag=spellEntity,tag=conjuredEntity,nbt={inGround:1b}]
 
+execute as @a[tag=invisibilityCloak] run function hp:equipment/chest/invisibility_cloak/main
+execute as @a[tag=cloakOfInvisibility] run function hp:equipment/chest/cloak_of_invisibility/main
 
 execute as @e[type=item,tag=!set,nbt={OnGround:1b,Item:{Count:1b,tag:{Broom:1b}}}] at @s if entity @p[x_rotation=90] run tag @s add set
 execute as @e[type=item,tag=!set,nbt={OnGround:1b,Item:{Count:1b,tag:{Broom:1b}}}] at @s if block ~ ~ ~ #hp:air if block ~1 ~ ~ #hp:air if block ~-1 ~ ~ #hp:air if block ~ ~ ~1 #hp:air if block ~ ~ ~-1 #hp:air if block ~1 ~ ~1 #hp:air if block ~1 ~ ~-1 #hp:air if block ~-1 ~ ~1 #hp:air if block ~-1 ~ ~-1 #hp:air run tag @s add space
@@ -30,7 +28,6 @@ execute as @e[type=armor_stand,tag=caveInimicum] run function hp:spells/c/cave_i
 
 
 execute as @e run function hp:player/injuries/effect
-
 
 
 execute as @a store result score @s selectedSlot run data get entity @s SelectedItemSlot

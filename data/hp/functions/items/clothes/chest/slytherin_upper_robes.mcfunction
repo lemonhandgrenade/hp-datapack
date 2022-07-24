@@ -1,0 +1,1 @@
+give @s leather_chestplate{display:{Name:'{"text":"Slytherin Upper Robes","italic":false}',color:8453952},CustomModelData:1} 1

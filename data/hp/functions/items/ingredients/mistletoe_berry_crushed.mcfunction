@@ -1,1 +1,1 @@
-give @s chain_command_block{display:{Name:'{"text":"Crushed Mistletoe Berry","color":"#EDEFE8","italic":false}',Lore:['{"text":"Obtained from:","italic":false}','{"text":"Mistletoe","italic":false}']},Weight:40,Ingredient:1b,CustomModelData:1621} 1
+give @s chain_command_block{display:{Name:'{"text":"Crushed Mistletoe Berry","color":"#EDEFE8","italic":false}',Lore:['{"text":"Obtained from:","italic":false}','{"text":"Mistletoe","italic":false}']},Weight:40,Ingredient:1b,CustomModelData:1631,PotionID:1631} 1

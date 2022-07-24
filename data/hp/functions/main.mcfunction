@@ -1,27 +1,30 @@
-execute as @a run function hp:player/main
+scoreboard players operation #alternate values *= -1 values
+scoreboard players add #3 values 1
+scoreboard players add #10 values 1
+execute if score #3 values matches 4.. run scoreboard players set #3 values 1
+execute if score #10 values matches 11.. run scoreboard players set #10 values 1
 
+
+execute as @a run function hp:player/main
 
 execute if entity @e[type=area_effect_cloud,tag=slowcast] run function hp:spells/main
 
 execute as @e[tag=transfigured,tag=!broom] run function hp:transfigure/main
 
-#execute as @e[type=item,tag=!expelled,nbt={OnGround:0b,Item:{tag:{Wand:1b}}}] at @s unless entity @p[x_rotation=90] run function hp:wand/change_spell
 execute as @e[tag=spellEntity] at @s run function hp:spells/_entities/main
+execute as @e[tag=specialMob] at @s run function hp:mobs/main
 
 
-execute as @e[type=snowball,tag=!quidditchBall,nbt={Item:{tag:{quidditchBall:1b}}}] at @s run function hp:quidditch/found_ball
-execute as @e[type=area_effect_cloud,tag=quidditchQuaffle] unless predicate hp:is_riding_snowball at @s run function hp:quidditch/quaffle_landed
-execute as @e[type=area_effect_cloud,tag=quidditchItem] unless predicate hp:is_riding_snowball at @s run kill @s
+execute as @e[type=snowball,tag=!specialBall,nbt={Item:{tag:{specialBall:1b}}}] at @s run function hp:equipment/found_ball
+execute as @e[type=area_effect_cloud,tag=specialAEC] unless predicate hp:is_riding_snowball at @s run function hp:equipment/snowball
 
-scoreboard players operation #alternate values *= -1 values
-scoreboard players add #3 values 1
-execute if score #3 values matches 4.. run scoreboard players set #3 values 1
 
 execute as @e[type=armor_stand,tag=broomElytra,tag=broom] at @s run function hp:broom/tp
 
 
+execute as @e[type=item,nbt={Item:{tag:{specialEntity:1b}}}] at @s run function hp:entities/main
+execute as @e[tag=specialEntity] at @s run function hp:entities/main
 
-
-scoreboard players add @e[tag=xzMotionApply] xzMotionTime 1
-execute as @e[tag=xzMotionApply,scores={xzMotionTime=4..}] run function hp:player/motion/delete
-kill @e[tag=motionStop]
+scoreboard players add @e[type=slime,tag=xzMotionApply] xzMotionTime 1
+execute as @e[type=slime,tag=xzMotionApply,scores={xzMotionTime=4..}] run function hp:player/motion/delete
+kill @e[type=armor_stand,tag=motionStop]

@@ -7,6 +7,3 @@ execute as @e[type=arrow,tag=new] store result entity @s Motion[0] double .001 r
 execute as @e[type=arrow,tag=new] store result entity @s Motion[1] double .001 run scoreboard players get @s Y
 execute as @e[type=arrow,tag=new] store result entity @s Motion[2] double .001 run scoreboard players get @s Z
 tag @e[type=arrow,tag=new,tag=spellEntity,tag=conjuredEntity] remove new
-
-
-

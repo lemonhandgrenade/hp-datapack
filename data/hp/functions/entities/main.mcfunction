@@ -9,7 +9,7 @@ execute if entity @s[tag=new,tag=scales] run function hp:entities/scales/pick_su
 execute if entity @s[tag=scales,tag=left] at @s if entity @e[type=item,sort=nearest,distance=..0.5] unless data entity @s HandItems[0].Count run function hp:entities/scales/set_item
 execute if entity @s[tag=scales,tag=right] at @s if entity @e[type=item,sort=nearest,distance=..0.5] unless data entity @s HandItems[0].Count run function hp:entities/scales/set_item
 
-execute if entity @s[tag=mortarpestleMain] at @s if entity @e[type=item,sort=nearest,distance=..0.2] as @e[type=item,sort=nearest,distance=..0.2] if data entity @s {Item:{Count:1b}} if data entity @s Item.tag.MortarPestle run function hp:entities/mortarpestle/change_item
+execute if entity @s[tag=mortarpestleMain] at @s run function hp:entities/mortarpestle/main
 
 execute if entity @s[tag=cauldronMain] run function hp:entities/cauldron/main
 execute if entity @s[tag=hoppingPotMain] run function hp:entities/hopping_pot/main
@@ -23,7 +23,6 @@ kill @s[type=armor_stand,tag=cauldron,predicate=hp:player/no_helmet]
 kill @s[type=armor_stand,tag=trunk,predicate=hp:player/no_helmet]
 kill @s[type=armor_stand,tag=mortarpestleMain,predicate=!hp:player/is_wearing_armor]
 
-execute if entity @s[tag=wingardium] run scoreboard players operation #current UID = @s UID
-execute if entity @s[tag=wingardium] run scoreboard players set temp values 14
-execute if entity @s[tag=wingardium] if score temp values matches 0.. as @a if score @s UID = #current UID anchored eyes at @s positioned ^ ^ ^.1 rotated as @s as @e[type=#hp:levitation,tag=wingardium] if score @s UID = #current UID run function hp:entities/wingardium/raycast
-execute if entity @s[tag=wingardium] if score temp values matches 0 as @a if score @s UID = #current UID anchored eyes at @s positioned ^ ^ ^.1 rotated as @s as @e[type=#hp:levitation,tag=wingardium] if score @s UID = #current UID run tp @s ^ ^ ^6
+execute if entity @s[tag=wingardium] run function hp:spells/l/levitation_charm/main
+
+execute if entity @s[tag=instantDarknessPowder] if score #3 values matches 1 run function hp:equipment/instant_darkness_powder/main

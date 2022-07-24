@@ -1,0 +1,1 @@
+give @s chain_command_block{display:{Name:'{"text":"Wolfsbane","color":"#52307C","italic":false}',Lore:['{"text":"Used in potion making.","italic":false}']},Ingredient:1b,Weight:2,CustomModelData:2830,PotionID:2830} 1

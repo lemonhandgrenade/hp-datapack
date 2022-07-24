@@ -1,0 +1,1 @@
+tag @s[tag=!wereTransformed] add wolfsbane

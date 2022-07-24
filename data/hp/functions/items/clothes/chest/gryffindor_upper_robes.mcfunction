@@ -1,0 +1,1 @@
+give @s leather_chestplate{display:{Name:'{"text":"Gryffindor Upper Robes","italic":false}',color:16719104},CustomModelData:1} 1

@@ -1,0 +1,1 @@
+give @s chain_command_block{display:{Name:'{"text":"Crocodile Heart","color":"#A80303","italic":false}',Lore:['{"text":"Obtained from:","italic":false}','{"text":"Crocodiles","italic":false}']},CustomModelData:650,PotionID:650,Weight:1500,Ingredient:1b} 1

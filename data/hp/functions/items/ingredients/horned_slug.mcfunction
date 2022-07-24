@@ -1,1 +1,1 @@
-give @s chain_command_block{display:{Name:'{"text":"Horned Slug","color":"#B27C5C","italic":false}',Lore:['{"text":"Used in potion making.","italic":false}']},Weight:14,Ingredient:1b,MortarPestle:1b,CustomModelData:1270} 1
+give @s chain_command_block{display:{Name:'{"text":"Horned Slug","color":"#B27C5C","italic":false}',Lore:['{"text":"Used in potion making.","italic":false}']},Weight:14,Ingredient:1b,MortarPestle:1b,CustomModelData:1280,PotionID:1280} 1

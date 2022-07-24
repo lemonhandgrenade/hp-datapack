@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title": "Unforgivable",
+        "description": {"text":"Cast an unforgivable spell","color":"dark_red"},
+        "icon": {
+            "item": "minecraft:skeleton_skull"
+        },
+        "frame": "task",
+        "hidden": true,
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "hp:pack/spells/first_spell",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
