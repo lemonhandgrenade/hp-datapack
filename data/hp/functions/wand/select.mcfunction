@@ -21,8 +21,8 @@ execute if score @s spell matches 442..442 run function hp:spells/q/_select
 execute if score @s spell matches 443..469 run function hp:spells/r/_select
 execute if score @s spell matches 470..543 run function hp:spells/s/_select
 execute if score @s spell matches 544..579 run function hp:spells/t/_select
-execute if score @s spell matches 580..588 run function hp:spells/u/_select
-execute if score @s spell matches 589..605 run function hp:spells/v/_select
-execute if score @s spell matches 606..622 run function hp:spells/w/_select
-execute if score @s spell matches 623..623 run function hp:spells/y/_select
-execute if score @s spell matches 624.. run function hp:spells/_custom/_select
+execute if score @s spell matches 580..589 run function hp:spells/u/_select
+execute if score @s spell matches 560..606 run function hp:spells/v/_select
+execute if score @s spell matches 607..623 run function hp:spells/w/_select
+execute if score @s spell matches 624..624 run function hp:spells/y/_select
+execute if score @s spell matches 625.. run function hp:spells/_custom/_select

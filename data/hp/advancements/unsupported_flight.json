@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"unsupportedFlight\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "hp:spells/u/unsupported_flight/main"
+  }
+}

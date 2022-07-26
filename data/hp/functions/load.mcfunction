@@ -75,6 +75,8 @@ scoreboard objectives add vc dummy
 scoreboard objectives add transfigureTimer dummy
 scoreboard objectives add anim dummy
 
+scoreboard objectives add unsupportedFlight dummy
+
 #-Houses-------------------------------------------------------------------------------------------#
 scoreboard objectives add gryffindorQuiz dummy
 scoreboard objectives add slytherinQuiz dummy
@@ -156,25 +158,5 @@ team modify ravenclaw displayName [{"text":"\uE003"},{"text":"Ravenclaw","color"
 team modify ravenclaw prefix [{"text":"\uE003"},{"text":"[Ravenclaw] ","color":"dark_blue"}]
 team modify ravenclaw seeFriendlyInvisibles false
 
-
-data modify storage hp:potions Empty set value [10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000]
-
-data modify storage hp:potions AntidoteToCommonPoisons set value [281, 281, 281, 281, 2430, 2430, 10000, 2622, 1620, 1620, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000]
-
-data modify storage hp:potions CureForBoils set value [2312, 2312, 2312, 2312, 9999, 1270, 1270, 1270, 1270, 1950, 1950, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000]
-
-data modify storage hp:potions DraughtOfLivingDeath set value [2190, 9999, 1330, 1330, 9999, 2640, 2341, 2341, 2341, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 2300, 9999, 180, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000]
-
-data modify storage hp:potions EssenceOfDittany set value [2200, 9999, 710, 710, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000]
-
-data modify storage hp:potions ForgetfulnessPotion set value [1470, 1470, 9999, 2640, 2640, 9999, 9999, 2431, 2431, 1621, 1621, 1621, 1621, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000]
-
-data modify storage hp:potions MixtureOfPowderedSilverAndDittany set value [2900, 710, 2290, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000]
-
-data modify storage hp:potions Polyjuice set value [1010, 1010, 1010, 1400, 1400, 9999, 9999, 9999, 9999, 1450, 1450, 1450, 1450, 1411, 1411, 9999, 420, 420, 420, 292, 9999, 1410, 9999, 9999, 9999, 1190, 10000, 10000, 10000, 10000, 10000, 10000]
-
-data modify storage hp:potions SleepingDraught set value [1430, 1430, 1430, 1430, 990, 990, 2430, 2430, 9999, 2431, 2431, 2431, 2430, 2430, 9999, 2640, 2640, 2640, 2640, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000]
-
-data modify storage hp:potions Wolfsbane set value [2830, 2830, 2830, 9999, 1681, 1681, 2440, 9999, 710, 710, 9999, 2632, 2632, 9999, 2650, 2631, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000]
-
-tellraw @a [{"text":"Loaded "},{"text":"[HP]","color":"green"},{"text":" for MC 1.18+\n"}]
+## 1.19 Because of animagi frogs
+tellraw @a [{"text":"Loaded "},{"text":"[HP]","color":"green"},{"text":" for MC 1.19+\n"}]

@@ -1,2 +1,0 @@
-execute if entity @s[scores={spell=587},predicate=hp:wand/wand_mainhand] run function hp:spells/u/unsupported_flight/fly
-execute unless entity @s[scores={spell=587},predicate=hp:wand/wand_mainhand] run tag @s remove unsupportedFlight
