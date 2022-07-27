@@ -1,1 +1,1 @@
-give @s stick{display:{Name:'{"text":"Wand","italic":false}'},CustomModelData:4423,Wood:44,WoodName:'{"text":"Vine"}',Core:23,CoreName:'{"text":"White River Monster spine"}',Wand:1b,Set:0b} 1
+give @s stick{display:{Name:'{"text":"Wand","italic":false}'},CustomModelData:4520,Wood:45,WoodName:'{"text":"Vine"}',Core:20,CoreName:'{"text":"White river monster spine"}',Wand:1b,Set:0b} 1

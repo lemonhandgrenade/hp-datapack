@@ -1,1 +1,1 @@
-give @s stick{display:{Name:'{"text":"Wand","italic":false}'},CustomModelData:4404,Wood:44,WoodName:'{"text":"Vine"}',Core:4,CoreName:'{"text":"Curupira hair"}',Wand:1b,Set:0b} 1
+give @s stick{display:{Name:'{"text":"Wand","italic":false}'},CustomModelData:4504,Wood:45,WoodName:'{"text":"Vine"}',Core:4,CoreName:'{"text":"Curupira hair"}',Wand:1b,Set:0b} 1

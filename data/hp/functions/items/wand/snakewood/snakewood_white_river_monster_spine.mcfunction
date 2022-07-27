@@ -1,0 +1,1 @@
+give @s stick{display:{Name:'{"text":"Wand","italic":false}'},CustomModelData:3920,Wood:39,WoodName:'{"text":"Snakewood"}',Core:20,CoreName:'{"text":"White river monster spine"}',Wand:1b,Set:0b} 1

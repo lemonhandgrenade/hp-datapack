@@ -1,1 +1,1 @@
-give @s stick{display:{Name:'{"text":"Wand","italic":false}'},CustomModelData:1518,Wood:15,WoodName:'{"text":"Ebony"}',Core:18,CoreName:'{"text":"Troll whisker"}',Wand:1b,Set:0b} 1
+give @s stick{display:{Name:'{"text":"Wand","italic":false}'},CustomModelData:1516,Wood:15,WoodName:'{"text":"Ebony"}',Core:16,CoreName:'{"text":"Troll whisker"}',Wand:1b,Set:0b} 1
