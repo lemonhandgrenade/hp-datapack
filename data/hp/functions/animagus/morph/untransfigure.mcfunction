@@ -1,4 +1,4 @@
-say Untransfigure
+tellraw @s "Untransfigure"
 
 
 effect give @s minecraft:blindness 3 255 true

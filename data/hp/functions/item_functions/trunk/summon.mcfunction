@@ -1,4 +1,3 @@
-say hi
 tag @s add trunkItem
 summon armor_stand ~ ~ ~ {Tags:["new","trunk","specialEntity"],DisabledSlots:47,Small:1b,Invulnerable:1b,Invisible:1b}
 data modify entity @e[type=minecraft:armor_stand,tag=new,tag=trunk,limit=1] ArmorItems[3] set from entity @s Item
