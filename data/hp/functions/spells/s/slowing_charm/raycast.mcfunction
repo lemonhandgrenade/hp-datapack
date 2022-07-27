@@ -1,5 +1,3 @@
-#execute as @e[dx=0,tag=!this] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] positioned ~0.7 ~0.7 ~0.7 run say Hit @s
-#execute if entity @e[tag=!this,dx=0,nbt={OnGround:0b}] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] positioned ~0.7 ~0.7 ~0.7 run function core:spells/aberforth_dumbledores_goat_charm/hit_entity
 scoreboard players set @s values 0
 execute if score @s values matches 0 positioned ~ ~-1 ~ if block ~ ~ ~ #hp:air if entity @e[tag=!this,dx=0,nbt={OnGround:0b}] positioned ~-0.7 ~-0.7 ~-0.7 if entity @e[tag=!this,dx=0,nbt={OnGround:0b}] positioned ~0.7 ~0.7 ~0.7 run function hp:spells/s/slowing_charm/hit_entity
 execute if score @s values matches 0 positioned ~ ~-1 ~ if block ~ ~ ~ #hp:air if entity @e[tag=!this,dx=0,nbt={OnGround:0b}] positioned ~-0.7 ~-0.7 ~-0.7 if entity @e[tag=!this,dx=0,nbt={OnGround:0b}] positioned ~0.7 ~0.7 ~0.7 run scoreboard players set @s values 1
