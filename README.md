@@ -1,8 +1,8 @@
 <p align="center">
 <a href="https://github.com/lemonhandgrenade/hp-datapack/license"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
 <a href="https://github.com/lemonhandgrenade/hp-datapack/issues"><img src="https://img.shields.io/github/issues/lemonhandgrenade/hp-datapack" alt="Github issues"></a>
-<a href=""><img src="https://img.shields.io/badge/files-3770-ff69b4"></a>
-<a href=""><img src="https://img.shields.io/badge/total%20lines-35743-blueviolet"></a>
+<a href=""><img src="https://img.shields.io/badge/files-4732-ff69b4"></a>
+<a href=""><img src="https://img.shields.io/badge/total%20lines-37419-blueviolet"></a>
 </p>
 
 # hp-datapack
@@ -11,7 +11,7 @@ A datapack for Minecraft revolving around the Harry Potter universe.
 Contents
 - [Attribution](#attribution)
 - [Features](#features)
-- [How to start.](#How-to-start.)
+- [How to start](#how-to-start)
 - [Docs For Devs](#docs-for-devs)
 - [Bugs/Additions](#bugs-and-additions)
 - [Notes](#notes)
@@ -35,7 +35,7 @@ Contents
 - More coming.
 
 
-## How to start.
+## How to start
 <details><summary>Spells</summary><p>
 
 ### Getting a wand.
@@ -221,6 +221,9 @@ True and false are represented as 1 and 0 respectively
 - `easySortingHat`: This changes whether the sorting hat's questions are colored representing what house they benefit.
 - `playerInfo`: Changes whether a player has access to their stats from `/trigger injuries` and `/trigger player`.  
 - `repairParticles`: If this is set to 1, blocks that are repairable with the mending charm will have particles around it.
+- `resourcepackMobs`: This changes whether spawned mobs should use a resourcepack item vs a regular in game item.
+- `respawnWerewolf`: When disabled players who die as werewolves respawn no longer as werewolves.
+- `toolEntityParticles`: Shows particles above tools indicating where to pick them up.
 
 ---
 
