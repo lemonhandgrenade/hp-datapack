@@ -15,8 +15,8 @@ execute as @e[tag=spellEntity] at @s run function hp:spells/_entities/main
 execute as @e[tag=specialMob] at @s run function hp:mobs/main
 
 
-execute as @e[type=snowball,tag=!specialBall,nbt={Item:{tag:{specialBall:1b}}}] at @s run function hp:equipment/found_ball
-execute as @e[type=area_effect_cloud,tag=specialAEC] unless predicate hp:is_riding_snowball at @s run function hp:equipment/snowball
+execute as @e[type=snowball,tag=!specialBall,nbt={Item:{tag:{specialBall:1b}}}] at @s run function hp:item_functions/found_ball
+execute as @e[type=area_effect_cloud,tag=specialAEC] unless predicate hp:is_riding_snowball at @s run function hp:item_functions/snowball
 
 
 execute as @e[type=armor_stand,tag=broomElytra,tag=broom] at @s run function hp:broom/tp

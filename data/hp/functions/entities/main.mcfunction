@@ -25,4 +25,4 @@ kill @s[type=armor_stand,tag=mortarpestleMain,predicate=!hp:player/is_wearing_ar
 
 execute if entity @s[tag=wingardium] run function hp:spells/l/levitation_charm/main
 
-execute if entity @s[tag=instantDarknessPowder] if score #3 values matches 1 run function hp:equipment/instant_darkness_powder/main
+execute if entity @s[tag=instantDarknessPowder] if score #3 values matches 1 run function hp:item_functions/instant_darkness_powder/main
