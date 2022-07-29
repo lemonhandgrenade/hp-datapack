@@ -1,101 +1,23 @@
-#Particles Generated with: Cloud Wolf's Particle Grapher
-particle dust 0.8 0.8 0.8 0.6 ^0.000 ^0.500 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.099 ^0.490 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.195 ^0.461 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.282 ^0.413 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.359 ^0.348 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.421 ^0.270 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.466 ^0.181 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.493 ^0.085 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.500 ^-0.015 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.487 ^-0.114 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.455 ^-0.208 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.404 ^-0.294 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.338 ^-0.369 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.258 ^-0.428 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.167 ^-0.471 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.071 ^-0.495 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.029 ^-0.499 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.128 ^-0.483 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.221 ^-0.448 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.306 ^-0.395 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.378 ^-0.327 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.436 ^-0.245 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.476 ^-0.154 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.497 ^-0.056 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.498 ^0.044 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.479 ^0.142 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.442 ^0.234 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.386 ^0.317 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.316 ^0.388 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.232 ^0.443 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.140 ^0.480 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.042 ^0.498 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.058 ^0.497 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.156 ^0.475 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.247 ^0.435 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.328 ^0.377 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.397 ^0.304 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.449 ^0.219 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.484 ^0.126 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.499 ^0.027 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.495 ^-0.073 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.470 ^-0.170 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.427 ^-0.260 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.367 ^-0.339 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.292 ^-0.406 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.206 ^-0.456 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.111 ^-0.487 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.012 ^-0.500 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.087 ^-0.492 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.183 ^-0.465 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.272 ^-0.420 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.350 ^-0.357 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.414 ^-0.280 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.461 ^-0.193 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.490 ^-0.097 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.500 ^0.002 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.490 ^0.102 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.460 ^0.197 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.411 ^0.284 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.347 ^0.360 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.268 ^0.422 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.179 ^0.467 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.083 ^0.493 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.017 ^0.500 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.116 ^0.486 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.210 ^0.454 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.296 ^0.403 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.370 ^0.336 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.430 ^0.256 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.472 ^0.165 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.495 ^0.068 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.499 ^-0.031 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.483 ^-0.130 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.447 ^-0.223 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.394 ^-0.308 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.325 ^-0.380 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.243 ^-0.437 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.152 ^-0.476 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.054 ^-0.497 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.046 ^-0.498 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.144 ^-0.479 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.236 ^-0.441 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.319 ^-0.385 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.389 ^-0.314 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.444 ^-0.230 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.481 ^-0.138 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.498 ^-0.039 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.496 ^0.060 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.474 ^0.158 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.434 ^0.249 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.375 ^0.330 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.302 ^0.398 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.217 ^0.450 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.123 ^0.485 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^-0.025 ^0.499 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.075 ^0.494 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.172 ^0.470 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.262 ^0.426 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.341 ^0.366 ^0.000 0 0 0 0 1 normal @a
-particle dust 0.8 0.8 0.8 0.6 ^0.407 ^0.291 ^0.000 0 0 0 0 1 normal @a
+#Left
+particle cloud ~ ~ ~ ^5302500 ^-5302500 ^ 0.00000001 0
+particle cloud ~ ~ ~ ^6907500 ^-2932500 ^ 0.00000001 0
+particle cloud ~ ~ ~ ^7500000 ^ ^ 0.00000001 0
+particle cloud ~ ~ ~ ^6907500 ^2932500 ^ 0.00000001 0
+particle cloud ~ ~ ~ ^5302500 ^5302500 ^ 0.00000001 0
+
+#Up
+particle cloud ~ ~ ~ ^2932500 ^6907500 ^ 0.00000001 0
+particle cloud ~ ~ ~ ^ ^7500000 ^ 0.00000001 0
+particle cloud ~ ~ ~ ^-2932500 ^6907500 ^ 0.00000001 0
+
+#Right
+particle cloud ~ ~ ~ ^-5302500 ^-5302500 ^ 0.00000001 0
+particle cloud ~ ~ ~ ^-6907500 ^-2932500 ^ 0.00000001 0
+particle cloud ~ ~ ~ ^-7500000 ^ ^ 0.00000001 0
+particle cloud ~ ~ ~ ^-6907500 ^2932500 ^ 0.00000001 0
+particle cloud ~ ~ ~ ^-5302500 ^5302500 ^ 0.00000001 0
+
+#Down
+particle cloud ~ ~ ~ ^2932500 ^-6907500 ^ 0.00000001 0
+particle cloud ~ ~ ~ ^ ^-7500000 ^ 0.00000001 0
+particle cloud ~ ~ ~ ^-2932500 ^-6907500 ^ 0.00000001 0
