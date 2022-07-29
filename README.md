@@ -1,8 +1,8 @@
 <p align="center">
 <a href="https://github.com/lemonhandgrenade/hp-datapack/license"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
 <a href="https://github.com/lemonhandgrenade/hp-datapack/issues"><img src="https://img.shields.io/github/issues/lemonhandgrenade/hp-datapack" alt="Github issues"></a>
-<a href=""><img src="https://img.shields.io/badge/files-4737-ff69b4"></a>
-<a href=""><img src="https://img.shields.io/badge/total%20lines-36833-blueviolet"></a>
+<a href=""><img src="https://img.shields.io/badge/files-4736-ff69b4"></a>
+<a href=""><img src="https://img.shields.io/badge/total%20lines-36452-blueviolet"></a>
 </p>
 
 # hp-datapack

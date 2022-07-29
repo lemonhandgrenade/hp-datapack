@@ -18,6 +18,7 @@ effect give @s[tag=blinded] minecraft:blindness 2 255 true
 effect give @s[tag=legLocked] minecraft:slowness 2 255 true
 
 execute if entity @s[tag=crucio] run function hp:spells/c/cruciatus_curse/effect
+execute if entity @s[tag=bigHead] run function hp:spells/e/engorgio_skullus/effect
 
 execute if entity @s[tag=brokenLeg] run function hp:player/injuries/stuck
 

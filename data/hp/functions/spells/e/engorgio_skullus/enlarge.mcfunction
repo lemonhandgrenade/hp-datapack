@@ -1,5 +1,5 @@
-tag @s[scores={vc=..0}] add bigHead
-scoreboard players set @s[scores={vc=..0}] vc 60
+tag @s add bigHead
+scoreboard players set @s engorgioSkullus 60
 
 data modify storage hp:head HeadItem set from entity @s Inventory[{Slot:103b}]
 data modify storage hp:head HeadItem.Slot set value 0b
