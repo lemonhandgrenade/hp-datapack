@@ -1,4 +1,5 @@
 scoreboard players remove @s[scores={vc=1..}] vc 1
+scoreboard players remove @s[scores={bubbleHead=1..}] bubbleHead 1
 execute if entity @s[scores={vc=0}] run function hp:player/remove_talking
 scoreboard players remove @s[scores={transfigureTimer=1..}] transfigureTimer 1
 execute if entity @s[scores={transfigureTimer=1}] run function hp:transfigure/untransfigure
@@ -14,8 +15,8 @@ execute if score @s player matches 1.. run function hp:player/info
 
 execute store result score @s selectedSlot run data get entity @s SelectedItemSlot
 
-execute if entity @s[tag=bubbleHead,scores={vc=..0}] run item replace entity @s armor.head with air
-execute if entity @s[tag=bubbleHead,scores={vc=..0}] run tag @s remove bubbleHead
+execute if entity @s[tag=bubbleHead,scores={bubbleHead=..0}] run item replace entity @s armor.head with air
+execute if entity @s[tag=bubbleHead,scores={bubbleHead=..0}] run tag @s remove bubbleHead
 execute if entity @s[tag=bigHead,scores={vc=..0}] run item replace entity @s armor.head with air
 execute if entity @s[tag=bigHead,scores={vc=..0}] run tag @s remove bigHead
 

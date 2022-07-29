@@ -17,8 +17,7 @@ title @s[tag=sleeping] subtitle {"text":"Sleeping","color":"white"}
 effect give @s[tag=blinded] minecraft:blindness 2 255 true
 effect give @s[tag=legLocked] minecraft:slowness 2 255 true
 
-effect give @s[tag=crucio] minecraft:instant_damage 1 30 true
-execute if entity @s[tag=crucio] run function hp:player/injuries/stuck
+execute if entity @s[tag=crucio] run function hp:spells/c/cruciatus_curse/effect
 
 execute if entity @s[tag=brokenLeg] run function hp:player/injuries/stuck
 

@@ -1,27 +1,10 @@
-
-execute positioned ~ ~1 ~ if block ~ ~ ~ air run summon marker ~ ~ ~ {Tags:["candleLightBlock","lightBlock"]}
-execute positioned ~ ~1 ~ if block ~ ~ ~ air run setblock ~ ~ ~ light[level=12]
+scoreboard players add @s anim 1
+execute positioned ~ ~ ~ if block ~ ~ ~ air run summon marker ~ ~ ~ {Tags:["candleLightBlock","lightBlock"]}
+execute positioned ~ ~ ~ if block ~ ~ ~ air run setblock ~ ~ ~ light[level=6]
 
 execute positioned ~ ~ ~ if block ~ ~ ~ water[level=0] run summon marker ~ ~ ~ {Tags:["candleLightBlock","lightBlock"]}
-execute positioned ~ ~ ~ if block ~ ~ ~ water[level=0] run setblock ~ ~ ~ light[level=12,waterlogged=true]
+execute positioned ~ ~ ~ if block ~ ~ ~ water[level=0] run setblock ~ ~ ~ light[level=6,waterlogged=true]
 
-### 4-cross pad
-execute positioned ~1 ~1 ~ if block ~ ~ ~ air run summon marker ~ ~ ~ {Tags:["candleLightBlock","lightBlock"]}
-execute positioned ~1 ~1 ~ if block ~ ~ ~ air run setblock ~ ~ ~ light[level=11]
-execute positioned ~-1 ~1 ~ if block ~ ~ ~ air run summon marker ~ ~ ~ {Tags:["candleLightBlock","lightBlock"]}
-execute positioned ~-1 ~1 ~ if block ~ ~ ~ air run setblock ~ ~ ~ light[level=11]
-execute positioned ~ ~1 ~1 if block ~ ~ ~ air run summon marker ~ ~ ~ {Tags:["candleLightBlock","lightBlock"]}
-execute positioned ~ ~1 ~1 if block ~ ~ ~ air run setblock ~ ~ ~ light[level=11]
-execute positioned ~ ~1 ~-1 if block ~ ~ ~ air run summon marker ~ ~ ~ {Tags:["candleLightBlock","lightBlock"]}
-execute positioned ~ ~1 ~-1 if block ~ ~ ~ air run setblock ~ ~ ~ light[level=11]
+particle minecraft:small_flame ~ ~0.95 ~ 0 0 0 0 3
 
-execute positioned ~1 ~1 ~ if block ~ ~ ~ water[level=0] run summon marker ~ ~ ~ {Tags:["candleLightBlock","lightBlock"]}
-execute positioned ~1 ~1 ~ if block ~ ~ ~ water[level=0] run setblock ~ ~ ~ light[level=11,waterlogged=true]
-execute positioned ~-1 ~1 ~ if block ~ ~ ~ water[level=0] run summon marker ~ ~ ~ {Tags:["candleLightBlock","lightBlock"]}
-execute positioned ~-1 ~1 ~ if block ~ ~ ~ water[level=0] run setblock ~ ~ ~ light[level=11,waterlogged=true]
-execute positioned ~ ~1 ~1 if block ~ ~ ~ water[level=0] run summon marker ~ ~ ~ {Tags:["candleLightBlock","lightBlock"]}
-execute positioned ~ ~1 ~1 if block ~ ~ ~ water[level=0] run setblock ~ ~ ~ light[level=11,waterlogged=true]
-execute positioned ~ ~1 ~-1 if block ~ ~ ~ water[level=0] run summon marker ~ ~ ~ {Tags:["candleLightBlock","lightBlock"]}
-execute positioned ~ ~1 ~-1 if block ~ ~ ~ water[level=0] run setblock ~ ~ ~ light[level=11,waterlogged=true]
-
-particle minecraft:small_flame ~ ~0.5 ~ 0 0 0 0 3
+execute if score @s anim matches 1800.. run kill @s

@@ -71,6 +71,8 @@ scoreboard objectives add spellCooldown dummy
 
 scoreboard objectives add patronusID dummy
 
+scoreboard objectives add cruciatusCurse dummy
+scoreboard objectives add bubbleHead dummy
 scoreboard objectives add vc dummy
 scoreboard objectives add transfigureTimer dummy
 scoreboard objectives add anim dummy

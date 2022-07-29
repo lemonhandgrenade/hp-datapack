@@ -13,8 +13,6 @@ execute as @e[type=armor_stand,tag=caveInimicum] run function hp:spells/c/cave_i
 
 execute as @e run function hp:player/injuries/effect
 
-execute as @e[type=armor_stand,tag=candleLight] at @s run function hp:spells/c/candle_conjuring_spell/light
-
 execute as @e[type=marker,tag=transfiguredBlock] at @s if block ~ ~ ~ air run kill @s
 
 execute as @a at @s run function hp:player/player_20tick

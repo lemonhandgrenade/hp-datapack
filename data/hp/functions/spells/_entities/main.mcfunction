@@ -3,7 +3,6 @@ execute if entity @s[tag=weather,tag=cloud] run function hp:spells/_entities/wea
 execute if entity @s[tag=weather,tag=rain] run function hp:spells/_entities/weather/rain_cloud
 execute if entity @s[tag=weather,tag=snow] run function hp:spells/_entities/weather/snow_cloud
 
-
 execute if entity @s[tag=push] run function hp:spells/_entities/push/push
 
 execute if entity @s[tag=patronus] run function hp:spells/_entities/patronus/select
