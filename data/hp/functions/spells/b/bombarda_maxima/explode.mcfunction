@@ -1,7 +1,7 @@
 particle minecraft:explosion ~ ~ ~ .5 .5 .5 0.35 10
 particle minecraft:poof ~ ~ ~ .5 .5 .5 0.2 100
 
-playsound minecraft:entity.generic.explode master @a ~ ~ ~ 10 1 1
+playsound minecraft:entity.generic.explode master @a ~ ~ ~ 1 1
 
 tag @e[distance=..3.5] add hurt
 

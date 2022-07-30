@@ -1,6 +1,6 @@
 particle minecraft:dust_color_transition 0.1 0.2 0.8 3 0 0 1 ~ ~ ~ 1 1 1 0.1 100
 
-playsound minecraft:entity.generic.explode master @a ~ ~ ~ 10 1 1
+playsound minecraft:entity.generic.explode master @a ~ ~ ~ 1 1
 
 tag @e[distance=..3.5] add hurt
 

@@ -44,4 +44,4 @@ execute if score temp values matches 4 run tag @s add hufflepuff
 execute if score temp values matches 4 run advancement grant @s only hp:pack/houses/hufflepuff
 
 scoreboard players reset @s quizTrigger
-playsound minecraft:entity.player.levelup master @s ~ ~ ~ 100 1
+playsound minecraft:entity.player.levelup master @s ~ ~ ~ 1 1

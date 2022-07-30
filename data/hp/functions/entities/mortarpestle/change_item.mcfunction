@@ -47,7 +47,7 @@ execute at @s if score temp values matches 2631 as @a[tag=mpTarget] run function
 execute at @s if score temp values matches 2631 as @a[tag=mpTarget] run function hp:items/ingredients/unicorn_horn_powdered
 
 
-playsound minecraft:ui.stonecutter.take_result block @a ~ ~ ~ 100 1.2
+playsound minecraft:ui.stonecutter.take_result block @a ~ ~ ~ 1 1.2
 particle crit ~ ~ ~ 0.1 0.3 0.1 0 10
 
 tag @a remove mpTarget
