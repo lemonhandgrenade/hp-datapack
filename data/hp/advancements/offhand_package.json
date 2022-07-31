@@ -23,6 +23,6 @@
     }
   },
   "rewards": {
-    "function": "hp:inv/package"
+    "function": "hp:item_functions/package"
   }
 }
