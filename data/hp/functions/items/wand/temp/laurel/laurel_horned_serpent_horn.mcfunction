@@ -1,1 +1,0 @@
-give @s stick{display:{Name:'{"text":"Wand","italic":false}'},CustomModelData:2607,Wood:26,WoodName:'{"text":"Laurel"}',Core:7,CoreName:'{"text":"Horned Serpent horn"}',Wand:1b,Set:0b} 1

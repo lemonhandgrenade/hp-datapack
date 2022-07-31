@@ -1,1 +1,0 @@
-give @s stick{display:{Name:'{"text":"Wand","italic":false}'},CustomModelData:1405,Wood:14,WoodName:'{"text":"Dogwood"}',Core:5,CoreName:'{"text":"Dittany"}',Wand:1b,Set:0b} 1

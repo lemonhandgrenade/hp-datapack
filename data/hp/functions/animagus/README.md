@@ -9,10 +9,10 @@
 8. - [ ] Bird: Pigeon
 9. - [ ] Bird: Seabird
 10. - [ ] Bird: Swan
-11. - [ ] Butterfly: Monarch
-12. - [ ] Butterfly: Ornithoptera
-13. - [ ] Butterfly: Postman
-14. - [ ] Butterfly: Ulysses
+11. - [x] Butterfly: Monarch
+12. - [x] Butterfly: Ornithoptera
+13. - [x] Butterfly: Postman
+14. - [x] Butterfly: Ulysses
 15. - [x] Cat: British Shorthair
 16. - [x] Cat: Calico
 17. - [x] Cat: Jellie
@@ -67,5 +67,5 @@
 66. - [x] Rabbit: White
 67. - [x] Rat: Brown
 68. - [x] Rat: Gray
-69. - [ ] Rat: Black
+69. - [x] Rat: Black
 70. - [ ] Stag
