@@ -3,6 +3,8 @@ execute if score @s animagusID matches 0 run function hp:animagus/set_animagus
 scoreboard players set @s morph 0
 scoreboard players enable @s morph
 
+function hp:transfigure/remove_armor
+
 effect give @s minecraft:blindness 3 255 true
 particle minecraft:dust_color_transition 0.6 0.6 0.6 3 0.3 0.3 0.3 ~ ~1 ~ 0.25 0.5 0.25 0 200
 
@@ -74,7 +76,7 @@ execute if score @s animagusID matches 65 run tellraw @s ["",{"text":"Rabbit: Sa
 execute if score @s animagusID matches 66 run tellraw @s ["",{"text":"Rabbit: White","color":"dark_green"}]
 execute if score @s animagusID matches 67 run tellraw @s ["",{"text":"Rat: Brown","color":"dark_green"}]
 execute if score @s animagusID matches 68 run tellraw @s ["",{"text":"Rat: Gray","color":"dark_green"}]
-execute if score @s animagusID matches 69 run tellraw @s ["",{"text":"Rat: White","color":"dark_green"}]
+execute if score @s animagusID matches 69 run tellraw @s ["",{"text":"Rat: Black","color":"dark_green"}]
 execute if score @s animagusID matches 70 run tellraw @s ["",{"text":"Stag","color":"dark_green"}]
 
 execute if score @s animagusID matches 1 run function hp:animagus/morph/summon/beetle/red
@@ -145,7 +147,7 @@ execute if score @s animagusID matches 65 run function hp:animagus/morph/summon/
 execute if score @s animagusID matches 66 run function hp:animagus/morph/summon/rabbit/white
 execute if score @s animagusID matches 67 run function hp:animagus/morph/summon/rat/brown
 execute if score @s animagusID matches 68 run function hp:animagus/morph/summon/rat/gray
-execute if score @s animagusID matches 69 run function hp:animagus/morph/summon/rat/white
+execute if score @s animagusID matches 69 run function hp:animagus/morph/summon/rat/black
 execute if score @s animagusID matches 70 run function hp:animagus/morph/summon/stag
 
 tag @s add morphed
