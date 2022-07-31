@@ -1,5 +1,5 @@
 function hp:items/broom/air_wave_gold
-function hp:items/broom/australian_flyabout
+function hp:items/broom/australian_flyabout_50
 function hp:items/broom/bluebottle
 function hp:items/broom/cleansweep_one
 function hp:items/broom/cleansweep_two

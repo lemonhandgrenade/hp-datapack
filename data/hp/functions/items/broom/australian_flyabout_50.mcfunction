@@ -1,0 +1,1 @@
+give @s stick{display:{Name:'{"text":"Australian Flyabout 50","italic":false}',Lore:['{"text":"Australian Flyabout 50","color":"#e1bf70","italic":false}','{"text":"A common broom.","italic":false}']},CustomModelData:6002,Broom:1b,AustralianFlyaboutFifty:1b}

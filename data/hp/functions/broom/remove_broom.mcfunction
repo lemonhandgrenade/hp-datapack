@@ -3,6 +3,7 @@ scoreboard players operation #current broomType = @s broomType
 #data merge entity @e[tag=broomVisual,limit=1,sort=nearest] {Glowing:0b,ArmorItems:[{},{},{},{}],Marker:1b}
 #tp @p ~ ~ ~
 execute if score @s broomType matches 1 as @p run function hp:items/broom/air_wave_gold
+execute if score @s broomType matches 2 as @p run function hp:items/broom/australian_flyabout_50
 execute if score @s broomType matches 3 as @p run function hp:items/broom/bluebottle
 execute if score @s broomType matches 4 as @p run function hp:items/broom/cleansweep_one
 execute if score @s broomType matches 5 as @p run function hp:items/broom/cleansweep_two
@@ -27,7 +28,9 @@ execute if score @s broomType matches 26 as @p run function hp:items/broom/oaksh
 execute if score @s broomType matches 27 as @p run function hp:items/broom/shooting_star
 execute if score @s broomType matches 29 as @p run function hp:items/broom/silver_arrow
 execute if score @s broomType matches 30 as @p run function hp:items/broom/starsweeper_xxi
+execute if score @s broomType matches 31 as @p run function hp:items/broom/swiftstick
 execute if score @s broomType matches 32 as @p run function hp:items/broom/thunderbolt_vii
+execute if score @s broomType matches 33 as @p run function hp:items/broom/tinderblast
 execute if score @s broomType matches 34 as @p run function hp:items/broom/transylvanian_barb
 execute if score @s broomType matches 37 as @p run function hp:items/broom/varapidos
 execute if score @s broomType matches 38 as @p run function hp:items/broom/yajirushi

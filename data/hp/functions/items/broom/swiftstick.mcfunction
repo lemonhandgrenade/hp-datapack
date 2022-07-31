@@ -1,0 +1,1 @@
+give @s stick{display:{Name:'{"text":"Swiftstick","italic":false}',Lore:['{"text":"Ellerby and Spudmore","color":"#c6c6c6","bold":true,"italic":false}','{"text":"Swiftstick","color":"#703844","italic":false}','{"text":"A common broom.","italic":false}']},CustomModelData:6031,Broom:1b,Swiftstick:1b}

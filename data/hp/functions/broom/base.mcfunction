@@ -11,8 +11,8 @@ execute at @s if score @s broomID = @e[tag=broomSaddle,distance=..2,sort=nearest
 #execute at @s as @e[type=armor_stand,tag=broomVisual,tag=broom] if score @s broomID = @e[type=armor_stand,tag=activeBroomElytra,tag=broom,limit=1,sort=nearest] broomID run tp @s ~ ~ ~ ~ ~
 #data merge entity @s[tag=isBeingRidden] {FallDistance:0f,FallFlying:1b}
 
-execute if entity @s[tag=isBeingRidden] run function hp:broom/is_being_ridden
-execute if entity @s[tag=!isBeingRidden] run function hp:broom/isnt_being_ridden
+execute if entity @s[tag=isBeingRidden] run item replace entity @s armor.chest with elytra
+execute if entity @s[tag=!isBeingRidden] run item replace entity @s armor.chest with air
 
 # Pig In Water
 #execute unless score @s values matches 1.. at @s unless entity @e[type=armor_stand,predicate=hp:has_passenger,tag=broom,tag=broomVisual,limit=1,sort=nearest] run function hp:broom/end

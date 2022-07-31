@@ -1,4 +1,5 @@
 scoreboard players set @s[nbt={Item:{id:"minecraft:stick",tag:{AirWaveGold:1b}}}] broomType 1
+scoreboard players set @s[nbt={Item:{id:"minecraft:stick",tag:{AustralianFlyaboutFifty:1b}}}] broomType 2
 scoreboard players set @s[nbt={Item:{id:"minecraft:stick",tag:{Bluebottle:1b}}}] broomType 3
 scoreboard players set @s[nbt={Item:{id:"minecraft:stick",tag:{CleansweepOne:1b}}}] broomType 4
 scoreboard players set @s[nbt={Item:{id:"minecraft:stick",tag:{CleansweepTwo:1b}}}] broomType 5
@@ -23,7 +24,9 @@ scoreboard players set @s[nbt={Item:{id:"minecraft:stick",tag:{Oakshaft79:1b}}}]
 scoreboard players set @s[nbt={Item:{id:"minecraft:stick",tag:{ShootingStar:1b}}}] broomType 27
 scoreboard players set @s[nbt={Item:{id:"minecraft:stick",tag:{SilverArrow:1b}}}] broomType 29
 scoreboard players set @s[nbt={Item:{id:"minecraft:stick",tag:{StarsweeperXXI:1b}}}] broomType 30
+scoreboard players set @s[nbt={Item:{id:"minecraft:stick",tag:{Swiftstick:1b}}}] broomType 31
 scoreboard players set @s[nbt={Item:{id:"minecraft:stick",tag:{ThunderboltVII:1b}}}] broomType 32
+scoreboard players set @s[nbt={Item:{id:"minecraft:stick",tag:{Tinderblast:1b}}}] broomType 33
 scoreboard players set @s[nbt={Item:{id:"minecraft:stick",tag:{TransylvanianBarb:1b}}}] broomType 34
 scoreboard players set @s[nbt={Item:{id:"minecraft:stick",tag:{Varapidos:1b}}}] broomType 37
 scoreboard players set @s[nbt={Item:{id:"minecraft:stick",tag:{Yajirushi:1b}}}] broomType 38
