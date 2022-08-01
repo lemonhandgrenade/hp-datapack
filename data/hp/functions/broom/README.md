@@ -18,9 +18,9 @@
 17. - [x] Firebolt
 18. - [x] Firebolt Supreme
 19. - [x] Moontrimmer
-20. - [ ] Nimbus 1000
-21. - [ ] Nimbus 1001
-22. - [ ] Nimbus 1500
+20. - [x] Nimbus 1000
+21. - [x] Nimbus 1001
+22. - [x] Nimbus 1500
 23. - [x] Nimbus 1700
 24. - [x] Nimbus 2000
 25. - [x] Nimbus 2001

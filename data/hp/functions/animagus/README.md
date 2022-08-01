@@ -1,12 +1,12 @@
 ## Animagus IDs
 1. - [ ] Beetle: Red
 2. - [ ] Beetle: Blue
-3. - [ ] Bird: Cardinal
-4. - [ ] Bird: Crow
+3. - [x] Bird: Cardinal
+4. - [x] Bird: Crow
 5. - [ ] Bird: Duck
 6. - [ ] Bird: Eagle
 7. - [ ] Bird: Falcon
-8. - [ ] Bird: Pigeon
+8. - [x] Bird: Pigeon
 9. - [ ] Bird: Seabird
 10. - [ ] Bird: Swan
 11. - [x] Butterfly: Monarch

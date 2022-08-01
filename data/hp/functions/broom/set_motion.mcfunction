@@ -40,6 +40,14 @@ execute if entity @s[scores={broomType=18}] store result score broomSpeed Z run 
 execute if entity @s[scores={broomType=19}] store result score broomSpeed X run data get entity @s Motion[0] 2000
 execute if entity @s[scores={broomType=19}] store result score broomSpeed Y run data get entity @s Motion[1] 4000
 execute if entity @s[scores={broomType=19}] store result score broomSpeed Z run data get entity @s Motion[2] 2000
+#-Nimbus-1000->-Nimbus-1001------------------------------------------------------------------------#
+execute if entity @s[scores={broomType=20..21}] store result score broomSpeed X run data get entity @s Motion[0] 2082
+execute if entity @s[scores={broomType=20..21}] store result score broomSpeed Y run data get entity @s Motion[1] 2262
+execute if entity @s[scores={broomType=20..21}] store result score broomSpeed Z run data get entity @s Motion[2] 2082
+#-Nimbus-1500--------------------------------------------------------------------------------------#
+execute if entity @s[scores={broomType=22}] store result score broomSpeed X run data get entity @s Motion[0] 2155
+execute if entity @s[scores={broomType=22}] store result score broomSpeed Y run data get entity @s Motion[1] 1860
+execute if entity @s[scores={broomType=22}] store result score broomSpeed Z run data get entity @s Motion[2] 2155
 #-Nimbus-1700--------------------------------------------------------------------------------------#
 execute if entity @s[scores={broomType=23}] store result score broomSpeed X run data get entity @s Motion[0] 3233
 execute if entity @s[scores={broomType=23}] store result score broomSpeed Y run data get entity @s Motion[1] 2788

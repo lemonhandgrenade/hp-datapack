@@ -21,6 +21,9 @@ execute if score @s broomType matches 16 as @p run function hp:items/broom/fambu
 execute if score @s broomType matches 17 as @p run function hp:items/broom/firebolt
 execute if score @s broomType matches 18 as @p run function hp:items/broom/firebolt_supreme
 execute if score @s broomType matches 19 as @p run function hp:items/broom/moontrimmer
+execute if score @s broomType matches 20 as @p run function hp:items/broom/nimbus_1000
+execute if score @s broomType matches 21 as @p run function hp:items/broom/nimbus_1001
+execute if score @s broomType matches 22 as @p run function hp:items/broom/nimbus_1500
 execute if score @s broomType matches 23 as @p run function hp:items/broom/nimbus_1700
 execute if score @s broomType matches 24 as @p run function hp:items/broom/nimbus_2000
 execute if score @s broomType matches 25 as @p run function hp:items/broom/nimbus_2001
