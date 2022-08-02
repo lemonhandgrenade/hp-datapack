@@ -1,8 +1,8 @@
 <p align="center">
 <a href="https://github.com/lemonhandgrenade/hp-datapack/license"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
 <a href="https://github.com/lemonhandgrenade/hp-datapack/issues"><img src="https://img.shields.io/github/issues/lemonhandgrenade/hp-datapack" alt="Github issues"></a>
-<a href=""><img src="https://img.shields.io/badge/files-3663-ff69b4"></a>
-<a href=""><img src="https://img.shields.io/badge/total%20lines-35817-blueviolet"></a>
+<a href=""><img src="https://img.shields.io/badge/files-3664-ff69b4"></a>
+<a href=""><img src="https://img.shields.io/badge/total%20lines-35780-blueviolet"></a>
 </p>
 
 # hp-datapack
@@ -235,6 +235,7 @@ Basic docs can be found [here](https://github.com/lemonhandgrenade/hp-datapack/t
 ## Bugs and Additions
 - If you find any bugs in the datapack feel free to report [here][issue].
 - If you find any optimisations or want to propose an addition to the code please create a new pull request [here][pull].
+- You can also suggest [here][issue] using the suggestion label.
 
 ## Notes
 - This is a very big pack and so it's recommended Minecraft have at least 2-4gb minimum.
