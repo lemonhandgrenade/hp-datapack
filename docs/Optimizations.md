@@ -7,7 +7,7 @@ This page is more for what is the most expensive on the server / client.
 Brooms are quite costly because a lot of commands are used to run them.  
 This equation shows the extra milliseconds it takes to use brooms.
 
-![broom_equation](http://www.sciweavers.org/tex2img.php?eq=T_%7Bms%7D%3D%281.25%2AB_a%29%2B%280.15%2A%5BB_a%2BB_i%5D%29&bc=White&fc=Black&im=jpg&fs=12&ff=modern&edit=)
+<img title="Broom Equation" src="./assets/broom_equation.png" alt="BroomEq" width="269" height="19" />
 
 Where B = Brooms  
 and a = Active brooms (being flown)  
@@ -17,7 +17,7 @@ and i = Inactive brooms (on the ground)
 
 Animagi don't have a noticeable effect on the tick rate unless they are in a transformed state.  
 
-![animagi_equation](http://www.sciweavers.org/tex2img.php?eq=T_%7Bms%7D%3D%280.55%2At%29&bc=White&fc=Black&im=jpg&fs=12&ff=modern&edit=)
+<img title="Animagus Equation" src="./assets/animagus_equation.png" alt="AnimagusEq" width="114" height="19" />
 
 Where t = transformed animagi
 
@@ -25,7 +25,7 @@ Where t = transformed animagi
 
 Werewolves are only costly when they are being controlled by the player due to Wolfsbane.  
 
-![werewolf_equation](http://www.sciweavers.org/tex2img.php?eq=T_%7Bms%7D%3DW_c%2B%28.15%2AW_t%29&bc=White&fc=Black&im=jpg&fs=12&ff=modern&edit=)
+<img title="Werewolf Equation" src="./assets/werewolf_equation.png" alt="WerewolfEq" width="161" height="19" />
 
 Where W = Werewolves present
 and c = controlled werewolves
