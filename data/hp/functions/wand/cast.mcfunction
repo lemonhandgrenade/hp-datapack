@@ -7,7 +7,7 @@ execute unless entity @s[tag=cantSpeak] unless predicate hp:wand/will_backfire i
 execute unless entity @s[tag=cantSpeak] if predicate hp:wand/will_backfire if score @s spellCooldown matches 0 run function hp:wand/backfire_select
 
 execute store result storage hp:spell CurrentSpell int 1 run scoreboard players get @s spell
-execute unless score @s spell matches 457 run item modify entity @s weapon.mainhand hp:last_spell
+execute unless score @s spell matches 458 run item modify entity @s weapon.mainhand hp:last_spell
 
 scoreboard players add @s spellCount 1
 
