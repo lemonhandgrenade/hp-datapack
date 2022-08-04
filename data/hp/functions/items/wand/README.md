@@ -64,15 +64,13 @@
 12. Rougarou hair
 13. Shell
 14. Snallygaster heartstring
-15. Supreme Cores
-16. Thestral tail hair
-17. Thunderbird tail feather
-18. Troll whisker
-19. Twin Wand Cores
-20. Unicorn hair
-21. Veela hair
-22. Wampus cat hair
-23. White River Monster spine
+15. Thestral tail hair
+16. Thunderbird tail feather
+17. Troll whisker
+18. Unicorn hair
+19. Veela hair
+20. Wampus cat hair
+21. White River Monster spine
 
 </p></details>
 
@@ -95,15 +93,15 @@
 | 12  | Chestnut     | Rougarou hair             |
 | 13  | Cypress      | Shell                     |
 | 14  | Dogwood      | Snallygaster heartstring  |
-| 15  | Ebony        | Supreme Cores             |
-| 16  | Elder        | Thestral tail hair        |
-| 17  | Elm          | Thunderbird tail feather  |
-| 18  | English oak  | Troll whisker             |
-| 19  | Fir          | Twin Wand Cores           |
-| 20  | Hawthorn     | Unicorn hair              |
-| 21  | Hazel        | Veela hair                |
-| 22  | Holly        | Wampus cat hair           |
-| 23  | Hornbeam     | White River Monster spine |
+| 15  | Ebony        | Thestral tail hair        |
+| 16  | Elder        | Thunderbird tail feather  |
+| 17  | Elm          | Troll whisker             |
+| 18  | English oak  | Unicorn hair              |
+| 19  | Fir          | Veela hair                |
+| 20  | Hawthorn     | Wampus cat hair           |
+| 21  | Hazel        | White River Monster spine |
+| 22  | Holly        |                           |
+| 23  | Hornbeam     |                           |
 | 24  | Ivy          |                           |
 | 25  | Larch        |                           |
 | 26  | Laurel       |                           |
