@@ -3,7 +3,7 @@
 2. - [ ] Beetle: Blue
 3. - [x] Bird: Cardinal
 4. - [x] Bird: Crow
-5. - [ ] Bird: Duck
+5. - [x] Bird: Duck
 6. - [ ] Bird: Eagle
 7. - [ ] Bird: Falcon
 8. - [x] Bird: Pigeon
@@ -68,4 +68,5 @@
 67. - [x] Rat: Brown
 68. - [x] Rat: Gray
 69. - [x] Rat: Black
-70. - [ ] Stag
+70. - [x] Deer: Stag
+71. - [x] Deer: Doe

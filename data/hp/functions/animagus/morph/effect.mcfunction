@@ -29,4 +29,8 @@ execute if score @s animagusID matches 67..69 run effect give @s minecraft:speed
 execute if score @s animagusID matches 67..69 run effect give @s minecraft:jump_boost 1 128 true
 execute if score @s animagusID matches 67..69 at @s if block ~ ~-1 ~ air run effect give @s jump_boost 1 255 true
 
+#-Deer-------------#
+execute if score @s animagusID matches 70..71 run effect give @s speed 1 2 true
+execute if score @s animagusID matches 70..71 run effect give @s strength 1 0 true
+
 effect give @s[tag=morphed] invisibility 1 1 true

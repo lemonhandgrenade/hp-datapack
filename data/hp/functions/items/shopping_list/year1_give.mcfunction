@@ -14,6 +14,8 @@ execute if entity @s[tag=hufflepuff] run function hp:items/clothes/robes/hufflep
 execute if entity @s[tag=hufflepuff] run function hp:items/clothes/robes/hufflepuff
 execute if entity @s[tag=hufflepuff] run function hp:items/clothes/robes/hufflepuff
 
+function hp:items/clothes/head/school_hat
+
 function hp:items/equipment/cauldrons/cauldron
 
 function hp:items/equipment/phial_glass

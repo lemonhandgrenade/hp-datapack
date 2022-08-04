@@ -148,6 +148,7 @@ execute if score @s animagusID matches 66 run function hp:animagus/morph/summon/
 execute if score @s animagusID matches 67 run function hp:animagus/morph/summon/rat/brown
 execute if score @s animagusID matches 68 run function hp:animagus/morph/summon/rat/gray
 execute if score @s animagusID matches 69 run function hp:animagus/morph/summon/rat/black
-execute if score @s animagusID matches 70 run function hp:animagus/morph/summon/stag
+execute if score @s animagusID matches 70 run function hp:animagus/morph/summon/deer/stag
+execute if score @s animagusID matches 71 run function hp:animagus/morph/summon/deer/doe
 
 tag @s add morphed

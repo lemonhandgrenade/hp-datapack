@@ -14,7 +14,7 @@ execute as @e[type=armor_stand,tag=caterwaulingCharm] at @s as @a[distance=..10]
 
 execute as @e[type=armor_stand,tag=caveInimicum] at @s as @a[distance=..8] if score @s UID = @e[type=armor_stand,tag=caveInimicum,limit=1,sort=nearest] UID run function hp:spells/c/cave_inimicum/particle
 
-execute as @a[nbt={SelectedItem:{id:"minecraft:stick",Count:1b,tag:{Wand:1b,Set:0b}}}] run function hp:wand/set_lore
+execute as @a[predicate=hp:wand/should_lore] run function hp:wand/set_lore
 execute as @a[predicate=hp:player/holding_item,predicate=hp:wand/wand_mainhand] store result score @s wandType run data get entity @s SelectedItem.tag.Wood
 
 execute as @e[type=item,nbt={OnGround:1b}] run function hp:item_functions/main

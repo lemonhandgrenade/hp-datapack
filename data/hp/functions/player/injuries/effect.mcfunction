@@ -1,5 +1,3 @@
-execute store result score rng3 values run loot spawn 0 0 0 loot hp:rng/rng3
-
 scoreboard players add @s[tag=lycanthropySick] lycanthropy 1
 execute if entity @s[tag=lycanthropySick] if score @s lycanthropy matches 2400.. run function hp:werewolf/lycanthropy/final
 
@@ -26,8 +24,7 @@ effect give @s[tag=bound] minecraft:weakness 1 255 true
 execute if entity @s[tag=bound] run function hp:player/injuries/stuck
 
 
-execute if score rng3 values matches 1 run effect give @s[tag=jellyLegs] minecraft:slowness 1 3 true
-
+execute if entity @s[tag=jellyLegs] run function hp:spells/j/jelly-legs_curse/effect
 
 execute at @s[tag=legLocked] run particle dust 0.5 0 0.4 1 ~ ~1 ~ 0.1 0.1 0.1 0 10
 execute at @s[tag=deepCut] run particle block redstone_block ~ ~1 ~ 0.1 0.1 0.1 0 10
