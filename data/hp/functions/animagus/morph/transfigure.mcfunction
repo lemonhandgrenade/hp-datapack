@@ -77,7 +77,8 @@ execute if score @s animagusID matches 66 run tellraw @s ["",{"text":"Rabbit: Wh
 execute if score @s animagusID matches 67 run tellraw @s ["",{"text":"Rat: Brown","color":"dark_green"}]
 execute if score @s animagusID matches 68 run tellraw @s ["",{"text":"Rat: Gray","color":"dark_green"}]
 execute if score @s animagusID matches 69 run tellraw @s ["",{"text":"Rat: Black","color":"dark_green"}]
-execute if score @s animagusID matches 70 run tellraw @s ["",{"text":"Stag","color":"dark_green"}]
+execute if score @s animagusID matches 70 run tellraw @s ["",{"text":"Deer: Stag","color":"dark_green"}]
+execute if score @s animagusID matches 71 run tellraw @s ["",{"text":"Deer: Doe","color":"dark_green"}]
 
 execute if score @s animagusID matches 1 run function hp:animagus/morph/summon/beetle/red
 execute if score @s animagusID matches 2 run function hp:animagus/morph/summon/beetle/blue
