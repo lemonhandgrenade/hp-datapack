@@ -1,4 +1,3 @@
-
 execute if entity @e[tag=!this,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @e[tag=!this,dx=0] positioned ~0.7 ~0.7 ~0.7 run function hp:spells/o/obscuro/hit_entity
 
 scoreboard players remove #temp slowcast 1

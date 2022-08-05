@@ -8,4 +8,3 @@ execute if score #temp slowcast matches ..-1 run tp @s ~ ~ ~
 execute if score #temp slowcast matches 0.. positioned ^ ^ ^0.5 unless block ~ ~ ~ #hp:air run function hp:spells/s/stream_of_flames/explode
 execute if entity @s[tag=!reflected] if score #temp slowcast matches 0.. positioned ^ ^ ^0.5 if block ~ ~ ~ #hp:air run function hp:spells/s/stream_of_flames/raycast
 execute if entity @s[tag=reflected] if score #temp slowcast matches 0.. positioned ^ ^ ^-0.5 if block ~ ~ ~ #hp:air run function hp:spells/s/stream_of_flames/raycast
-

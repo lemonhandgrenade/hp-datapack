@@ -1,5 +1,3 @@
-
-
 execute if entity @a[tag=!this,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @a[tag=!this,dx=0] positioned ~0.7 ~0.7 ~0.7 run function hp:spells/i/invisible_ropes_spell/hit_entity
 
 scoreboard players remove #temp slowcast 1
