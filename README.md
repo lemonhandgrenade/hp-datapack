@@ -54,8 +54,18 @@ Spell IDs can be found [here](https://github.com/lemonhandgrenade/hp-datapack/tr
 ### Selecting spells
 To select a spell you must have a wand in your main hand.  
 Spells can be cycled by dropping the wand. (Note. Looking directly down will drop the wand normally instead of swapping spells)  
-Dropping normally will swap between spells 1 and 2  
-Whilst sneaking and dropping cycles between spells 3 and 4  
+Dropping normally will swap between spells 1 and 2 or 3 and 4  
+Whilst sneaking and dropping cycles between spells 1 to 2 and 3 to 4  
+<details><summary>See Here</summary><p>
+
+| Current Spell Slot | Drop | Sneak Drop |
+|:------------------:|:----:|:----------:|
+| 1                  | 2    | 3          |
+| 2                  | 1    | 3          |
+| 3                  | 4    | 1          |
+| 4                  | 3    | 1          |
+
+</p></details>
 
 ### Using spells
 Spells can be used by switching the wand to the offhand.  
