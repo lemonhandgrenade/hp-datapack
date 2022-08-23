@@ -16,6 +16,8 @@ execute if score @s player matches 1.. run function hp:player/info
 
 execute store result score @s selectedSlot run data get entity @s SelectedItemSlot
 
+tag @s[tag=werewolf,tag=animagus] remove animagus
+
 execute if entity @s[tag=bubbleHead,scores={bubbleHead=..0}] run item replace entity @s armor.head with air
 execute if entity @s[tag=bubbleHead,scores={bubbleHead=..0}] run tag @s remove bubbleHead
 execute if entity @s[tag=bigHead,scores={engorgioSkullus=..0}] run item replace entity @s armor.head with air

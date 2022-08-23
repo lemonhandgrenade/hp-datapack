@@ -78,6 +78,7 @@ execute as @s[tag=episkey] run function hp:spells/e/episkey/private/launch
 execute as @s[tag=everteStatum] run function hp:spells/e/everte_statum/private/launch
 execute as @s[tag=explodingCharm] run function hp:spells/e/exploding_charm/private/launch
 execute as @s[tag=expulsoCurse] run function hp:spells/e/expulso_curse/private/launch
+execute as @s[tag=extensionCharm] run function hp:spells/e/extension_charm/private/launch
 execute as @s[tag=extinguishingSpell] run function hp:spells/e/extinguishing_spell/private/launch
 
 execute as @s[tag=felifors] run function hp:spells/f/felifors_spell/private/launch

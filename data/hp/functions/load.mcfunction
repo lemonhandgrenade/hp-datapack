@@ -6,6 +6,8 @@ gamerule maxEntityCramming 100
 scoreboard objectives add settings dummy
 scoreboard players add charmsBreakBlocks settings 0
 scoreboard players add charmsBreakConnected settings 0
+execute unless score charmsChangeBlocks settings matches 0 run scoreboard players set charmsChangeBlocks settings 1
+scoreboard players add charmsChangeBlocks settings 0
 scoreboard players add easySortingHat settings 0
 scoreboard players add repairParticles settings 0
 scoreboard players add toolEntityParticles settings 0
@@ -27,6 +29,7 @@ scoreboard players set 8 values 8
 scoreboard players set 10 values 10
 scoreboard players set 14 values 14
 scoreboard players set 20 values 20
+scoreboard players set 32 values 32
 scoreboard players set 40 values 40
 scoreboard players set 100 values 100
 scoreboard players set 256 values 256

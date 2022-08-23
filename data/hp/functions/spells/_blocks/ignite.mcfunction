@@ -1,0 +1,2 @@
+execute if block ~ ~ ~ #minecraft:candles[lit=false,waterlogged=false] run function hp:spells/_blocks/ignite/candle
+execute if block ~ ~ ~ #minecraft:campfires[lit=false,waterlogged=false] run function hp:spells/_blocks/ignite/campfire
