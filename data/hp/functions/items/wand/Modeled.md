@@ -7,7 +7,7 @@
  - [ ] Acacia Horned serpent horn  
  - [ ] Acacia Jackalope antler  
  - [ ] Acacia Kelpie hair  
- - [ ] Acacia Kneazle whisker  
+ - [x] Acacia Kneazle whisker  
  - [ ] Acacia Phoenix feather  
  - [ ] Acacia Rougarou hair  
  - [ ] Acacia Snallygaster heartstring  
@@ -103,7 +103,7 @@
  - [ ] Beech Coral  
  - [ ] Beech Curupira hair  
  - [ ] Beech Dittany  
- - [ ] Beech Dragon heartstring  
+ - [x] Beech Dragon heartstring  
  - [ ] Beech Horned serpent horn  
  - [ ] Beech Jackalope antler  
  - [ ] Beech Kelpie hair  
@@ -829,7 +829,7 @@
  - [ ] Swamp mayhaw Kelpie hair  
  - [ ] Swamp mayhaw Kneazle whisker  
  - [ ] Swamp mayhaw Phoenix feather  
- - [ ] Swamp mayhaw Rougarou hair  
+ - [x] Swamp mayhaw Rougarou hair  
  - [ ] Swamp mayhaw Snallygaster heartstring  
  - [ ] Swamp mayhaw Thestral tail hair  
  - [ ] Swamp mayhaw Thunderbird tail feather  
@@ -923,7 +923,7 @@
  - [ ] Willow Coral  
  - [ ] Willow Curupira hair  
  - [ ] Willow Dittany  
- - [ ] Willow Dragon heartstring  
+ - [x] Willow Dragon heartstring  
  - [ ] Willow Horned serpent horn  
  - [ ] Willow Jackalope antler  
  - [ ] Willow Kelpie hair  
@@ -959,4 +959,4 @@
  - [ ] Yew Wampus cat hair  
  - [ ] Yew White river monster spine  
 
- <a href=""><img src="https://img.shields.io/badge/-2.2%25-informational"></a>
+ <a href=""><img src="https://img.shields.io/badge/-2.3%25-informational"></a>
