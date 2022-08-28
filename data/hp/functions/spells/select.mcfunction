@@ -221,3 +221,6 @@ execute as @s[tag=yellowSpecialJinx] run function hp:spells/y/yellow_special_jin
 execute as @s[tag=straightLine] run function hp:spells/_custom/straight_line/private/launch
 execute as @s[tag=homingRay] run function hp:spells/_custom/homing_ray/private/launch
 execute as @s[tag=controlledRay] run function hp:spells/_custom/controlled_ray/private/launch
+
+execute as @s[tag=deluminator] run function hp:item_functions/deluminator/ray_to/private/launch
+execute as @s[tag=deluminatorBack] run function hp:item_functions/deluminator/ray_back/private/launch

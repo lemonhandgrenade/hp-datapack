@@ -1,7 +1,7 @@
 particle minecraft:flash ~ ~ ~ 0.05 0.05 0.05 0.05 10
 particle minecraft:smoke ~ ~ ~ 0.05 0.05 0.05 0.05 50
 
-playsound minecraft:entity.generic.explode master @a ~ ~ ~ 10 1 1
+playsound minecraft:entity.generic.explode master @a ~ ~ ~ 2 1 1
 
 
 execute as @e[distance=..3.5] run effect give @s minecraft:resistance 1 3 true
