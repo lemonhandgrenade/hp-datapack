@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:player",
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:player_head"
+              ],
+              "nbt": "{FluxweedSyrup:1b}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "hp:potions/fluxweed_syrup/main"
+  }
+}

@@ -9,10 +9,14 @@ execute if score temp values matches 6 run function hp:potions/antidote_to_commo
 
 execute if score temp values matches 47 run function hp:potions/draught_of_living_death
 
-execute if score temp values matches 97 run function hp:potions/mixture_of_powdered_silver_and_dittany
+execute if score temp values matches 56 run function hp:potions/essence_of_dittany
 
-execute if score temp values matches 108 run function hp:potions/polyjuice_potion
+execute if score temp values matches 70 run function hp:potions/fluxweed_syrup
 
-execute if score temp values matches 128 run function hp:potions/sleeping_draught
+execute if score temp values matches 98 run function hp:potions/mixture_of_powdered_silver_and_dittany
 
-execute if score temp values matches 154 run function hp:potions/wolfsbane
+execute if score temp values matches 109 run function hp:potions/polyjuice_potion
+
+execute if score temp values matches 129 run function hp:potions/sleeping_draught
+
+execute if score temp values matches 155 run function hp:potions/wolfsbane

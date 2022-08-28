@@ -125,6 +125,7 @@ scoreboard objectives add wandType dummy
 #-Potion-------------------------------------------------------------------------------------------#
 scoreboard objectives add potionCount dummy
 scoreboard objectives add polyjuiceTime dummy
+scoreboard objectives add fluxweedSyrupTime dummy
 
 #-Items--------------------------------------------------------------------------------------------#
 scoreboard objectives add wfoas minecraft.used:minecraft.warped_fungus_on_a_stick

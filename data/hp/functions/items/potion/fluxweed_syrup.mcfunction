@@ -1,0 +1,1 @@
+tellraw @s ["",{"text":"Fluxweed syrup can't be given as it needs a player's hair to work","color":"dark_red"}]

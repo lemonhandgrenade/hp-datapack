@@ -11,7 +11,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "Polyjuice",
+                "text": "Fluxweed Syrup",
                 "italic": false
               }
             },
@@ -39,7 +39,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:109,Potion:\"minecraft:empty\",CustomPotionColor:7764352,HideFlags:32}"
+              "tag": "{CustomModelData:70,Potion:\"minecraft:empty\",CustomPotionColor:7764352,HideFlags:32}"
             },
             {
               "function": "minecraft:copy_nbt",

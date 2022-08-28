@@ -1,8 +1,8 @@
 <p align="center">
 <a href="https://github.com/lemonhandgrenade/hp-datapack/license"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
 <a href="https://github.com/lemonhandgrenade/hp-datapack/issues"><img src="https://img.shields.io/github/issues/lemonhandgrenade/hp-datapack" alt="Github issues"></a>
-<a href=""><img src="https://img.shields.io/badge/files-3697-ff69b4"></a>
-<a href=""><img src="https://img.shields.io/badge/total%20lines-37364-blueviolet"></a>
+<a href=""><img src="https://img.shields.io/badge/files-3762-ff69b4"></a>
+<a href=""><img src="https://img.shields.io/badge/total%20lines-37878-blueviolet"></a>
 </p>
 
 # hp-datapack
@@ -27,7 +27,7 @@ Contents
 ## Features
 - Spell casting. [![Spells](https://img.shields.io/badge/Spells-224-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/spells "Spells IDs")
 - Animagus. [![Animagi Animals](https://img.shields.io/badge/Animagi_Animals-63-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/animagus "Animagus IDs")
-- Potion brewing. [![Potions](https://img.shields.io/badge/Potions-8-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/potions "Potions IDs")
+- Potion brewing. [![Potions](https://img.shields.io/badge/Potions-9-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/potions "Potions IDs")
 - Corporeal Patronuses. [![Patronus](https://img.shields.io/badge/Patronuses-4-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/spells/_entities/patronus "Patronus IDs")
 - Brooms. [![Brooms](https://img.shields.io/badge/Brooms-29-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/broom)
 - Wizard cards. [![Wizard Cards](https://img.shields.io/badge/Wizard%20Cards-135-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/broom)
@@ -53,9 +53,9 @@ Spell IDs can be found [here](https://github.com/lemonhandgrenade/hp-datapack/tr
 
 ### Selecting spells
 To select a spell you must have a wand in your main hand.  
-Spells can be cycled by dropping the wand. (Note. Looking directly down will drop the wand normally instead of swapping spells)  
-Dropping normally will swap between spells 1 and 2 or 3 and 4  
-Whilst sneaking and dropping cycles between spells 1 to 2 and 3 to 4  
+Spells can be cycled by dropping the wand. (Note. Looking directly down while sneaking will drop the wand normally instead of swapping spells)  
+Dropping normally will swap between spells 1 to 2 or 3 to 4  
+Whilst sneaking and dropping cycles between spells 1 and 3
 <details><summary>See Here</summary><p>
 
 | Current Spell Slot | Drop | Sneak Drop |
@@ -70,7 +70,7 @@ Whilst sneaking and dropping cycles between spells 1 to 2 and 3 to 4
 ### Using spells
 Spells can be used by switching the wand to the offhand.  
 It should also be known some spells have alternate ways of casting.  
-To cast them you must sneak while swapping the wand to the offhand.  
+To cast their alternates you must sneak while swapping the wand to the offhand.  
 
 ---
 
