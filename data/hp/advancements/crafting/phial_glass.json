@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "hp:phial_glass"
+            }
+        }
+    },
+    "rewards": {
+        "function": "hp:crafting/equipment/phial_glass"
+    }
+}

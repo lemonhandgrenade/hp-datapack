@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "hp:trunk"
+            }
+        }
+    },
+    "rewards": {
+        "function": "hp:crafting/equipment/trunks/trunk"
+    }
+}

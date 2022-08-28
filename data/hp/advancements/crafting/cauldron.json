@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "hp:cauldron"
+            }
+        }
+    },
+    "rewards": {
+        "function": "hp:crafting/equipment/cauldrons/cauldron"
+    }
+}

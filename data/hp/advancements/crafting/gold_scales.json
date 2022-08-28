@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "hp:gold_scales"
+            }
+        }
+    },
+    "rewards": {
+        "function": "hp:crafting/equipment/scales/gold_scales"
+    }
+}
