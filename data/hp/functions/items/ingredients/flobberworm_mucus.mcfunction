@@ -1,1 +1,1 @@
-give @s chain_command_block{display:{Name:'{"text":"Flobberworm Mucus","color":"#9DC100","italic":false}',Lore:['{"text":"Obtained from:","italic":false}','{"text":"Flobberworm","italic":false}']},Weight:400,Ingredient:1b,CustomModelData:990,PotionID:990} 1
+give @s chain_command_block{display:{Name:'{"text":"Flobberworm Mucus","color":"#9DC100","italic":false}',Lore:['{"text":"Obtained from:","italic":false}','{"text":"Flobberworm","italic":false}']},Weight:400,Ingredient:1b,CustomModelData:990,PotionID:990,Color:10338560} 1

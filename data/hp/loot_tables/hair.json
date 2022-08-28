@@ -45,7 +45,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,PotionID:1190,Ingredient:1b}"
+              "tag": "{CustomModelData:1,PotionID:1190,Ingredient:1b,Color:5852954}"
             },
             {
               "function": "minecraft:copy_nbt",

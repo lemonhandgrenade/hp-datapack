@@ -1,1 +1,1 @@
-give @s chain_command_block{display:{Name:'{"text":"Unicorn Horn","color":"#E6FFFC","italic":false}',Lore:['{"text":"Obtained from:","italic":false}','{"text":"Unicorns","italic":false}']},Weight:354,Ingredient:1b,MortarPestle:1b,CustomModelData:2630,PotionID:2630} 1
+give @s chain_command_block{display:{Name:'{"text":"Unicorn Horn","color":"#E6FFFC","italic":false}',Lore:['{"text":"Obtained from:","italic":false}','{"text":"Unicorns","italic":false}']},Weight:354,Ingredient:1b,MortarPestle:1b,CustomModelData:2630,PotionID:2630,Color:14280678} 1

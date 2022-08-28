@@ -1,1 +1,1 @@
-give @s chain_command_block{display:{Name:'{"text":"Crushed Lacewing Fly","color":"#7A994A","italic":false}',Lore:['{"text":"Obtained from:","italic":false}','{"text":"Lacewing Fly","italic":false}']},Weight:10,Ingredient:1b,CustomModelData:1411,PotionID:1411} 1
+give @s chain_command_block{display:{Name:'{"text":"Crushed Lacewing Fly","color":"#7A994A","italic":false}',Lore:['{"text":"Obtained from:","italic":false}','{"text":"Lacewing Fly","italic":false}']},Weight:10,Ingredient:1b,CustomModelData:1411,PotionID:1411,Color:2115343} 1

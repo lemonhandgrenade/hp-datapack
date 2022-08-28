@@ -1,1 +1,1 @@
-give @s chain_command_block{display:{Name:'{"text":"Sopophorous Bean","color":"#352920","italic":false}',Lore:['{"text":"Obtained from:","italic":false}','{"text":"Sopophorous plant","italic":false}']},Weight:40,Ingredient:1b,MortarPestle:1b,CustomModelData:2350,PotionID:2350} 1
+give @s chain_command_block{display:{Name:'{"text":"Sopophorous Bean","color":"#352920","italic":false}',Lore:['{"text":"Obtained from:","italic":false}','{"text":"Sopophorous plant","italic":false}']},Weight:40,Ingredient:1b,MortarPestle:1b,CustomModelData:2350,PotionID:2350,Color:3483936} 1

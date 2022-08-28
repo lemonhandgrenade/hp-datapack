@@ -1,1 +1,1 @@
-give @s chain_command_block{display:{Name:'{"text":"Silver Dust","color":"#878E9F","italic":false}',Lore:['{"text":"Used in potion making.","italic":false}']},Weight:300,Ingredient:1b,CustomModelData:2290,PotionID:2290} 1
+give @s chain_command_block{display:{Name:'{"text":"Silver Dust","color":"#878E9F","italic":false}',Lore:['{"text":"Used in potion making.","italic":false}']},Weight:300,Ingredient:1b,CustomModelData:2290,PotionID:2290,Color:10724770} 1

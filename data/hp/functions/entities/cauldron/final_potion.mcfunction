@@ -26,6 +26,10 @@ execute unless score temp2 values matches 1 if score temp values matches 0 as @a
 execute unless score temp2 values matches 1 if score temp values matches 0 as @a[tag=cauldronTarget] run function hp:items/potion/essence_of_dittany
 execute unless score temp2 values matches 1 if score temp values matches 0 run scoreboard players set temp2 values 1
 
+execute unless score temp2 values matches 1 store success score temp values run data modify storage hp:potions FluxweedSyrup set from entity @s ArmorItems[3].tag.Potion
+execute unless score temp2 values matches 1 if score temp values matches 0 run loot give @a[tag=cauldronTarget] loot hp:fluxweed_syrup
+execute unless score temp2 values matches 1 if score temp values matches 0 run scoreboard players set temp2 values 1
+
 execute unless score temp2 values matches 1 store success score temp values run data modify storage hp:potions ForgetfulnessPotion set from entity @s ArmorItems[3].tag.Potion
 execute unless score temp2 values matches 1 if score temp values matches 0 as @a[tag=cauldronTarget] run function hp:items/potion/forgetfulness_potion
 execute unless score temp2 values matches 1 if score temp values matches 0 run scoreboard players set temp2 values 1
@@ -56,7 +60,7 @@ execute if score temp2 values matches 1 run scoreboard players add @a[tag=cauldr
 
 tag @a remove cauldronTarget
 function hp:potions/reset_potion_storage
-
+data modify entity @s HandItems[0].tag.display.color set value 4159204
 data remove entity @s ArmorItems[3].tag.SpecialUUID
 data remove entity @s ArmorItems[3].tag.Name
 data modify entity @s ArmorItems[3].tag.CustomModelData set value 8
