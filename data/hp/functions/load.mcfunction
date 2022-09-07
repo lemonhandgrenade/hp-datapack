@@ -4,13 +4,16 @@ gamerule maxEntityCramming 100
 
 #-General------------------------------------------------------------------------------------------#
 scoreboard objectives add settings dummy
+execute unless score charmsBreakBlocks settings matches 0 run scoreboard players set charmsBreakBlocks settings 1
 scoreboard players add charmsBreakBlocks settings 0
+execute unless score charmsBreakConnected settings matches 0 run scoreboard players set charmsBreakConnected settings 1
 scoreboard players add charmsBreakConnected settings 0
 execute unless score charmsChangeBlocks settings matches 0 run scoreboard players set charmsChangeBlocks settings 1
 scoreboard players add charmsChangeBlocks settings 0
 scoreboard players add easySortingHat settings 0
 scoreboard players add repairParticles settings 0
 scoreboard players add toolEntityParticles settings 0
+scoreboard players add plantParticles settings 0
 scoreboard players add playerInfo settings 0
 execute unless score resourcepackMobs settings matches 0 run scoreboard players set resourcepackMobs settings 1
 scoreboard players add resourcepackMobs settings 0
@@ -134,6 +137,11 @@ scoreboard objectives add wfoas minecraft.used:minecraft.warped_fungus_on_a_stic
 scoreboard objectives add moon dummy
 scoreboard objectives add lycanthropy dummy
 
+#-Herbology----------------------------------------------------------------------------------------#
+scoreboard objectives add plantTime dummy
+scoreboard objectives add plantState dummy
+
+
 function hp:100tick
 function hp:50tick
 function hp:20tick
@@ -143,7 +151,6 @@ function hp:2tick
 
 fill -1 -64 -1 2 -61 1 bedrock
 fill 0 -64 0 0 -63 0 yellow_shulker_box
-
 
 team add gryffindor {"text":"Gryffindor","color":"dark_red"}
 team modify gryffindor displayName [{"text":"\uE000"},{"text":"Gryffindor","color":"dark_red"}]

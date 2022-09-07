@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": [
+              "minecraft:flowering_azalea_leaves"
+            ],
+            "nbt": "{Plant:1b}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "hp:plants/harvest"
+  }
+}

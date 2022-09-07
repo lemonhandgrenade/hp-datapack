@@ -1,0 +1,91 @@
+## Plants
+ - Aconite
+ - African Red Pepper
+ - Alihotsy
+ - Angel's Trumpet
+ - Anjelica
+ - Armotentia
+ - Arnica
+ - Asphodel
+ - Balm
+ - Baneberry
+ - Belladonna
+ - Betony
+ - Bitter root
+ - Bloodroot
+ - Boom Berry
+ - Borage
+ - Bouncing Bulb
+ - Bubotuber
+ - Bulbadox
+ - Bursting mushroom
+ - Castor
+ - Centaury
+ - Chinese Chomping Cabbage
+ - Cowbane
+ - Deadlyius
+ - Death-Cap
+ - Dittany
+ - Fanged Geranium
+ - Fire Seed Bush
+ - Fluxweed
+ - Foxglove
+ - Galanthus Nivalis
+ - Gillyweed
+ - Ginger
+ - Goosegrass
+ - Gurdyroot
+ - Hellebore
+ - Hemlock
+ - Herbaria
+ - Horklump
+ - Horseradish
+ - Jewelweed
+ - Knotgrass
+ - Lady's Mantle
+ - Lavender
+ - Lovage
+ - Mallowsweet
+ - Mandrake
+ - Mint
+ - Moly
+ - Moondew
+ - Moonseed
+ - Motherwort
+ - Nettle
+ - Niffler's Fancy
+ - Nightshade
+ - Nux Myristica
+ - Onion
+ - Peppermint
+ - Plangentine
+ - Poison ivy
+ - Polypody
+ - Pritcher's Porritch
+ - Pungous Onion
+ - Rose
+ - Rue
+ - Sage
+ - Scurvy grass
+ - Shrivelfig
+ - Silverweed
+ - Snakeweed
+ - Sneezewort
+ - Sopophorous
+ - Spleenwart
+ - Squill
+ - St John's-wort
+ - Staghorn
+ - Star Grass
+ - Starthistle
+ - Thaumatagoria
+ - Thyme
+ - Tormentil
+ - Valerian
+ - Venomous Tentacula
+ - Vervain
+ - Wartcap
+ - Wartizome
+ - Wiggenbush
+ - Witch's Ganglion
+ - Wormwood

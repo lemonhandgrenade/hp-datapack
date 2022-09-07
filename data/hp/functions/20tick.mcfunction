@@ -1,8 +1,5 @@
 schedule function hp:20tick 20t
 
-kill @e[type=arrow,tag=spellEntity,tag=conjuredEntity,nbt={inGround:1b}]
-
-
 execute as @e[type=item,tag=!set,nbt={OnGround:1b,Item:{Count:1b,tag:{Broom:1b}}}] at @s if entity @p[x_rotation=90] run tag @s add set
 execute as @e[type=item,tag=!set,nbt={OnGround:1b,Item:{Count:1b,tag:{Broom:1b}}}] at @s if block ~ ~ ~ #hp:air if block ~1 ~ ~ #hp:air if block ~-1 ~ ~ #hp:air if block ~ ~ ~1 #hp:air if block ~ ~ ~-1 #hp:air if block ~1 ~ ~1 #hp:air if block ~1 ~ ~-1 #hp:air if block ~-1 ~ ~1 #hp:air if block ~-1 ~ ~-1 #hp:air run tag @s add space
 execute as @e[type=item,tag=space,tag=!set,nbt={OnGround:1b,Item:{Count:1b,tag:{Broom:1b}}}] at @s run function hp:broom/select_broom

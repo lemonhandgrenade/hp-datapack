@@ -1,0 +1,7 @@
+execute if block ~ ~ ~ minecraft:melon_stem[age=1] unless block ~1 ~ ~ melon_stem unless block ~-1 ~ ~ melon_stem unless block ~ ~ ~1 melon_stem unless block ~ ~ ~-1 melon_stem run function hp:plants/grow
+execute if block ~ ~ ~ minecraft:melon_stem[age=2] unless block ~1 ~ ~ melon_stem unless block ~-1 ~ ~ melon_stem unless block ~ ~ ~1 melon_stem unless block ~ ~ ~-1 melon_stem run function hp:plants/grow
+execute if block ~ ~ ~ minecraft:melon_stem[age=3] unless block ~1 ~ ~ melon_stem unless block ~-1 ~ ~ melon_stem unless block ~ ~ ~1 melon_stem unless block ~ ~ ~-1 melon_stem run function hp:plants/grow
+execute if block ~ ~ ~ minecraft:melon_stem[age=4] unless block ~1 ~ ~ melon_stem unless block ~-1 ~ ~ melon_stem unless block ~ ~ ~1 melon_stem unless block ~ ~ ~-1 melon_stem run function hp:plants/grow
+execute if block ~ ~ ~ minecraft:melon_stem[age=5] unless block ~1 ~ ~ melon_stem unless block ~-1 ~ ~ melon_stem unless block ~ ~ ~1 melon_stem unless block ~ ~ ~-1 melon_stem run function hp:plants/grow
+execute if block ~ ~ ~ minecraft:melon_stem[age=6] unless block ~1 ~ ~ melon_stem unless block ~-1 ~ ~ melon_stem unless block ~ ~ ~1 melon_stem unless block ~ ~ ~-1 melon_stem run function hp:plants/grow
+execute if block ~ ~ ~ minecraft:melon_stem[age=7] unless block ~1 ~ ~ melon_stem unless block ~-1 ~ ~ melon_stem unless block ~ ~ ~1 melon_stem unless block ~ ~ ~-1 melon_stem run function hp:plants/grow
