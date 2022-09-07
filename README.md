@@ -230,6 +230,7 @@ True and false are represented as 1 and 0 respectively
 - `charmsBreakConnected`: This changes whether charms can break connected blocks from the initial, eg. Whether Finestra breaks all glass in the pane.
 - `charmsChangeBlocks`: This changes whether charms can alter a block's state, eg. Whether the Fire-making spell can light a campfire.
 - `easySortingHat`: This changes whether the sorting hat's questions are colored representing what house they benefit.
+- `plantParticles`: Shows particles above plants indicating they're fully grown and where pick them up.
 - `playerInfo`: Changes whether a player has access to their stats from `/trigger injuries` and `/trigger player`.  
 - `repairParticles`: If this is set to 1, blocks that are repairable with the mending charm will have particles around it.
 - `resourcepackMobs`: This changes whether spawned mobs should use a resourcepack item vs a regular in game item.
