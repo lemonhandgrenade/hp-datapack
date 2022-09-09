@@ -178,6 +178,7 @@ execute as @s[tag=ropeBind] run function hp:spells/r/rope_bind/private/launch
 execute as @s[tag=sardineSpell] run function hp:spells/s/sardine_spell/private/launch
 execute as @s[tag=scribblifors] run function hp:spells/s/scribblifors/private/launch
 execute as @s[tag=sectumsempra] run function hp:spells/s/sectumsempra/private/launch
+execute as @s[tag=severingCharm] run function hp:spells/s/severing_charm/private/launch
 execute as @s[tag=shieldCharm] run function hp:spells/s/shield_charm/private/launch
 execute as @s[tag=shootingSpell] run function hp:spells/s/shooting_spell/private/launch
 execute as @s[tag=silencingCharm] run function hp:spells/s/silencing_charm/private/launch

@@ -11,4 +11,6 @@ execute if score temp values matches 433 run function hp:items/ingredients/knotg
 execute if score temp values matches 433 run function hp:items/ingredients/knotgrass
 execute if score temp values matches 433 run function hp:items/seeds/knotgrass
 
+execute if score temp values matches 743 run function hp:items/seeds/spiky_bush
+
 advancement revoke @s only hp:harvest

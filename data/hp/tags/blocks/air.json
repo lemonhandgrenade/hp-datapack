@@ -59,6 +59,10 @@
 		{
 			"id": "minecraft:nether_sprouts",
 			"required": false
+		},
+		{
+			"id": "minecraft:structure_void",
+			"required": false
 		}
   ]
 }

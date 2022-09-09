@@ -72,6 +72,7 @@
  - Snakeweed
  - Sneezewort
  - Sopophorous
+ - Spiky Bush
  - Spleenwart
  - Squill
  - St John's-wort
@@ -88,4 +89,3 @@
  - Wartizome
  - Wiggenbush
  - Witch's Ganglion
- - Wormwood

@@ -44,6 +44,7 @@ execute store result score #rng_fear values run loot spawn 0 0 0 loot hp:rng/rng
 
 execute store result score rng255 values run loot spawn 0 0 0 loot hp:rng/rng255
 execute store result score rng5 values run loot spawn 0 0 0 loot hp:rng/rng5
+execute store result score rng4 values run loot spawn 0 0 0 loot hp:rng/rng4
 execute store result score rng3 values run loot spawn 0 0 0 loot hp:rng/rng3
 
 scoreboard objectives add UID dummy
@@ -139,6 +140,8 @@ scoreboard objectives add lycanthropy dummy
 
 #-Herbology----------------------------------------------------------------------------------------#
 scoreboard objectives add plantTime dummy
+scoreboard players set #timeBase plantTime 3600
+scoreboard players set #timeMarker plantTime 1200
 scoreboard objectives add plantState dummy
 
 

@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ghast_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Spiky Bush Seeds",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:740,EntityTag:{Tags:[\"spikyBush\"],id:\"minecraft:marker\",CustomName:'{\"text\":\"seed\"}'}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
