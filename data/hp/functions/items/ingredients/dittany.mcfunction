@@ -1,1 +1,1 @@
-give @s chain_command_block{display:{Name:'{"text":"Dittany","color":"#5A792A","italic":false}',Lore:['{"text":"Used in potion making.","italic":false}']},Weight:10,Ingredient:1b,CustomModelData:710,PotionID:710,Color:6785327} 1
+give @s chain_command_block{display:{Name:'{"text":"Dittany","color":"#5A792A","italic":false}',Lore:['{"text":"Used in potion making","italic":false}']},Weight:10,Ingredient:1b,CustomModelData:710,PotionID:710,Color:6785327} 1

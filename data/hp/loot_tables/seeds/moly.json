@@ -10,13 +10,13 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Knotgrass Seeds",
+                "text": "Moly Seeds",
                 "italic": false
               }
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:420,EntityTag:{Tags:[\"knotgrass\"],id:\"minecraft:marker\",CustomName:'{\"text\":\"seed\"}'}}"
+              "tag": "{CustomModelData:500,EntityTag:{Tags:[\"moly\"],id:\"minecraft:marker\",CustomName:'{\"text\":\"seed\"}'}}"
             }
           ]
         }

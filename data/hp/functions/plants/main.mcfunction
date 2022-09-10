@@ -1,5 +1,7 @@
 execute if block ~ ~ ~ minecraft:melon_stem run function hp:plants/melon_check
 
+execute if score @s anim matches 2.. if entity @s[tag=nettle] if entity @p[distance=..0.5] run function hp:plants/special/nettle_sting
+
 scoreboard players set @s X 1
 scoreboard players set temp values 0
 execute as @p[distance=..1.6] if predicate hp:plants/bone_meal at @s as @e[type=armor_stand,tag=plant,sort=nearest,limit=1] if score @s X matches 1 run scoreboard players set temp values 1

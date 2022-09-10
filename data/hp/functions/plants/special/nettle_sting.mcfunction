@@ -1,0 +1,1 @@
+effect give @a[distance=..0.5] wither 1 1 true

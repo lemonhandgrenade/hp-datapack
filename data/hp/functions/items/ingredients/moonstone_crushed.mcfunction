@@ -1,1 +1,1 @@
-give @s chain_command_block{display:{Name:'{"text":"Crushed Moonstone","color":"#EFEFD8","italic":false}',Lore:['{"text":"Used in potion making.","italic":false}']},Weight:40,Ingredient:1b,CustomModelData:1681,PotionID:1681,Color:15132608} 1
+give @s chain_command_block{display:{Name:'{"text":"Crushed Moonstone","color":"#EFEFD8","italic":false}',Lore:['{"text":"Used in potion making","italic":false}']},Weight:40,Ingredient:1b,CustomModelData:1681,PotionID:1681,Color:15132608} 1

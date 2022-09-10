@@ -16,7 +16,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:300,EntityTag:{Tags:[\"fluxweed\"],id:\"minecraft:marker\",CustomName:'{\"text\":\"seed\"}'}}"
+              "tag": "{CustomModelData:290,EntityTag:{Tags:[\"fluxweed\"],id:\"minecraft:marker\",CustomName:'{\"text\":\"seed\"}'}}"
             }
           ]
         }

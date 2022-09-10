@@ -10,13 +10,13 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Knotgrass Seeds",
+                "text": "Wolfsbane Seeds",
                 "italic": false
               }
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:420,EntityTag:{Tags:[\"knotgrass\"],id:\"minecraft:marker\",CustomName:'{\"text\":\"seed\"}'}}"
+              "tag": "{CustomModelData:910,EntityTag:{Tags:[\"wolfsbane\"],id:\"minecraft:marker\",CustomName:'{\"text\":\"seed\"}'}}"
             }
           ]
         }

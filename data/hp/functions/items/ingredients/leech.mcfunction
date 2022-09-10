@@ -1,1 +1,1 @@
-give @s chain_command_block{display:{Name:'{"text":"Leech","color":"#46354B","italic":false}',Lore:['{"text":"Used in potion making.","italic":false}']},Weight:80,Ingredient:1b,CustomModelData:1450,PotionID:1450,Color:4797251} 1
+give @s chain_command_block{display:{Name:'{"text":"Leech","color":"#46354B","italic":false}',Lore:['{"text":"Used in potion making","italic":false}']},Weight:80,Ingredient:1b,CustomModelData:1450,PotionID:1450,Color:4797251} 1

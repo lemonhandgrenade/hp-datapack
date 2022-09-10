@@ -89,3 +89,4 @@
  - Wartizome
  - Wiggenbush
  - Witch's Ganglion
+ - Wormwood

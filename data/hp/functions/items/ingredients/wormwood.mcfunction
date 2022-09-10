@@ -1,0 +1,1 @@
+give @s chain_command_block{display:{Name:'{"text":"Wormwood","color":"#4A6838","italic":false}',Lore:['{"text":"A very bitter herb that had been used in Potion-making since ancient times","italic":false}']},Ingredient:1b,CustomModelData:2870,PotionID:2870,Color:8302944} 1
