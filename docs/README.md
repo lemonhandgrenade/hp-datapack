@@ -22,7 +22,7 @@ More info on wands can be found [here](https://github.com/lemonhandgrenade/hp-da
 ## Potions
 Potions can have a maximum of 32 steps currently.  
 Each recipe is put in the `hp:potions` storage. eg:  
-`data modify storage hp:potions ForgetfulnessPotion set value [1470, 1470, 9999, 2640, 2640, 9999, 9999, 2431, 2431, 1621, 1621, 1621, 1621, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999]`  
+`data modify storage hp:potions ForgetfulnessPotion set value [1480, 1480, 9999, 2650, 2650, 9999, 9999, 2441, 2441, 1631, 1631, 1631, 1631, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000]`  
 The ID for each element is the ingredient ID with a number denoting it's state:  
 
 | State    | ID |
@@ -31,7 +31,11 @@ The ID for each element is the ingredient ID with a number denoting it's state:
 | Crushed  | 1  |
 | Powdered | 2  |
 
-Heating up the cauldron uses the ID `9999`.
+For instance `Snake Fangs` uses the PotionID `2320`  
+When crushed it becomes `2321`  
+And when powdered it becomes `2322`  
+
+Heating up the cauldron uses the ID `9999`
 
 ## Ingredients
 Ingredients have a simple setup for an example we'll use the bezoar:  

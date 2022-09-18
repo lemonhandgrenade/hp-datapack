@@ -24,6 +24,8 @@ Due to the amount of items a lot of CustomModelData values have been used. They 
 | cookie                   | 1                           |
 | elytra                   | 1..2                        |
 | flint_and_steel          | 1                           |
+| flowering_azalea_leaves  | 10..923                     |
+| ghast_spawn_egg          | 10..920                     |
 | glass_bottle             | 1                           |
 | light_blue_stained_glass | 1..412                      |
 | paper                    | 1..10 10000..10004          |
