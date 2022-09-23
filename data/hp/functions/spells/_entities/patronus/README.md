@@ -103,7 +103,7 @@
 102. - [ ] Rattlesnake
 103. - [ ] Raven
 104. - [ ] Red Squirrel
-105. - [ ] Rhinoceros
+105. - [x] Rhinoceros
 106. - [ ] Robin
 107. - [ ] Rottweiler
 108. - [ ] Runespoor
