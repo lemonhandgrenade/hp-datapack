@@ -3,7 +3,7 @@ scoreboard players set dst slowcast 128
 scoreboard players set temp values 0
 scoreboard players operation #current UID = @s UID
 scoreboard players add @s patronusID 0
-execute if entity @s[scores={patronusID=0}] store result score @s patronusID run loot spawn 0 0 0 loot hp:rng/rng5
+execute if entity @s[scores={patronusID=0}] store result score @s patronusID run loot spawn 0 0 0 loot hp:rng/rng_patronus
 
 execute as @e[type=area_effect_cloud,tag=patronusCharm] if score @s UID = #current UID run scoreboard players set temp values 1
 
