@@ -36,6 +36,18 @@ Contents
 
 
 ## How to start
+
+<details><summary>Wizarding World settings</summary><p>
+If you know your Wizarding World quiz results, you can replicate them in Minecraft by filling out [this](https://lemonhandgrenade.github.io/repos/hp-datapack/) and copying the commands.
+
+The form currently has:
+- Wand
+- Patronus
+- House
+
+
+</p></details>
+
 <details><summary>Spells</summary><p>
 
 ### Getting a wand.

@@ -51,27 +51,27 @@ Below is an ID table featuring all existing IDs.
 | -- | ------------ | ------------------------- |
 | 1  | Acacia       | African mermaid hair      |
 | 2  | Alder        | Basilisk horn             |
-| 3  | Apple        | Bone                      |
+| 3  | Apple        | Coral                     |
 | 4  | Ash          | Curupira hair             |
 | 5  | Aspen        | Dittany                   |
 | 6  | Beech        | Dragon heartstring        |
 | 7  | Birch        | Horned Serpent horn       |
 | 8  | Blackthorn   | Jackalope antler          |
 | 9  | Black Walnut | Kelpie hair               |
-| 10 | Cedar        | Koralle                   |
+| 10 | Cedar        | Kneazle whisker           |
 | 11 | Cherry       | Phoenix feather           |
 | 12 | Chestnut     | Rougarou hair             |
-| 13 | Cypress      | Shell                     |
-| 14 | Dogwood      | Snallygaster heartstring  |
-| 15 | Ebony        | Supreme Cores             |
-| 16 | Elder        | Thestral tail hair        |
-| 17 | Elm          | Thunderbird tail feather  |
-| 18 | English oak  | Troll whisker             |
-| 19 | Fir          | Twin Wand Cores           |
-| 20 | Hawthorn     | Unicorn hair              |
-| 21 | Hazel        | Veela hair                |
-| 22 | Holly        | Wampus cat hair           |
-| 23 | Hornbeam     | White River Monster spine |
+| 13 | Cypress      | Snallygaster heartstring  |
+| 14 | Dogwood      | Thestral tail hair        |
+| 15 | Ebony        | Thunderbird tail feather  |
+| 16 | Elder        | Troll whisker             |
+| 17 | Elm          | Twin Wand Cores           |
+| 18 | English oak  | Unicorn hair              |
+| 19 | Fir          | Veela hair                |
+| 20 | Hawthorn     | Wampus cat hair           |
+| 21 | Hazel        | White River Monster spine |
+| 22 | Holly        |                           |
+| 23 | Hornbeam     |                           |
 | 24 | Ivy          |                           |
 | 25 | Larch        |                           |
 | 26 | Laurel       |                           |
