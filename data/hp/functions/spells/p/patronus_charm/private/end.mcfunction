@@ -1,5 +1,5 @@
 scoreboard players operation #current UID = @s UID
-
+tag @s add end
 scoreboard players reset @s slo_id
 scoreboard players reset @s slo_dst
 scoreboard players reset @s slo_dst_per
