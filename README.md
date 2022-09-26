@@ -38,7 +38,8 @@ Contents
 ## How to start
 
 <details><summary>Wizarding World settings</summary><p>
-If you know your Wizarding World quiz results, you can replicate them in Minecraft by filling out [this](https://lemonhandgrenade.github.io/repos/hp-datapack/) and copying the commands.
+  
+If you know your Wizarding World quiz results, you can replicate them in Minecraft by filling out [this][wizard] and copying the commands.
 
 The form currently has:
 - Wand
@@ -270,6 +271,7 @@ Basic docs can be found [here](https://github.com/lemonhandgrenade/hp-datapack/t
 The code is available at [Github][home] under the [MIT license][license].
 
 
+[wizard]: https://lemonhandgrenade.github.io/repos/hp-datapack/
 [floomap]: https://www.planetminecraft.com/project/harry-potter-adventure-map-3347878
 [floo]: https://www.planetminecraft.com/member/the_floo_network
 [cloudwolfvid]: https://www.youtube.com/watch?v=peRO138IgCA
