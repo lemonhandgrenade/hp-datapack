@@ -65,11 +65,11 @@ Below is an ID table featuring all existing IDs.
 | 14 | Dogwood      | Thestral tail hair        |
 | 15 | Ebony        | Thunderbird tail feather  |
 | 16 | Elder        | Troll whisker             |
-| 17 | Elm          | Twin Wand Cores           |
-| 18 | English oak  | Unicorn hair              |
-| 19 | Fir          | Veela hair                |
-| 20 | Hawthorn     | Wampus cat hair           |
-| 21 | Hazel        | White River Monster spine |
+| 17 | Elm          | Unicorn hair              |
+| 18 | English oak  | Veela hair                |
+| 19 | Fir          | Wampus cat hair           |
+| 20 | Hawthorn     | White River Monster spine |
+| 21 | Hazel        |                           |
 | 22 | Holly        |                           |
 | 23 | Hornbeam     |                           |
 | 24 | Ivy          |                           |

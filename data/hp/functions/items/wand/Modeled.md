@@ -480,7 +480,7 @@
  - [ ] Ivy White river monster spine  
  - [ ] Larch African mermaid hair  
  - [ ] Larch Basilisk horn  
- - [ ] Larch Coral  
+ - [x] Larch Coral  
  - [ ] Larch Curupira hair  
  - [ ] Larch Dittany  
  - [ ] Larch Dragon heartstring  
@@ -742,7 +742,7 @@
  - [ ] Silver lime Basilisk horn  
  - [ ] Silver lime Coral  
  - [ ] Silver lime Curupira hair  
- - [ ] Silver lime Dittany  
+ - [x] Silver lime Dittany  
  - [ ] Silver lime Dragon heartstring  
  - [ ] Silver lime Horned serpent horn  
  - [ ] Silver lime Jackalope antler  
