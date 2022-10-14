@@ -46,6 +46,7 @@ execute as @s[tag=cascadingJinx] run function hp:spells/c/cascading_jinx/private
 execute as @s[tag=cauldronToBadgerSpell] run function hp:spells/c/cauldron_to_badger_spell/private/launch
 execute as @s[tag=cauldronToGuitarSpell] run function hp:spells/c/cauldron_to_guitar_spell/private/launch
 execute as @s[tag=chokingSpell] run function hp:spells/c/choking_spell/private/launch
+execute as @s[tag=cleaningCharm] run function hp:spells/c/cleaning_charm/private/launch
 execute as @s[tag=coinsToFrogspawn] run function hp:spells/c/coins_to_frogspawn_spell/private/launch
 execute as @s[tag=combatBolt] run function hp:spells/c/combat_bolt/private/launch
 execute as @s[tag=conflagrationSpell] run function hp:spells/c/conflagration_spell/private/launch
