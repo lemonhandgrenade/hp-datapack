@@ -41,6 +41,10 @@
 			"required": false
 		},
 		{
+			"id": "#minecraft:climbable",
+			"required": false
+		},
+		{
 			"id": "minecraft:redstone_wire",
 			"required": false
 		},
