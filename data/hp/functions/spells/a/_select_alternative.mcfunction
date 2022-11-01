@@ -1,6 +1,6 @@
 execute if score @s spell matches 1 run function hp:spells/a/aberforth_dumbledores_goat_charm/cast
 execute if score @s spell matches 2 run function hp:spells/a/age_line/cast
-execute if score @s spell matches 3 run function hp:spells/a/alarte_ascendare/cast
+execute if score @s spell matches 3 run function hp:spells/a/alarte_ascendare/cast_alternative
 execute if score @s spell matches 4 run function hp:spells/a/albus_dumbledores_forceful_spell/cast
 execute if score @s spell matches 5 run function hp:spells/a/albus_dumbledores_theft_sensory_spell/cast
 execute if score @s spell matches 6 run function hp:spells/a/amplifying_charm/hit_entity
