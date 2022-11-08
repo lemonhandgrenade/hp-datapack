@@ -4,6 +4,8 @@ execute store result score moonTime moon run time query daytime
 execute store result score moonPhase moon run time query day
 scoreboard players operation moonPhase moon %= 8 values
 
+execute store result score difficulty settings run difficulty
+
 scoreboard players add @a spellCooldown 0
 scoreboard players add @a currentSpellSlot 0
 scoreboard players add @a deaths 0

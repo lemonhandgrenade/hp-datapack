@@ -39,6 +39,7 @@ scoreboard players set 256 values 256
 
 scoreboard players set #max values 127
 
+execute store result score #rng_splinch values run loot spawn 0 0 0 loot hp:rng/rng_splinch
 execute store result score #rng_animagus values run loot spawn 0 0 0 loot hp:rng/rng_animagus
 execute store result score #rng_fear values run loot spawn 0 0 0 loot hp:rng/rng_fear
 
@@ -78,6 +79,7 @@ scoreboard objectives add spellCooldown dummy
 
 scoreboard objectives add patronusID dummy
 
+scoreboard objectives add apparitionTimer dummy
 scoreboard objectives add engorgioSkullus dummy
 scoreboard objectives add cruciatusCurse dummy
 scoreboard objectives add bubbleHead dummy
