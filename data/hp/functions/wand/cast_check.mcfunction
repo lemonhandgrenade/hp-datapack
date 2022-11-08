@@ -1,0 +1,3 @@
+execute unless predicate hp:wand/will_backfire if score @s sneakTest matches 1.. if score @s spellCooldown matches 0 run function hp:wand/select_alternative
+execute unless predicate hp:wand/will_backfire if score @s sneakTest matches 0 if score @s spellCooldown matches 0 run function hp:wand/select
+execute if predicate hp:wand/will_backfire if score @s spellCooldown matches 0 run function hp:wand/backfire_select
