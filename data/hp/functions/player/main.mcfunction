@@ -25,7 +25,5 @@ execute if score @s wfoas matches 1.. run function hp:equipment/wfoas
 
 execute if entity @s[tag=handOfGlory,predicate=!hp:holding_hand_of_glory] run tag @s remove handOfGlory
 
-execute if entity @s[gamemode=!spectator,tag=werewolf,tag=!wereTransform] if score moonTime moon matches 13000.. if score moonTime moon matches ..22499 if score moonPhase moon matches 0 run function hp:werewolf/transform
-execute if entity @s[tag=werewolf,tag=wereTransform] if score moonTime moon matches 22500.. if score moonTime moon matches ..23999 run function hp:werewolf/untransform
-execute if entity @s[tag=werewolf,tag=wereTransform] if score moonTime moon matches 0.. if score moonTime moon matches ..12999 run function hp:werewolf/untransform
-execute if entity @s[tag=werewolf,tag=wereTransform] unless score moonPhase moon matches 0 run function hp:werewolf/untransform
+execute if entity @s[tag=werewolf] run function hp:werewolf/check
+execute if entity @s[tag=isApparating] run function hp:spells/a/apparition/tp/main
