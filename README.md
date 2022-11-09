@@ -242,6 +242,7 @@ True and false are represented as 1 and 0 respectively
 - `charmsBreakBlocks`: This will change whether charms can destroy blocks, eg. Whether the Gouging spell breaks stone into cobblestone.
 - `charmsBreakConnected`: This changes whether charms can break connected blocks from the initial, eg. Whether Finestra breaks all glass in the pane.
 - `charmsChangeBlocks`: This changes whether charms can alter a block's state, eg. Whether the Fire-making spell can light a campfire.
+- `difficulty`: This is automatically set to the difficulty of your game and will be overwritten if changed.
 - `easySortingHat`: This changes whether the sorting hat's questions are colored representing what house they benefit.
 - `plantParticles`: Shows particles above plants indicating they're fully grown and where pick them up.
 - `playerInfo`: Changes whether a player has access to their stats from `/trigger injuries` and `/trigger player`.  

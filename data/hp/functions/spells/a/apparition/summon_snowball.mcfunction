@@ -1,4 +1,4 @@
-execute rotated as @s positioned 0 0 0 align xyz run summon snowball ^ ^ ^.5 {NoGravity:1b,Silent:1b,Tags:["new","specialBall","spellEntity","airMod","apparitionBall"],Passengers:[{id:"minecraft:item",Silent:1b,PickupDelay:-1,Tags:["new","apparitionBallItem"],Item:{id:"minecraft:polished_blackstone_button",Count:1b,tag:{CustomModelData:1}}}],Item:{id:"minecraft:polished_blackstone_button",Count:1b,tag:{CustomModelData:1}}}
+execute rotated as @s positioned 0 0 0 align xyz run summon snowball ^ ^ ^.6 {NoGravity:1b,Silent:1b,Tags:["new","specialBall","spellEntity","airMod","apparitionBall"],Passengers:[{id:"minecraft:item",Silent:1b,PickupDelay:-1,Tags:["new","apparitionBallItem"],Item:{id:"minecraft:polished_blackstone_button",Count:1b,tag:{CustomModelData:1}}}],Item:{id:"minecraft:polished_blackstone_button",Count:1b,tag:{CustomModelData:1}}}
 execute as @e[type=snowball,tag=new] store result score @s X run data get entity @s Pos[0] 2000
 execute as @e[type=snowball,tag=new] store result score @s Y run data get entity @s Pos[1] 2000
 execute as @e[type=snowball,tag=new] store result score @s Z run data get entity @s Pos[2] 2000

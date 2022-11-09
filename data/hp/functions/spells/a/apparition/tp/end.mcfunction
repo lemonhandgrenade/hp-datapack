@@ -2,7 +2,7 @@ tag @s remove isApparating
 
 # IMPORTANT - Force Player To Exit Spectating
 spectate
-
+tellraw @a[tag=debug] {"score":{"name":"@s","objective":"apparitionTimer"}}
 # Sound Effect
 execute at @s run playsound minecraft:item.trident.riptide_1 player @a ~ ~ ~ 1 1.3
 

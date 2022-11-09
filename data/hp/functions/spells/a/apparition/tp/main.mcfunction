@@ -7,6 +7,7 @@ tag @s remove aTemp
 
 # Particles
 execute at @s run particle dust_color_transition 0.075 0.02 0.1 4 0.1 0.04 0.24 ~ ~ ~ 0.1 0.1 0.1 0 24 normal
+execute at @s run particle dust_color_transition 0.075 0.02 0.1 4 0.1 0.04 0.24 ^ ^ ^-0.5 0.1 0.1 0.1 0 24 normal
 execute at @s run particle squid_ink ~ ~ ~ 0.1 0.1 0.1 0 24 normal
 
 # Collisions
