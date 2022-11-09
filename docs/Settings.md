@@ -3,8 +3,11 @@
 ## Table of Contents
 - [General Info](#general-info)
 - [Charms](#charms)
+- [Tools](#tools)
 - [Sorting Hat](#sorting-hat)
 - [Player Info](#player-info)
+- [Plants](#plants)
+- [Mobs](#mobs)
 
 
 # General Info
@@ -26,10 +29,11 @@ These are `charmsBreakBlocks` and `charmsBreakConnected`
 <details>
 <summary>Uses of charmsBreakBlocks</summary>
 
-| Name           | Function Name                      | File Dir                                                |
-| -------------- | ---------------------------------- | ------------------------------------------------------- |
-| Finestra Spell | hp:spells/f/finestra_spell/shatter | hp/functions/spells/f/finestra_spell/shatter.mcfunction |
-| Gouging Spell  | hp:spells/g/gouging_spell/raycast  | hp/functions/spells/g/gouging_spell/raycast.mcfunction  |
+| Name           | Function Name                        | File Dir                                                  |
+| -------------- | ------------------------------------ | --------------------------------------------------------- |
+| Finestra Spell | hp:spells/f/finestra_spell/shatter   | hp/functions/spells/f/finestra_spell/shatter.mcfunction   |
+| Gouging Spell  | hp:spells/g/gouging_spell/raycast    | hp/functions/spells/g/gouging_spell/raycast.mcfunction    |
+| Severing Charm | hp:spells/s/severing_charm/hit_block | hp/functions/spells/s/severing_charm/hit_block.mcfunction |
 
 </details><br>
 
@@ -44,6 +48,19 @@ These are `charmsBreakBlocks` and `charmsBreakConnected`
 
 </details><br>
 
+`charmsChangeBlocks` alters whether a charm can modify a block.
+
+<details>
+<summary>Uses of charmsChangeBlocks</summary>
+
+| Name              | Function Name                         | File Dir                                                   |
+| ----------------- | ------------------------------------- | ---------------------------------------------------------- |
+| Cleaning Charm    | hp:spells/c/cleaning_charm/raycast    | hp/functions/spells/c/cleaning_charm/raycast.mcfunction    |
+| Fire Making Spell | hp:spells/f/fire-making_spell/raycast | hp/functions/spells/f/fire-making_spell/raycast.mcfunction |
+| Gouging Spell     | hp:spells/g/gouging_spell/raycast     | hp/functions/spells/g/gouging_spell/raycast.mcfunction     |
+
+</details><br>
+
 ## Repair Particles
 
 Repair particles are particles that will appear around blocks when they are able to be repaired with a spell like Reparo.  
@@ -55,6 +72,21 @@ The settings is `repairParticles`
 | Name           | Function Name                           | File Dir                                                     |
 | -------------- | --------------------------------------- | ------------------------------------------------------------ |
 | Spell Entities | hp:spells/\_entities/mending_charm/main | hp/functions/spells/\_entities/mending_charm/main.mcfunction |
+
+</details><br>
+
+# Tools
+
+`toolEntityParticles` sets the particle type tools use to indicate where to pick them up.
+
+<details>
+<summary>Uses of toolEntityParticles</summary>
+
+| Name            | Function Name                 | File Dir                                           |
+| --------------- | ----------------------------- | -------------------------------------------------- |
+| Cauldron        | hp:entities/cauldron/main     | hp/functions/entities/cauldron/main.mcfunction     |
+| Mortar & Pestle | hp:entities/mortarpestle/main | hp/functions/entities/mortarpestle/main.mcfunction |
+| Scales          | hp:entities/scales/update     | hp/functions/entities/scales/update.mcfunction     |
 
 </details><br>
 
@@ -129,5 +161,43 @@ Information a player can obtain from the `/trigger player` command is as follows
 | Name           | Function Name  | File Dir                            |
 | -------------- | -------------- | ----------------------------------- |
 | Spell Entities | hp:plants/main | hp/functions/plants/main.mcfunction |
+
+</details><br>
+
+# Mobs
+
+`resourcepackMobs` changes whether mobs spawned use texture pack models vs vanilla models.
+
+<details>
+<summary>Uses of resourcepackMobs</summary>
+
+| Name                  | Function Name                                   | File Dir                                                             |
+| --------------------- | ----------------------------------------------- | -------------------------------------------------------------------- |
+| Morph Teleport        | hp:animagus/morph/tp                            | hp/functions/animagus/morph/tp.mcfunction                            |
+| Animagus Cardinal     | hp:animagus/morph/summon/bird/cardinal          | hp/functions/animagus/morph/summon/bird/cardinal.mcfunction          |
+| Animagus Crow         | hp:animagus/morph/summon/bird/crow              | hp/functions/animagus/morph/summon/bird/crow.mcfunction              |
+| Animagus Duck         | hp:animagus/morph/summon/bird/duck              | hp/functions/animagus/morph/summon/bird/duck.mcfunction              |
+| Animagus Falcon       | hp:animagus/morph/summon/bird/falcon            | hp/functions/animagus/morph/summon/bird/falcon.mcfunction            |
+| Animagus Pigeon       | hp:animagus/morph/summon/bird/pigeon            | hp/functions/animagus/morph/summon/bird/pigeon.mcfunction            |
+| Animagus Monarch      | hp:animagus/morph/summon/butterfly/monarch      | hp/functions/animagus/morph/summon/butterfly/monarch.mcfunction      |
+| Animagus Ornithoptera | hp:animagus/morph/summon/butterfly/ornithoptera | hp/functions/animagus/morph/summon/butterfly/ornithoptera.mcfunction |
+| Animagus Postman      | hp:animagus/morph/summon/butterfly/postman      | hp/functions/animagus/morph/summon/butterfly/postman.mcfunction      |
+| Animagus Ulysses      | hp:animagus/morph/summon/butterfly/ulysses      | hp/functions/animagus/morph/summon/butterfly/ulysses.mcfunction      |
+| Animagus Doe          | hp:animagus/morph/summon/deer/doe               | hp/functions/animagus/morph/summon/deer/doe.mcfunction               |
+| Animagus Stag         | hp:animagus/morph/summon/deer/stag              | hp/functions/animagus/morph/summon/deer/stag.mcfunction              |
+| Werewolf Summon       | hp:werewolf/summon                              | hp/functions/werewolf/summon/mcfunction                              |
+
+</details><br>
+
+## Werewolf
+
+`respawnWerewolf` decides whether players who die are still werewolves.
+
+<details>
+<summary>Uses of respawnWerewolf</summary>
+
+| Name           | Function Name    | File Dir                              |
+| -------------- | ---------------- | ------------------------------------- |
+| Werewolf Dies  | hp:werewolf/dies | hp/functions/werewolf/dies.mcfunction |
 
 </details><br>
