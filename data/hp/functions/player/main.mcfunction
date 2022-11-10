@@ -1,5 +1,6 @@
 execute at @s[tag=headlock] as @e[tag=headlock,type=area_effect_cloud] if score @s UID = @p UID run tp @p @s
 
+scoreboard players remove @s[scores={apparitionCooldown=1..}] apparitionCooldown 1
 scoreboard players remove @s[scores={spellCooldown=1..}] spellCooldown 1
 scoreboard players remove @s[scores={anim=1..}] anim 1
 
@@ -26,4 +27,4 @@ execute if score @s wfoas matches 1.. run function hp:equipment/wfoas
 execute if entity @s[tag=handOfGlory,predicate=!hp:holding_hand_of_glory] run tag @s remove handOfGlory
 
 execute if entity @s[tag=werewolf] run function hp:werewolf/check
-execute if entity @s[tag=isApparating] run function hp:spells/a/apparition/tp/main
+execute if entity @s[tag=isApparating] if score @s apparitionCooldown matches ..22 run function hp:spells/a/apparition/tp/main

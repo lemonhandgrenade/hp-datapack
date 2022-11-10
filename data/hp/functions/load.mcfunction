@@ -79,6 +79,7 @@ scoreboard objectives add spellCooldown dummy
 
 scoreboard objectives add patronusID dummy
 
+scoreboard objectives add apparitionCooldown dummy
 scoreboard objectives add apparitionTimer dummy
 scoreboard objectives add engorgioSkullus dummy
 scoreboard objectives add cruciatusCurse dummy
