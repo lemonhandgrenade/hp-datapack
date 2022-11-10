@@ -26,4 +26,4 @@ execute if score #rng_splinch values matches ..10 if predicate hp:player/is_spri
 # Summon Apparition Entity
 function hp:spells/a/apparition/summon_snowball
 # Force Player To Spectator Mode To Make Spectating Possible
-gamemode spectator
+# gamemode spectator

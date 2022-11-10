@@ -1,10 +1,8 @@
 scoreboard players operation #current UID = @s UID
 # tellraw @s {"nbt":"Pos","entity":"@s"}
 # Add temporary tag to player to reference by BallItem
-
 tag @s add aTemp
 execute as @e[type=item,tag=apparitionBallItem] if score @s UID = #current UID run function hp:spells/a/apparition/tp/item_main
-execute as @e[type=item,tag=apparitionBall] if score @s UID = #current UID run function hp:spells/a/apparition/tp/ball_main
 
 # Collisions
 execute at @s run particle block_marker barrier ~ ~1.25 ~ 0 0 0 0 0 normal @a[tag=debug]
