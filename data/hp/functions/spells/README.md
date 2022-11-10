@@ -1,8 +1,8 @@
 ## Spell IDs
 0. Null
 1. Aberforth Dumbledore's goat charm
-2. ⌛ Age Line
-3. ↑ Alarte Ascendare ↑
+2. Age Line
+3. Alarte Ascendare
 4. Albus Dumbledore's forceful spell
 5. Albus Dumbledore's theft sensory spell
 6. Amplifying Charm
@@ -10,7 +10,7 @@
 8. Animagus reversal spell
 9. Animagus Spell
 10. Annihilare
-11. ╕ Anteoculatia╒
+11. Anteoculatia
 12. Anti-Alohomora Charm
 13. Anti-Apparition Charm
 14. Anti-Cheating Spell
@@ -19,7 +19,7 @@
 17. Anti-jinx
 18. Anti-theft charm
 19. Anti-unlocking charms
-20. 🗡 Antonin Dolohov's curse 🗡
+20. Antonin Dolohov's curse
 21. Apparition
 22. Aqua Eructo
 23. Aqua Eructo Duo
@@ -30,8 +30,8 @@
 28. Arrest spell
 29. Arresto Momento Duo
 30. Arrow Shooting Spell
-31. ↑ Ascendio ↑
-32. ☽ Atmospheric Charm ☀
+31. Ascendio
+32. Atmospheric Charm
 33. Avenseguim
 34. Aviatus
 35. Avifors Spell
@@ -51,8 +51,8 @@
 49. Bewitched Snowballs
 50. Bird-Conjuring Charm
 51. Biting jinx
-52. ✎ Blackboard Writing Spell ✎
-53. ※ Blasting Curse ※
+52. Blackboard Writing Spell
+53. Blasting Curse
 54. Blocked Barrier
 55. Blood malediction
 56. Blood pact
@@ -61,7 +61,7 @@
 59. Blue Special Jinx
 60. Bluebell Flames
 61. Boggart-Banishing Spell
-62. ⁂ Bombarda Maxima ⁂
+62. Bombarda Maxima
 63. Bond of blood charm
 64. Book transfiguring spell
 65. Bouquet Spell
@@ -76,7 +76,7 @@
 74. Broom jinx
 75. Broom-caring charms
 76. Bubble Spell
-77. ○ Bubble-Head Charm ○
+77. Bubble-Head Charm
 78. Butterfly-conjuring spell
 79. Candle conjuring spell
 80. Candle to purple rabbit spell
@@ -175,7 +175,7 @@
 173. Erecto
 174. Everte Statum
 175. Ex Cappa
-176. ⁎ Exploding Charm ⁎
+176. Exploding Charm
 177. Expulso Curse
 178. Extension Charm
 179. Extinguishing Spell
