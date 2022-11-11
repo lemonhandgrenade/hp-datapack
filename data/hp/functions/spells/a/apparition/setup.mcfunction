@@ -6,7 +6,7 @@ execute at @s positioned ~ ~1 ~ run particle dust_color_transition 0.075 0.02 0.
 playsound minecraft:item.trident.riptide_2 player @a ~ ~ ~ 1 1.6
 
 # Inflict Nausea If Used In Rapid Succession
-execute if score @s apparitionCooldown matches 1.. run effect give @s minecraft:nausea 10 10 true
+execute if score @s apparitionCooldown matches 1.. run effect give @s minecraft:nausea 7 10 true
 
 # Set Cooldown To 1.2 Sec So Player Knows When To Apparate To Avoid Weird Y 0 Bug
 scoreboard players set @s apparitionCooldown 24

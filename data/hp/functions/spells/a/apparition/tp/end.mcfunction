@@ -11,6 +11,7 @@ scoreboard players set @s apparitionCooldown 24
 # Reset Player Gamemode
 tag @s add aTemp
 execute as @e[type=item,tag=apparitionBallItem] if score @s UID = #current UID if score @s apparitionTimer matches 0 as @a[tag=aTemp,limit=1] run gamemode survival @s
+execute as @e[type=item,tag=apparitionBallItem] if score @s UID = #current UID if score @s apparitionTimer matches 1 as @a[tag=aTemp,limit=1] run gamemode survival @s
 execute as @e[type=item,tag=apparitionBallItem] if score @s UID = #current UID if score @s apparitionTimer matches 1 as @a[tag=aTemp,limit=1] run gamemode creative @s
 execute as @e[type=item,tag=apparitionBallItem] if score @s UID = #current UID if score @s apparitionTimer matches 2 as @a[tag=aTemp,limit=1] run gamemode adventure @s
 execute as @e[type=item,tag=apparitionBallItem] if score @s UID = #current UID if score @s apparitionTimer matches 3 as @a[tag=aTemp,limit=1] run gamemode spectator @s
@@ -30,7 +31,7 @@ tag @s remove splinchSevere
 execute if entity @s[tag=splinchMedium] run effect give @s minecraft:nausea 15 10 true
 execute if entity @s[tag=splinchMedium] run effect give @s minecraft:instant_damage 1 0 true
 tag @s remove splinchMedium
-execute if entity @s[tag=splinchSmall] run effect give @s minecraft:nausea 6 10 true
+execute if entity @s[tag=splinchSmall] run effect give @s minecraft:nausea 8 10 true
 tag @s remove splinchSmall
 
 # Kill Apparition Entities
