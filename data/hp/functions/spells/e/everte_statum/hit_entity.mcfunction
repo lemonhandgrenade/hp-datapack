@@ -1,32 +1,17 @@
-#summon slime 0 0 0 {Size:1b,NoAI:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Tags:["push","spellEntity","new"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:2000}]}
-#summon slime 0 0 0 {Size:1b,NoAI:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Tags:["push","spellEntity","new"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:2000}]}
-#summon slime 0 0 0 {Size:1b,NoAI:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Tags:["push","spellEntity","new"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:2000}]}
-#summon slime 0 0 0 {Size:1b,NoAI:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Tags:["push","spellEntity","new"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:2000}]}
-#summon slime 0 0 0 {Size:1b,NoAI:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Tags:["push","spellEntity","new"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:2000}]}
-#summon slime 0 0 0 {Size:1b,NoAI:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Tags:["push","spellEntity","new"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:2000}]}
-#summon slime 0 0 0 {Size:1b,NoAI:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Tags:["push","spellEntity","new"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:2000}]}
-#summon slime 0 0 0 {Size:1b,NoAI:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Tags:["push","spellEntity","new"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:2000}]}
-#summon slime 0 0 0 {Size:1b,NoAI:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Tags:["push","spellEntity","new"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:2000}]}
-#summon slime 0 0 0 {Size:1b,NoAI:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Tags:["push","spellEntity","new"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:2000}]}
-#summon slime 0 0 0 {Size:1b,NoAI:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Tags:["push","spellEntity","new"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:2000}]}
-#summon slime 0 0 0 {Size:1b,NoAI:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Tags:["push","spellEntity","new"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:2000}]}
-#summon slime 0 0 0 {Size:1b,NoAI:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Tags:["push","spellEntity","new"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:2000}]}
-#summon slime 0 0 0 {Size:1b,NoAI:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Tags:["push","spellEntity","new"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:2000}]}
-#summon slime 0 0 0 {Size:1b,NoAI:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Tags:["push","spellEntity","new"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:2000}]}
-#execute rotated as @s as @e[dx=0,tag=!this] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] positioned ~0.7 ~0.7 ~0.7 positioned ^ ^ ^-0.4 run tp @e[type=slime,tag=new,tag=spellEntity,tag=push] ~ ~ ~
-#tag @e[type=slime,tag=new,tag=spellEntity,tag=push] remove new
+tag @s add end
+execute as @a[tag=!this,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 as @a[tag=!this,dx=0] positioned ~0.7 ~0.7 ~0.7 run tag @s add everteStatumTarget
 
 execute rotated as @p[tag=this] run summon minecraft:armor_stand ^ ^ ^1 {Tags:["new"],Invisible:1b,Marker:1b,NoGravity:1b}
 
-execute as @e[tag=new] store result score temp motionX run data get entity @s Pos[0] -200
-execute as @e[tag=new] store result score temp motionY run data get entity @s Pos[1] -200
-execute as @e[tag=new] store result score temp motionZ run data get entity @s Pos[2] -200
+execute as @e[tag=new] store result score temp motionX run data get entity @s Pos[0] -100
+execute as @e[tag=new] store result score temp motionY run data get entity @s Pos[1] -100
+execute as @e[tag=new] store result score temp motionZ run data get entity @s Pos[2] -100
 
 execute as @e[tag=new] at @s rotated as @p[tag=this] run tp @s ^ ^ ^0.1
 
-execute as @e[tag=new] store result score temp2 motionX run data get entity @s Pos[0] -200
-execute as @e[tag=new] store result score temp2 motionY run data get entity @s Pos[1] -200
-execute as @e[tag=new] store result score temp2 motionZ run data get entity @s Pos[2] -200
+execute as @e[tag=new] store result score temp2 motionX run data get entity @s Pos[0] -100
+execute as @e[tag=new] store result score temp2 motionY run data get entity @s Pos[1] -100
+execute as @e[tag=new] store result score temp2 motionZ run data get entity @s Pos[2] -100
 
 execute as @e[tag=new] run scoreboard players operation temp motionX -= temp2 motionX
 execute as @e[tag=new] run scoreboard players operation temp motionY -= temp2 motionY
@@ -34,10 +19,10 @@ execute as @e[tag=new] run scoreboard players operation temp motionZ -= temp2 mo
 
 kill @e[tag=new]
 
-scoreboard players operation @p motionX = temp motionX
-scoreboard players operation @p motionY = temp motionY
-scoreboard players operation @p motionZ = temp motionZ
+scoreboard players operation @p[tag=everteStatumTarget] motionX = temp motionX
+scoreboard players operation @p[tag=everteStatumTarget] motionY = temp motionY
+scoreboard players operation @p[tag=everteStatumTarget] motionZ = temp motionZ
 
-execute as @p at @s run function hp:player/motion/launch
+execute as @p[tag=everteStatumTarget] at @s run function hp:player/motion/launch
 
-execute if entity @s[type=area_effect_cloud] run function hp:spells/e/everte_statum/private/end
+tag @p[tag=everteStatumTarget] remove flipendoTarget

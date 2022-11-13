@@ -1,5 +1,5 @@
 particle minecraft:crit ~ ~ ~ 0 0 0 0 10
-execute if entity @a[tag=!this,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @a[tag=!this,dx=0] positioned ~0.7 ~0.7 ~0.7 run function hp:spells/k/knockback_jinx_duo/hit_entity
+execute if entity @s[tag=!end] if entity @a[tag=!this,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @a[tag=!this,dx=0] positioned ~0.7 ~0.7 ~0.7 run function hp:spells/k/knockback_jinx_duo/hit_entity
 
 scoreboard players remove #temp slowcast 1
 execute if score #temp slowcast matches ..-1 run tp @s ~ ~ ~

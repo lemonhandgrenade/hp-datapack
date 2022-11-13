@@ -1,17 +1,5 @@
-#execute as @a[dx=0,tag=!this] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] positioned ~0.7 ~0.7 ~0.7 run tag @s add effected
-#
-#execute positioned as @a[tag=effected] rotated ~ 0 run summon minecraft:armor_stand ^ ^ ^0.2 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["knockbackJinxPush","new"]}
-#
-#scoreboard players operation @e[type=armor_stand,tag=knockbackJinxPush,tag=new,limit=1] UID = @a[tag=effected] UID
-#execute as @e[type=armor_stand,tag=knockbackJinxPush,tag=new,limit=1] at @s run tp @s ~ ~ ~ facing entity @p[tag=effected]
-#
-#tag @e[type=armor_stand,tag=knockbackJinxPush,tag=new,limit=1] remove new
-#scoreboard players set @a[tag=effected] anim 20
-#scoreboard players set @a[tag=effected] vc 1
-#
-#tag @a[tag=effected] add knockedBack
-#tag @a[tag=effected] add cantSpeak
-#tag @a[tag=effected] remove effected
+tag @s add end
+execute as @a[tag=!this,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 as @a[tag=!this,dx=0] positioned ~0.7 ~0.7 ~0.7 run tag @s add flipendoTarget
 
 execute rotated as @p[tag=this] run summon minecraft:armor_stand ^ ^ ^1 {Tags:["new"],Invisible:1b,Marker:1b,NoGravity:1b}
 
@@ -31,10 +19,12 @@ execute as @e[tag=new] run scoreboard players operation temp motionZ -= temp2 mo
 
 kill @e[tag=new]
 
-scoreboard players operation @p motionX = temp motionX
-scoreboard players operation @p motionY = temp motionY
-scoreboard players operation @p motionZ = temp motionZ
+scoreboard players operation @p[tag=flipendoTarget] motionX = temp motionX
+scoreboard players operation @p[tag=flipendoTarget] motionY = temp motionY
+scoreboard players operation @p[tag=flipendoTarget] motionZ = temp motionZ
 
-execute as @p at @s run function hp:player/motion/launch
+execute as @p[tag=flipendoTarget] at @s run function hp:player/motion/launch
+
+tag @p[tag=flipendoTarget] remove flipendoTarget
 
 execute if entity @s[type=area_effect_cloud] run function hp:spells/k/knockback_jinx/private/end
