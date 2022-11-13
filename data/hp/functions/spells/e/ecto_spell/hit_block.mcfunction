@@ -1,1 +1,1 @@
-summon armor_stand ~ ~1 ~ {Invisible:1b,Tags:["ectoplasm","spellEntity"]}
+summon armor_stand ~ ~ ~ {Invisible:1b,Tags:["ectoplasm","spellEntity"],NoGravity:1b}

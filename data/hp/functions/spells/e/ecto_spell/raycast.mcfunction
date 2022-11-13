@@ -1,10 +1,10 @@
 # Particle
-particle dust_color_transition 0 1 0.45 2.5 0 1 0.075 ~ ~ ~ 0.1 0.1 0.1 0 3
+particle dust_color_transition 0 1 0.45 1.5 0 1 0.075 ~ ~ ~ 0.1 0.1 0.1 0 3
 # Add tag to hit entity
 
 scoreboard players remove #temp slowcast 1
 execute if score #temp slowcast matches ..-1 run tp @s ~ ~ ~
-tp @s ~ ~ ~ ~ ~3
+tp @s ~ ~ ~ ~ ~1
 # End if block hit
 execute if score #temp slowcast matches 0.. positioned ^ ^ ^0.5 unless block ~ ~ ~ #hp:air run function hp:spells/e/ecto_spell/hit_block
 execute if score #temp slowcast matches 0.. positioned ^ ^ ^0.5 unless block ~ ~ ~ #hp:air run function hp:spells/e/ecto_spell/private/end
