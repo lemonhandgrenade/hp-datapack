@@ -23,8 +23,6 @@ execute as @e[type=armor_stand,tag=broomElytra,tag=broom] at @s run function hp:
 execute as @e[type=item,nbt={Item:{tag:{specialEntity:1b}}}] at @s run function hp:entities/main
 execute as @e[tag=specialEntity] at @s run function hp:entities/main
 
-execute positioned 0 510 0 run particle explosion ~ ~ ~ 0 0 0 0 0 force
-
 scoreboard players add @e[type=slime,tag=xzMotionApply] xzMotionTime 1
 execute as @e[type=slime,tag=xzMotionApply,scores={xzMotionTime=4..}] run function hp:player/motion/delete
 kill @e[type=armor_stand,tag=motionStop]
