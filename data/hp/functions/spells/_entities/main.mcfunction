@@ -27,4 +27,4 @@ execute if score #3 values matches 1 if entity @s[tag=morsmordre] positioned ~ 5
 
 execute if score #alternate values matches 1 if entity @s[tag=mendingCharm] run function hp:spells/_entities/mending_charm/main
 
-execute if score #alternate values matches 1 at @s[type=armor_stand,tag=ectoplasm] run particle dust_color_transition 0 1 0.45 2.5 0 1 0.075 ~ ~0.5 ~ 0.1 0.1 0.1 0 0
+execute if score #alternate values matches 1 at @s[type=armor_stand,tag=ectoplasm] run function hp:spells/_entities/ecto/main
