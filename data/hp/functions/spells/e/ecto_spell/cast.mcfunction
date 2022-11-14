@@ -1,5 +1,5 @@
 scoreboard players set dst_per slowcast 1
-scoreboard players set dst slowcast 64
+scoreboard players set dst slowcast 256
 
 execute anchored eyes positioned ^ ^ ^0.1 run function hp:spells/e/ecto_spell/start
 
