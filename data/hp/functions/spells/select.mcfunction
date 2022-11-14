@@ -48,6 +48,7 @@ execute as @s[tag=cauldronToGuitarSpell] run function hp:spells/c/cauldron_to_gu
 execute as @s[tag=chokingSpell] run function hp:spells/c/choking_spell/private/launch
 execute as @s[tag=cleaningCharm] run function hp:spells/c/cleaning_charm/private/launch
 execute as @s[tag=coinsToFrogspawn] run function hp:spells/c/coins_to_frogspawn_spell/private/launch
+execute as @s[tag=colourChangingCharm] run function hp:spells/c/colour_changing_charm/private/launch
 execute as @s[tag=combatBolt] run function hp:spells/c/combat_bolt/private/launch
 execute as @s[tag=conflagrationSpell] run function hp:spells/c/conflagration_spell/private/launch
 execute as @s[tag=confusionHex] run function hp:spells/c/confusion_hex/private/launch
