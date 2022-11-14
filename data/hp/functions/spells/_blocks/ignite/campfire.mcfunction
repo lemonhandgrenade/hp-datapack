@@ -9,4 +9,3 @@ execute if block ~ ~ ~ #minecraft:campfires[signal_fire=true] run scoreboard pla
 
 execute if block ~ ~ ~ campfire run function hp:spells/_blocks/ignite/campfire/default
 execute if block ~ ~ ~ soul_campfire run function hp:spells/_blocks/ignite/campfire/soul
-say hi
