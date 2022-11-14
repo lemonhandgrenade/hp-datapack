@@ -1,6 +1,6 @@
 function hp:spells/m/multicorfors_spell/armor/random_color
 
-data modify storage hp:legs LegsItem set from entity @s Inventory[{Slot:101}]
+data modify storage hp:legs LegsItem set from entity @s Inventory[{Slot:101b}]
 execute store result storage hp:legs LegsItem.tag.display.color int 1 run scoreboard players get #Final values
 data modify storage hp:legs LegsItem.Slot set value 0b
 
