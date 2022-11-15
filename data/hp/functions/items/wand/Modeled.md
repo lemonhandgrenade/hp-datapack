@@ -378,10 +378,10 @@
  - [ ] Fir Veela hair  
  - [ ] Fir Wampus cat hair  
  - [ ] Fir White river monster spine  
- - [ ] Hawthorn African mermaid hair  
+ - [x] Hawthorn African mermaid hair  
  - [ ] Hawthorn Basilisk horn  
  - [ ] Hawthorn Coral  
- - [ ] Hawthorn Curupira hair  
+ - [x] Hawthorn Curupira hair  
  - [ ] Hawthorn Dittany  
  - [ ] Hawthorn Dragon heartstring  
  - [ ] Hawthorn Horned serpent horn  
@@ -504,7 +504,7 @@
  - [ ] Laurel Curupira hair  
  - [ ] Laurel Dittany  
  - [ ] Laurel Dragon heartstring  
- - [ ] Laurel Horned serpent horn  
+ - [x] Laurel Horned serpent horn  
  - [ ] Laurel Jackalope antler  
  - [ ] Laurel Kelpie hair  
  - [ ] Laurel Kneazle whisker  
@@ -656,7 +656,7 @@
  - [ ] Red oak Troll whisker  
  - [ ] Red oak Unicorn hair  
  - [ ] Red oak Veela hair  
- - [ ] Red oak Wampus cat hair  
+ - [ x Red oak Wampus cat hair  
  - [ ] Red oak White river monster spine  
  - [ ] Redwood African mermaid hair  
  - [ ] Redwood Basilisk horn  
