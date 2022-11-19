@@ -102,8 +102,11 @@ execute if entity @s[scores={broomType=38}] store result score broomSpeed Y run 
 execute if entity @s[scores={broomType=38}] store result score broomSpeed Z run data get entity @s Motion[2] 3500
 
 scoreboard players operation distancePos X += broomSpeed X
+# scoreboard players operation distancePos X *= 2 values
 scoreboard players operation distancePos Y += broomSpeed Y
+# scoreboard players operation distancePos Y *= 2 values
 scoreboard players operation distancePos Z += broomSpeed Z
+# scoreboard players operation distancePos Z *= 2 values
 
 scoreboard players operation distancePos Y += 200 values
 

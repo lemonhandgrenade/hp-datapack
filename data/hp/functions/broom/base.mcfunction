@@ -1,8 +1,7 @@
 tag @s add activeBroomElytra
-
 #execute at @s as @a[tag=flyingBroom] if score @s broomID = @e[type=armor_stand,tag=activeBroomElytra,limit=1,sort=nearest] broomID run tag @e[type=armor_stand,tag=activeBroomElytra,limit=1,sort=nearest] add isBeingRidden
 #execute at @s if score @s broomID = @p[tag=flyingBroom] broomID run tag @s add isBeingRidden
-execute at @s if score @s broomID = @e[tag=broomSaddle,distance=..2,sort=nearest,predicate=hp:has_passenger,limit=1] broomID run tag @s add isBeingRidden
+execute at @s if score @s broomID = @e[type=pig,tag=broomSaddle,distance=..2,sort=nearest,predicate=hp:has_passenger,limit=1] broomID run tag @s add isBeingRidden
 #item replace entity @s[tag=isBeingRidden] armor.chest with elytra
 
 
