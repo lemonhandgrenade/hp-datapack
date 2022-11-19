@@ -34,6 +34,7 @@ scoreboard players set 14 values 14
 scoreboard players set 20 values 20
 scoreboard players set 32 values 32
 scoreboard players set 40 values 40
+scoreboard players set 90 values 90
 scoreboard players set 100 values 100
 scoreboard players set 256 values 256
 
@@ -77,8 +78,11 @@ scoreboard objectives add spell4 dummy
 scoreboard objectives add spellCooldown dummy
 #scoreboard objectives add spellPower dummy
 
+scoreboard objectives add age dummy
+
 scoreboard objectives add patronusID dummy
 
+scoreboard objectives add ageLine dummy
 scoreboard objectives add apparitionCooldown dummy
 scoreboard objectives add apparitionTimer dummy
 scoreboard objectives add colourChangingCharm dummy

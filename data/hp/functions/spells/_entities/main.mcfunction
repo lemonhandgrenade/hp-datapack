@@ -27,4 +27,6 @@ execute if score #3 values matches 1 if entity @s[tag=morsmordre] positioned ~ 5
 
 execute if score #alternate values matches 1 if entity @s[tag=mendingCharm] run function hp:spells/_entities/mending_charm/main
 
+execute if entity @s[tag=ageLine] run function hp:spells/a/age_line/main
+
 execute if score #alternate values matches 1 at @s[type=armor_stand,tag=ectoplasm] run function hp:spells/_entities/ecto/main

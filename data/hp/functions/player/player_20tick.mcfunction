@@ -1,3 +1,4 @@
+execute unless score @s age matches 0.. unless score @s age matches ..0 run scoreboard players add @s age 0
 scoreboard players remove @s[scores={vc=1..}] vc 1
 scoreboard players remove @s[scores={bubbleHead=1..}] bubbleHead 1
 scoreboard players remove @s[scores={engorgioSkullus=1..}] engorgioSkullus 1
