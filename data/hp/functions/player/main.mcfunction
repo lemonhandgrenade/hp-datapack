@@ -6,6 +6,8 @@ scoreboard players remove @s[scores={anim=1..}] anim 1
 
 execute as @s[scores={anim=1..}] at @s run function hp:player/anim/select
 
+execute as @s[tag=isApparatingUp] run function hp:spells/a/apparition/marker/main
+
 execute as @s[tag=animagus,tag=morphed] run function hp:animagus/morph/tp
 execute as @s[tag=morphed] run function hp:animagus/morph/effect
 

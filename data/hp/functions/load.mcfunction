@@ -85,6 +85,9 @@ scoreboard objectives add patronusID dummy
 scoreboard objectives add ageLine dummy
 scoreboard objectives add apparitionCooldown dummy
 scoreboard objectives add apparitionTimer dummy
+scoreboard objectives add apparitionMarkerX dummy
+scoreboard objectives add apparitionMarkerY dummy
+scoreboard objectives add apparitionMarkerZ dummy
 scoreboard objectives add colourChangingCharm dummy
 scoreboard objectives add engorgioSkullus dummy
 scoreboard objectives add cruciatusCurse dummy
