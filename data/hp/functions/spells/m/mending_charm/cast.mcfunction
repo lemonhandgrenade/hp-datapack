@@ -1,4 +1,4 @@
-scoreboard players set dst_per slowcast 8
+scoreboard players set dstPer slowcast 8
 scoreboard players set dst slowcast 48
 
 execute anchored eyes run particle dolphin ^-0.35 ^.3 ^.5 0.01 0.01 0.01 0 10

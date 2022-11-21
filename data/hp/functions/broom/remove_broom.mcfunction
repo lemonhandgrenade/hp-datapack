@@ -62,4 +62,4 @@ execute positioned ~ ~-256 ~ run kill @s
 
 scoreboard players reset @s values
 scoreboard players reset @s broomID
-scoreboard players reset @s slo_id
+scoreboard players reset @s sloID

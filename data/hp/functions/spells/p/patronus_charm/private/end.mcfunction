@@ -1,8 +1,8 @@
 scoreboard players operation #current UID = @s UID
 tag @s add end
-scoreboard players reset @s slo_id
-scoreboard players reset @s slo_dst
-scoreboard players reset @s slo_dst_per
+scoreboard players reset @s sloID
+scoreboard players reset @s sloDst
+scoreboard players reset @s sloDstPer
 kill @s
 
 execute as @e[type=armor_stand,tag=patronusCharm] if score @s UID = #current UID run kill @s

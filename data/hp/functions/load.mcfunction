@@ -61,11 +61,11 @@ team modify noName nametagVisibility never
 #-Spell-Entities-----------------------------------------------------------------------------------#
 scoreboard objectives add slowcast dummy
 scoreboard players add dst slowcast 0
-scoreboard players add dst_per slowcast 0
+scoreboard players add dstPer slowcast 0
 
-scoreboard objectives add slo_id dummy
-scoreboard objectives add slo_dst dummy
-scoreboard objectives add slo_dst_per dummy
+scoreboard objectives add sloID dummy
+scoreboard objectives add sloDst dummy
+scoreboard objectives add sloDstPer dummy
 
 #-Spell-Player-------------------------------------------------------------------------------------#
 scoreboard objectives add spellCount dummy

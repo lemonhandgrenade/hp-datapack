@@ -1,4 +1,4 @@
-scoreboard players set dst_per slowcast 36
+scoreboard players set dstPer slowcast 36
 scoreboard players set dst slowcast 36
 
 scoreboard players operation #current UID = @s UID

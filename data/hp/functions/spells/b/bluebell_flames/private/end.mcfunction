@@ -1,6 +1,6 @@
-scoreboard players reset @s slo_id
-scoreboard players reset @s slo_dst
-scoreboard players reset @s slo_dst_per
+scoreboard players reset @s sloID
+scoreboard players reset @s sloDst
+scoreboard players reset @s sloDstPer
 
 scoreboard players reset @s values
 kill @s

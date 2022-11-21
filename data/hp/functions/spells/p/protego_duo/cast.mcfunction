@@ -1,4 +1,4 @@
-scoreboard players set dst_per slowcast 1
+scoreboard players set dstPer slowcast 1
 scoreboard players set dst slowcast 20
 
 execute anchored eyes positioned ^ ^ ^0.5 run function hp:spells/p/protego_duo/start

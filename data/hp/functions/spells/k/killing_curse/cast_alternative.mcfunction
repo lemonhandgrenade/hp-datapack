@@ -1,4 +1,4 @@
-scoreboard players set dst_per slowcast 16
+scoreboard players set dstPer slowcast 16
 scoreboard players set dst slowcast 256
 
 scoreboard players set temp values 1

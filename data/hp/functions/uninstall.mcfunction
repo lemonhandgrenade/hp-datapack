@@ -8,9 +8,9 @@ team remove noCollision
 team remove noName
 
 scoreboard objectives remove slowcast
-scoreboard objectives remove slo_id
-scoreboard objectives remove slo_dst
-scoreboard objectives remove slo_dst_per
+scoreboard objectives remove sloID
+scoreboard objectives remove sloDst
+scoreboard objectives remove sloDstPer
 scoreboard objectives remove spellCount
 scoreboard objectives remove spell
 scoreboard objectives remove currentSpellSlot

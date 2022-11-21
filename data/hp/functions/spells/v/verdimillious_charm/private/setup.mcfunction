@@ -1,8 +1,8 @@
-scoreboard players operation @s slo_id = system slo_id
+scoreboard players operation @s sloID = system sloID
 
-scoreboard players operation @s slo_dst = dst slowcast
+scoreboard players operation @s sloDst = dst slowcast
 scoreboard players operation @s slowcast = dst slowcast
-scoreboard players operation @s slo_dst_per = dst_per slowcast
+scoreboard players operation @s sloDstPer = dstPer slowcast
 tp @s ~ ~ ~ ~ ~
 tag @s remove new
 

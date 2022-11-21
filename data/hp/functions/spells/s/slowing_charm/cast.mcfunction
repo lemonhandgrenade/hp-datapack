@@ -1,4 +1,4 @@
-scoreboard players set dst_per slowcast 48
+scoreboard players set dstPer slowcast 48
 scoreboard players set dst slowcast 48
 
 execute store result score temp Y run data get entity @s Motion[1] 2000
