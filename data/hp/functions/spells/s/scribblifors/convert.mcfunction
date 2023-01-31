@@ -6,7 +6,8 @@ data modify storage hp:scribblifors Item.tag.Scribblifors set value 1
 data modify storage hp:scribblifors Item.Slot set value 0b
 
 
-data modify block 0 -64 0 Items append from storage hp:scribblifors Item
-execute at @s run loot spawn ~ ~ ~ mine 0 -64 0 minecraft:air{drop_contents:1b}
+data modify block 0 -63 0 Items append from storage hp:scribblifors Item
+execute at @s run loot spawn ~ ~ ~ mine 0 -63 0 minecraft:air{drop_contents:1b}
+execute as @e[type=item,distance=..1,tag=!set,nbt={Item:{tag:{Scribblifors:1}}}] run tag @s add set
 
 kill @s
