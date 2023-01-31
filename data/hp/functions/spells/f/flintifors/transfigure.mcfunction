@@ -9,7 +9,7 @@ data modify storage hp:flintifors Item.Slot set value 0b
 data modify storage hp:flintifors Item.tag.Flintifors set value 1b
 data modify storage hp:flintifors Item.Count set value 1
 
-data modify block 0 -64 0 Items append from storage hp:flintifors Item
-loot spawn ~ ~ ~ mine 0 -64 0 minecraft:air{drop_contents:1b}
+data modify block 0 -63 0 Items append from storage hp:flintifors Item
+loot spawn ~ ~ ~ mine 0 -63 0 minecraft:air{drop_contents:1b}
 tag @e[type=item,distance=..1] add set
 

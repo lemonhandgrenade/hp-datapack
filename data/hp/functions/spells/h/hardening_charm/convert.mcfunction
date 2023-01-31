@@ -6,8 +6,8 @@ data modify storage hp:duro Item.tag.Duro set value 1
 data modify storage hp:duro Item.Slot set value 0b
 
 
-data modify block 0 -64 0 Items append from storage hp:duro Item
-execute at @s run loot spawn ~ ~ ~ mine 0 -64 0 minecraft:air{drop_contents:1b}
+data modify block 0 -63 0 Items append from storage hp:duro Item
+execute at @s run loot spawn ~ ~ ~ mine 0 -63 0 minecraft:air{drop_contents:1b}
 
 
 kill @s

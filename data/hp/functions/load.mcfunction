@@ -164,7 +164,7 @@ function hp:5tick
 function hp:2tick
 
 fill -1 -64 -1 2 -61 1 bedrock
-fill 0 -64 0 0 -63 0 yellow_shulker_box
+fill 0 -63 0 0 -62 0 yellow_shulker_box
 
 team add gryffindor {"text":"Gryffindor","color":"dark_red"}
 team modify gryffindor displayName [{"text":"\uE000"},{"text":"Gryffindor","color":"dark_red"}]
