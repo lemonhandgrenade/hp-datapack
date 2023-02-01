@@ -1,6 +1,6 @@
 kill @s[type=arrow,tag=conjuredEntity,nbt={inGround:1b}]
 
-execute if entity @s[tag=witherSkull] run function hp:spells/_entities/ghostly_head
+execute if entity @s[tag=killProjectile] run function hp:spells/_entities/projectile
 execute if entity @s[tag=weather,tag=cloud] run function hp:spells/_entities/weather/cloud
 execute if entity @s[tag=weather,tag=rain] run function hp:spells/_entities/weather/rain_cloud
 execute if entity @s[tag=weather,tag=snow] run function hp:spells/_entities/weather/snow_cloud
