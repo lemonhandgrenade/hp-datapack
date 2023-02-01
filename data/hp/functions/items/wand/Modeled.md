@@ -759,7 +759,7 @@
  - [ ] Silver lime Wampus cat hair  
  - [ ] Silver lime White river monster spine  
  - [ ] Snakewood African mermaid hair  
- - [ ] Snakewood Basilisk horn  
+ - [x] Snakewood Basilisk horn  
  - [ ] Snakewood Coral  
  - [ ] Snakewood Curupira hair  
  - [ ] Snakewood Dittany  
