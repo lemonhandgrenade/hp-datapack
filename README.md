@@ -1,8 +1,8 @@
 <p align="center">
 <a href="https://github.com/lemonhandgrenade/hp-datapack/license"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
 <a href="https://github.com/lemonhandgrenade/hp-datapack/issues"><img src="https://img.shields.io/github/issues/lemonhandgrenade/hp-datapack" alt="Github issues"></a>
-<a href=""><img src="https://img.shields.io/badge/files-3874-ff69b4"></a>
-<a href=""><img src="https://img.shields.io/badge/total%20lines-44466-blueviolet"></a>
+<a href=""><img src="https://img.shields.io/badge/files-3876-ff69b4"></a>
+<a href=""><img src="https://img.shields.io/badge/total%20lines-44478-blueviolet"></a>
 </p>
 
 # hp-datapack
@@ -25,7 +25,7 @@ Contents
 ---
 
 ## Features
-- Spell casting. [![Spells](https://img.shields.io/badge/Spells-319-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/spells "Spells IDs")
+- Spell casting. [![Spells](https://img.shields.io/badge/Spells-320-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/spells "Spells IDs")
 - Animagus. [![Animagi Animals](https://img.shields.io/badge/Animagi_Animals-63-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/animagus "Animagus IDs")
 - Potion brewing. [![Potions](https://img.shields.io/badge/Potions-9-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/potions "Potions IDs")
 - Corporeal Patronuses. [![Patronus](https://img.shields.io/badge/Patronuses-17-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/spells/_entities/patronus "Patronus IDs")
@@ -241,6 +241,7 @@ True and false are represented as 1 and 0 respectively
 
 - `charmsBreakBlocks`: This will change whether charms can destroy blocks, eg. Whether the Gouging spell breaks stone into cobblestone.
 - `charmsBreakConnected`: This changes whether charms can break connected blocks from the initial, eg. Whether Finestra breaks all glass in the pane.
+- `charmsCanFire`: Determines whether players are able to use spells which cause the fire block to be produced.
 - `charmsChangeBlocks`: This changes whether charms can alter a block's state, eg. Whether the Fire-making spell can light a campfire.
 - `difficulty`: This is automatically set to the difficulty of your game and will be overwritten if changed.
 - `easySortingHat`: This changes whether the sorting hat's questions are colored representing what house they benefit.

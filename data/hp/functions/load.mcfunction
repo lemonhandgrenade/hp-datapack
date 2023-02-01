@@ -8,6 +8,8 @@ execute unless score charmsBreakBlocks settings matches 0 run scoreboard players
 scoreboard players add charmsBreakBlocks settings 0
 execute unless score charmsBreakConnected settings matches 0 run scoreboard players set charmsBreakConnected settings 1
 scoreboard players add charmsBreakConnected settings 0
+execute unless score charmsCanFire settings matches 0 run scoreboard players set charmsCanFire settings 1
+scoreboard players add charmsCanFire settings 0
 execute unless score charmsChangeBlocks settings matches 0 run scoreboard players set charmsChangeBlocks settings 1
 scoreboard players add charmsChangeBlocks settings 0
 scoreboard players add easySortingHat settings 0
