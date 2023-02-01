@@ -1,0 +1,1 @@
+execute positioned ~ ~1.7 ~ run particle minecraft:small_flame ^.35 ^-.3 ^.5 0 0 0 0 10
