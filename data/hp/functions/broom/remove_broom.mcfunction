@@ -1,7 +1,5 @@
-scoreboard players operation #current broomType = @s broomType
-#tag @e[tag=broomVisual,limit=1,sort=nearest] remove interactable
-#data merge entity @e[tag=broomVisual,limit=1,sort=nearest] {Glowing:0b,ArmorItems:[{},{},{},{}],Marker:1b}
-#tp @p ~ ~ ~
+scoreboard players operation #current broomID = @s broomID
+
 execute if score @s broomType matches 1 as @p run function hp:items/broom/air_wave_gold
 execute if score @s broomType matches 2 as @p run function hp:items/broom/australian_flyabout_50
 execute if score @s broomType matches 3 as @p run function hp:items/broom/bluebottle
@@ -38,28 +36,9 @@ execute if score @s broomType matches 34 as @p run function hp:items/broom/trans
 execute if score @s broomType matches 37 as @p run function hp:items/broom/varapidos
 execute if score @s broomType matches 38 as @p run function hp:items/broom/yajirushi
 
-execute if score @s broomType matches 3 as @e[type=pig,tag=broomOffset,sort=nearest,distance=..3] if score #current broomType = @s broomType at @s as @p at @s run tp @s ~ ~ ~
-execute if score @s broomType matches 3 as @e[type=pig,tag=broomOffset,sort=nearest,distance=..3] if score #current broomType = @s broomType run tp @s ~ -256 ~
-execute if score @s broomType matches 16 as @e[type=pig,tag=broomOffset1,sort=nearest,distance=..5] if score #current broomType = @s broomType at @s as @p at @s run tp @s ~ ~ ~
-execute if score @s broomType matches 16 as @e[type=pig,tag=broomOffset1,sort=nearest,distance=..5] if score #current broomType = @s broomType run tp @s ~ -256 ~
-execute if score @s broomType matches 16 as @e[type=pig,tag=broomOffset2,sort=nearest,distance=..5] if score #current broomType = @s broomType at @s as @p at @s run tp @s ~ ~ ~
-execute if score @s broomType matches 16 as @e[type=pig,tag=broomOffset2,sort=nearest,distance=..5] if score #current broomType = @s broomType run tp @s ~ -256 ~
-execute if score @s broomType matches 16 as @e[type=pig,tag=broomOffset3,sort=nearest,distance=..5] if score #current broomType = @s broomType at @s as @p at @s run tp @s ~ ~ ~
-execute if score @s broomType matches 16 as @e[type=pig,tag=broomOffset3,sort=nearest,distance=..5] if score #current broomType = @s broomType run tp @s ~ -256 ~
-
-tp @e[type=marker,tag=distanceCheck,tag=tmp,limit=1,sort=nearest,distance=..3] ~ -256 ~
-tp @e[type=armor_stand,tag=broomVisual,limit=1,sort=nearest,distance=..3] ~ -256 ~
-tp @e[type=pig,tag=broomSaddle,limit=1,sort=nearest,distance=..3] ~ -256 ~
-tp @s ~ -256 ~
-
-execute if score @s broomType matches 3 positioned ~ ~-256 ~ run kill @e[type=pig,tag=broomOffset,limit=1,sort=nearest]
-execute if score @s broomType matches 16 positioned ~ ~-256 ~ run kill @e[type=pig,tag=broomOffset1,limit=1,sort=nearest]
-execute if score @s broomType matches 16 positioned ~ ~-256 ~ run kill @e[type=pig,tag=broomOffset2,limit=1,sort=nearest]
-execute if score @s broomType matches 16 positioned ~ ~-256 ~ run kill @e[type=pig,tag=broomOffset3,limit=1,sort=nearest]
-execute positioned ~ ~-256 ~ run kill @e[type=marker,tag=distanceCheck,tag=tmp,limit=1,sort=nearest]
-execute positioned ~ ~-256 ~ run kill @e[type=armor_stand,tag=broomVisual,limit=1,sort=nearest]
-execute positioned ~ ~-256 ~ run kill @e[type=pig,tag=broomSaddle,limit=1,sort=nearest]
-execute positioned ~ ~-256 ~ run kill @s
+execute as @p at @s run tp @s ~ ~ ~
+execute as @e[tag=broom] if score @s broomID = #current broomID run tp @s ~ -256 ~
+execute as @e[tag=broom] if score @s broomID = #current broomID run kill @s
 
 scoreboard players reset @s values
 scoreboard players reset @s broomID
