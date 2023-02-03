@@ -2,17 +2,6 @@
 
 This page is more for what is the most expensive on the server / client.
 
-### Brooms
-
-Brooms are quite costly because a lot of commands are used to run them.  
-This equation shows the extra milliseconds it takes to use brooms.
-
-<img title="Broom Equation" src="./assets/broom_equation.png" alt="BroomEq" width="269" height="19" />
-
-Where B = Brooms  
-and a = Active brooms (being flown)  
-and i = Inactive brooms (on the ground)
-
 ### Amimagi
 
 Animagi don't have a noticeable effect on the tick rate unless they are in a transformed state.  

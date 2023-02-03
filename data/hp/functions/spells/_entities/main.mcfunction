@@ -17,9 +17,6 @@ execute if entity @s[tag=airMod] if score #alternate values matches -1 run data 
 execute if entity @s[tag=lockingSlime] unless block ~ ~ ~ #minecraft:doors run tp @s ~ -128 ~ 
 execute if entity @s[tag=lockingSlime] unless block ~ ~ ~ #minecraft:doors run kill @s 
 
-# Brooms
-#execute as @s[type=armor_stand,tag=broom,tag=broomElytra] run function hp:broom/base
-
 execute if entity @s[tag=portkeyItem] run function hp:spells/_entities/portkey/main
 
 

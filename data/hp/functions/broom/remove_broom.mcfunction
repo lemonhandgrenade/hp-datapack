@@ -46,10 +46,11 @@ execute if score @s broomType matches 16 as @e[type=pig,tag=broomOffset2,sort=ne
 execute if score @s broomType matches 16 as @e[type=pig,tag=broomOffset2,sort=nearest,distance=..5] if score #current broomType = @s broomType run tp @s ~ -256 ~
 execute if score @s broomType matches 16 as @e[type=pig,tag=broomOffset3,sort=nearest,distance=..5] if score #current broomType = @s broomType at @s as @p at @s run tp @s ~ ~ ~
 execute if score @s broomType matches 16 as @e[type=pig,tag=broomOffset3,sort=nearest,distance=..5] if score #current broomType = @s broomType run tp @s ~ -256 ~
-tp @e[type=marker,tag=distanceCheck,tag=tmp,limit=1,sort=nearest,distance=..1] ~ -256 ~
-tp @e[type=armor_stand,tag=broomVisual,limit=1,sort=nearest,distance=..1] ~ -256 ~
-tp @e[type=pig,tag=broomSaddle,limit=1,sort=nearest,distance=..1] ~ -256 ~
-tp @s[distance=..1] ~ -256 ~
+
+tp @e[type=marker,tag=distanceCheck,tag=tmp,limit=1,sort=nearest,distance=..3] ~ -256 ~
+tp @e[type=armor_stand,tag=broomVisual,limit=1,sort=nearest,distance=..3] ~ -256 ~
+tp @e[type=pig,tag=broomSaddle,limit=1,sort=nearest,distance=..3] ~ -256 ~
+tp @s ~ -256 ~
 
 execute if score @s broomType matches 3 positioned ~ ~-256 ~ run kill @e[type=pig,tag=broomOffset,limit=1,sort=nearest]
 execute if score @s broomType matches 16 positioned ~ ~-256 ~ run kill @e[type=pig,tag=broomOffset1,limit=1,sort=nearest]

@@ -18,8 +18,8 @@ tellraw @p[tag=this,tag=debug] ["Motion X: ", {"score":{"name":"temp","objective
 tellraw @p[tag=this,tag=debug] ["Motion Y: ", {"score":{"name":"temp","objective":"Y"}}]
 tellraw @p[tag=this,tag=debug] ["Motion Z: ", {"score":{"name":"temp","objective":"Z"}}]
 
-execute as @e[type=!#hp:alive,tag=expelled,tag=!broomElytra] run function hp:spells/s/summoning_charm/set_data
-execute as @e[type=!#hp:alive,tag=expelled,tag=broomElytra] run function hp:spells/s/summoning_charm/set_data_broom
+execute as @e[type=!#hp:alive,tag=expelled,tag=!broomVisual] run function hp:spells/s/summoning_charm/set_data
+execute as @e[type=!#hp:alive,tag=expelled,tag=broomVisual] run function hp:spells/s/summoning_charm/set_data_broom
 
 kill @e[type=marker,tag=new,tag=summoningCharm]
 execute if entity @s[type=area_effect_cloud] run function hp:spells/s/summoning_charm/private/end

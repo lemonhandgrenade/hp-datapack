@@ -24,4 +24,4 @@ execute if entity @s[tag=bubbleHead,scores={bubbleHead=..0}] run tag @s remove b
 execute if entity @s[tag=bigHead,scores={engorgioSkullus=..0}] run item replace entity @s armor.head with air
 execute if entity @s[tag=bigHead,scores={engorgioSkullus=..0}] run tag @s remove bigHead
 
-execute if entity @s[scores={sneakTest=1..}] as @e[type=armor_stand,tag=broomElytra,tag=broom,limit=1,sort=nearest,distance=..1] run function hp:broom/remove_broom
+execute if entity @s[scores={sneakTest=1..}] as @e[type=armor_stand,tag=broomVisual,tag=broom,limit=1,sort=nearest,distance=..1] run function hp:broom/remove_broom

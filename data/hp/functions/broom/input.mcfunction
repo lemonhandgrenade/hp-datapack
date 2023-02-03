@@ -13,4 +13,4 @@ scoreboard players operation distancePos X -= playerPos X
 scoreboard players operation distancePos Y -= playerPos Y
 scoreboard players operation distancePos Z -= playerPos Z
 
-execute as @e[type=armor_stand,tag=broom,tag=broomElytra,limit=1,sort=nearest] run function hp:broom/set_motion
+execute as @e[type=armor_stand,tag=broom,tag=broomVisual,limit=1,sort=nearest] run function hp:broom/set_motion
