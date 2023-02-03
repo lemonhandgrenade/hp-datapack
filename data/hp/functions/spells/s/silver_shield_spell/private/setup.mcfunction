@@ -6,4 +6,4 @@ scoreboard players operation @s sloDstPer = dstPer slowcast
 tp @s ~ ~ ~ ~ ~
 tag @s remove new
 
-function hp:spells/g/general_counter-spell/private/launch
+function hp:spells/s/silver_shield_spell/private/launch

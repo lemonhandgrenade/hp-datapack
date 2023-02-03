@@ -2,8 +2,8 @@ scoreboard players operation .find sloID = @e[type=area_effect_cloud,tag=slowcas
 execute unless entity @s[tag=reflected] as @e[scores={sloID=1..}] if score @s sloID = .find sloID run tag @s add this
 
 scoreboard players operation #temp slowcast = @s sloDstPer
-execute if score @s sloDst matches 1.. run function hp:spells/g/general_counter-spell/raycast
+execute if score @s sloDst matches 1.. run function hp:spells/s/silver_shield_spell/raycast
 scoreboard players operation @s sloDst -= @s sloDstPer
-execute if score @s sloDst matches ..0 at @s run function hp:spells/g/general_counter-spell/private/end
+execute if score @s sloDst matches ..0 at @s run function hp:spells/s/silver_shield_spell/private/end
 
 tag @e remove this

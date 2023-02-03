@@ -1,4 +1,4 @@
-scoreboard players set dstPer slowcast 4
-scoreboard players set dst slowcast 24
+scoreboard players set dstPer slowcast 1
+scoreboard players set dst slowcast 64
 
-execute anchored eyes positioned ^ ^ ^0.1 run function hp:spells/s/silver_shield_spell/start
+execute anchored eyes positioned ^ ^ ^1 run function hp:spells/s/silver_shield_spell/start
