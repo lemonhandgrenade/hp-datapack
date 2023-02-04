@@ -32,12 +32,9 @@ scoreboard players set -1 values -1
 scoreboard players set 2 values 2
 scoreboard players set 8 values 8
 scoreboard players set 10 values 10
-scoreboard players set 13 values 13
 scoreboard players set 14 values 14
 scoreboard players set 20 values 20
 scoreboard players set 32 values 32
-scoreboard players set 40 values 40
-scoreboard players set 90 values 90
 scoreboard players set 100 values 100
 scoreboard players set 256 values 256
 
