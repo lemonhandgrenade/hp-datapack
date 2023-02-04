@@ -11,8 +11,7 @@ The texture pack replaces a few textures that appear in the vanilla game; These 
 
 | Type   | Name           | File Dir                                               | Effects                                            | Reason                                                                                                 |
 | ------ | -------------- | ------------------------------------------------------ | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| Entity | elytra.png     | HP/assets/minecraft/textures/entity/elytra.png         | Elytras will be invisible if a cape isn't equipped | The controller for brooms use an armorstand with an elytra equipped                                    |
-|        | pig_saddle.png | HP/assets/minecraft/textures/entity/pig/pig_saddle.png | Pigs with saddles will appear as normal pigs       | Brooms use an invisible pig with a saddle as their chair but invisibility doesn't hide saddles on mobs |
+| Entity | pig_saddle.png | HP/assets/minecraft/textures/entity/pig/pig_saddle.png | Pigs with saddles will appear as normal pigs       | Brooms use an invisible pig with a saddle as their chair but invisibility doesn't hide saddles on mobs |
 
 Due to the amount of items a lot of CustomModelData values have been used. They are listed below.  
 

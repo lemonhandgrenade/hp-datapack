@@ -1,3 +1,3 @@
-execute store result entity @s Motion[0] double 0.0023 run scoreboard players get temp X
-execute store result entity @s Motion[1] double 0.0023 run scoreboard players get temp Y
-execute store result entity @s Motion[2] double 0.0023 run scoreboard players get temp Z
+execute store result entity @s Motion[0] double 0.0043 run scoreboard players get temp X
+execute store result entity @s Motion[1] double 0.0043 run scoreboard players get temp Y
+execute store result entity @s Motion[2] double 0.0043 run scoreboard players get temp Z
