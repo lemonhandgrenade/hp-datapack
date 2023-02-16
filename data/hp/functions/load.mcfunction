@@ -155,6 +155,9 @@ scoreboard players set #timeBase plantTime 3600
 scoreboard players set #timeMarker plantTime 1200
 scoreboard objectives add plantState dummy
 
+#-Mobs---------------------------------------------------------------------------------------------#
+scoreboard objectives add owlID dummy
+
 
 function hp:100tick
 function hp:50tick

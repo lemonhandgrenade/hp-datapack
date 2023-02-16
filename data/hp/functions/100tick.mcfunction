@@ -19,3 +19,5 @@ execute if score playerInfo settings matches 1 run scoreboard players enable @a 
 execute if score playerInfo settings matches 1 run scoreboard players enable @a player
 
 execute as @e[tag=cut] run effect give @s wither 1 1 true
+
+execute unless entity @e[tag=owl,tag=active] unless entity @e[tag=owl,tag=return] run function hp:forceload_reset

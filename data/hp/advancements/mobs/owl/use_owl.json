@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:allay",
+          "nbt": "{Tags:[\"owl\"]}",
+          "equipment": {
+            "mainhand": {
+              "tag": "owls:all_but_air"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "hp:mobs/owl/interact/interact"
+  }
+}
