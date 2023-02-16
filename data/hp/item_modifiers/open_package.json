@@ -2,7 +2,7 @@
     "function": "minecraft:copy_nbt",
     "source": {
         "type": "storage",
-        "source": "hp:example"
+        "source": "hp:temp"
     },
     "ops": [
         {
