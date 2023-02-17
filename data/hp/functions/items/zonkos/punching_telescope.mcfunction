@@ -1,0 +1,1 @@
+give @s spyglass{display:{Name:'{"text":"Punching Telescope","color":"#BD7C2A","italic":false}'},Weight:4625,CustomModelData:1,punchingTelescope:1b} 1

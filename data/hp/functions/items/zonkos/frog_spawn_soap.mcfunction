@@ -1,0 +1,1 @@
+give @s command_block{display:{Name:'{"text":"Frog Spawn Soap","color":"#70905b","italic":false}',Lore:['{"text":"A bar of soap that causes frogs to spawn in water","italic":false}']},CustomModelData:10,frogSpawnSoap:1b,specialEntity:1b} 1

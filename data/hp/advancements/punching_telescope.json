@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:spyglass"
+          ],
+          "nbt": "{punchingTelescope:1b}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "hp:item_functions/punching_telescope"
+  }
+}
