@@ -4,7 +4,7 @@
 3. - [x] Bird: Cardinal
 4. - [x] Bird: Crow
 5. - [x] Bird: Duck
-6. - [ ] Bird: Eagle
+6. - [x] Bird: Eagle
 7. - [ ] Bird: Falcon
 8. - [x] Bird: Pigeon
 9. - [ ] Bird: Seabird

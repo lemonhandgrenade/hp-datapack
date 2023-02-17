@@ -10,6 +10,7 @@ particle minecraft:dust_color_transition 0.6 0.6 0.6 3 0.3 0.3 0.3 ~ ~1 ~ 0.25 0
 
 execute if score @s animagusID matches 1 run tellraw @s ["",{"text":"Beetle: Red","color":"dark_green"}]
 execute if score @s animagusID matches 2 run tellraw @s ["",{"text":"Beetle: Blue","color":"dark_green"}]
+
 execute if score @s animagusID matches 3 run tellraw @s ["",{"text":"Bird: Cardinal","color":"dark_green"}]
 execute if score @s animagusID matches 4 run tellraw @s ["",{"text":"Bird: Crow","color":"dark_green"}]
 execute if score @s animagusID matches 5 run tellraw @s ["",{"text":"Bird: Duck","color":"dark_green"}]
@@ -18,10 +19,12 @@ execute if score @s animagusID matches 7 run tellraw @s ["",{"text":"Bird: Falco
 execute if score @s animagusID matches 8 run tellraw @s ["",{"text":"Bird: Pigeon","color":"dark_green"}]
 execute if score @s animagusID matches 9 run tellraw @s ["",{"text":"Bird: Seabird","color":"dark_green"}]
 execute if score @s animagusID matches 10 run tellraw @s ["",{"text":"Bird: Swan","color":"dark_green"}]
+
 execute if score @s animagusID matches 11 run tellraw @s ["",{"text":"Butterfly: Monarch","color":"dark_green"}]
 execute if score @s animagusID matches 12 run tellraw @s ["",{"text":"Butterfly: Ornithoptera","color":"dark_green"}]
 execute if score @s animagusID matches 13 run tellraw @s ["",{"text":"Butterfly: Postman","color":"dark_green"}]
 execute if score @s animagusID matches 14 run tellraw @s ["",{"text":"Butterfly: Ulysses","color":"dark_green"}]
+
 execute if score @s animagusID matches 15 run tellraw @s ["",{"text":"Cat: British Shorthair","color":"dark_green"}]
 execute if score @s animagusID matches 16 run tellraw @s ["",{"text":"Cat: Calico","color":"dark_green"}]
 execute if score @s animagusID matches 17 run tellraw @s ["",{"text":"Cat: Jellie","color":"dark_green"}]
@@ -33,6 +36,7 @@ execute if score @s animagusID matches 22 run tellraw @s ["",{"text":"Cat: Siame
 execute if score @s animagusID matches 23 run tellraw @s ["",{"text":"Cat: Tabby","color":"dark_green"}]
 execute if score @s animagusID matches 24 run tellraw @s ["",{"text":"Cat: Tuxedo","color":"dark_green"}]
 execute if score @s animagusID matches 25 run tellraw @s ["",{"text":"Cat: White","color":"dark_green"}]
+
 execute if score @s animagusID matches 26 run tellraw @s ["",{"text":"Dog: Australian Shepherd","color":"dark_green"}]
 execute if score @s animagusID matches 27 run tellraw @s ["",{"text":"Dog: Beagle","color":"dark_green"}]
 execute if score @s animagusID matches 28 run tellraw @s ["",{"text":"Dog: Bernese","color":"dark_green"}]
@@ -62,11 +66,14 @@ execute if score @s animagusID matches 51 run tellraw @s ["",{"text":"Dog: Shiba
 execute if score @s animagusID matches 52 run tellraw @s ["",{"text":"Dog: St Bernard","color":"dark_green"}]
 execute if score @s animagusID matches 53 run tellraw @s ["",{"text":"Dog: White Terrier","color":"dark_green"}]
 execute if score @s animagusID matches 54 run tellraw @s ["",{"text":"Dog: Wolf","color":"dark_green"}]
+
 execute if score @s animagusID matches 55 run tellraw @s ["",{"text":"Frog: Brown","color":"dark_green"}]
 execute if score @s animagusID matches 56 run tellraw @s ["",{"text":"Frog: Green","color":"dark_green"}]
 execute if score @s animagusID matches 57 run tellraw @s ["",{"text":"Frog: Tree","color":"dark_green"}]
+
 execute if score @s animagusID matches 58 run tellraw @s ["",{"text":"Gerbil","color":"dark_green"}]
 execute if score @s animagusID matches 59 run tellraw @s ["",{"text":"Lemur","color":"dark_green"}]
+
 execute if score @s animagusID matches 60 run tellraw @s ["",{"text":"Rabbit: Black","color":"dark_green"}]
 execute if score @s animagusID matches 61 run tellraw @s ["",{"text":"Rabbit: Black White","color":"dark_green"}]
 execute if score @s animagusID matches 62 run tellraw @s ["",{"text":"Rabbit: Brown","color":"dark_green"}]
@@ -74,14 +81,22 @@ execute if score @s animagusID matches 63 run tellraw @s ["",{"text":"Rabbit: Go
 execute if score @s animagusID matches 64 run tellraw @s ["",{"text":"Rabbit: Killer Bunny","color":"dark_green"}]
 execute if score @s animagusID matches 65 run tellraw @s ["",{"text":"Rabbit: Salt Pepper","color":"dark_green"}]
 execute if score @s animagusID matches 66 run tellraw @s ["",{"text":"Rabbit: White","color":"dark_green"}]
+
 execute if score @s animagusID matches 67 run tellraw @s ["",{"text":"Rat: Brown","color":"dark_green"}]
 execute if score @s animagusID matches 68 run tellraw @s ["",{"text":"Rat: Gray","color":"dark_green"}]
 execute if score @s animagusID matches 69 run tellraw @s ["",{"text":"Rat: Black","color":"dark_green"}]
+
 execute if score @s animagusID matches 70 run tellraw @s ["",{"text":"Deer: Stag","color":"dark_green"}]
 execute if score @s animagusID matches 71 run tellraw @s ["",{"text":"Deer: Doe","color":"dark_green"}]
 
+execute if score @s animagusID matches 72 run tellraw @s ["",{"text":"Cheetah","color":"dark_green"}]
+execute if score @s animagusID matches 73 run tellraw @s ["",{"text":"Gazelle","color":"dark_green"}]
+execute if score @s animagusID matches 74 run tellraw @s ["",{"text":"Giraffe","color":"dark_green"}]
+
+
 execute if score @s animagusID matches 1 run function hp:animagus/morph/summon/beetle/red
 execute if score @s animagusID matches 2 run function hp:animagus/morph/summon/beetle/blue
+
 execute if score @s animagusID matches 3 run function hp:animagus/morph/summon/bird/cardinal
 execute if score @s animagusID matches 4 run function hp:animagus/morph/summon/bird/crow
 execute if score @s animagusID matches 5 run function hp:animagus/morph/summon/bird/duck
@@ -90,10 +105,12 @@ execute if score @s animagusID matches 7 run function hp:animagus/morph/summon/b
 execute if score @s animagusID matches 8 run function hp:animagus/morph/summon/bird/pigeon
 execute if score @s animagusID matches 9 run function hp:animagus/morph/summon/bird/seabird
 execute if score @s animagusID matches 10 run function hp:animagus/morph/summon/bird/swan
+
 execute if score @s animagusID matches 11 run function hp:animagus/morph/summon/butterfly/monarch
 execute if score @s animagusID matches 12 run function hp:animagus/morph/summon/butterfly/ornithoptera
 execute if score @s animagusID matches 13 run function hp:animagus/morph/summon/butterfly/postman
 execute if score @s animagusID matches 14 run function hp:animagus/morph/summon/butterfly/ulysses
+
 execute if score @s animagusID matches 15 run function hp:animagus/morph/summon/cat/british_shorthair
 execute if score @s animagusID matches 16 run function hp:animagus/morph/summon/cat/calico
 execute if score @s animagusID matches 17 run function hp:animagus/morph/summon/cat/jellie
@@ -105,6 +122,7 @@ execute if score @s animagusID matches 22 run function hp:animagus/morph/summon/
 execute if score @s animagusID matches 23 run function hp:animagus/morph/summon/cat/tabby
 execute if score @s animagusID matches 24 run function hp:animagus/morph/summon/cat/tuxedo
 execute if score @s animagusID matches 25 run function hp:animagus/morph/summon/cat/white
+
 execute if score @s animagusID matches 26 run function hp:animagus/morph/summon/dog/australian_shepherd
 execute if score @s animagusID matches 27 run function hp:animagus/morph/summon/dog/beagle
 execute if score @s animagusID matches 28 run function hp:animagus/morph/summon/dog/bernese
@@ -134,11 +152,14 @@ execute if score @s animagusID matches 51 run function hp:animagus/morph/summon/
 execute if score @s animagusID matches 52 run function hp:animagus/morph/summon/dog/st_bernard
 execute if score @s animagusID matches 53 run function hp:animagus/morph/summon/dog/white_terrier
 execute if score @s animagusID matches 54 run function hp:animagus/morph/summon/dog/wolf
+
 execute if score @s animagusID matches 55 run function hp:animagus/morph/summon/frog/brown
 execute if score @s animagusID matches 56 run function hp:animagus/morph/summon/frog/green
 execute if score @s animagusID matches 57 run function hp:animagus/morph/summon/frog/tree
+
 execute if score @s animagusID matches 58 run function hp:animagus/morph/summon/gerbil
 execute if score @s animagusID matches 59 run function hp:animagus/morph/summon/lemur
+
 execute if score @s animagusID matches 60 run function hp:animagus/morph/summon/rabbit/black
 execute if score @s animagusID matches 61 run function hp:animagus/morph/summon/rabbit/black_white
 execute if score @s animagusID matches 62 run function hp:animagus/morph/summon/rabbit/brown
@@ -146,10 +167,16 @@ execute if score @s animagusID matches 63 run function hp:animagus/morph/summon/
 execute if score @s animagusID matches 64 run function hp:animagus/morph/summon/rabbit/killer_bunny
 execute if score @s animagusID matches 65 run function hp:animagus/morph/summon/rabbit/salt_pepper
 execute if score @s animagusID matches 66 run function hp:animagus/morph/summon/rabbit/white
+
 execute if score @s animagusID matches 67 run function hp:animagus/morph/summon/rat/brown
 execute if score @s animagusID matches 68 run function hp:animagus/morph/summon/rat/gray
 execute if score @s animagusID matches 69 run function hp:animagus/morph/summon/rat/black
+
 execute if score @s animagusID matches 70 run function hp:animagus/morph/summon/deer/stag
 execute if score @s animagusID matches 71 run function hp:animagus/morph/summon/deer/doe
+
+execute if score @s animagusID matches 72 run function hp:animagus/morph/summon/cheetah
+execute if score @s animagusID matches 73 run function hp:animagus/morph/summon/gazelle
+execute if score @s animagusID matches 74 run function hp:animagus/morph/summon/giraffe
 
 tag @s add morphed
