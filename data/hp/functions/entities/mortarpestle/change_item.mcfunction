@@ -1,5 +1,5 @@
-execute store result score rng5 values run loot spawn 0 0 0 loot hp:rng/rng5
-execute store result score rng3 values run loot spawn 0 0 0 loot hp:rng/rng3
+execute store result score #rng5 values run loot spawn 0 0 0 loot hp:rng/rng5
+execute store result score #rng3 values run loot spawn 0 0 0 loot hp:rng/rng3
 
 execute store result score temp values run data get entity @s Item.tag.CustomModelData
 execute store result score count values run data get entity @s Item.Count
@@ -33,7 +33,7 @@ execute at @s if score temp values matches 1630 as @a[tag=mpTarget] run function
 execute at @s if score temp values matches 1680 as @a[tag=mpTarget] run function hp:items/ingredients/moonstone_crushed
 
 execute at @s if score temp values matches 2320 as @a[tag=mpTarget] run function hp:items/ingredients/snake_fang_crushed
-execute at @s if score rng3 values matches ..2 if score temp values matches 2321 as @a[tag=mpTarget] run function hp:items/ingredients/snake_fang_powdered
+execute at @s if score #rng3 values matches ..2 if score temp values matches 2321 as @a[tag=mpTarget] run function hp:items/ingredients/snake_fang_powdered
 
 execute at @s if score temp values matches 2350 as @a[tag=mpTarget] run function hp:items/ingredients/sopophorous_bean_crushed
 execute at @s if score temp values matches 2350 as @a[tag=mpTarget] run function hp:items/ingredients/sopophorous_bean_crushed

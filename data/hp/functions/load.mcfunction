@@ -44,10 +44,10 @@ execute store result score #rng_splinch values run loot spawn 0 0 0 loot hp:rng/
 execute store result score #rng_animagus values run loot spawn 0 0 0 loot hp:rng/rng_animagus
 execute store result score #rng_fear values run loot spawn 0 0 0 loot hp:rng/rng_fear
 
-execute store result score rng255 values run loot spawn 0 0 0 loot hp:rng/rng255
-execute store result score rng5 values run loot spawn 0 0 0 loot hp:rng/rng5
-execute store result score rng4 values run loot spawn 0 0 0 loot hp:rng/rng4
-execute store result score rng3 values run loot spawn 0 0 0 loot hp:rng/rng3
+execute store result score #rng255 values run loot spawn 0 0 0 loot hp:rng/rng255
+execute store result score #rng5 values run loot spawn 0 0 0 loot hp:rng/rng5
+execute store result score #rng4 values run loot spawn 0 0 0 loot hp:rng/rng4
+execute store result score #rng3 values run loot spawn 0 0 0 loot hp:rng/rng3
 
 scoreboard objectives add UID dummy
 
