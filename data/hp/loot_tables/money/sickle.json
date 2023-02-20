@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,Real:1b,Money:1b,Sickle:1b}"
+              "tag": "{CustomModelData:1,Real:1b,Money:1b,Sickle:1b,Weight:66}"
             },
             {
               "function": "minecraft:set_name",

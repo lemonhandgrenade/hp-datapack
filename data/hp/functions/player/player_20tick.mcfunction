@@ -6,8 +6,8 @@ execute if entity @s[scores={vc=0}] run function hp:player/remove_talking
 scoreboard players remove @s[scores={transfigureTimer=1..}] transfigureTimer 1
 execute if entity @s[scores={transfigureTimer=1}] run function hp:transfigure/untransfigure
 
-execute if entity @s[tag=invisibilityCloak] run function hp:equipment/chest/invisibility_cloak/main
-execute if entity @s[tag=cloakOfInvisibility] run function hp:equipment/chest/cloak_of_invisibility/main
+execute if entity @s[tag=invisibilityCloak] run function hp:item_functions/chest/invisibility_cloak/main
+execute if entity @s[tag=cloakOfInvisibility] run function hp:item_functions/chest/cloak_of_invisibility/main
 
 execute if entity @s[tag=animagus] run function hp:animagus/main
 execute if score @s injuries matches ..-1 run function hp:player/injuries/list

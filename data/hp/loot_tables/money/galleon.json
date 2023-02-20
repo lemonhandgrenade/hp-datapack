@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,Real:1b,Money:1b,Galleon:1b}"
+              "tag": "{CustomModelData:1,Real:1b,Money:1b,Galleon:1b,Weight:81}"
             },
             {
               "function": "minecraft:set_name",

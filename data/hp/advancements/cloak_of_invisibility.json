@@ -23,6 +23,6 @@
     }
   },
   "rewards": {
-    "function": "hp:equipment/chest/cloak_of_invisibility/put_on"
+    "function": "hp:item_functions/chest/cloak_of_invisibility/put_on"
   }
 }

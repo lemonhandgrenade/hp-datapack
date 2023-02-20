@@ -24,7 +24,7 @@ scoreboard players set @s[predicate=!hp:is_being_launched] yMotionTime 0
 
 execute as @s[tag=motionEffected] at @s run tp @s @e[type=armor_stand,tag=motionStop,sort=nearest,limit=1]
 
-execute if score @s wfoas matches 1.. run function hp:equipment/wfoas
+execute if score @s wfoas matches 1.. run function hp:item_functions/wfoas
 
 execute if entity @s[tag=handOfGlory,predicate=!hp:holding_hand_of_glory] run tag @s remove handOfGlory
 
