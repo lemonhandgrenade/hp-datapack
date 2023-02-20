@@ -13,6 +13,6 @@
     }
   },
   "rewards": {
-    "function": "hp:werewolf/lycanthropy/roll"
+    "function": "hp:mobs/werewolf/lycanthropy/roll"
   }
 }

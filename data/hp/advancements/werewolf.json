@@ -10,6 +10,6 @@
     }
   },
   "rewards": {
-    "function": "hp:werewolf/main"
+    "function": "hp:mobs/werewolf/main"
   }
 }

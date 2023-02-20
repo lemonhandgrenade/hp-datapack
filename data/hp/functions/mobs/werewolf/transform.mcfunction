@@ -5,7 +5,7 @@ execute if entity @s[gamemode=creative] run scoreboard players set @s moon 1
 execute if entity @s[gamemode=adventure] run scoreboard players set @s moon 2
 execute if entity @s[gamemode=spectator] run scoreboard players set @s moon 3
 
-execute at @s run function hp:werewolf/summon
+execute at @s run function hp:mobs/werewolf/summon
 gamemode spectator @s[tag=!wolfsbane]
 
 effect give @s minecraft:blindness 2 200 true

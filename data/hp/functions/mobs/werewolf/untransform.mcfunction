@@ -23,4 +23,4 @@ execute at @s run playsound minecraft:entity.wolf.hurt hostile @a ~ ~ ~ 2 2
 execute at @s run playsound minecraft:entity.wolf.death hostile @a ~ ~ ~ 2 1
 execute at @s run playsound minecraft:entity.wolf.pant hostile @a ~ ~ ~ 2 1
 
-function hp:werewolf/kill
+function hp:mobs/werewolf/kill

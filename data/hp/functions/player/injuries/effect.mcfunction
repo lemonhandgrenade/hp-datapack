@@ -1,5 +1,5 @@
 scoreboard players add @s[tag=lycanthropySick] lycanthropy 1
-execute if entity @s[tag=lycanthropySick] if score @s lycanthropy matches 2400.. run function hp:werewolf/lycanthropy/final
+execute if entity @s[tag=lycanthropySick] if score @s lycanthropy matches 2400.. run function hp:mobs/werewolf/lycanthropy/final
 
 execute if entity @s[tag=deepCut] run function hp:player/injuries/stuck
 effect give @s[tag=deepCut] minecraft:blindness 2 255 true
