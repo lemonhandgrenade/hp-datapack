@@ -157,8 +157,10 @@ scoreboard objectives add plantState dummy
 
 #-Mobs---------------------------------------------------------------------------------------------#
 scoreboard objectives add owlID dummy
+scoreboard objectives add thestralID dummy
 
 
+function hp:500tick
 function hp:100tick
 function hp:50tick
 function hp:20tick
