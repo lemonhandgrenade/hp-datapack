@@ -5,6 +5,16 @@
       "conditions": {
         "player": [
           {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "type": "minecraft:pig",
+                "nbt": "{Tags:[\"thestral\"]}"
+              }
+            }
+          },
+          {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
