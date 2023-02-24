@@ -6,7 +6,6 @@ particle dust_color_transition 0.57 0.61 0.7 1 0.6 0.75 0.95 ~ ~ ~ 0.25 0.25 0.2
 scoreboard players remove #temp slowcast 1
 execute if score #temp slowcast matches ..-1 run tp @s ~ ~ ~
 execute if score #temp slowcast matches 0.. positioned ^ ^ ^0.4317 unless block ~ ~ ~ #hp:air run function hp:spells/p/patronus_charm/private/end
-
 ## Reasoning
 # A tick happens every 20th of a second so base speeds shall be divided by 20
 # Base sprint speed is 5.612 m/s -> 5.612 / 20 = 0.2806
