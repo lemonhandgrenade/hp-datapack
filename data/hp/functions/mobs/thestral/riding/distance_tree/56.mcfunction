@@ -1,0 +1,2 @@
+execute if score @s selectedSlot matches 5 as @e[type=marker,tag=distanceCheck,tag=tmp] if score @s thestralID = #current thestralID run tp @s ^ ^ ^4
+execute if score @s selectedSlot matches 6 as @e[type=marker,tag=distanceCheck,tag=tmp] if score @s thestralID = #current thestralID run tp @s ^ ^ ^4.8
