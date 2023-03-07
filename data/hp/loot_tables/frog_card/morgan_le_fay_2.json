@@ -41,7 +41,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:10004,WizardCard:1b}"
+                            "tag": "{CustomModelData:10004,WizardCard:1b,morgan_le_fay_2:1b}"
                         }
                     ]
                 }

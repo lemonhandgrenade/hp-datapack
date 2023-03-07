@@ -4,7 +4,7 @@
       "item": "minecraft:stick",
       "nbt": "{CustomModelData:306}"
     },
-    "title": "First wand",
+    "title": "First Wand",
     "description": "Get your first wand",
     "frame": "task",
     "show_toast": true,

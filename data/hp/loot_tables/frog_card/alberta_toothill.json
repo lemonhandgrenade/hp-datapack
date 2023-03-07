@@ -49,7 +49,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:10001,WizardCard:1b}"
+                            "tag": "{CustomModelData:10001,WizardCard:1b,alberta_toothill:1b}"
                         }
                     ]
                 }

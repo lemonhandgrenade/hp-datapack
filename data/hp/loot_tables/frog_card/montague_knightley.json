@@ -37,7 +37,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:10002,WizardCard:1b}"
+                            "tag": "{CustomModelData:10002,WizardCard:1b,montague_knightley:1b}"
                         }
                     ]
                 }

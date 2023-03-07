@@ -1,13 +1,14 @@
 {
     "display": {
-        "title": "Cast a spell",
+        "title": "Cast a Spell",
         "description": "Cast your first spell",
         "icon": {
             "item": "minecraft:nether_star"
         },
         "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": false
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
     },
     "parent": "hp:pack/first_wand",
     "criteria": {

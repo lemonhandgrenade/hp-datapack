@@ -49,7 +49,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:10004,WizardCard:1b}"
+                            "tag": "{CustomModelData:10004,WizardCard:1b,fulbert_the_fearful_2:1b}"
                         }
                     ]
                 }

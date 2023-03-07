@@ -1,6 +1,6 @@
 {
     "display": {
-        "title": "Get Sorted!  ",
+        "title": "Get Sorted!",
         "description": "Get sorted into one of the 4 Hogwart's houses",
         "icon": {
             "item": "minecraft:repeating_command_block",

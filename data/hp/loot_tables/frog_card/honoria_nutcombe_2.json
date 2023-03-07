@@ -41,7 +41,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:10004,WizardCard:1b}"
+                            "tag": "{CustomModelData:10004,WizardCard:1b,honoria_nutcombe_2:1b}"
                         }
                     ]
                 }

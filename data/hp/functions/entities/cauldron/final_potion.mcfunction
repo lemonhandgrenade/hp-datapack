@@ -55,7 +55,7 @@ execute as @e[type=item,sort=nearest,distance=..0.2,nbt={Item:{Count:1b,tag:{Ing
 
 execute if score temp2 values matches 0 as @a[tag=cauldronTarget] run function hp:items/equipment/phial_glass
 
-advancement grant @a[tag=cauldronTarget] only hp:pack/potion
+execute if score temp2 values matches 1 run advancement grant @a[tag=cauldronTarget] only hp:pack/potion
 execute if score temp2 values matches 1 run scoreboard players add @a[tag=cauldronTarget] potionCount 1
 
 tag @a remove cauldronTarget
@@ -63,6 +63,6 @@ function hp:potions/reset_potion_storage
 data modify entity @s HandItems[0].tag.display.color set value 4159204
 data remove entity @s ArmorItems[3].tag.SpecialUUID
 data remove entity @s ArmorItems[3].tag.Name
-data modify entity @s ArmorItems[3].tag.CustomModelData set value 8
+data modify entity @s ArmorItems[3].tag.CustomModelData set value 21
 data modify entity @s ArmorItems[3].tag.Potion set value [10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000]
 scoreboard players set @s values 0

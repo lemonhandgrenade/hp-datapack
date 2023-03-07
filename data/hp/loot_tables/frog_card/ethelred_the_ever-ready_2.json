@@ -41,7 +41,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:10004,WizardCard:1b}"
+                            "tag": "{CustomModelData:10004,WizardCard:1b,ethelred_the_ever-ready_2:1b}"
                         }
                     ]
                 }

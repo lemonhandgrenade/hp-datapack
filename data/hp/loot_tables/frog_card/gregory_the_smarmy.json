@@ -57,7 +57,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:10001,WizardCard:1b}"
+                            "tag": "{CustomModelData:10001,WizardCard:1b,gregory_the_smarmy:1b}"
                         }
                     ]
                 }

@@ -41,7 +41,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:10003,WizardCard:1b}"
+                            "tag": "{CustomModelData:10003,WizardCard:1b,cassandra_vablatsky:1b}"
                         }
                     ]
                 }

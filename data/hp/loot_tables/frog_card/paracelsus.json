@@ -49,7 +49,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:10002,WizardCard:1b}"
+                            "tag": "{CustomModelData:10002,WizardCard:1b,paracelsus:1b}"
                         }
                     ]
                 }

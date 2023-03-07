@@ -45,7 +45,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:10001,WizardCard:1b}"
+                            "tag": "{CustomModelData:10001,WizardCard:1b,glenda_chittock:1b}"
                         }
                     ]
                 }

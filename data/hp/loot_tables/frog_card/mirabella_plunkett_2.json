@@ -53,7 +53,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:10004,WizardCard:1b}"
+                            "tag": "{CustomModelData:10004,WizardCard:1b,mirabella_plunkett_2:1b}"
                         }
                     ]
                 }

@@ -49,7 +49,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:10003,WizardCard:1b}"
+                            "tag": "{CustomModelData:10003,WizardCard:1b,roderick_plumpton:1b}"
                         }
                     ]
                 }

@@ -45,7 +45,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:10002,WizardCard:1b}"
+                            "tag": "{CustomModelData:10002,WizardCard:1b,rowena_ravenclaw:1b}"
                         }
                     ]
                 }

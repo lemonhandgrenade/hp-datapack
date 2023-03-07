@@ -65,7 +65,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:10004,WizardCard:1b}"
+                            "tag": "{CustomModelData:10004,WizardCard:1b,albus_dumbledore_2:1b}"
                         }
                     ]
                 }

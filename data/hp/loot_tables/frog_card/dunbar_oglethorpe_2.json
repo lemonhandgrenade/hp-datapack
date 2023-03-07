@@ -53,7 +53,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:10001,WizardCard:1b}"
+                            "tag": "{CustomModelData:10001,WizardCard:1b,dunbar_oglethorpe_2:1b}"
                         }
                     ]
                 }
