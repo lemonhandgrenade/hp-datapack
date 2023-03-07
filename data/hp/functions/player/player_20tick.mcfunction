@@ -25,3 +25,7 @@ execute if entity @s[tag=bigHead,scores={engorgioSkullus=..0}] run item replace 
 execute if entity @s[tag=bigHead,scores={engorgioSkullus=..0}] run tag @s remove bigHead
 
 execute if entity @s[scores={sneakTest=1..}] as @e[type=armor_stand,tag=broomVisual,tag=broom,limit=1,sort=nearest,distance=..1] run function hp:broom/remove_broom
+execute if entity @s[scores={sneakTest=1..}] as @e[type=item_frame,tag=chessboard,limit=1,sort=nearest,distance=..0.5] run kill @s
+
+execute if predicate hp:games/chessboard run effect give @s minecraft:slowness 1 2 true
+execute if predicate hp:crystal_ball run effect give @s minecraft:slowness 1 2 true

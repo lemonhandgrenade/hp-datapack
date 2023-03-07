@@ -9,3 +9,7 @@ tag @s[tag=!flyingBroom,predicate=!hp:no_broom] add flyingBroom
 tag @s[tag=flyingBroom,predicate=hp:no_broom] remove flyingBroom
 
 execute if entity @s[tag=sortingHat] run function hp:sorting_hat/main
+
+scoreboard players enable @s chessMove
+execute if score @s chessMove matches 1.. run function hp:games/chess/player_move
+execute as @s[scores={chessMove = 1..}] run scoreboard players set @s chessMove 0

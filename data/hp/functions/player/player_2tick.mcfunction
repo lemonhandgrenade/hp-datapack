@@ -11,3 +11,6 @@ execute if score @s spell matches 21 if entity @s[tag=!isApparatingUp] if predic
 execute if score @s spell matches 21 if entity @s[tag=!isApparatingUp] if predicate hp:wand/wand_mainhand run scoreboard players reset @s slowcast
 
 execute if score @s spell matches 103 if score @s sneakTest matches 1 if predicate hp:wand/wand_mainhand run function hp:spells/c/colour_changing_charm/select_colour
+
+execute if score @s chessVillager matches 1.. at @s run function hp:games/chess/move/select
+execute if score @s chessVillager matches 1.. run scoreboard players reset @s chessVillager

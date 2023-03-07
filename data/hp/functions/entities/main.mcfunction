@@ -1,6 +1,7 @@
 execute if entity @s[tag=new,tag=hoppingPot,tag=summon] run function hp:entities/hopping_pot/summon
 execute if entity @s[tag=new,tag=cauldron,tag=summon] run function hp:entities/cauldron/summon
 execute if entity @s[tag=new,tag=mortarpestle,tag=summon] run function hp:entities/mortarpestle/summon
+execute if entity @s[tag=new,tag=crystalBall,tag=summon] run function hp:entities/divination/crystal_ball/summon
 
 execute if entity @s[tag=trunk] at @s if entity @e[type=item,distance=..1] run function hp:item_functions/trunk/store_item
 
@@ -13,14 +14,13 @@ execute if entity @s[tag=mortarpestleMain] at @s run function hp:entities/mortar
 
 execute if entity @s[tag=cauldronMain] run function hp:entities/cauldron/main
 execute if entity @s[tag=hoppingPotMain] run function hp:entities/hopping_pot/main
+execute if entity @s[tag=crystalBallMain] run function hp:entities/divination/crystal_ball/main
 
 execute if entity @s[type=item,tag=flyingEntity] if score #alternate values matches -1 run data modify entity @s Air set value 0s
 execute if entity @s[type=item,tag=flyingEntity] if score #alternate values matches 1 run data modify entity @s Air set value 1s
 
 execute if entity @s[type=armor_stand,tag=scales,tag=scalesMain] unless predicate hp:player/is_wearing_armor run function hp:entities/scales/kill
-kill @s[type=armor_stand,tag=hoppingPot,predicate=hp:player/no_helmet]
-kill @s[type=armor_stand,tag=cauldron,predicate=hp:player/no_helmet]
-kill @s[type=armor_stand,tag=trunk,predicate=hp:player/no_helmet]
+kill @s[type=armor_stand,tag=helmetNeeded,predicate=hp:player/no_helmet]
 kill @s[type=armor_stand,tag=mortarpestleMain,predicate=!hp:player/is_wearing_armor]
 
 execute if entity @s[tag=wingardium] run function hp:spells/l/levitation_charm/main

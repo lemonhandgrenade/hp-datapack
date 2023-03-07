@@ -22,7 +22,7 @@ execute if score @s spell matches 99 run function hp:spells/c/circumrota/cast
 execute if score @s spell matches 100 run function hp:spells/c/cleaning_charm/cast
 execute if score @s spell matches 101 run function hp:spells/c/clothing-animating_spell/cast
 execute if score @s spell matches 102 run function hp:spells/c/coins_to_frogspawn_spell/cast
-execute if score @s spell matches 103 run function hp:spells/c/colour_changing_charm/cast
+execute if score @s spell matches 103 run function hp:spells/c/colour_changing_charm/hit_entity
 execute if score @s spell matches 104 run function hp:spells/c/combat_bolt/cast
 execute if score @s spell matches 105 run function hp:spells/c/conflagration_spell/cast
 execute if score @s spell matches 106 run function hp:spells/c/confoundable_spell/cast

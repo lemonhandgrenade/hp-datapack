@@ -27,6 +27,7 @@ execute if score @s broomType matches 24 as @p run function hp:items/broom/nimbu
 execute if score @s broomType matches 25 as @p run function hp:items/broom/nimbus_2001
 execute if score @s broomType matches 26 as @p run function hp:items/broom/oakshaft_79
 execute if score @s broomType matches 27 as @p run function hp:items/broom/shooting_star
+execute if score @s broomType matches 28 as @p run function hp:items/broom/siberian_arrow
 execute if score @s broomType matches 29 as @p run function hp:items/broom/silver_arrow
 execute if score @s broomType matches 30 as @p run function hp:items/broom/starsweeper_xxi
 execute if score @s broomType matches 31 as @p run function hp:items/broom/swiftstick

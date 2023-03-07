@@ -25,6 +25,7 @@ scoreboard players set @s[nbt={Item:{id:"minecraft:stick",tag:{Nimbus2000:1b}}}]
 scoreboard players set @s[nbt={Item:{id:"minecraft:stick",tag:{Nimbus2001:1b}}}] broomType 25
 scoreboard players set @s[nbt={Item:{id:"minecraft:stick",tag:{Oakshaft79:1b}}}] broomType 26
 scoreboard players set @s[nbt={Item:{id:"minecraft:stick",tag:{ShootingStar:1b}}}] broomType 27
+scoreboard players set @s[nbt={Item:{id:"minecraft:stick",tag:{SiberianArrow:1b}}}] broomType 28
 scoreboard players set @s[nbt={Item:{id:"minecraft:stick",tag:{SilverArrow:1b}}}] broomType 29
 scoreboard players set @s[nbt={Item:{id:"minecraft:stick",tag:{StarsweeperXXI:1b}}}] broomType 30
 scoreboard players set @s[nbt={Item:{id:"minecraft:stick",tag:{Swiftstick:1b}}}] broomType 31

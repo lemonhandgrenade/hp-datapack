@@ -26,7 +26,7 @@
 25. - [x] Nimbus 2001
 26. - [x] Oakshaft 79
 27. - [x] Shooting Star
-28. - [ ] Siberian Arrow
+28. - [x] Siberian Arrow
 29. - [x] Silver Arrow
 30. - [x] Starsweeper XXI
 31. - [x] Swiftstick

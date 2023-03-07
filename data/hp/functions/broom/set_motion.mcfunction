@@ -68,6 +68,10 @@ execute if entity @s[scores={broomType=26}] store result score broomSpeed Z run 
 execute if entity @s[scores={broomType=27}] store result score broomSpeed X run data get entity @s Motion[0] 2585
 execute if entity @s[scores={broomType=27}] store result score broomSpeed Y run data get entity @s Motion[1] 3360
 execute if entity @s[scores={broomType=27}] store result score broomSpeed Z run data get entity @s Motion[2] 2585
+#-Siberian-Arrow-----------------------------------------------------------------------------------#
+execute if entity @s[scores={broomType=28}] store result score broomSpeed X run data get entity @s Motion[0] 3850
+execute if entity @s[scores={broomType=28}] store result score broomSpeed Y run data get entity @s Motion[1] 4347
+execute if entity @s[scores={broomType=28}] store result score broomSpeed Z run data get entity @s Motion[2] 3850
 #-Silver-Arrow-------------------------------------------------------------------------------------#
 execute if entity @s[scores={broomType=29}] store result score broomSpeed X run data get entity @s Motion[0] 2566
 execute if entity @s[scores={broomType=29}] store result score broomSpeed Y run data get entity @s Motion[1] 4290

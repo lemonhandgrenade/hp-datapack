@@ -22,9 +22,9 @@ scoreboard players operation @s Y /= 10 values
 scoreboard players operation @s Y += 10 values
 scoreboard players operation @s Z /= 10 values
 
-execute as @s store result entity @s Motion[0] double -.001 run scoreboard players get @s X
-execute as @s store result entity @s Motion[1] double -.001 run scoreboard players get @s Y
-execute as @s store result entity @s Motion[2] double -.001 run scoreboard players get @s Z
+execute store result entity @s Motion[0] double -.001 run scoreboard players get @s X
+execute store result entity @s Motion[1] double -.001 run scoreboard players get @s Y
+execute store result entity @s Motion[2] double -.001 run scoreboard players get @s Z
 
 execute unless entity @p[tag=levitationCaster,predicate=hp:wand/wand_mainhand] unless entity @p[tag=levitationCaster,predicate=hp:wand/wand_offhand] run function hp:spells/l/levitation_charm/toggle
 

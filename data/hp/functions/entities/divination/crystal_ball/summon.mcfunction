@@ -1,0 +1,2 @@
+summon armor_stand ~ ~ ~ {ShowArms:1b,DisabledSlots:65837,Invisible:1b,Small:1b,Tags:["specialEntity","crystalBall","crystalBallMain","helmetNeeded"],ArmorItems:[{id:"minecraft:oak_button",Count:1b,tag:{KILL:1b}},{},{},{id:"minecraft:armor_stand",Count:1b,tag:{display:{Name:'{"text":"Crystal Ball","italic":false}',Lore:['{"text":"A Crystal Ball Used To See Your Future","italic":false}']},CustomModelData:900,EntityTag:{Small:1b,Invisible:1b,Tags:["new","summon","crystalBall","specialEntity"]}}}]}
+kill @s

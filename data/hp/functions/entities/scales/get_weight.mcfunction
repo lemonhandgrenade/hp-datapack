@@ -6,7 +6,6 @@ execute as @e[type=armor_stand,limit=1,sort=nearest,tag=left] unless data entity
 
 scoreboard players operation left values *= count values
 
-
 execute as @e[type=armor_stand,limit=1,sort=nearest,tag=right] if data entity @s HandItems[0].tag.Weight store result score right values run data get entity @s HandItems[0].tag.Weight
 execute as @e[type=armor_stand,limit=1,sort=nearest,tag=right] unless data entity @s HandItems[0].tag.Weight run scoreboard players set right values 0
 
