@@ -1,0 +1,1 @@
+give @s armor_stand{display:{Name:'{"text":"Crystal Ball","italic":false}',Lore:['{"text":"A Crystal Ball Used To See Your Future","italic":false}']},Weight:710,CustomModelData:900,EntityTag:{Small:1b,Invisible:1b,Tags:["new","summon","crystalBall","specialEntity"],Pose:{Head:[0.01f,0f,0f]},ArmorItems:[{},{},{},{id:"minecraft:armor_stand",Count:1b,tag:{CustomModelData:900}}]}} 1

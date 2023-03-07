@@ -46,7 +46,7 @@ function setData(data, index) {
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": `{CustomModelData:${data.Card.endsWith('Silver') ? 10001 : data.Card.endsWith('Gold') ? 10002 : data.Card.endsWith('Bronze') ? 10003 : data.Card.endsWith('Cards') ? 10004 : 10000 },WizardCard:1b}`
+							"tag": `{CustomModelData:${data.Card.endsWith('Silver') ? 10001 : data.Card.endsWith('Gold') ? 10002 : data.Card.endsWith('Bronze') ? 10003 : data.Card.endsWith('Cards') ? 10004 : 10000 },WizardCard:1b,${data.Name.toLowerCase().replace(/ /g, "_")}:1b}`
             			}
 					]
 				}

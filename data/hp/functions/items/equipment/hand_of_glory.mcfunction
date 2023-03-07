@@ -1,1 +1,1 @@
-give @s warped_fungus_on_a_stick{display:{Name:'{"text":"Hand of Glory","italic":false}',Lore:['{"text":"Provides candlelight only to the holder.","italic":false}','{"text":"Use to toggle it\'s effects"}']},HideFlags:4,RepairCost:-1,Unbreakable:1b,CustomModelData:1,handOfGlory:1b} 1
+give @s warped_fungus_on_a_stick{display:{Name:'{"text":"Hand of Glory","italic":false}',Lore:['{"text":"Provides candlelight only to the holder","italic":false}','{"text":"Use to toggle it\'s effects"}']},HideFlags:4,RepairCost:-1,Unbreakable:1b,CustomModelData:1,handOfGlory:1b} 1

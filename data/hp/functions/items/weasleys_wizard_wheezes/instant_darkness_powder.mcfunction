@@ -1,1 +1,1 @@
-give @s snowball{display:{Name:'{"text":"Instant Darkness Powder","color":"#110044","italic":false}',Lore:['{"text":"Creates darkness.","italic":false}','{"text":"Throw to create a bubble of darkness"}']},CustomModelData:11,instantDarknessPowder:1b,specialBall:1b} 1
+give @s snowball{display:{Name:'{"text":"Instant Darkness Powder","color":"#110044","italic":false}',Lore:['{"text":"Creates darkness","italic":false}','{"text":"Throw to create a bubble of darkness"}']},CustomModelData:11,instantDarknessPowder:1b,specialBall:1b} 1

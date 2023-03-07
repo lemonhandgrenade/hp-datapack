@@ -1,0 +1,1 @@
+give @s stick{display:{Name:'{"text":"Siberian Arrow","italic":false}',Lore:['{"text":"Siberian Arrow","color":"#e1bf70","italic":false}','{"text":"A racing broom","italic":false}']},CustomModelData:6028,Broom:1b,SiberianArrow:1b}

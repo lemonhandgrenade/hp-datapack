@@ -55,6 +55,11 @@ team add noCollision
 team modify noCollision collisionRule never
 team modify noCollision nametagVisibility never
 
+team add gameGroup
+team modify gameGroup collisionRule never
+team modify gameGroup nametagVisibility never
+team modify gameGroup color light_purple
+
 team add noName
 team modify noName nametagVisibility never
 
@@ -158,6 +163,11 @@ scoreboard objectives add plantState dummy
 #-Mobs---------------------------------------------------------------------------------------------#
 scoreboard objectives add owlID dummy
 scoreboard objectives add thestralID dummy
+
+#-Games--------------------------------------------------------------------------------------------#
+scoreboard objectives add chessVillager minecraft.custom:minecraft.talked_to_villager
+scoreboard objectives add chessMove trigger
+scoreboard objectives add chessID dummy
 
 
 function hp:500tick
