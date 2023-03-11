@@ -1,7 +1,7 @@
 {
     "display": {
-        "title": "Cast a Spell",
-        "description": "Cast your first spell",
+        "title": {"translate":"advancements.hp.first_spell.title"},
+        "description": {"translate":"advancements.hp.first_spell.description"},
         "icon": {
             "item": "minecraft:nether_star"
         },

@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Wolfsbane Seeds",
+                "translate": "item.hp.wolfsbane_seeds",
                 "italic": false
               }
             },

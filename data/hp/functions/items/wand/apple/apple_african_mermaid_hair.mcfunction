@@ -1,1 +1,1 @@
-give @s stick{display:{Name:'{"text":"Wand","italic":false}'},CustomModelData:301,Wood:3,WoodName:'{"text":"Apple"}',Core:1,CoreName:'{"text":"African mermaid hair"}',Wand:1b,Set:0b} 1
+give @s stick{display:{Name:'{"translate":"item.hp.wand","italic":false}'},CustomModelData:301,Wood:3,WoodName:'{"translate":"wood.hp.apple"}',Core:1,CoreName:'{"translate":"core.hp.african_mermaid_hair"}',Wand:1b,Set:0b} 1

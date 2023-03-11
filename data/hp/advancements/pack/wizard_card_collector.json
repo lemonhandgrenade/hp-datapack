@@ -4,8 +4,8 @@
 			"item": "minecraft:paper",
 			"nbt": "{CustomModelData:10004}"
 		},
-		"title": "Card Collector",
-		"description": "Collect every wizard card",
+		"title": {"translate":"advancements.hp.card_collector.title"},
+		"description": {"translate":"advancements.hp.card_collector.description"},
     	"frame": "goal",
     	"show_toast": true,
     	"announce_to_chat": true,

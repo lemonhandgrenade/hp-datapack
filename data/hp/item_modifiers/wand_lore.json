@@ -9,7 +9,7 @@
     "lore": [
       [
         {
-          "text": "Owner: ",
+          "translate": "wand.hp.owner",
           "color": "dark_purple",
           "italic": false
         },
@@ -28,7 +28,7 @@
     "lore": [
       [
         {
-          "text": "Wood: ",
+          "translate": "wood.hp.wood",
           "color": "dark_purple",
           "italic": false
         },
@@ -48,7 +48,7 @@
     "lore": [
       [
         {
-          "text": "Core: ",
+          "translate": "core.hp.core",
           "color": "dark_purple",
           "italic": false
         },

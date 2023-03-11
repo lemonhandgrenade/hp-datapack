@@ -11,7 +11,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "Polyjuice",
+                "translate": "item.hp.polyjuice_potion",
                 "italic": false
               }
             },
@@ -20,12 +20,12 @@
               "entity": "this",
               "lore": [
                 {
-                  "text": "Transforms you into",
+                  "translate": "item.hp.polyjuice_potion.lore",
                   "italic": false
                 },
                 [
                   {
-                    "text": "Player: ",
+                    "translate": "item.hp.polyjuice_potion.player",
                     "italic": false
                   },
                   {

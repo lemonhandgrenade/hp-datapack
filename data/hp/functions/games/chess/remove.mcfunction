@@ -1,4 +1,4 @@
-summon item ~ ~-.25 ~ {Item:{id:"minecraft:item_frame",Count:1b,tag:{display:{Name:'{"text":"Wizard\'s Chess Chessboard","italic":false}'},CustomModelData:1,chessboard:1b,EntityTag:{Fixed:1b,Silent:1b,Invisible:1b,Tags:["chessboard","new"],Item:{id:"minecraft:item_frame",Count:1b,tag:{chessboard:1b,CustomModelData:1}}}}}}
+summon item ~ ~-.25 ~ {Item:{id:"minecraft:item_frame",Count:1b,tag:{display:{Name:'{"translate":"item.hp.wizards_chess_set","italic":false}'},CustomModelData:1,chessboard:1b,EntityTag:{Fixed:1b,Silent:1b,Invisible:1b,Tags:["chessboard","new"],Item:{id:"minecraft:item_frame",Count:1b,tag:{chessboard:1b,CustomModelData:1}}}}}}
 particle cloud ~ ~ ~ .1 .1 .1 0.05 5
 playsound minecraft:block.stone.break block @a ~ ~ ~
 kill @e[tag=chessPiece,distance=..0.5]

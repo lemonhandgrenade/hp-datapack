@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Wormwood Seeds",
+                "translate": "item.hp.wormwood_seeds",
                 "italic": false
               }
             },

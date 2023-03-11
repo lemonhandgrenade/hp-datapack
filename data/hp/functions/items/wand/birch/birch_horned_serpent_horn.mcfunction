@@ -1,1 +1,1 @@
-give @s stick{display:{Name:'{"text":"Wand","italic":false}'},CustomModelData:707,Wood:7,WoodName:'{"text":"Birch"}',Core:7,CoreName:'{"text":"Horned serpent horn"}',Wand:1b,Set:0b} 1
+give @s stick{display:{Name:'{"translate":"item.hp.wand","italic":false}'},CustomModelData:707,Wood:7,WoodName:'{"translate":"wood.hp.birch"}',Core:7,CoreName:'{"translate":"core.hp.horned_serpent_horn"}',Wand:1b,Set:0b} 1

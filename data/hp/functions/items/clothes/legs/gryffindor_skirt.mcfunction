@@ -1,1 +1,1 @@
-give @s leather_leggings{display:{Name:'{"text":"Gryffindor Skirt","italic":false}',color:16719105},CustomModelData:2} 1
+give @s leather_leggings{display:{Name:'{"translate":"item.hp.gryffindor_skirt","italic":false}',color:16719105},CustomModelData:2} 1

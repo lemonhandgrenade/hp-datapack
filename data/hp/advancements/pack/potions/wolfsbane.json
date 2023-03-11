@@ -1,7 +1,7 @@
 {
     "display": {
-        "title": "A Temporary Solution",
-        "description": "Drink a potion to manage your lycanthropy with Wolfsbane",
+        "title": {"translate":"advancements.hp.wolfsbane.title"},
+        "description": {"translate":"advancements.hp.wolfsbane.description"},
         "icon": {
             "item": "minecraft:potion",
             "nbt": "{CustomModelData:155}"

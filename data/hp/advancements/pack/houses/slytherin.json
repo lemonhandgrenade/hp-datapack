@@ -1,7 +1,7 @@
 {
     "display": {
-        "title": "Slytherin",
-        "description": "Get sorted into Slytherin",
+        "title": {"translate":"advancements.hp.slytherin.title"},
+        "description": {"translate":"advancements.hp.slytherin.description"},
         "icon": {
             "item": "minecraft:repeating_command_block",
             "nbt": "{CustomModelData:1002}"

@@ -1,1 +1,1 @@
-give @s leather_leggings{display:{Name:'{"text":"Hufflepuff Skirt","italic":false}',color:16770366},CustomModelData:2} 1
+give @s leather_leggings{display:{Name:'{"translate":"item.hp.hufflepuff_skirt","italic":false}',color:16770366},CustomModelData:2} 1

@@ -1,5 +1,5 @@
 tellraw @s {"text":"\n\n\n\n\n\n\n\n\n\n"}
-tellraw @s ["",{"text":"Move the ","color":"white"},{"selector":"@e[type=armor_stand,tag=chessSelected,sort=nearest,limit=1]"},{"text":": \n","color":"white"}]
+tellraw @s ["",{"translate":"games.hp.move","color":"white"},{"selector":"@e[type=armor_stand,tag=chessSelected,sort=nearest,limit=1]"},{"text":": \n","color":"white"}]
 
 tellraw @s [{"text":"H1 ","color":"white","clickEvent":{"action":"run_command","value":"/trigger chessMove set 81"}},{"text":"G1 ","color":"dark_gray","clickEvent":{"action":"run_command","value":"/trigger chessMove set 71"}},{"text":"F1 ","color":"white","clickEvent":{"action":"run_command","value":"/trigger chessMove set 61"}},{"text":"E1 ","color":"dark_gray","clickEvent":{"action":"run_command","value":"/trigger chessMove set 51"}},{"text":"D1 ","color":"white","clickEvent":{"action":"run_command","value":"/trigger chessMove set 41"}},{"text":"C1 ","color":"dark_gray","clickEvent":{"action":"run_command","value":"/trigger chessMove set 31"}},{"text":"B1 ","color":"white","clickEvent":{"action":"run_command","value":"/trigger chessMove set 21"}},{"text":"A1 ","color":"dark_gray","clickEvent":{"action":"run_command","value":"/trigger chessMove set 11"}}]
 

@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Knotgrass Seeds",
+                "translate": "item.hp.knotgrass_seeds",
                 "italic": false
               }
             },

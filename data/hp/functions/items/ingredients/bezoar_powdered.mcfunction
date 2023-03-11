@@ -1,1 +1,1 @@
-give @s chain_command_block{display:{Name:'{"text":"Powdered Bezoar","color":"#B27C5C","italic":false}',Lore:['{"text":"Obtained from:","italic":false}','{"text":"Goat\'s Stomach","italic":false}']},Weight:196,Ingredient:1b,CustomModelData:282,PotionID:282,Color:8805175} 1
+give @s chain_command_block{display:{Name:'{"translate":"item.hp.bezoar_powdered","color":"#B27C5C","italic":false}',Lore:['[{"translate":"item.hp.obtained","italic":false},{"translate":"item.hp.bezoar.from","italic":false}]']},Weight:196,Ingredient:1b,CustomModelData:282,PotionID:282,Color:8805175} 1

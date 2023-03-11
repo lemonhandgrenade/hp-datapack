@@ -14,7 +14,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Sickle",
+                "translate":"item.hp.sickle",
                 "color": "#8C8C8C",
                 "italic":"false"
               }

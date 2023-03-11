@@ -1,5 +1,5 @@
 tellraw @s {"text":"\n\n\n\n\n\n\n\n\n\n"}
-tellraw @s ["",{"text":"Move the ","color":"white"},{"selector":"@e[type=armor_stand,tag=chessSelected,sort=nearest,limit=1]"},{"text":": \n","color":"white"}]
+tellraw @s ["",{"translate":"games.hp.move","color":"white"},{"selector":"@e[type=armor_stand,tag=chessSelected,sort=nearest,limit=1]"},{"text":": \n","color":"white"}]
 
 tellraw @s [{"text":"A8 ","color":"white","clickEvent":{"action":"run_command","value":"/trigger chessMove set 18"}},{"text":"B8 ","color":"dark_gray","clickEvent":{"action":"run_command","value":"/trigger chessMove set 28"}},{"text":"C8 ","color":"white","clickEvent":{"action":"run_command","value":"/trigger chessMove set 38"}},{"text":"D8 ","color":"dark_gray","clickEvent":{"action":"run_command","value":"/trigger chessMove set 48"}},{"text":"E8 ","color":"white","clickEvent":{"action":"run_command","value":"/trigger chessMove set 58"}},{"text":"F8 ","color":"dark_gray","clickEvent":{"action":"run_command","value":"/trigger chessMove set 68"}},{"text":"G8 ","color":"white","clickEvent":{"action":"run_command","value":"/trigger chessMove set 78"}},{"text":"H8 ","color":"dark_gray","clickEvent":{"action":"run_command","value":"/trigger chessMove set 88"}}]
 

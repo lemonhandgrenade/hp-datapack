@@ -1,6 +1,3 @@
-tellraw @s "Untransfigure"
-
-
 effect give @s minecraft:blindness 3 255 true
 particle minecraft:dust_color_transition 0.6 0.6 0.6 3 0.3 0.3 0.3 ~ ~1 ~ 0.25 0.5 0.25 0 200
 

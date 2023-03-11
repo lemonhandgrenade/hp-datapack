@@ -4,8 +4,8 @@
       "item": "minecraft:paper",
       "nbt": "{CustomModelData:10000}"
     },
-    "title": "Wizard Card",
-    "description": "Obtain a wizard card",
+    "title": {"translate":"advancements.hp.wizard_card.title"},
+    "description": {"translate":"advancements.hp.wizard_card.description"},
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": false,

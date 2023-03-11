@@ -1,4 +1,4 @@
-summon item ~ ~ ~ {Tags:["FinalCraft"],PickupDelay:20,Item:{id:"minecraft:paper",Count:1b,CustomModelData:10,tag:{display:{Name:'{"text":"Package","italic":false}'}}}}
+summon item ~ ~ ~ {Tags:["FinalCraft"],PickupDelay:20,Item:{id:"minecraft:paper",Count:1b,CustomModelData:10,tag:{display:{Name:'{"translate":"item.hp.package","italic":false}'}}}}
 
 execute as @e[type=item,tag=FinalCraft,limit=1,distance=..1] run function hp:crafting/package_data
 

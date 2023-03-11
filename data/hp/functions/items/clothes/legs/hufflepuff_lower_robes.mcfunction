@@ -1,1 +1,1 @@
-give @s leather_leggings{display:{Name:'{"text":"Hufflepuff Lower Robes","italic":false}',color:16770365},CustomModelData:1} 1
+give @s leather_leggings{display:{Name:'{"translate":"item.hp.hufflepuff_lower_robes","italic":false}',color:16770365},CustomModelData:1} 1

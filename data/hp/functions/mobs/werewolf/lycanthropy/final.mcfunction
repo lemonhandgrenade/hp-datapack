@@ -9,4 +9,4 @@ effect give @s minecraft:blindness 3 30
 advancement grant @s only hp:pack/mobs/werewolf
 scoreboard players reset @s lycanthropy
 
-tellraw @s ["",{"text":"+----------------------------+\n","color":"#001153"},{"text":" You have become a werewolf\n Each full moon you will transform\n into a werewolf's form"},{"text":"\n+----------------------------+","color":"#001153"}]
+tellraw @s ["",{"translate":"werewolf.hp.border","color":"#001153"},{"translate":"werewolf.hp.notify"},{"translate":"werewolf.hp.border","color":"#001153"}]

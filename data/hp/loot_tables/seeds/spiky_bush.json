@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Spiky Bush Seeds",
+                "translate": "item.hp.spiky_bush_seeds",
                 "italic": false
               }
             },

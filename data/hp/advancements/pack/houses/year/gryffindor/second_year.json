@@ -4,8 +4,8 @@
       "item": "minecraft:repeating_command_block",
       "nbt": "{CustomModelData:1001}"
     },
-    "title": "Second Year",
-    "description": "Become a Gryffindor Second Year",
+    "title": {"translate":"advancements.hp.second_year.title"},
+    "description": {"translate":"advancements.hp.second_year_gryffindor.description"},
     "frame": "goal",
 		"announce_to_chat": false,
     "hidden": false

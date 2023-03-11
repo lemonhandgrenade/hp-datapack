@@ -15,9 +15,6 @@ scoreboard players remove @s[scores={sneakTest=1..}] sneakTest 1
 scoreboard players add @s[scores={sneak=1..}] sneakTest 1
 scoreboard players set @s[scores={sneak=1..}] sneak 0
 
-execute as @s[tag=flyingBroom] at @s run function hp:broom/input
-
-
 execute as @s[predicate=hp:is_being_launched] run scoreboard players add @s yMotionTime 1
 tag @s[scores={yMotionTime=1..}] remove motionEffected
 scoreboard players set @s[predicate=!hp:is_being_launched] yMotionTime 0

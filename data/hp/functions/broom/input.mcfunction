@@ -1,3 +1,5 @@
+advancement revoke @s only hp:broom_riding
+
 # This line stinks ↓ it takes too long
 scoreboard players operation #current broomID = @e[type=armor_stand,tag=broom,tag=broomVisual,distance=..2,sort=nearest,limit=1] broomID
 

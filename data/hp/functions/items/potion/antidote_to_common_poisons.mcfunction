@@ -1,1 +1,1 @@
-give @s potion{HideFlags:32,display:{Name:'{"text":"Antidote to Common Poisons","color":"#008080","italic":false}',Lore:['{"text":"Counteracted the effects of common poisons","italic":false}']},Potion:"minecraft:empty",CustomPotionColor:32896,CustomModelData:6} 1
+give @s potion{HideFlags:32,display:{Name:'{"translate":"item.hp.antidote_to_common_poisons","color":"#008080","italic":false}',Lore:['{"translate":"item.hp.antidote_to_common_poisons.lore","italic":false}']},Potion:"minecraft:empty",CustomPotionColor:32896,CustomModelData:6} 1

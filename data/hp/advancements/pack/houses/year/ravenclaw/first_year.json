@@ -4,8 +4,8 @@
       "item": "minecraft:repeating_command_block",
       "nbt": "{CustomModelData:1004}"
     },
-    "title": "First Year",
-    "description": "Become a Ravenclaw First Year",
+    "title": {"translate":"advancements.hp.first_year.title"},
+    "description": {"translate":"advancements.hp.first_year_ravenclaw.description"},
     "frame": "goal",
 		"announce_to_chat": false,
     "hidden": true

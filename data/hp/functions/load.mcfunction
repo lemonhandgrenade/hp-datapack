@@ -17,8 +17,6 @@ scoreboard players add repairParticles settings 0
 scoreboard players add toolEntityParticles settings 0
 scoreboard players add plantParticles settings 0
 scoreboard players add playerInfo settings 0
-execute unless score resourcepackMobs settings matches 0 run scoreboard players set resourcepackMobs settings 1
-scoreboard players add resourcepackMobs settings 0
 execute unless score respawnWerewolf settings matches 0 run scoreboard players set respawnWerewolf settings 1
 scoreboard players add respawnWerewolf settings 0
 
@@ -181,24 +179,24 @@ function hp:2tick
 fill -1 -64 -1 2 -61 1 bedrock
 fill 0 -63 0 0 -62 0 yellow_shulker_box
 
-team add gryffindor {"text":"Gryffindor","color":"dark_red"}
-team modify gryffindor displayName [{"text":"\uE000"},{"text":"Gryffindor","color":"dark_red"}]
-team modify gryffindor prefix [{"text":"\uE000"},{"text":"[Gryffindor] ","color":"dark_red"}]
+team add gryffindor {"translate":"house.hp.gryffindor","color":"dark_red"}
+team modify gryffindor displayName [{"text":"\uE000"},{"translate":"house.hp.gryffindor","color":"dark_red"}]
+team modify gryffindor prefix [{"text":"\uE000"},{"text":"[","color":"dark_red"},{"translate":"house.hp.gryffindor","color":"dark_red"},{"text":"] ","color":"dark_red"}]
 team modify gryffindor seeFriendlyInvisibles false
 
-team add slytherin {"text":"Slytherin","color":"dark_green"}
-team modify slytherin displayName [{"text":"\uE001"},{"text":"Slytherin","color":"dark_green"}]
-team modify slytherin prefix [{"text":"\uE001"},{"text":"[Slytherin] ","color":"dark_green"}]
+team add slytherin {"translate":"house.hp.slytherin","color":"dark_green"}
+team modify slytherin displayName [{"text":"\uE001"},{"translate":"house.hp.slytherin","color":"dark_green"}]
+team modify slytherin prefix [{"text":"\uE001"},{"text":"[","color":"dark_green"},{"translate":"house.hp.slytherin","color":"dark_green"},{"text":"] ","color":"dark_green"}]
 team modify slytherin seeFriendlyInvisibles false
 
-team add hufflepuff {"text":"Hufflepuff","color":"gold"}
-team modify hufflepuff displayName [{"text":"\uE002"},{"text":"Hufflepuff","color":"gold"}]
-team modify hufflepuff prefix [{"text":"\uE002"},{"text":"[Hufflepuff] ","color":"gold"}]
+team add hufflepuff {"translate":"house.hp.hufflepuff","color":"gold"}
+team modify hufflepuff displayName [{"text":"\uE002"},{"translate":"house.hp.hufflepuff","color":"gold"}]
+team modify hufflepuff prefix [{"text":"\uE002"},{"text":"[","color":"gold"},{"translate":"house.hp.hufflepuff","color":"gold"},{"text":"] ","color":"gold"}]
 team modify hufflepuff seeFriendlyInvisibles false
 
-team add ravenclaw {"text":"Ravenclaw","color":"dark_blue"}
-team modify ravenclaw displayName [{"text":"\uE003"},{"text":"Ravenclaw","color":"dark_blue"}]
-team modify ravenclaw prefix [{"text":"\uE003"},{"text":"[Ravenclaw] ","color":"dark_blue"}]
+team add ravenclaw {"translate":"house.hp.ravenclaw","color":"dark_blue"}
+team modify ravenclaw displayName [{"text":"\uE003"},{"translate":"house.hp.ravenclaw","color":"dark_blue"}]
+team modify ravenclaw prefix [{"text":"\uE003"},{"text":"[","color":"dark_blue"},{"translate":"house.hp.ravenclaw","color":"dark_blue"},{"text":"] ","color":"dark_blue"}]
 team modify ravenclaw seeFriendlyInvisibles false
 
 ## 1.19 Because of animagi frogs

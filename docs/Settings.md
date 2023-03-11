@@ -166,29 +166,6 @@ Information a player can obtain from the `/trigger player` command is as follows
 
 # Mobs
 
-`resourcepackMobs` changes whether mobs spawned use texture pack models vs vanilla models.
-
-<details>
-<summary>Uses of resourcepackMobs</summary>
-
-| Name                  | Function Name                                   | File Dir                                                             |
-| --------------------- | ----------------------------------------------- | -------------------------------------------------------------------- |
-| Morph Teleport        | hp:animagus/morph/tp                            | hp/functions/animagus/morph/tp.mcfunction                            |
-| Animagus Cardinal     | hp:animagus/morph/summon/bird/cardinal          | hp/functions/animagus/morph/summon/bird/cardinal.mcfunction          |
-| Animagus Crow         | hp:animagus/morph/summon/bird/crow              | hp/functions/animagus/morph/summon/bird/crow.mcfunction              |
-| Animagus Duck         | hp:animagus/morph/summon/bird/duck              | hp/functions/animagus/morph/summon/bird/duck.mcfunction              |
-| Animagus Falcon       | hp:animagus/morph/summon/bird/falcon            | hp/functions/animagus/morph/summon/bird/falcon.mcfunction            |
-| Animagus Pigeon       | hp:animagus/morph/summon/bird/pigeon            | hp/functions/animagus/morph/summon/bird/pigeon.mcfunction            |
-| Animagus Monarch      | hp:animagus/morph/summon/butterfly/monarch      | hp/functions/animagus/morph/summon/butterfly/monarch.mcfunction      |
-| Animagus Ornithoptera | hp:animagus/morph/summon/butterfly/ornithoptera | hp/functions/animagus/morph/summon/butterfly/ornithoptera.mcfunction |
-| Animagus Postman      | hp:animagus/morph/summon/butterfly/postman      | hp/functions/animagus/morph/summon/butterfly/postman.mcfunction      |
-| Animagus Ulysses      | hp:animagus/morph/summon/butterfly/ulysses      | hp/functions/animagus/morph/summon/butterfly/ulysses.mcfunction      |
-| Animagus Doe          | hp:animagus/morph/summon/deer/doe               | hp/functions/animagus/morph/summon/deer/doe.mcfunction               |
-| Animagus Stag         | hp:animagus/morph/summon/deer/stag              | hp/functions/animagus/morph/summon/deer/stag.mcfunction              |
-| Werewolf Summon       | hp:werewolf/summon                              | hp/functions/werewolf/summon/mcfunction                              |
-
-</details><br>
-
 ## Werewolf
 
 `respawnWerewolf` decides whether players who die are still werewolves.

@@ -4,8 +4,8 @@
       "item": "minecraft:repeating_command_block",
       "nbt": "{CustomModelData:1001}"
     },
-    "title": "Seventh Year",
-    "description": "Become a Gryffindor Seventh Year",
+    "title": {"translate":"advancements.hp.seventh_year.title"},
+    "description": {"translate":"advancements.hp.seventh_year_gryffindor.description"},
     "frame": "goal",
 		"announce_to_chat": false,
     "hidden": false

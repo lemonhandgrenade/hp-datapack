@@ -4,8 +4,8 @@
       "item": "minecraft:repeating_command_block",
       "nbt": "{CustomModelData:1002}"
     },
-    "title": "Third Year",
-    "description": "Become a Slytherin Third Year",
+    "title": {"translate":"advancements.hp.third_year.title"},
+    "description": {"translate":"advancements.hp.third_year_slytherin.description"},
     "frame": "goal",
 		"announce_to_chat": false,
     "hidden": false

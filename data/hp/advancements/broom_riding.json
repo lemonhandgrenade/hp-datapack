@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "type": "minecraft:pig",
+            "nbt": "{Tags:[\"broomSaddleMain\"]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "hp:broom/input"
+  }
+}

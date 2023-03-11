@@ -11,7 +11,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "Fluxweed Syrup",
+                "translate": "item.hp.fluxweed_syrup",
                 "italic": false
               }
             },
@@ -20,12 +20,12 @@
               "entity": "this",
               "lore": [
                 {
-                  "text": "Transforms you into",
+                  "translate": "item.hp.fluxweed_syrup.lore",
                   "italic": false
                 },
                 [
                   {
-                    "text": "Player: ",
+                    "translate": "item.hp.fluxweed_syrup.player",
                     "italic": false
                   },
                   {

@@ -1,1 +1,1 @@
-give @s minecraft:dried_kelp{display:{Name:'{"text":"Bertie Bott\'s Every Flavour Beans","italic":false}',Lore:['{"text":"A bean that is an unknown flavour","italic":false}']},CustomModelData:1,bertieBottsBeans:1b}
+give @s minecraft:dried_kelp{display:{Name:'{"translate":"item.hp.bertie_botts_beans","italic":false}',Lore:['{"translate":"item.hp.bertie_botts_beans.lore","italic":false}']},CustomModelData:1,bertieBottsBeans:1b}

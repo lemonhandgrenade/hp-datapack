@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Nettle Seeds",
+                "translate": "item.hp.nettle_seeds",
                 "italic": false
               }
             },

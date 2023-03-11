@@ -1,1 +1,1 @@
-give @s cookie{display:{Name:'{"text":"Chocolate Frog","color":"#7B3F00","italic":false}',Lore:['{"text":"A very popular wizarding sweet","italic":false}']},CustomModelData:1} 1
+give @s cookie{display:{Name:'{"translate":"item.hp.chocolate_frog","color":"#7B3F00","italic":false}',Lore:['{"translate":"item.hp.chocolate_frog.lore","italic":false}']},CustomModelData:1} 1

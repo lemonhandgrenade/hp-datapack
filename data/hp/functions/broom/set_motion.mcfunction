@@ -1,7 +1,5 @@
 #-Air-Wave-Gold------------------------------------------------------------------------------------#
-execute if entity @s[scores={broomType=1}] store result score broomSpeed X run data get entity @s Motion[0] 3905
-execute if entity @s[scores={broomType=1}] store result score broomSpeed Y run data get entity @s Motion[1] 4416
-execute if entity @s[scores={broomType=1}] store result score broomSpeed Z run data get entity @s Motion[2] 3905
+execute if score @s broomType matches 1 run function hp:broom/motion/air_wave_gold
 #-Australian-Flyabout-50---------------------------------------------------------------------------#
 execute if entity @s[scores={broomType=2}] store result score broomSpeed X run data get entity @s Motion[0] 3905
 execute if entity @s[scores={broomType=2}] store result score broomSpeed Y run data get entity @s Motion[1] 4433
@@ -26,7 +24,7 @@ execute if entity @s[scores={broomType=14..15}] store result score broomSpeed Y 
 execute if entity @s[scores={broomType=14..15}] store result score broomSpeed Z run data get entity @s Motion[2] 3666
 #-Fambus-Station-Wagon-----------------------------------------------------------------------------#
 execute if entity @s[scores={broomType=16}] store result score broomSpeed X run data get entity @s Motion[0] 2932
-execute if entity @s[scores={broomType=16}] store result score broomSpeed Y run data get entity @s Motion[1] 4290
+execute if entity @s[scores={broomType=16}] store result score broomSpeed Y run data get entity @s Motion[1] 3653
 execute if entity @s[scores={broomType=16}] store result score broomSpeed Z run data get entity @s Motion[2] 2932
 #-Firebolt-----------------------------------------------------------------------------------------#
 execute if entity @s[scores={broomType=17}] store result score broomSpeed X run data get entity @s Motion[0] 4400
@@ -105,12 +103,12 @@ execute if entity @s[scores={broomType=38}] store result score broomSpeed X run 
 execute if entity @s[scores={broomType=38}] store result score broomSpeed Y run data get entity @s Motion[1] 4347
 execute if entity @s[scores={broomType=38}] store result score broomSpeed Z run data get entity @s Motion[2] 3850
 
+execute at @s rotated as @p run tp @s ~ ~ ~ ~ ~
+execute as @e[type=pig,tag=broomSaddle,limit=1] at @s rotated as @p run tp @s ~ ~ ~ ~ ~
+
 scoreboard players operation distancePos X += broomSpeed X
-# scoreboard players operation distancePos X *= 2 values
 scoreboard players operation distancePos Y += broomSpeed Y
-# scoreboard players operation distancePos Y *= 2 values
 scoreboard players operation distancePos Z += broomSpeed Z
-# scoreboard players operation distancePos Z *= 2 values
 
 scoreboard players operation distancePos Y -= broomSpeed Y
 

@@ -1,1 +1,1 @@
-give @s potion{HideFlags:32,display:{Name:'{"text":"Sleeping Draught","color":"#6D59A1","italic":false}',Lore:['{"text":"Make the drinker quickly fall into a deep but temporary sleep","italic":false}']},Potion:"minecraft:empty",CustomPotionColor:7166369,CustomModelData:131} 1
+give @s potion{HideFlags:32,display:{Name:'{"translate":"item.hp.sleeping_draught","color":"#6D59A1","italic":false}',Lore:['{"translate":"item.hp.sleeping_draught.lore","italic":false}']},Potion:"minecraft:empty",CustomPotionColor:7166369,CustomModelData:131} 1

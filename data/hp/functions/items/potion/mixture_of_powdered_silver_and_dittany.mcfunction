@@ -1,1 +1,1 @@
-give @s potion{HideFlags:32,display:{Name:'{"text":"Mixure of Powdered Silver And Dittany","color":"#5A792A","italic":false}',Lore:['{"text":"Seals werewolf bites","italic":false}']},Potion:"minecraft:empty",CustomPotionColor:5929258,CustomModelData:98} 1
+give @s potion{HideFlags:32,display:{Name:'{"translate":"item.hp.mixure_of_powdered_silver_and_dittany","color":"#5A792A","italic":false}',Lore:['{"translate":"item.hp.mixure_of_powdered_silver_and_dittany.lore","italic":false}']},Potion:"minecraft:empty",CustomPotionColor:5929258,CustomModelData:98} 1

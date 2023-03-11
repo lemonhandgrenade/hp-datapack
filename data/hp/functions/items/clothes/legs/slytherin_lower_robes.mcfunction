@@ -1,1 +1,1 @@
-give @s leather_leggings{display:{Name:'{"text":"Slytherin Lower Robes","italic":false}',color:8453952},CustomModelData:1} 1
+give @s leather_leggings{display:{Name:'{"translate":"item.hp.slytherin_lower_robes","italic":false}',color:8453952},CustomModelData:1} 1

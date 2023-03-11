@@ -1,4 +1,4 @@
-tellraw @a[distance=..15] ["<",{"selector":"@s"},"> ",{"selector":"@e[type=armor_stand,tag=chessSelected,tag=boardSelected]"},{"text":" to B7"}]
+tellraw @a[distance=..15] ["<",{"selector":"@s"},"> ",{"selector":"@e[type=armor_stand,tag=chessSelected,tag=boardSelected]"},{"translate":"games.hp.to"},{"text":"B7"}]
 execute as @e[type=armor_stand,tag=chessMiddle] if score @s chessID = #current chessID at @s align xyz run tp @e[type=armor_stand,tag=chessSelected,limit=1,sort=nearest] ~.725 ~.075 ~.275
 
 execute as @e[type=armor_stand,tag=chessSelected,limit=1,sort=nearest] at @s if entity @e[type=armor_stand,tag=chessPiece,tag=!chessMiddle,tag=!chessSelected,distance=..0.01] run tag @s add chessCollide

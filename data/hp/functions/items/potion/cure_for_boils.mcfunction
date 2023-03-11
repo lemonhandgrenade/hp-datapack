@@ -1,1 +1,1 @@
-give @s potion{HideFlags:32,display:{Name:'{"text":"Cure for Boils","color":"#496ba3","italic":false}',Lore:['{"text":"Removes boils","italic":false}']},Potion:"minecraft:empty",CustomPotionColor:4811683,CustomModelData:33} 1
+give @s potion{HideFlags:32,display:{Name:'{"translate":"item.hp.cure_for_boils","color":"#496ba3","italic":false}',Lore:['{"translate":"item.hp.cure_for_boils.lore","italic":false}']},Potion:"minecraft:empty",CustomPotionColor:4811683,CustomModelData:33} 1

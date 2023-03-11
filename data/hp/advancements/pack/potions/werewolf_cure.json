@@ -1,7 +1,7 @@
 {
     "display": {
-        "title": "Remedium",
-        "description": "Drink a potion to cure your lycanthropy",
+        "title": {"translate":"advancements.hp.werewolf_cure.title"},
+        "description": {"translate":"advancements.hp.werewolf_cure.description"},
         "icon": {
             "item": "minecraft:potion",
             "nbt": "{CustomModelData:98}"

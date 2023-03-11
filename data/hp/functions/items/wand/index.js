@@ -80,7 +80,7 @@ function capitalizeFirstLetter(string) {
 for (i = 0; i < woods.length; i++) {
 	fs.mkdirSync(`${woods[i]}`, { recursive: true })
 	for (j = 0; j < cores.length; j++) {
-		content = `give @s stick{display:{Name:'{"text":"Wand","italic":false}'},CustomModelData:${((i+1)*100)+(j+1)},Wood:${i+1},WoodName:'{"text":"${capitalizeFirstLetter(woods[i].replace(/_/g, " "))}"}',Core:${j+1},CoreName:'{"text":"${capitalizeFirstLetter(cores[j].replace(/_/g, " "))}"}',Wand:1b,Set:0b} 1`
+		content = `give @s stick{display:{Name:'{"translate":"wand.hp.wand","italic":false}'},CustomModelData:${((i+1)*100)+(j+1)},Wood:${i+1},WoodName:'{"translate":"wood.hp.${woods[i]}"}',Core:${j+1},CoreName:'{"translate":"core.hp.${cores[j]}"}',Wand:1b,Set:0b} 1`
 		fs.writeFile(`./${woods[i]}/${woods[i]}_${cores[j]}.mcfunction`, content, err => {
 			if (err) {
 				console.error(err);

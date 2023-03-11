@@ -4,8 +4,8 @@
       "item": "minecraft:repeating_command_block",
       "nbt": "{CustomModelData:1003}"
     },
-    "title": "First Year",
-    "description": "Become a Hufflepuff First Year",
+    "title": {"translate":"advancements.hp.first_year.title"},
+    "description": {"translate":"advancements.hp.first_year_hufflepuff.description"},
     "frame": "goal",
 		"announce_to_chat": false,
     "hidden": true

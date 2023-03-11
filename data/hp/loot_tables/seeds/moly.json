@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Moly Seeds",
+                "translate": "item.hp.moly_seeds",
                 "italic": false
               }
             },

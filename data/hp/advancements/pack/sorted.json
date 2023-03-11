@@ -1,7 +1,7 @@
 {
     "display": {
-        "title": "Get Sorted!",
-        "description": "Get sorted into one of the 4 Hogwart's houses",
+        "title": {"translate":"advancements.hp.sorted.title"},
+        "description": {"translate":"advancements.hp.sorted.description"},
         "icon": {
             "item": "minecraft:repeating_command_block",
             "nbt": "{CustomModelData:1000}"
