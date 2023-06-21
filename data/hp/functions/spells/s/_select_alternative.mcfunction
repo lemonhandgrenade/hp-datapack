@@ -1,6 +1,6 @@
 execute if score @s spell matches 470 run function hp:spells/s/sacrificial_protection/cast
 execute if score @s spell matches 471 run function hp:spells/s/salvio_hexia/cast
-execute if score @s spell matches 472 run function hp:spells/s/sardine_spell/cast
+execute if score @s spell matches 472 run function hp:spells/s/sardine_hex/cast
 execute if score @s spell matches 473 run function hp:spells/s/sauce-making_spell/cast
 execute if score @s spell matches 474 run function hp:spells/s/scarpins_revelaspell/cast
 execute if score @s spell matches 475 run function hp:spells/s/scouring_charm/cast

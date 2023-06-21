@@ -1,4 +1,4 @@
-execute as @a[dx=0,tag=!this] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] positioned ~0.7 ~0.7 ~0.7 at @s positioned ~ ~0 ~ if block ~ ~ ~ air run summon marker ~ ~ ~ {Tags:["spellEntity","web"]}
-execute as @a[dx=0,tag=!this] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] positioned ~0.7 ~0.7 ~0.7 at @s positioned ~ ~1 ~ if block ~ ~ ~ air run summon marker ~ ~ ~ {Tags:["spellEntity","web"]}
-execute as @a[dx=0,tag=!this] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] positioned ~0.7 ~0.7 ~0.7 at @s run fill ~ ~ ~ ~ ~1 ~ cobweb replace air
-execute if entity @s[type=area_effect_cloud] run function hp:spells/w/webbed_spell/private/end
+execute as @a[tag=spellHit] at @s positioned ~ ~0 ~ if block ~ ~ ~ air run summon marker ~ ~ ~ {Tags:["spellEntity","web"]}
+execute as @a[tag=spellHit] at @s positioned ~ ~1 ~ if block ~ ~ ~ air run summon marker ~ ~ ~ {Tags:["spellEntity","web"]}
+execute as @a[tag=spellHit] at @s run fill ~ ~ ~ ~ ~1 ~ cobweb replace air
+execute if entity @s[type=area_effect_cloud] run function hp:spells/_base/private/end

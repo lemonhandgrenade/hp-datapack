@@ -1,2 +1,2 @@
-execute as @e[dx=0,tag=!this] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] positioned ~0.7 ~0.7 ~0.7 run effect give @s minecraft:invisibility 60 1 true
-execute if entity @s[type=area_effect_cloud] run function hp:spells/d/disillusionment_charm/private/end
+effect give @e[tag=spellHit] invisibility 60 1 true
+execute if entity @s[type=area_effect_cloud] run function hp:spells/_base/private/end

@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ #hp:breakable if score charmsChangeBlocks settings matches 1 run function hp:spells/g/gouging_spell/destroy

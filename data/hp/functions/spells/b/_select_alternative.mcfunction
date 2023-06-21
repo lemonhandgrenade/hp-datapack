@@ -22,7 +22,7 @@ execute if score @s spell matches 56 run function hp:spells/b/blood_pact/cast
 execute if score @s spell matches 57 run function hp:spells/b/blue_fire_spell/cast
 execute if score @s spell matches 58 run function hp:spells/b/blue_sparks/cast
 execute if score @s spell matches 59 run function hp:spells/b/blue_special_jinx/cast
-execute if score @s spell matches 60 run function hp:spells/b/bluebell_flames/cast_alternative
+execute if score @s spell matches 60 run function hp:spells/b/bluebell_flames/cast
 execute if score @s spell matches 61 run function hp:spells/b/boggart-banishing_spell/cast
 execute if score @s spell matches 62 run function hp:spells/b/bombarda_maxima/cast
 execute if score @s spell matches 63 run function hp:spells/b/bond_of_blood_charm/cast

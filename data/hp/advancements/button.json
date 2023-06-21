@@ -1,20 +1,20 @@
 {
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:oak_button"
-            ],
-            "nbt": "{KILL:1b}"
-          }
-        ]
-      }
-    }
-  },
-  "rewards": {
-    "function": "hp:inv/remove_button"
-  }
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:oak_button"
+						],
+						"nbt": "{KILL:1b}"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "hp:inv/remove_button"
+	}
 }

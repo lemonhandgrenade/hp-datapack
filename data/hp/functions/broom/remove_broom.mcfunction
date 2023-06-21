@@ -34,6 +34,7 @@ execute if score @s broomType matches 31 as @p run function hp:items/broom/swift
 execute if score @s broomType matches 32 as @p run function hp:items/broom/thunderbolt_vii
 execute if score @s broomType matches 33 as @p run function hp:items/broom/tinderblast
 execute if score @s broomType matches 34 as @p run function hp:items/broom/transylvanian_barb
+execute if score @s broomType matches 36 as @p run function hp:items/broom/twigger_90
 execute if score @s broomType matches 37 as @p run function hp:items/broom/varapidos
 execute if score @s broomType matches 38 as @p run function hp:items/broom/yajirushi
 

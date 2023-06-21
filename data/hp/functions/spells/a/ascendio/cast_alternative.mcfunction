@@ -1,2 +1,0 @@
-execute if data entity @s {OnGround:1b} if entity @s[tag=!cantSpeak] at @s run tellraw @a[distance=..15,tag=!cantHear] ["","<",{"selector":"@s"},"> Ascendio"]
-execute if data entity @s {OnGround:1b} run function hp:spells/a/ascendio/launch_forward

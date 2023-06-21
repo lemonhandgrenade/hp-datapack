@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ #hp:desk run function hp:spells/d/desk_into_pig/transfigure

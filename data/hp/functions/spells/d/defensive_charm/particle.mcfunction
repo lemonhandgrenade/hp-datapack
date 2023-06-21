@@ -1,0 +1,1 @@
+execute if entity @e[tag=!this,distance=..1] run function hp:spells/d/defensive_charm/defend

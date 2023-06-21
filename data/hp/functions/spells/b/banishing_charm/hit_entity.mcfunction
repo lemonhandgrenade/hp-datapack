@@ -1,17 +1,6 @@
-#execute as @e[type=!#hp:alive,dx=0,tag=!this] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] positioned ~0.7 ~0.7 ~0.7 run particle dust_color_transition 1 0 0 2 0 0 1 ~ ~ ~ 0 0 0 0 10
-execute as @e[type=!#hp:alive,dx=0,tag=!this] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] positioned ~0.7 ~0.7 ~0.7 run tag @s add expelled
-execute if entity @e[type=!#hp:alive,tag=!this,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @e[tag=!this,dx=0] positioned ~0.7 ~0.7 ~0.7 as @a at @s as @e[type=area_effect_cloud,tag=banishingCharm,tag=slowcast] if score @s UID = @p UID rotated as @p positioned 0 0 0 align xyz positioned ^ ^ ^4 run summon marker ~ ~ ~ {Tags:["new","banishingCharm"]}
+execute as @e[type=!#hp:alive,tag=spellHit] run particle dust_color_transition 1 0 0 2 0 0 1 ~ ~ ~ 0 0 0 0 10
 
-execute as @e[type=marker,tag=new,tag=banishingCharm] store result score temp X run data get entity @s Pos[0] 100
-execute as @e[type=marker,tag=new,tag=banishingCharm] store result score temp Y run data get entity @s Pos[1] 100
-execute as @e[type=marker,tag=new,tag=banishingCharm] store result score temp Z run data get entity @s Pos[2] 100
+execute as @e[tag=spellHit] on origin facing entity @s eyes positioned 0.0 0 0.0 positioned ^ ^ ^-.5 summon area_effect_cloud run data modify entity @e[tag=spellHit,limit=1] Motion set from entity @s Pos
+execute as @e[tag=spellHit] store result entity @s Motion[1] double -.4 run data get entity @s Motion[1]
 
-execute if score temp Y matches ..0 run scoreboard players operation temp Y *= -1 values
-scoreboard players operation temp Y += 100 values
-
-execute as @e[type=!#hp:alive,tag=!this,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[tag=!this,dx=0] positioned ~0.7 ~0.7 ~0.7 store result entity @s Motion[0] double 0.0015 run scoreboard players get temp X
-execute as @e[type=!#hp:alive,tag=!this,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[tag=!this,dx=0] positioned ~0.7 ~0.7 ~0.7 store result entity @s Motion[1] double 0.0015 run scoreboard players get temp Y
-execute as @e[type=!#hp:alive,tag=!this,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[tag=!this,dx=0] positioned ~0.7 ~0.7 ~0.7 store result entity @s Motion[2] double 0.0015 run scoreboard players get temp Z
-
-kill @e[type=marker,tag=new,tag=banishingCharm]
-execute if entity @s[type=area_effect_cloud] run function hp:spells/b/banishing_charm/private/end
+execute if entity @s[type=area_effect_cloud] run function hp:spells/_base/private/end

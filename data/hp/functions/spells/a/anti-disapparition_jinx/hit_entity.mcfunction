@@ -1,2 +1,2 @@
-execute as @e[distance=..1.5,tag=!this,tag=isApparating] run function hp:spells/a/apparition/tp/end
-function hp:spells/a/anti-disapparition_jinx/private/end
+execute as @e[tag=spellHit,tag=isApparating] run function hp:spells/a/apparition/tp/end
+execute if entity @s[type=area_effect_cloud] run function hp:spells/_base/private/end

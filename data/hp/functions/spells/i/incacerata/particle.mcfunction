@@ -1,0 +1,1 @@
+particle minecraft:white_ash ~ ~ ~ 0 0 0 0 10

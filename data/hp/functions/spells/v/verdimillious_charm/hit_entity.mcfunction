@@ -1,3 +1,2 @@
-#execute if entity @s[tag=reflected] as @e[distance=..1,tag=!this] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[distance=..1] positioned ~0.7 ~0.7 ~0.7 run effect give @s minecraft:levitation 1 7 true
-execute if entity @s as @a[dx=0,tag=!this] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] positioned ~0.7 ~0.7 ~0.7 run effect give @s minecraft:instant_damage 1 30 true
-execute if entity @s[type=area_effect_cloud] run function hp:spells/v/verdimillious_charm/private/end
+damage @s 0.001 magic by @p[tag=spellCaster]
+execute if entity @s[type=area_effect_cloud] run function hp:spells/_base/private/end

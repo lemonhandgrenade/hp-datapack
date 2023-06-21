@@ -13,24 +13,24 @@
 #execute if score @s motionY matches ..-1 run scoreboard players set #lev_amp values 254
 
 scoreboard players operation #lev_amp values = @s motionY
-scoreboard players operation temp values = #lev_amp values
+scoreboard players operation #temp values = #lev_amp values
 
 
-scoreboard players operation temp values *= 100 values
-scoreboard players operation temp values /= #max values
-scoreboard players operation temp values /= 100 values
+scoreboard players operation #temp values *= 100 values
+scoreboard players operation #temp values /= #max values
+scoreboard players operation #temp values /= 100 values
 
 
 #scoreboard players set #lev_dur values 200
 
-execute if score #lev_amp values > #max values run scoreboard players add temp values 1
+execute if score #lev_amp values > #max values run scoreboard players add #temp values 1
 scoreboard players set #lev_dur values 3
-execute if score #lev_amp values > #max values run scoreboard players operation #lev_dur values *= temp values
-execute if score #lev_amp values > #max values run scoreboard players remove temp values 1
+execute if score #lev_amp values > #max values run scoreboard players operation #lev_dur values *= #temp values
+execute if score #lev_amp values > #max values run scoreboard players remove #temp values 1
 
 
-execute if score #lev_amp values > #max values run scoreboard players operation temp values *= #max values
-execute if score #lev_amp values > #max values run scoreboard players operation #lev_amp values -= temp values
+execute if score #lev_amp values > #max values run scoreboard players operation #temp values *= #max values
+execute if score #lev_amp values > #max values run scoreboard players operation #lev_amp values -= #temp values
 
 tellraw @s[tag=debug] [{"text":"temp:     ","color":"#4B0082"}, {"score":{"name":"temp","objective":"values"},"color":"#4B0082"}]
 tellraw @s[tag=debug] [{"text":"#lev_dur: ","color":"#4B0082"}, {"score":{"name":"#lev_dur","objective":"values"},"color":"#4B0082"}]

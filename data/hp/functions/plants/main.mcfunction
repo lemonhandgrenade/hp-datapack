@@ -3,13 +3,13 @@ execute if block ~ ~ ~ minecraft:melon_stem run function hp:plants/melon_check
 execute if score @s anim matches 2.. if entity @s[tag=nettle] if entity @p[distance=..0.5] run function hp:plants/special/nettle_sting
 
 scoreboard players set @s X 1
-scoreboard players set temp values 0
-execute as @p[distance=..1.6] if predicate hp:plants/bone_meal at @s as @e[type=armor_stand,tag=plant,sort=nearest,limit=1] if score @s X matches 1 run scoreboard players set temp values 1
+scoreboard players set #temp values 0
+execute as @p[distance=..1.6] if predicate hp:plants/bone_meal at @s as @e[type=armor_stand,tag=plant,sort=nearest,limit=1] if score @s X matches 1 run scoreboard players set #temp values 1
 
 execute if block ~ ~ ~ air if score @s plantState matches 0 run function hp:plants/kill
 
-execute if entity @p[distance=..3.2] if score temp values matches 0 if data entity @s Marker run function hp:plants/hitbox/ungrowable
-execute if entity @p[distance=..1.6] if score temp values matches 1 if score @s anim matches ..2 unless data entity @s Marker unless block ~1 ~ ~ melon_stem unless block ~-1 ~ ~ melon_stem unless block ~ ~ ~1 melon_stem unless block ~ ~ ~-1 melon_stem run function hp:plants/hitbox/growable
+execute if entity @p[distance=..3.2] if score #temp values matches 0 if data entity @s Marker run function hp:plants/hitbox/ungrowable
+execute if entity @p[distance=..1.6] if score #temp values matches 1 if score @s anim matches ..2 unless data entity @s Marker unless block ~1 ~ ~ melon_stem unless block ~-1 ~ ~ melon_stem unless block ~ ~ ~1 melon_stem unless block ~ ~ ~-1 melon_stem run function hp:plants/hitbox/growable
 
 execute if score @s anim matches 3 if score #alternate2 values matches 1 if score plantParticles settings matches 1 run particle minecraft:happy_villager ~ ~.9 ~ 0 0 0 0 0
 scoreboard players set @s X 0

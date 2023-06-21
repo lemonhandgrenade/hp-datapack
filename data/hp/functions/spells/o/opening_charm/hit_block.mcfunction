@@ -1,10 +1,11 @@
-scoreboard players set temp values 0
-execute align xyz positioned ~0.5 ~ ~0.5 if entity @e[type=slime,tag=Level2,distance=..0.5] run scoreboard players set temp values 1
-execute align xyz positioned ~0.5 ~ ~0.5 if entity @e[type=slime,tag=Level3,distance=..0.5] run scoreboard players set temp values 1
-tp @e[type=slime,tag=lockingSlime,tag=Level1,distance=..1.2] ~ -128 ~
-execute positioned ~ ~-128 ~ run kill @e[type=slime,tag=lockingSlime,tag=Level1,distance=..1.2]
-execute if score temp values matches 0 if block ~ ~ ~ #minecraft:doors[half=lower,open=false] positioned ~ ~ ~ run function hp:spells/_blocks/open_door
-execute if score temp values matches 0 if block ~ ~ ~ #minecraft:doors[half=upper,open=false] positioned ~ ~-1 ~ run function hp:spells/_blocks/open_door
-execute if score temp values matches 0 if block ~ ~ ~ #minecraft:doors[half=lower,open=true] positioned ~ ~ ~ run function hp:spells/_blocks/close_door
-execute if score temp values matches 0 if block ~ ~ ~ #minecraft:doors[half=upper,open=true] positioned ~ ~-1 ~ run function hp:spells/_blocks/close_door
-function hp:spells/o/opening_charm/private/end
+scoreboard players set #temp spell 0
+scoreboard players set #current spellLevel 1
+
+execute if block ~ ~ ~ #minecraft:doors[half=lower] align xyz positioned ~0.5 ~ ~0.5 as @e[type=interaction,tag=Lock,distance=..0.5] run function hp:spells/_blocks/door/unlock
+execute if block ~ ~ ~ #minecraft:doors[half=upper] align xyz positioned ~0.5 ~-1 ~0.5 as @e[type=interaction,tag=Lock,distance=..0.5] run function hp:spells/_blocks/door/unlock
+
+execute if score #temp spell matches 0 if block ~ ~ ~ #minecraft:doors[half=lower,open=false] align xyz positioned ~0.5 ~ ~0.5 unless entity @e[type=interaction,tag=Lock,distance=..0.5] run function hp:spells/_blocks/door/open
+execute if score #temp spell matches 0 if block ~ ~ ~ #minecraft:doors[half=upper,open=false] align xyz positioned ~0.5 ~-1 ~0.5 unless entity @e[type=interaction,tag=Lock,distance=..0.5] run function hp:spells/_blocks/door/open
+execute if score #temp spell matches 0 if block ~ ~ ~ #minecraft:doors[half=lower,open=true] align xyz positioned ~0.5 ~ ~0.5 unless entity @e[type=interaction,tag=Lock,distance=..0.5] run function hp:spells/_blocks/door/close
+execute if score #temp spell matches 0 if block ~ ~ ~ #minecraft:doors[half=upper,open=true] align xyz positioned ~0.5 ~-1 ~0.5 unless entity @e[type=interaction,tag=Lock,distance=..0.5] run function hp:spells/_blocks/door/close
+execute if entity @s[type=area_effect_cloud] run function hp:spells/_base/private/end

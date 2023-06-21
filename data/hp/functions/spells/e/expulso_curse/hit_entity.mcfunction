@@ -1,0 +1,1 @@
+function hp:spells/e/expulso_curse/explode

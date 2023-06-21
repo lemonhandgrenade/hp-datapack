@@ -1,2 +1,2 @@
-execute as @e[dx=0,tag=!this,predicate=hp:player/no_helmet] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] positioned ~0.7 ~0.7 ~0.7 run item replace entity @s armor.head with oxeye_daisy{HideFlags:1,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]} 1
-execute if entity @s[type=area_effect_cloud] run function hp:spells/h/herbifors/private/end
+item replace entity @e[tag=spellHit,predicate=hp:player/no_helmet] armor.head with oxeye_daisy{HideFlags:1,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]} 1
+execute if entity @s[type=area_effect_cloud] run function hp:spells/_base/private/end

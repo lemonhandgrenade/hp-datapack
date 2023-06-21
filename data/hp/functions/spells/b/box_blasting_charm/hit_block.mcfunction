@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ #hp:chest run function hp:spells/b/box_blasting_charm/open

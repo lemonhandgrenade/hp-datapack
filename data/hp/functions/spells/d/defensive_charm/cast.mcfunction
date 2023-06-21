@@ -1,4 +1,4 @@
 scoreboard players set dstPer slowcast 1
-scoreboard players set dst slowcast 48
+scoreboard players set dst slowcast 12
 
-execute anchored eyes positioned ^ ^ ^0.1 run function hp:spells/d/defensive_charm/start
+execute anchored eyes positioned ^ ^ ^0.1 run function hp:spells/_base/start

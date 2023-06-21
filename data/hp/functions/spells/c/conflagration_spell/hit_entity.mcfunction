@@ -1,2 +1,2 @@
-execute as @e[type=item,dx=0,tag=!this] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] positioned ~0.7 ~0.7 ~0.7 run data merge entity @s {Fire:200}
-execute if entity @s[type=area_effect_cloud] run function hp:spells/c/conflagration_spell/private/end
+execute as @e[type=item,tag=spellHit] run data merge entity @s {Fire:200}
+execute if entity @s[type=area_effect_cloud] run function hp:spells/_base/private/end

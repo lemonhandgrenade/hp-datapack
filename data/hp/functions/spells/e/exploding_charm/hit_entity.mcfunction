@@ -1,0 +1,1 @@
+function hp:spells/e/exploding_charm/explode

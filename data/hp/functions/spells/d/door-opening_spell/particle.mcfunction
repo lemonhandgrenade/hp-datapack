@@ -1,0 +1,1 @@
+particle crit ~ ~ ~ 0 0 0 0 10

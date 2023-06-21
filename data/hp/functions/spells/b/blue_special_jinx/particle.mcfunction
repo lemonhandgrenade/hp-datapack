@@ -1,0 +1,1 @@
+particle enchanted_hit ~ ~ ~ 0.05 0.05 0.05 0 3

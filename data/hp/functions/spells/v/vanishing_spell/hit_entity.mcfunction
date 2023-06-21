@@ -1,3 +1,4 @@
-execute as @e[type=#hp:vanishable,dx=0,tag=!this] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] positioned ~0.7 ~0.7 ~0.7 run particle dust_color_transition 0 1 1 2 0 0.9 1 ~ ~ ~ 0 0 0 0 10
-execute as @e[type=#hp:vanishable,dx=0,tag=!this] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] positioned ~0.7 ~0.7 ~0.7 run tp @s ~ -128 ~
-execute if entity @s[type=area_effect_cloud] run function hp:spells/v/vanishing_spell/private/end
+execute as @e[type=armor_stand,tag=cauldronMain,tag=spellHit] run function hp:spells/v/vanishing_spell/hit_cauldron
+execute as @e[type=#hp:vanishable,tag=spellHit] run particle dust_color_transition 0 1 1 2 0 0.9 1 ~ ~ ~ 0 0 0 0 10
+execute as @e[type=#hp:vanishable,tag=spellHit] run tp @s ~ -128 ~
+execute if entity @s[type=area_effect_cloud] run function hp:spells/_base/private/end

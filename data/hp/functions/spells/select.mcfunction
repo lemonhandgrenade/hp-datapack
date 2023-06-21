@@ -1,3 +1,5 @@
+execute as @s[tag=spellBase] run function hp:spells/_base/private/launch
+
 execute as @s[tag=aberforthGoatCharm] run function hp:spells/a/aberforth_dumbledores_goat_charm/private/launch
 execute as @s[tag=ageLine] run function hp:spells/a/age_line/private/launch
 execute as @s[tag=alarteAscendare] run function hp:spells/a/alarte_ascendare/private/launch
@@ -177,7 +179,7 @@ execute as @s[tag=rocketCharm] run function hp:spells/r/rocket_charm/private/lau
 execute as @s[tag=roomSealingSpell] run function hp:spells/r/room-sealing_spell/private/launch
 execute as @s[tag=ropeBind] run function hp:spells/r/rope_bind/private/launch
 
-execute as @s[tag=sardineSpell] run function hp:spells/s/sardine_spell/private/launch
+execute as @s[tag=sardineSpell] run function hp:spells/s/sardine_hex/private/launch
 execute as @s[tag=scribblifors] run function hp:spells/s/scribblifors/private/launch
 execute as @s[tag=sectumsempra] run function hp:spells/s/sectumsempra/private/launch
 execute as @s[tag=severingCharm] run function hp:spells/s/severing_charm/private/launch

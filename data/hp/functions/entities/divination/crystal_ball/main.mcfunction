@@ -1,1 +1,2 @@
-execute if predicate hp:player/no_boots run function hp:entities/divination/crystal_ball/see
+#execute if predicate hp:player/no_boots run function hp:entities/divination/crystal_ball/see
+execute if predicate hp:player/no_boots run data modify entity @s ArmorItems[0] set value {id:"minecraft:oak_button",Count:1b,tag:{KILL:1b}}

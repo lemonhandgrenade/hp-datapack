@@ -19,7 +19,7 @@ execute if score @s spell matches 198 run function hp:spells/f/firestorm/cast
 execute if score @s spell matches 199 run function hp:spells/f/fixing_charm/cast
 execute if score @s spell matches 200 run function hp:spells/f/flagrante_curse/cast
 execute if score @s spell matches 201 run function hp:spells/f/flagrate/cast
-execute if score @s spell matches 202 run function hp:spells/f/flame-freezing_charm/cast_alternative
+execute if score @s spell matches 202 run function hp:spells/f/flame-freezing_charm/cast
 execute if score @s spell matches 203 run function hp:spells/f/flashing_paint_charm/cast
 execute if score @s spell matches 204 run function hp:spells/f/flask-conjuring_spell/cast
 execute if score @s spell matches 205 run function hp:spells/f/flesh_memory/cast

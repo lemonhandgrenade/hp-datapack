@@ -1,0 +1,1 @@
+particle totem_of_undying ~ ~ ~ 0.05 0.05 0.05 0.1 3

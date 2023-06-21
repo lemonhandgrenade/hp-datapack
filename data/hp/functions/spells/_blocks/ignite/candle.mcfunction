@@ -1,8 +1,8 @@
-scoreboard players set temp values 0
-execute if block ~ ~ ~ #minecraft:candles[candles=1] run scoreboard players set temp values 1
-execute if block ~ ~ ~ #minecraft:candles[candles=2] run scoreboard players set temp values 2
-execute if block ~ ~ ~ #minecraft:candles[candles=3] run scoreboard players set temp values 3
-execute if block ~ ~ ~ #minecraft:candles[candles=4] run scoreboard players set temp values 4
+scoreboard players set #temp values 0
+execute if block ~ ~ ~ #minecraft:candles[candles=1] run scoreboard players set #temp values 1
+execute if block ~ ~ ~ #minecraft:candles[candles=2] run scoreboard players set #temp values 2
+execute if block ~ ~ ~ #minecraft:candles[candles=3] run scoreboard players set #temp values 3
+execute if block ~ ~ ~ #minecraft:candles[candles=4] run scoreboard players set #temp values 4
 
 execute if block ~ ~ ~ candle run function hp:spells/_blocks/ignite/candle/candle
 

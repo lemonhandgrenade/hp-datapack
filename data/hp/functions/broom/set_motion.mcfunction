@@ -1,107 +1,66 @@
 #-Air-Wave-Gold------------------------------------------------------------------------------------#
 execute if score @s broomType matches 1 run function hp:broom/motion/air_wave_gold
 #-Australian-Flyabout-50---------------------------------------------------------------------------#
-execute if entity @s[scores={broomType=2}] store result score broomSpeed X run data get entity @s Motion[0] 3905
-execute if entity @s[scores={broomType=2}] store result score broomSpeed Y run data get entity @s Motion[1] 4433
-execute if entity @s[scores={broomType=2}] store result score broomSpeed Z run data get entity @s Motion[2] 3905
+execute if score @s broomType matches 2 run function hp:broom/motion/australian_flyabout_50
 #-Bluebottle---------------------------------------------------------------------------------------#
-execute if entity @s[scores={broomType=3}] store result score broomSpeed X run data get entity @s Motion[0] 2272
-execute if entity @s[scores={broomType=3}] store result score broomSpeed Y run data get entity @s Motion[1] 3160
-execute if entity @s[scores={broomType=3}] store result score broomSpeed Z run data get entity @s Motion[2] 2272
+execute if score @s broomType matches 3 run function hp:broom/motion/bluebottle
 #-Cleansweep-Series--------------------------------------------------------------------------------#
-execute if entity @s[scores={broomType=4..6}] store result score broomSpeed X run data get entity @s Motion[0] 3300
-execute if entity @s[scores={broomType=4..6}] store result score broomSpeed Y run data get entity @s Motion[1] 3653
-execute if entity @s[scores={broomType=4..6}] store result score broomSpeed Z run data get entity @s Motion[2] 3300
-execute if entity @s[scores={broomType=7..10}] store result score broomSpeed X run data get entity @s Motion[0] 3666
-execute if entity @s[scores={broomType=7..10}] store result score broomSpeed Y run data get entity @s Motion[1] 4128
-execute if entity @s[scores={broomType=7..10}] store result score broomSpeed Z run data get entity @s Motion[2] 3666
+execute if score @s broomType matches 4 run function hp:broom/motion/cleansweep_one
+execute if score @s broomType matches 5 run function hp:broom/motion/cleansweep_two
+execute if score @s broomType matches 6 run function hp:broom/motion/cleansweep_three
+execute if score @s broomType matches 7 run function hp:broom/motion/cleansweep_five
+execute if score @s broomType matches 8 run function hp:broom/motion/cleansweep_six
+execute if score @s broomType matches 9 run function hp:broom/motion/cleansweep_seven
+execute if score @s broomType matches 10 run function hp:broom/motion/cleansweep_eleven
 #-Comet-Series-------------------------------------------------------------------------------------#
-execute if entity @s[scores={broomType=11..13}] store result score broomSpeed X run data get entity @s Motion[0] 2932
-execute if entity @s[scores={broomType=11..13}] store result score broomSpeed Y run data get entity @s Motion[1] 3303
-execute if entity @s[scores={broomType=11..13}] store result score broomSpeed Z run data get entity @s Motion[2] 2932
-execute if entity @s[scores={broomType=14..15}] store result score broomSpeed X run data get entity @s Motion[0] 3666
-execute if entity @s[scores={broomType=14..15}] store result score broomSpeed Y run data get entity @s Motion[1] 4128
-execute if entity @s[scores={broomType=14..15}] store result score broomSpeed Z run data get entity @s Motion[2] 3666
+execute if score @s broomType matches 11 run function hp:broom/motion/comet_140
+execute if score @s broomType matches 12 run function hp:broom/motion/comet_180
+execute if score @s broomType matches 13 run function hp:broom/motion/comet_220
+execute if score @s broomType matches 14 run function hp:broom/motion/comet_260
+execute if score @s broomType matches 15 run function hp:broom/motion/comet_290
 #-Fambus-Station-Wagon-----------------------------------------------------------------------------#
-execute if entity @s[scores={broomType=16}] store result score broomSpeed X run data get entity @s Motion[0] 2932
-execute if entity @s[scores={broomType=16}] store result score broomSpeed Y run data get entity @s Motion[1] 3653
-execute if entity @s[scores={broomType=16}] store result score broomSpeed Z run data get entity @s Motion[2] 2932
+execute if score @s broomType matches 16 run function hp:broom/motion/fambus_station_wagon
 #-Firebolt-----------------------------------------------------------------------------------------#
-execute if entity @s[scores={broomType=17}] store result score broomSpeed X run data get entity @s Motion[0] 4400
-execute if entity @s[scores={broomType=17}] store result score broomSpeed Y run data get entity @s Motion[1] 4290
-execute if entity @s[scores={broomType=17}] store result score broomSpeed Z run data get entity @s Motion[2] 4400
+execute if score @s broomType matches 17 run function hp:broom/motion/firebolt
 #-Firebolt-Supreme---------------------------------------------------------------------------------#
-execute if entity @s[scores={broomType=18}] store result score broomSpeed X run data get entity @s Motion[0] 4620
-execute if entity @s[scores={broomType=18}] store result score broomSpeed Y run data get entity @s Motion[1] 4576
-execute if entity @s[scores={broomType=18}] store result score broomSpeed Z run data get entity @s Motion[2] 4620
+execute if score @s broomType matches 18 run function hp:broom/motion/firebolt_supreme
 #-Moontrimmer--------------------------------------------------------------------------------------#
-execute if entity @s[scores={broomType=19}] store result score broomSpeed X run data get entity @s Motion[0] 2200
-execute if entity @s[scores={broomType=19}] store result score broomSpeed Y run data get entity @s Motion[1] 5720
-execute if entity @s[scores={broomType=19}] store result score broomSpeed Z run data get entity @s Motion[2] 2200
+execute if score @s broomType matches 19 run function hp:broom/motion/moontrimmer
 #-Nimbus-1000->-Nimbus-1001------------------------------------------------------------------------#
-execute if entity @s[scores={broomType=20..21}] store result score broomSpeed X run data get entity @s Motion[0] 2290
-execute if entity @s[scores={broomType=20..21}] store result score broomSpeed Y run data get entity @s Motion[1] 3234
-execute if entity @s[scores={broomType=20..21}] store result score broomSpeed Z run data get entity @s Motion[2] 2290
+execute if score @s broomType matches 20 run function hp:broom/motion/nimbus_1000
+execute if score @s broomType matches 21 run function hp:broom/motion/nimbus_1001
 #-Nimbus-1500--------------------------------------------------------------------------------------#
-execute if entity @s[scores={broomType=22}] store result score broomSpeed X run data get entity @s Motion[0] 2370
-execute if entity @s[scores={broomType=22}] store result score broomSpeed Y run data get entity @s Motion[1] 2659
-execute if entity @s[scores={broomType=22}] store result score broomSpeed Z run data get entity @s Motion[2] 2370
+execute if score @s broomType matches 22 run function hp:broom/motion/nimbus_1500
 #-Nimbus-1700--------------------------------------------------------------------------------------#
-execute if entity @s[scores={broomType=23}] store result score broomSpeed X run data get entity @s Motion[0] 3556
-execute if entity @s[scores={broomType=23}] store result score broomSpeed Y run data get entity @s Motion[1] 3985
-execute if entity @s[scores={broomType=23}] store result score broomSpeed Z run data get entity @s Motion[2] 3556
+execute if score @s broomType matches 23 run function hp:broom/motion/nimbus_1700
 #-Nimbus-2000--------------------------------------------------------------------------------------#
-execute if entity @s[scores={broomType=24}] store result score broomSpeed X run data get entity @s Motion[0] 3666
-execute if entity @s[scores={broomType=24}] store result score broomSpeed Y run data get entity @s Motion[1] 4128
-execute if entity @s[scores={broomType=24}] store result score broomSpeed Z run data get entity @s Motion[2] 3666
+execute if score @s broomType matches 24 run function hp:broom/motion/nimbus_2000
 #-Nimbus-2001--------------------------------------------------------------------------------------#
-execute if entity @s[scores={broomType=25}] store result score broomSpeed X run data get entity @s Motion[0] 3795
-execute if entity @s[scores={broomType=25}] store result score broomSpeed Y run data get entity @s Motion[1] 4273
-execute if entity @s[scores={broomType=25}] store result score broomSpeed Z run data get entity @s Motion[2] 3795
+execute if score @s broomType matches 25 run function hp:broom/motion/nimbus_2001
 #-Oakshaft-79--------------------------------------------------------------------------------------#
-execute if entity @s[scores={broomType=26}] store result score broomSpeed X run data get entity @s Motion[0] 1832
-execute if entity @s[scores={broomType=26}] store result score broomSpeed Y run data get entity @s Motion[1] 2588
-execute if entity @s[scores={broomType=26}] store result score broomSpeed Z run data get entity @s Motion[2] 1832
+execute if score @s broomType matches 26 run function hp:broom/motion/oakshaft_79
 #-Shooting-Star------------------------------------------------------------------------------------#
-execute if entity @s[scores={broomType=27}] store result score broomSpeed X run data get entity @s Motion[0] 2585
-execute if entity @s[scores={broomType=27}] store result score broomSpeed Y run data get entity @s Motion[1] 3360
-execute if entity @s[scores={broomType=27}] store result score broomSpeed Z run data get entity @s Motion[2] 2585
+execute if score @s broomType matches 27 run function hp:broom/motion/shooting_star
 #-Siberian-Arrow-----------------------------------------------------------------------------------#
-execute if entity @s[scores={broomType=28}] store result score broomSpeed X run data get entity @s Motion[0] 3850
-execute if entity @s[scores={broomType=28}] store result score broomSpeed Y run data get entity @s Motion[1] 4347
-execute if entity @s[scores={broomType=28}] store result score broomSpeed Z run data get entity @s Motion[2] 3850
+execute if score @s broomType matches 28 run function hp:broom/motion/siberian_arrow
 #-Silver-Arrow-------------------------------------------------------------------------------------#
-execute if entity @s[scores={broomType=29}] store result score broomSpeed X run data get entity @s Motion[0] 2566
-execute if entity @s[scores={broomType=29}] store result score broomSpeed Y run data get entity @s Motion[1] 4290
-execute if entity @s[scores={broomType=29}] store result score broomSpeed Z run data get entity @s Motion[2] 2566
+execute if score @s broomType matches 29 run function hp:broom/motion/silver_arrow
 #-Starsweeper-XXI----------------------------------------------------------------------------------#
-execute if entity @s[scores={broomType=30}] store result score broomSpeed X run data get entity @s Motion[0] 3795
-execute if entity @s[scores={broomType=30}] store result score broomSpeed Y run data get entity @s Motion[1] 4273
-execute if entity @s[scores={broomType=30}] store result score broomSpeed Z run data get entity @s Motion[2] 3795
+execute if score @s broomType matches 30 run function hp:broom/motion/starsweeper_xxi
 #-Swiftstick---------------------------------------------------------------------------------------#
-execute if entity @s[scores={broomType=31}] store result score broomSpeed X run data get entity @s Motion[0] 3666
-execute if entity @s[scores={broomType=31}] store result score broomSpeed Y run data get entity @s Motion[1] 4128
-execute if entity @s[scores={broomType=31}] store result score broomSpeed Z run data get entity @s Motion[2] 3666
+execute if score @s broomType matches 31 run function hp:broom/motion/swiftstick
 #-Thunderbolt-VII----------------------------------------------------------------------------------#
-execute if entity @s[scores={broomType=32}] store result score broomSpeed X run data get entity @s Motion[0] 4766
-execute if entity @s[scores={broomType=32}] store result score broomSpeed Y run data get entity @s Motion[1] 5391
-execute if entity @s[scores={broomType=32}] store result score broomSpeed Z run data get entity @s Motion[2] 4766
+execute if score @s broomType matches 32 run function hp:broom/motion/thunderbolt_vii
 #-Tinderblast--------------------------------------------------------------------------------------#
-execute if entity @s[scores={broomType=33}] store result score broomSpeed X run data get entity @s Motion[0] 2932
-execute if entity @s[scores={broomType=33}] store result score broomSpeed Y run data get entity @s Motion[1] 3303
-execute if entity @s[scores={broomType=33}] store result score broomSpeed Z run data get entity @s Motion[2] 2932
-#-Nimbus-2001--------------------------------------------------------------------------------------#
-execute if entity @s[scores={broomType=34}] store result score broomSpeed X run data get entity @s Motion[0] 3883
-execute if entity @s[scores={broomType=34}] store result score broomSpeed Y run data get entity @s Motion[1] 4390
-execute if entity @s[scores={broomType=34}] store result score broomSpeed Z run data get entity @s Motion[2] 3883
+execute if score @s broomType matches 33 run function hp:broom/motion/tinderblast
+#-Transylvanian-Barb-------------------------------------------------------------------------------#
+execute if score @s broomType matches 34 run function hp:broom/motion/transylvanian_barb
+#-Twigger-90---------------------------------------------------------------------------------------#
+execute if score @s broomType matches 36 run function hp:broom/motion/twigger_90
 #-Varápidos----------------------------------------------------------------------------------------#
-execute if entity @s[scores={broomType=37}] store result score broomSpeed X run data get entity @s Motion[0] 3795
-execute if entity @s[scores={broomType=37}] store result score broomSpeed Y run data get entity @s Motion[1] 4275
-execute if entity @s[scores={broomType=37}] store result score broomSpeed Z run data get entity @s Motion[2] 3795
+execute if score @s broomType matches 37 run function hp:broom/motion/varapidos
 #-Yajirushi----------------------------------------------------------------------------------------#
-execute if entity @s[scores={broomType=38}] store result score broomSpeed X run data get entity @s Motion[0] 3850
-execute if entity @s[scores={broomType=38}] store result score broomSpeed Y run data get entity @s Motion[1] 4347
-execute if entity @s[scores={broomType=38}] store result score broomSpeed Z run data get entity @s Motion[2] 3850
+execute if score @s broomType matches 38 run function hp:broom/motion/yajirushi
 
 execute at @s rotated as @p run tp @s ~ ~ ~ ~ ~
 execute as @e[type=pig,tag=broomSaddle,limit=1] at @s rotated as @p run tp @s ~ ~ ~ ~ ~

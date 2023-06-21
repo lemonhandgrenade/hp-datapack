@@ -1,6 +1,6 @@
 scoreboard players add @s values 0
 
-execute store result score temp values run data get entity @e[type=item,sort=nearest,distance=..0.2,nbt={Item:{Count:1b,tag:{Ingredient:1b}}},limit=1] Item.tag.PotionID
+execute store result score #temp values run data get entity @e[type=item,sort=nearest,distance=..0.2,nbt={Item:{Count:1b,tag:{Ingredient:1b}}},limit=1] Item.tag.PotionID
 tellraw @p[tag=debug] ["",{"text":"Item ID: ","color":"#4B0082"},{"score":{"name":"temp","objective":"values"},"color":"#4B0082"}]
 
 execute if score @s values matches 0 run data modify entity @s ArmorItems[3].tag.Potion[0] set from entity @e[type=item,sort=nearest,distance=..0.2,nbt={Item:{Count:1b,tag:{Ingredient:1b}}},limit=1] Item.tag.PotionID
@@ -36,8 +36,8 @@ execute if score @s values matches 29 run data modify entity @s ArmorItems[3].ta
 execute if score @s values matches 30 run data modify entity @s ArmorItems[3].tag.Potion[30] set from entity @e[type=item,sort=nearest,distance=..0.2,nbt={Item:{Count:1b,tag:{Ingredient:1b}}},limit=1] Item.tag.PotionID
 execute if score @s values matches 31 run data modify entity @s ArmorItems[3].tag.Potion[31] set from entity @e[type=item,sort=nearest,distance=..0.2,nbt={Item:{Count:1b,tag:{Ingredient:1b}}},limit=1] Item.tag.PotionID
 
-execute if score temp values matches 1190 run data modify entity @s ArmorItems[3].tag.SpecialUUID set from entity @e[type=item,sort=nearest,distance=..0.2,nbt={Item:{Count:1b,tag:{Ingredient:1b}}},limit=1] Item.tag.playerUUID
-execute if score temp values matches 1190 run data modify entity @s ArmorItems[3].tag.Name set from entity @e[type=item,sort=nearest,distance=..0.2,nbt={Item:{Count:1b,tag:{Ingredient:1b}}},limit=1] Item.tag.playerName
+execute if score #temp values matches 1190 run data modify entity @s ArmorItems[3].tag.SpecialUUID set from entity @e[type=item,sort=nearest,distance=..0.2,nbt={Item:{Count:1b,tag:{Ingredient:1b}}},limit=1] Item.tag.playerUUID
+execute if score #temp values matches 1190 run data modify entity @s ArmorItems[3].tag.Name set from entity @e[type=item,sort=nearest,distance=..0.2,nbt={Item:{Count:1b,tag:{Ingredient:1b}}},limit=1] Item.tag.playerName
 
 data modify entity @s HandItems[0].tag.display.color set from entity @e[type=item,sort=nearest,distance=..0.2,nbt={Item:{Count:1b,tag:{Ingredient:1b}}},limit=1] Item.tag.Color
 

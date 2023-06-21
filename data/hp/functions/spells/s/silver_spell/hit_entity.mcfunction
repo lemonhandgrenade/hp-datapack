@@ -1,2 +1,3 @@
-execute as @e[dx=0,tag=!this] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] positioned ~0.7 ~0.7 ~0.7 run function hp:spells/s/silver_spell/explode
-execute if entity @s[type=area_effect_cloud] run function hp:spells/s/silver_spell/private/end
+execute as @e[tag=spellHit] run function hp:spells/s/silver_spell/explode
+execute as @e[tag=crystalBall,tag=spellHit] run function hp:entities/divination/crystal_ball/shatter
+execute if entity @s[type=area_effect_cloud] run function hp:spells/_base/private/end

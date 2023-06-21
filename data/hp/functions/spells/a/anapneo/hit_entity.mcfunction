@@ -1,3 +1,3 @@
-execute as @e[dx=0,tag=!this] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] positioned ~0.7 ~0.7 ~0.7 at @s anchored eyes positioned ^ ^-0.1 ^0.3 run particle minecraft:dust_color_transition 0 0 0.5 1 0.5 0 0.5 ~ ~ ~ 0 0 0 0 10
-execute as @e[dx=0,tag=!this] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] positioned ~0.7 ~0.7 ~0.7 run tag @s remove choking
-execute if entity @s[type=area_effect_cloud] run function hp:spells/a/anapneo/private/end
+execute as @e[tag=spellHit] at @s anchored eyes positioned ^ ^-0.1 ^0.3 run particle minecraft:dust_color_transition 0 0 0.5 1 0.5 0 0.5 ~ ~ ~ 0 0 0 0 10
+tag @e[tag=spellHit,tag=choking] remove choking
+execute if entity @s[type=area_effect_cloud] run function hp:spells/_base/private/end

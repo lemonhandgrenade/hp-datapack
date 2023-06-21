@@ -1,3 +1,3 @@
-execute as @a[dx=0,tag=!this] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] positioned ~0.7 ~0.7 ~0.7 if predicate hp:player/no_helmet run function hp:spells/e/engorgio_skullus/enlarge
-execute as @a[dx=0,tag=!this] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] positioned ~0.7 ~0.7 ~0.7 unless predicate hp:player/no_helmet if score @s engorgioSkullus matches 1.. run scoreboard players set @s engorgioSkullus 60
-execute if entity @s[type=area_effect_cloud] run function hp:spells/e/engorgio_skullus/private/end
+execute as @a[tag=spellHit,tag=!morphed,tag=!transfigured] if predicate hp:player/no_helmet run function hp:spells/e/engorgio_skullus/enlarge
+execute as @a[tag=spellHit,tag=!morphed,tag=!transfigured] unless predicate hp:player/no_helmet if score @s engorgioSkullus matches 1.. run scoreboard players set @s engorgioSkullus 60
+execute if entity @s[type=area_effect_cloud] run function hp:spells/_base/private/end

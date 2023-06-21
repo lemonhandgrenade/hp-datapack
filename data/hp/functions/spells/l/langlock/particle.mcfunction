@@ -1,0 +1,1 @@
+particle minecraft:falling_obsidian_tear ~ ~ ~ 0 0 0 0 1

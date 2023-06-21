@@ -1,8 +1,8 @@
-scoreboard players set temp values 0
-execute if entity @s[tag=unsupportedFlight] run scoreboard players set temp values 1
+scoreboard players set #temp values 0
+execute if entity @s[tag=unsupportedFlight] run scoreboard players set #temp values 1
 
-execute if score temp values matches 0 run tag @s add unsupportedFlight
-execute if score temp values matches 1 run tag @s remove unsupportedFlight
+execute if score #temp values matches 0 run tag @s add unsupportedFlight
+execute if score #temp values matches 1 run tag @s remove unsupportedFlight
 
 execute if entity @s[gamemode=survival] run scoreboard players set @s unsupportedFlight 0
 execute if entity @s[gamemode=creative] run scoreboard players set @s unsupportedFlight 1

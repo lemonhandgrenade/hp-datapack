@@ -1,0 +1,1 @@
+particle dolphin ~ ~ ~ 0 0 0 0 1

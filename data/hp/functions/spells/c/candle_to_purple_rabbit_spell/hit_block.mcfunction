@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ candle run function hp:spells/c/candle_to_purple_rabbit_spell/transfigure

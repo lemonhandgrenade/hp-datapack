@@ -6,6 +6,5 @@ data modify storage hp:armor HeadItem.Slot set value 0b
 data modify block 0 -63 0 Items append from storage hp:armor HeadItem
 loot give @s mine 0 -63 0 air{drop_contents:1b} 
 
-
 loot replace entity @s armor.head loot hp:player_head
 item modify entity @s armor.head hp:binding

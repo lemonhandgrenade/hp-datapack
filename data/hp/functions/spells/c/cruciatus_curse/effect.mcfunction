@@ -1,4 +1,4 @@
-effect give @s minecraft:instant_damage 1 30 true
+damage @s 0.001 minecraft:magic by @p[tag=spellCaster]
 function hp:player/injuries/stuck
 
 scoreboard players remove @s cruciatusCurse 1

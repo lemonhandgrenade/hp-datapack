@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "stepping_on": {
+            "fluid": {
+              "tag": "minecraft:water"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "hp:entities/divination/crystal_ball/fortune/wet"
+  }
+}

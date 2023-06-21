@@ -6,17 +6,7 @@ scoreboard players operation moonPhase moon %= 8 values
 
 execute store result score #difficulty settings run difficulty
 
-scoreboard players add @a spellCooldown 0
-scoreboard players add @a currentSpellSlot 0
-scoreboard players add @a deaths 0
-
-scoreboard players enable @a[tag=animagus] morph
-scoreboard players reset @a[tag=!animagus] morph
-
-execute if score playerInfo settings matches 0 run scoreboard players reset @a injuries
-execute if score playerInfo settings matches 0 run scoreboard players reset @a player
-execute if score playerInfo settings matches 1 run scoreboard players enable @a injuries
-execute if score playerInfo settings matches 1 run scoreboard players enable @a player
+execute as @a run function hp:player/player_100tick
 
 execute as @e[tag=cut] run effect give @s wither 1 1 true
 

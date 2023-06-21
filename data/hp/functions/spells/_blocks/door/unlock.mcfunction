@@ -1,0 +1,1 @@
+execute if score @s spellLevel <= #current spellLevel run kill @s

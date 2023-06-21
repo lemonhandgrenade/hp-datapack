@@ -41,6 +41,7 @@ scoreboard players set #max values 127
 execute store result score #rng_splinch values run loot spawn 0 0 0 loot hp:rng/rng_splinch
 execute store result score #rng_animagus values run loot spawn 0 0 0 loot hp:rng/rng_animagus
 execute store result score #rng_fear values run loot spawn 0 0 0 loot hp:rng/rng_fear
+execute store result score #rng_fortune_ball values run loot spawn 0 0 0 loot hp:rng/rng_fortune_ball
 
 execute store result score #rng255 values run loot spawn 0 0 0 loot hp:rng/rng255
 execute store result score #rng5 values run loot spawn 0 0 0 loot hp:rng/rng5
@@ -79,7 +80,8 @@ scoreboard objectives add spell2 dummy
 scoreboard objectives add spell3 dummy
 scoreboard objectives add spell4 dummy
 scoreboard objectives add spellCooldown dummy
-#scoreboard objectives add spellPower dummy
+scoreboard objectives add spellLevel dummy
+scoreboard objectives add spellForm dummy
 
 scoreboard objectives add age dummy
 
@@ -158,6 +160,10 @@ scoreboard players set #timeBase plantTime 3600
 scoreboard players set #timeMarker plantTime 1200
 scoreboard objectives add plantState dummy
 
+#-Divination---------------------------------------------------------------------------------------#
+scoreboard objectives add crystalTime dummy
+scoreboard objectives add fortuneBall dummy
+
 #-Mobs---------------------------------------------------------------------------------------------#
 scoreboard objectives add owlID dummy
 scoreboard objectives add thestralID dummy
@@ -200,4 +206,4 @@ team modify ravenclaw prefix [{"text":"\uE003"},{"text":"[","color":"dark_blue"}
 team modify ravenclaw seeFriendlyInvisibles false
 
 ## 1.19 Because of animagi frogs
-tellraw @a [{"text":"Loaded "},{"text":"[HP]","color":"green"},{"text":" for MC 1.19+\n"}]
+tellraw @a ["","Loaded ",{"text":"[HP]","color":"green","clickEvent":{"action":"open_url","value":"https://github.com/lemonhandgrenade/hp-datapack"},"hoverEvent":{"action":"show_text","contents":["Click To Go To The Pack Page"]}}," for MC 1.19+"]

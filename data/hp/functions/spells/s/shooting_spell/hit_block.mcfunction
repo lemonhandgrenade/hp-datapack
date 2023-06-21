@@ -1,0 +1,1 @@
+function hp:spells/s/shooting_spell/explode

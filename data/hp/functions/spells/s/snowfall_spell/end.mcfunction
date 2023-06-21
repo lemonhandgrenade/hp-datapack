@@ -1,0 +1,1 @@
+summon armor_stand ~ ~ ~ {Tags:["spellEntity","snow","weather"],NoGravity:1b}

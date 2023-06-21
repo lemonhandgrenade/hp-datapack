@@ -1,4 +1,3 @@
-tag @s add done
 particle minecraft:glow_squid_ink ~ ~ ~ 32 0 32 0 10000 force
 
 execute at @s run summon armor_stand ~ 255 ~ {Tags:["spellEntity","morsmordre","new"],NoGravity:1b}
@@ -7,5 +6,4 @@ tp @e[type=armor_stand,tag=spellEntity,tag=morsmordre,tag=new] ~ ~ ~ facing enti
 tp @e[type=armor_stand,tag=spellEntity,tag=morsmordre,tag=new] ~ ~ ~ ~ -12.5
 tag @e[type=armor_stand,tag=spellEntity,tag=morsmordre,tag=new] remove new
 
-
-function hp:spells/m/morsmordre/private/end
+function hp:spells/_base/private/end

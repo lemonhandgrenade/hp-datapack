@@ -1,0 +1,1 @@
+function hp:spells/c/cascading_jinx/explode

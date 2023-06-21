@@ -32,6 +32,7 @@ scoreboard players set @s[nbt={Item:{id:"minecraft:stick",tag:{Swiftstick:1b}}}]
 scoreboard players set @s[nbt={Item:{id:"minecraft:stick",tag:{ThunderboltVII:1b}}}] broomType 32
 scoreboard players set @s[nbt={Item:{id:"minecraft:stick",tag:{Tinderblast:1b}}}] broomType 33
 scoreboard players set @s[nbt={Item:{id:"minecraft:stick",tag:{TransylvanianBarb:1b}}}] broomType 34
+scoreboard players set @s[nbt={Item:{id:"minecraft:stick",tag:{Twigger90:1b}}}] broomType 36
 scoreboard players set @s[nbt={Item:{id:"minecraft:stick",tag:{Varapidos:1b}}}] broomType 37
 scoreboard players set @s[nbt={Item:{id:"minecraft:stick",tag:{Yajirushi:1b}}}] broomType 38
 function hp:broom/summon

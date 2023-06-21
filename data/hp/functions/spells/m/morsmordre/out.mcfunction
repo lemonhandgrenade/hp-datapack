@@ -1,4 +1,3 @@
-
 particle glow_squid_ink ^-55.977776 ^-13.850458 ^31.613380 0 0 0 0 1 force
 particle glow_squid_ink ^-59.523022 ^-45.220821 ^-4.130737 0 0 0 0 1 force
 particle glow_squid_ink ^-40.450874 ^-32.364586 ^-49.944756 0 0 0 0 1 force

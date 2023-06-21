@@ -1,0 +1,2 @@
+execute as @e[type=cat,tag=!transfigurationAnimal,tag=!animagusAnimal,tag=spellHit] at @s run function hp:spells/f/felifors_spell/transfigure
+execute if entity @s[type=area_effect_cloud] run function hp:spells/_base/private/end

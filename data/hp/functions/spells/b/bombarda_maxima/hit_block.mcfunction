@@ -1,0 +1,1 @@
+function hp:spells/b/bombarda_maxima/explode

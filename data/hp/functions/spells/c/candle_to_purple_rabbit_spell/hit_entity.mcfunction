@@ -1,0 +1,1 @@
+execute if entity @e[type=armor_stand,tag=spellHit,tag=candleLight] run function hp:spells/c/candle_to_purple_rabbit_spell/transfigure

@@ -1,0 +1,1 @@
+particle end_rod ~ ~ ~ 0.05 0.05 0.05 0 3

@@ -1,0 +1,1 @@
+effect give @a[tag=spellHit] nausea 10 3

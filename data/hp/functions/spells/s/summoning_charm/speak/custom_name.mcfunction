@@ -1,2 +1,2 @@
 tellraw @a[distance=..15,tag=!cantHear] ["","<",{"selector":"@s"},{"text":"> Accio "},{"nbt":"CustomName","entity":"@e[type=armor_stand,tag=broomVisual,sort=nearest,limit=1]","interpret":true}]
-scoreboard players set temp values 1
+scoreboard players set #temp values 1

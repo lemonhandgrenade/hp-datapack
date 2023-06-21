@@ -1,3 +1,2 @@
-#execute if entity @s[tag=reflected] as @e[distance=..1,tag=!this] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[distance=..1] positioned ~0.7 ~0.7 ~0.7 run effect give @s minecraft:levitation 1 7 true
-execute if entity @s as @e[dx=0,tag=!this] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] positioned ~0.7 ~0.7 ~0.7 run effect give @s minecraft:levitation 1 5 true
-execute if entity @s[type=area_effect_cloud] run function hp:spells/v/vaulting_charm/private/end
+effect give @e[tag=spellHit] minecraft:levitation 1 5 true
+execute if entity @s[type=area_effect_cloud] run function hp:spells/_base/private/end

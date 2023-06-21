@@ -1,0 +1,1 @@
+particle wax_off ~ ~ ~ 0.05 0.05 0.05 0 3

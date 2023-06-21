@@ -1,0 +1,2 @@
+execute if score @s spellCount matches 0 run summon armor_stand ~ ~ ~ {Tags:["spellEntity","cloud","weather"],NoGravity:1b}
+execute if score @s spellCount matches 1 run summon armor_stand ~ ~ ~ {Tags:["spellEntity","rain","weather"],NoGravity:1b}

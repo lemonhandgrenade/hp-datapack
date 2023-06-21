@@ -9,4 +9,4 @@ execute if block ~ ~ ~ damaged_anvil[facing=east] run setblock ~ ~ ~ chipped_anv
 execute if block ~ ~ ~ damaged_anvil[facing=west] run setblock ~ ~ ~ chipped_anvil[facing=west]
 
 execute align xyz positioned ~0.5 ~ ~0.5 run particle minecraft:wax_off ~ ~.5 ~ 0.25 0.25 0.25 0 100
-execute if entity @s[type=area_effect_cloud] run function hp:spells/m/mending_charm/private/end
+execute if entity @s[type=area_effect_cloud] run function hp:spells/_base/private/end
