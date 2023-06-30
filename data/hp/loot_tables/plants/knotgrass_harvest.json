@@ -1,0 +1,25 @@
+{
+	"pools": [
+		{
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "hp:plants/knotgrass"
+				}
+			],
+			"rolls": 1.0
+		},
+		{
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "hp:seeds/knotgrass"
+				}
+			],
+			"rolls": {
+				"min": 1.0,
+				"max": 6.0
+			}
+		}
+	]
+}

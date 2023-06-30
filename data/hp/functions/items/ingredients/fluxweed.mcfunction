@@ -1,1 +1,1 @@
-give @s chain_command_block{display:{Name:'{"translate":"item.hp.fluxweed","color":"#5A792A","italic":false}',Lore:['{"translate":"item.hp.potion_use","italic":false}']},Weight:10,Ingredient:1b,CustomModelData:1010,PotionID:1010,Color:4953467} 1
+loot give @s loot hp:plants/fluxweed

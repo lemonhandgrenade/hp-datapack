@@ -1,1 +1,1 @@
-give @s chain_command_block{display:{Name:'{"translate":"item.hp.knotgrass","color":"#5A792A","italic":false}',Lore:['{"translate":"item.hp.potion_use","italic":false}']},Weight:10,Ingredient:1b,CustomModelData:1400,PotionID:1400,Color:4611621} 1
+loot give @s loot hp:plants/knotgrass

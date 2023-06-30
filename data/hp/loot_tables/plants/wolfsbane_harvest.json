@@ -1,0 +1,25 @@
+{
+	"pools": [
+		{
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "hp:plants/wolfsbane"
+				}
+			],
+			"rolls": 1.0
+		},
+		{
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "hp:seeds/wolfsbane"
+				}
+			],
+			"rolls": {
+				"min": 1.0,
+				"max": 4.0
+			}
+		}
+	]
+}

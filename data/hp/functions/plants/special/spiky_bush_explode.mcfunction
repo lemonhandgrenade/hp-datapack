@@ -20,5 +20,4 @@ particle totem_of_undying ~ ~ ~ ^-59542.640 ^614982.26 ^304591.500 0.00000075 0
 particle totem_of_undying ~ ~ ~ ^-746984.56 ^366734.69 ^-822370.77 0.00000075 0
 particle totem_of_undying ~ ~ ~ ^567806.350 ^20849.590 ^358522.510 0.00000075 0
 
-execute as @e[type=!#hp:undead,distance=..2.5] run effect give @s minecraft:instant_damage 1 0 true
-execute as @e[type=#hp:undead,distance=..2.5] run effect give @s minecraft:instant_health 1 0 true
+execute as @e[distance=..2.5] run damage @s 6 minecraft:cactus

@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:ghast_spawn_egg",
+          "name": "minecraft:item_frame",
           "functions": [
             {
               "function": "minecraft:set_name",
@@ -16,7 +16,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:910,EntityTag:{Tags:[\"wolfsbane\"],id:\"minecraft:marker\",CustomName:'{\"text\":\"seed\"}'}}"
+              "tag": "{CustomModelData:910,Seed:1b,EntityTag:{Item:{id:\"minecraft:flowering_azalea_leaves\",Count:1b,tag:{CustomModelData:910}},Invisible:1b,Tags:[\"plant\",\"generic\",\"wolfsbane\"]}}"
             }
           ]
         }

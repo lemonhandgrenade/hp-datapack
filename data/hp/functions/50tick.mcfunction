@@ -1,10 +1,5 @@
 schedule function hp:50tick 50t
 
-execute store result score #randomTickSpeed settings run gamerule randomTickSpeed
-scoreboard players operation #timeMarker plantTime = #timeBase plantTime
-execute unless score #randomTickSpeed settings matches 0 run scoreboard players operation #timeMarker plantTime /= #randomTickSpeed settings
-execute if score #randomTickSpeed settings matches 0 run scoreboard players set #timeMarker plantTime 0
-
 execute as @e[tag=choking] run effect give @s minecraft:wither 1 3 true
 
 effect give @a[tag=hasCold] minecraft:nausea 5 128 true

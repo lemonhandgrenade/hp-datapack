@@ -1,1 +1,1 @@
-give @s chain_command_block{display:{Name:'{"translate":"item.hp.nettle","color":"#4A6838","italic":false}',Lore:['{"translate":"item.hp.nettle.lore","italic":false}']},Ingredient:1b,CustomModelData:1750,PotionID:1750,Color:8302944} 1
+loot give @s loot hp:plants/nettle

@@ -1,1 +1,1 @@
-give @s chain_command_block{display:{Name:'{"translate":"item.hp.moly","color":"#EEEEFF","italic":false}',Lore:['{"translate":"item.hp.potion_use","italic":false}']},Weight:10,Ingredient:1b,CustomModelData:1640,PotionID:1640,Color:16777198} 1
+loot give @s loot hp:plants/moly

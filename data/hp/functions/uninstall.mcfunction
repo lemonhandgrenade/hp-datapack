@@ -63,8 +63,7 @@ scoreboard objectives remove fluxweedSyrupTime
 scoreboard objectives remove wfoas
 scoreboard objectives remove moon
 scoreboard objectives remove lycanthropy
-scoreboard objectives remove plantTime
-scoreboard objectives remove plantState
+scoreboard objectives remove plantAge
 
 schedule clear hp:100tick
 schedule clear hp:50tick

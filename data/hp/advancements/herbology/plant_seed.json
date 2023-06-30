@@ -5,13 +5,14 @@
       "conditions": {
         "item": {
           "items": [
-            "minecraft:ghast_spawn_egg"
-          ]
+            "minecraft:item_frame"
+          ],
+          "nbt": "{Seed:1b}"
         }
       }
     }
   },
   "rewards": {
-    "function": "hp:item_functions/seed/place"
+    "function": "hp:plants/place"
   }
 }

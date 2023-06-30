@@ -1,1 +1,1 @@
-give @s chain_command_block{display:{Name:'{"translate":"item.hp.wolfsbane","color":"#52307C","italic":false}',Lore:['{"translate":"item.hp.potion_use","italic":false}']},Ingredient:1b,Weight:2,CustomModelData:2830,PotionID:2830,Color:6246301} 1
+loot give @s loot hp:plants/wolfsbane

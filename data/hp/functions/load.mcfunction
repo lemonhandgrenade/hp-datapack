@@ -155,10 +155,7 @@ scoreboard objectives add moon dummy
 scoreboard objectives add lycanthropy dummy
 
 #-Herbology----------------------------------------------------------------------------------------#
-scoreboard objectives add plantTime dummy
-scoreboard players set #timeBase plantTime 3600
-scoreboard players set #timeMarker plantTime 1200
-scoreboard objectives add plantState dummy
+scoreboard objectives add plantAge dummy
 
 #-Divination---------------------------------------------------------------------------------------#
 scoreboard objectives add crystalTime dummy
