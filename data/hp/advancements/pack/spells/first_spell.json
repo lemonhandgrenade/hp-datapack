@@ -10,7 +10,7 @@
         "announce_to_chat": false,
         "hidden": true
     },
-    "parent": "hp:pack/first_wand",
+    "parent": "hp:pack/spells/first_wand",
     "criteria": {
         "trigger": {
             "trigger": "minecraft:impossible"

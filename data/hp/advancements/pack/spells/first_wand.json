@@ -11,7 +11,7 @@
     "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "hp:pack/root",
+  "parent": "hp:pack/spells/root",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",

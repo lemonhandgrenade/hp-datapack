@@ -49,7 +49,7 @@ execute as @e[type=item,sort=nearest,distance=..0.5,nbt={Item:{Count:1b,tag:{Ing
 
 execute if score temp2 values matches 0 as @a[tag=hoppingPotTarget] run function hp:items/equipment/phial_glass
 
-execute if score temp2 values matches 1 run advancement grant @a[tag=hoppingPotTarget] only hp:pack/potion
+execute if score temp2 values matches 1 run advancement grant @a[tag=hoppingPotTarget] only hp:pack/potions/potion_maker
 execute if score temp2 values matches 1 run scoreboard players add @a[tag=cauldronTarget] potionCount 1
 
 tag @a remove hoppingPotTarget

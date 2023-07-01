@@ -2,6 +2,7 @@ scoreboard players add @s spellCooldown 0
 scoreboard players add @s currentSpellSlot 0
 scoreboard players add @s deaths 0
 
+scoreboard players enable @s spells
 scoreboard players enable @s[tag=animagus] morph
 scoreboard players reset @s[tag=!animagus] morph
 

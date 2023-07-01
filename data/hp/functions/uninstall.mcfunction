@@ -9,6 +9,7 @@ scoreboard objectives remove sloDst
 scoreboard objectives remove sloDstPer
 scoreboard objectives remove spellCount
 scoreboard objectives remove spell
+scoreboard objectives remove spells
 scoreboard objectives remove currentSpellSlot
 scoreboard objectives remove spell1
 scoreboard objectives remove spell2
@@ -52,7 +53,6 @@ scoreboard objectives remove motionZ
 scoreboard objectives remove xzMotionTime
 scoreboard objectives remove yMotionTime
 scoreboard objectives remove selectedSlot
-scoreboard objectives remove injuries
 scoreboard objectives remove player
 scoreboard objectives remove sneak
 scoreboard objectives remove sneakTest

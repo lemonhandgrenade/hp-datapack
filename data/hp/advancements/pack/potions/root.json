@@ -1,0 +1,19 @@
+{
+	"display": {
+		"title": {"translate":"advancements.hp.potions.title"},
+		"description": {"translate":"advancements.hp.potions.description"},
+		"icon": {
+			"item": "minecraft:potion",
+			"nbt": "{CustomModelData:47}"
+		},
+		"frame": "task",
+		"background": "minecraft:textures/block/cauldron_inner.png",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

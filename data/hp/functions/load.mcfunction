@@ -73,6 +73,7 @@ scoreboard objectives add sloDstPer dummy
 
 #-Spell-Player-------------------------------------------------------------------------------------#
 scoreboard objectives add spellCount dummy
+scoreboard objectives add spells trigger
 scoreboard objectives add spell dummy
 scoreboard objectives add currentSpellSlot dummy
 scoreboard objectives add spell1 dummy
@@ -133,7 +134,6 @@ scoreboard objectives add xzMotionTime dummy
 scoreboard objectives add yMotionTime dummy
 
 scoreboard objectives add selectedSlot dummy
-scoreboard objectives add injuries trigger
 scoreboard objectives add player trigger
 
 scoreboard objectives add sneak minecraft.custom:minecraft.sneak_time

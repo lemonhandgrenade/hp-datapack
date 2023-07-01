@@ -7,6 +7,7 @@ execute if entity @s[tag=wandLightingCharm] at @s run function hp:spells/w/wand-
 
 execute if entity @s[tag=sortingHat] run function hp:sorting_hat/main
 
-scoreboard players enable @s chessMove
+scoreboard players reset @s chessMove
+execute at @s if entity @e[tag=chess,distance=..2] run scoreboard players enable @s chessMove
 execute if score @s chessMove matches 1.. run function hp:games/chess/player_move
-execute as @s[scores={chessMove = 1..}] run scoreboard players set @s chessMove 0
+execute as @s[scores={chessMove=1..}] run scoreboard players set @s chessMove 0

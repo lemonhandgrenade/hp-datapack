@@ -11,7 +11,7 @@
         "announce_to_chat": false,
         "hidden": false
     },
-    "parent": "hp:pack/potion",
+    "parent": "hp:pack/potions/potion_maker",
     "criteria": {
         "trigger": {
             "trigger": "minecraft:impossible"

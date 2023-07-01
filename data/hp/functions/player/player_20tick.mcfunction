@@ -15,6 +15,7 @@ execute if score @s injuries matches ..-1 run function hp:player/injuries/list
 execute if score @s injuries matches 1.. run function hp:player/injuries/list
 execute if score @s player matches ..-1 run function hp:player/info
 execute if score @s player matches 1.. run function hp:player/info
+execute if score @s spells matches 1.. run function hp:player/spells/list
 
 execute store result score @s selectedSlot run data get entity @s SelectedItemSlot
 
