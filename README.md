@@ -1,8 +1,9 @@
 <p align="center">
 <a href="https://github.com/lemonhandgrenade/hp-datapack/license"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
 <a href="https://github.com/lemonhandgrenade/hp-datapack/issues"><img src="https://img.shields.io/github/issues/lemonhandgrenade/hp-datapack" alt="Github issues"></a>
-<a href=""><img src="https://img.shields.io/badge/files-3511-ff69b4"></a>
-<a href=""><img src="https://img.shields.io/badge/total%20lines-47430-blueviolet"></a>
+<a href="https://github.com/lemonhandgrenade/hp-datapack/releases/latest"><img src="https://img.shields.io/github/v/release/lemonhandgrenade/hp-datapack?label=Latest%20version"></a>
+<a href=""><img src="https://img.shields.io/badge/files-3512-ff69b4"></a>
+<a href=""><img src="https://img.shields.io/badge/total%20lines-47403-blueviolet"></a>
 </p>
 
 # hp-datapack
@@ -20,7 +21,7 @@ Contents
 ## Attribution
 - Some of the broom's code was modified from [@the_floo_network][floo]'s map that can be found [here][floomap].
 - Spells work on the foundation of [@CloudWolfYT][cloudwolf]'s [Slow raycasting tutorial][cloudwolfvid].
-- I would recommend the [Better Dogs][betterdogslink] texture pack by [mrblueyeti][mrblueyeti].
+<!-- - I would recommend the [Better Dogs][betterdogslink] texture pack by [mrblueyeti][mrblueyeti]. No Longer Compatible -->
 
 ---
 
@@ -257,7 +258,7 @@ True and false are represented as 1 and 0 respectively
 </p></details>
 
 ## Docs For Devs
-Basic docs can be found [here](https://github.com/lemonhandgrenade/hp-datapack/tree/main/docs).
+Basic docs can be found [here](https://github.com/lemonhandgrenade/hp-datapack/wiki/Docs).
 
 ## Bugs and Additions
 - If you find any bugs in the datapack feel free to report [here][issue].
