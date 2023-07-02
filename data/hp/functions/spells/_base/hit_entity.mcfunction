@@ -1,4 +1,4 @@
-execute as @e[tag=!spellCaster,tag=!this,tag=!slowcast,tag=!lightBlock,tag=!patronus,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @e[tag=!spellCaster,tag=!this,tag=!slowcast,tag=!lightBlock,tag=!patronus,dx=0] run tag @s add spellHit
+execute as @e[tag=!spellCaster,tag=!this,tag=!slowcast,tag=!broomSaddle,tag=!lightBlock,tag=!patronus,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @e[tag=!spellCaster,tag=!this,tag=!slowcast,tag=!lightBlock,tag=!patronus,dx=0] run tag @s add spellHit
 scoreboard players set #temp values 0
 
 execute store success score #temp values if score @s spell matches 1 run function hp:spells/a/aberforth_dumbledores_goat_charm/hit_entity
