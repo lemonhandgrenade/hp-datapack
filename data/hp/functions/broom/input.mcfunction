@@ -1,7 +1,7 @@
 advancement revoke @s only hp:broom_riding
 
 # This line stinks ↓ it takes too long
-scoreboard players operation #current broomID = @e[type=armor_stand,tag=broom,tag=broomVisual,distance=..2,sort=nearest,limit=1] broomID
+scoreboard players operation #current broomID = @e[type=armor_stand,tag=broom,tag=broomMain,distance=..2,sort=nearest,limit=1] broomID
 
 execute if score @s selectedSlot matches 0..4 run function hp:broom/distance_tree/04
 execute if score @s selectedSlot matches 5..8 run function hp:broom/distance_tree/58
@@ -15,4 +15,4 @@ scoreboard players operation distancePos X -= playerPos X
 scoreboard players operation distancePos Y -= playerPos Y
 scoreboard players operation distancePos Z -= playerPos Z
 
-execute as @e[type=armor_stand,tag=broom,tag=broomVisual,limit=1,sort=nearest] run function hp:broom/set_motion
+execute as @e[type=armor_stand,tag=broom,tag=broomMain,limit=1,sort=nearest] run function hp:broom/set_motion

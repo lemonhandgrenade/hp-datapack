@@ -6,7 +6,7 @@
         "player": {
           "vehicle": {
             "type": "minecraft:pig",
-            "nbt": "{Tags:[\"broomSaddleMain\"]}"
+            "nbt": "{Tags:[\"broomSaddle\"]}"
           }
         }
       }
