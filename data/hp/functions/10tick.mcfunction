@@ -1,7 +1,5 @@
 schedule function hp:10tick 10t
 
-execute as @e[type=item_frame,tag=plant] at @s run function hp:plants/main
-
 execute as @e[type=marker,tag=lightBlock] at @s run function hp:spells/_blocks/delete_light
 execute as @e[type=armor_stand,tag=candleLight] at @s run function hp:spells/c/candle_conjuring_spell/light
 execute as @e[type=area_effect_cloud,tag=slowcast,tag=patronusCharm] at @s if block ~ ~ ~ air run function hp:spells/p/patronus_charm/light
