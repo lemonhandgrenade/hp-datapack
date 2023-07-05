@@ -2,8 +2,8 @@
 <a href="https://github.com/lemonhandgrenade/hp-datapack/license"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
 <a href="https://github.com/lemonhandgrenade/hp-datapack/issues"><img src="https://img.shields.io/github/issues/lemonhandgrenade/hp-datapack" alt="Github issues"></a>
 <a href="https://github.com/lemonhandgrenade/hp-datapack/releases/latest"><img src="https://img.shields.io/github/v/release/lemonhandgrenade/hp-datapack?label=Latest%20version"></a>
-<a href=""><img src="https://img.shields.io/badge/files-3513-ff69b4"></a>
-<a href=""><img src="https://img.shields.io/badge/total%20lines-47568-blueviolet"></a>
+<a href=""><img src="https://img.shields.io/badge/files-3515-ff69b4"></a>
+<a href=""><img src="https://img.shields.io/badge/total%20lines-47626-blueviolet"></a>
 </p>
 
 # hp-datapack
@@ -30,7 +30,7 @@ Contents
 - Animagus. [![Animagi Animals](https://img.shields.io/badge/Animagi_Animals-74-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/animagus "Animagus IDs")
 - Potion brewing. [![Potions](https://img.shields.io/badge/Potions-10-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/potions "Potions IDs")
 - Corporeal Patronuses. [![Patronus](https://img.shields.io/badge/Patronuses-17-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/spells/_entities/patronus "Patronus IDs")
-- Brooms. [![Brooms](https://img.shields.io/badge/Brooms-36-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/broom)
+- Brooms. [![Brooms](https://img.shields.io/badge/Brooms-37-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/broom)
 - Custom mobs. [![Brooms](https://img.shields.io/badge/Mobs-3-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/mobs)
 - Wizard cards. [![Wizard Cards](https://img.shields.io/badge/Wizard%20Cards-135-2ea44f)](https://github.com/lemonhandgrenade/hp-datapack/tree/main/data/hp/functions/broom)
 - The Hogwarts house teams.
