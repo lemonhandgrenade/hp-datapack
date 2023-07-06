@@ -1,1 +1,3 @@
-give @s potion{HideFlags:32,display:{Name:'{"translate":"item.hp.antidote_to_common_poisons","color":"#008080","italic":false}',Lore:['{"translate":"item.hp.antidote_to_common_poisons.lore","italic":false}']},Potion:"minecraft:empty",CustomPotionColor:32896,CustomModelData:6} 1
+scoreboard players set @s potionMath 0
+loot give @s loot hp:potions/antidote_to_common_poisons
+scoreboard players reset @s potionMath

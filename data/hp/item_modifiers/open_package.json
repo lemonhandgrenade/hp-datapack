@@ -1,14 +1,1 @@
-{
-    "function": "minecraft:copy_nbt",
-    "source": {
-        "type": "storage",
-        "source": "hp:temp"
-    },
-    "ops": [
-        {
-            "source": "OffhandItem",
-            "target": "",
-            "op": "replace"
-        }
-    ]
-}
+{"function":"minecraft:copy_nbt","source":{"type":"storage","source":"hp:temp"},"ops":[{"source":"OffhandItem","target":"","op":"replace"}]}

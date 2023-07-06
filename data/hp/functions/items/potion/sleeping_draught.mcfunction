@@ -1,1 +1,3 @@
-give @s potion{HideFlags:32,display:{Name:'{"translate":"item.hp.sleeping_draught","color":"#6D59A1","italic":false}',Lore:['{"translate":"item.hp.sleeping_draught.lore","italic":false}']},Potion:"minecraft:empty",CustomPotionColor:7166369,CustomModelData:131} 1
+scoreboard players set @s potionMath 0
+loot give @s loot hp:potions/sleeping_draught
+scoreboard players reset @s potionMath

@@ -1,4 +1,3 @@
-execute if entity @s[tag=new,tag=hoppingPot,tag=summon] run function hp:entities/hopping_pot/summon
 execute if entity @s[tag=new,tag=cauldron,tag=summon] run function hp:entities/cauldron/summon
 execute if entity @s[tag=new,tag=mortarpestle,tag=summon] run function hp:entities/mortarpestle/summon
 execute if entity @s[tag=new,tag=crystalBall,tag=summon] run function hp:entities/divination/crystal_ball/summon
@@ -13,7 +12,6 @@ execute if entity @s[tag=scales,tag=right] at @s if entity @e[type=item,sort=nea
 execute if entity @s[tag=mortarpestleMain] at @s run function hp:entities/mortarpestle/main
 
 execute if entity @s[tag=cauldronMain] run function hp:entities/cauldron/main
-execute if entity @s[tag=hoppingPotMain] run function hp:entities/hopping_pot/main
 execute if entity @s[tag=crystalBallMain] run function hp:entities/divination/crystal_ball/main
 
 execute if entity @s[type=item,tag=flyingEntity] if score #alternate values matches -1 run data modify entity @s Air set value 0s

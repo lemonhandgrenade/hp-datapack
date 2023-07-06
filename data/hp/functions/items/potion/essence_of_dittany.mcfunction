@@ -1,1 +1,3 @@
-give @s potion{HideFlags:32,display:{Name:'{"translate":"item.hp.essence_of_dittany","color":"#5A792A","italic":false}',Lore:['{"translate":"item.hp.essence_of_dittany.lore","italic":false}']},Potion:"minecraft:empty",Ingredient:1b,CustomPotionColor:5929258,CustomModelData:56,PotionID:2900} 1
+scoreboard players set @s potionMath 0
+loot give @s loot hp:potions/essence_of_dittany
+scoreboard players reset @s potionMath

@@ -1,1 +1,3 @@
-give @s potion{display:{Name:'{"translate":"item.hp.forgetfulness_potion","color":"#CB6B20","italic":false}',Lore:['{"translate":"item.hp.forgetfulness_potion.lore","italic":false}']},HideFlags:32,CustomModelData:71,Potion:"minecraft:empty",CustomPotionColor:13331232} 1
+scoreboard players set @s potionMath 0
+loot give @s loot hp:potions/forgetfulness_potion
+scoreboard players reset @s potionMath

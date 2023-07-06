@@ -7,4 +7,7 @@ execute as @e[type=armor_stand,tag=potionCarrier] at @s as @a if score @s UID = 
 execute as @e[tag=specialMob] at @s run function hp:mobs/2tick
 execute as @a at @s run function hp:player/player_2tick
 
+execute as @e[type=item,nbt={Item:{tag:{specialEntity:1b}}}] at @s run function hp:entities/main
+execute as @e[tag=specialEntity] at @s run function hp:entities/main
+
 scoreboard players operation #alternate2 values *= -1 values

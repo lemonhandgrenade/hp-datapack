@@ -1,1 +1,3 @@
-give @s potion{HideFlags:32,display:{Name:'{"translate":"item.hp.cure_for_boils","color":"#496ba3","italic":false}',Lore:['{"translate":"item.hp.cure_for_boils.lore","italic":false}']},Potion:"minecraft:empty",CustomPotionColor:4811683,CustomModelData:33} 1
+scoreboard players set @s potionMath 0
+loot give @s loot hp:potions/cure_for_boils
+scoreboard players reset @s potionMath

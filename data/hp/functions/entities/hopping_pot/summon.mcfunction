@@ -1,4 +1,0 @@
-summon armor_stand ~ ~ ~ {DisabledSlots:45,Invisible:1b,Small:1b,Tags:["specialEntity","hoppingPot","hoppingPotMain","new","helmetNeeded"],ArmorItems:[{id:"minecraft:oak_button",Count:1b,tag:{KILL:1b}},{},{},{id:"minecraft:armor_stand",Count:1b,tag:{Potion:[9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999],display:{Name:'{"translate":"item.hp.hopping_pot","color":"#5f4e48","italic":false}',Lore:['{"translate":"item.hp.hopping_pot.lore","italic":false}']},CustomModelData:10,EntityTag:{Small:1b,Invisible:1b,Tags:["new","summon","hoppingPot","specialEntity"]}}}]}
-execute as @e[tag=specialEntity,tag=hoppingPot,tag=hoppingPotMain,tag=new] at @s facing entity @p feet rotated ~ 0 run tp @s ~ ~ ~ ~ ~
-tag @e[tag=specialEntity,tag=hoppingPot,tag=hoppingPotMain,tag=new] remove new
-kill @s

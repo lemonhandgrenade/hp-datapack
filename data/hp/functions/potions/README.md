@@ -68,89 +68,90 @@
 67. - [ ] Fire Protection Potion
 68. - [ ] First Love Beguiling Bubbles
 69. - [ ] Flesh-Eating Slug Repellent
-70. - [x] Forgetfulness Potion
-71. - [ ] Frog Parts Mixture
-72. - [ ] Fungiface Potion
-73. - [ ] Garrotting Gas
-74. - [ ] Girding Potion
-75. - [ ] Grand Pepperup Potion
-76. - [ ] Grand Wiggenweld Potion
-77. - [ ] Gregory's Unctuous Unction
-78. - [ ] Hair-Raising Potion
-79. - [ ] Hate Potion
-80. - [ ] Heartbreak Teardrops
-81. - [ ] Herbicide Potion
-82. - [ ] Hiccoughing Solution
-83. - [ ] Invigoration Draught
-84. - [ ] Invisibility Potion
-85. - [ ] Jawbind Potion
-86. - [ ] Kissing Concoction
-87. - [ ] Laugh-inducing Potion
-88. - [ ] Laxative Potion
-89. - [ ] Love Potion
-90. - [ ] Love Potion Antidote
-91. - [ ] Madame Glossy's Silver Polish
-92. - [ ] Malevolent Mixture
-93. - [ ] Mandrake Restorative Draught
-94. - [ ] Manegro Potion
-95. - [ ] Maximum Turbo Farts Potion
-96. - [ ] Memory Potion
-97. - [x] Mixture of Powdered Silver and Dittany
-98. - [ ] Moonseed Poison
-99. - [ ] Mopsus Potion
-100. - [ ] Mouth Itching Antidote
-101. - [ ] Mrs Scower's All-Purpose Magical Mess Remover
-102. - [ ] Muffling Draught
-103. - [ ] Murtlap Essence
-104. - [ ] Noxious Potion
-105. - [ ] Oculus Potion
-106. - [ ] Pepperup Potion
-107. - [ ] Poison Antidote
-108. - [x] Polyjuice Potion
-109. - [ ] Pompion Potion
-110. - [ ] Potion No. 07
-111. - [ ] Potion No. 113
-112. - [ ] Potion No. 220
-113. - [ ] Potion No. 329
-114. - [ ] Potion No. 86
-115. - [ ] Quodpot solution
-116. - [ ] Rano Potion
-117. - [ ] Rat Spleen Mixture
-118. - [ ] Rat tonic
-119. - [ ] Regeneration Potion
-120. - [ ] Regerminating Potion
-121. - [ ] Replenishing Potion
-122. - [ ] Restoration Potion
-123. - [ ] Revive Potion
-124. - [ ] Rudimentary Body Potion
-125. - [ ] Scintillation Solution
-126. - [ ] Screaming Snakes Hair Potion
-127. - [ ] Shrinking Solution
-128. - [ ] Skele-Gro
-129. - [ ] Sleekeazy's Hair Potion
-130. - [x] Sleeping Draught
-131. - [ ] Snuffling Potion
-132. - [ ] Solution 078
-133. - [ ] Solution 125
-134. - [ ] Star Grass Salve
-135. - [ ] Strength Potion
-136. - [ ] Strengthening Solution
-137. - [ ] Strong Exstimulo Potion
-138. - [ ] Strong Invigoration Draught
-139. - [ ] Swelling Solution
-140. - [ ] Ten-Second Pimple Vanisher
-141. - [ ] Thick golden potion
-142. - [ ] Tolipan Blemish Blitzer
-143. - [ ] Truth serum
-144. - [ ] Twilight Moonbeams
-145. - [ ] Venomous Tentacula juice
-146. - [ ] Veritaserum
-147. - [ ] Vitamix Potion
-148. - [ ] Volubilis Potion
-149. - [ ] Weakness Potion
-150. - [ ] Weedosoros
-151. - [ ] Wideye Potion
-152. - [ ] Wiggenweld Potion
-153. - [ ] Wit-Sharpening Potion
-154. - [ ] Wolfsbane Potion
-155. - [ ] Wound-Cleaning Potion
+70. - [ ] Fluxweed Syrup
+71. - [x] Forgetfulness Potion
+72. - [ ] Frog Parts Mixture
+73. - [ ] Fungiface Potion
+74. - [ ] Garrotting Gas
+75. - [ ] Girding Potion
+76. - [ ] Grand Pepperup Potion
+77. - [ ] Grand Wiggenweld Potion
+78. - [ ] Gregory's Unctuous Unction
+79. - [ ] Hair-Raising Potion
+80. - [ ] Hate Potion
+81. - [ ] Heartbreak Teardrops
+82. - [ ] Herbicide Potion
+83. - [ ] Hiccoughing Solution
+84. - [ ] Invigoration Draught
+85. - [ ] Invisibility Potion
+86. - [ ] Jawbind Potion
+87. - [ ] Kissing Concoction
+88. - [ ] Laugh-inducing Potion
+89. - [ ] Laxative Potion
+90. - [ ] Love Potion
+91. - [ ] Love Potion Antidote
+92. - [ ] Madame Glossy's Silver Polish
+93. - [ ] Malevolent Mixture
+94. - [ ] Mandrake Restorative Draught
+95. - [ ] Manegro Potion
+96. - [ ] Maximum Turbo Farts Potion
+97. - [ ] Memory Potion
+98. - [x] Mixture of Powdered Silver and Dittany
+99. - [ ] Moonseed Poison
+100. - [ ] Mopsus Potion
+101. - [ ] Mouth Itching Antidote
+102. - [ ] Mrs Scower's All-Purpose Magical Mess Remover
+103. - [ ] Muffling Draught
+104. - [ ] Murtlap Essence
+105. - [ ] Noxious Potion
+106. - [ ] Oculus Potion
+107. - [ ] Pepperup Potion
+108. - [ ] Poison Antidote
+109. - [x] Polyjuice Potion
+110. - [ ] Pompion Potion
+111. - [ ] Potion No. 07
+112. - [ ] Potion No. 113
+113. - [ ] Potion No. 220
+114. - [ ] Potion No. 329
+115. - [ ] Potion No. 86
+116. - [ ] Quodpot solution
+117. - [ ] Rano Potion
+118. - [ ] Rat Spleen Mixture
+119. - [ ] Rat tonic
+120. - [ ] Regeneration Potion
+121. - [ ] Regerminating Potion
+122. - [ ] Replenishing Potion
+123. - [ ] Restoration Potion
+124. - [ ] Revive Potion
+125. - [ ] Rudimentary Body Potion
+126. - [ ] Scintillation Solution
+127. - [ ] Screaming Snakes Hair Potion
+128. - [ ] Shrinking Solution
+129. - [ ] Skele-Gro
+130. - [ ] Sleekeazy's Hair Potion
+131. - [x] Sleeping Draught
+132. - [ ] Snuffling Potion
+133. - [ ] Solution 078
+134. - [ ] Solution 125
+135. - [ ] Star Grass Salve
+136. - [ ] Strength Potion
+137. - [ ] Strengthening Solution
+138. - [ ] Strong Exstimulo Potion
+139. - [ ] Strong Invigoration Draught
+140. - [ ] Swelling Solution
+141. - [ ] Ten-Second Pimple Vanisher
+142. - [ ] Thick golden potion
+143. - [ ] Tolipan Blemish Blitzer
+144. - [ ] Truth serum
+145. - [ ] Twilight Moonbeams
+146. - [ ] Venomous Tentacula juice
+147. - [ ] Veritaserum
+148. - [ ] Vitamix Potion
+149. - [ ] Volubilis Potion
+150. - [ ] Weakness Potion
+151. - [ ] Weedosoros
+152. - [ ] Wideye Potion
+153. - [ ] Wiggenweld Potion
+154. - [ ] Wit-Sharpening Potion
+155. - [ ] Wolfsbane Potion
+156. - [ ] Wound-Cleaning Potion

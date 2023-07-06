@@ -1,13 +1,1 @@
-{
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:cauldron"
-        }
-      ]
-    }
-  ]
-}
+{"pools":[{"rolls":1,"entries":[{"type":"minecraft:item","name":"minecraft:cauldron"}]}]}

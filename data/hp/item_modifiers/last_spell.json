@@ -1,14 +1,1 @@
-{
-    "function": "minecraft:copy_nbt",
-    "source": {
-        "type": "storage",
-        "source": "hp:spell"
-    },
-    "ops": [
-        {
-            "source": "CurrentSpell",
-            "target": "LastSpell",
-            "op": "replace"
-        }
-    ]
-}
+{"function":"minecraft:copy_nbt","source":{"type":"storage","source":"hp:spell"},"ops":[{"source":"CurrentSpell","target":"LastSpell","op":"replace"}]}

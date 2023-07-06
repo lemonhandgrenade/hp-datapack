@@ -58,6 +58,7 @@ scoreboard objectives remove sneak
 scoreboard objectives remove sneakTest
 scoreboard objectives remove wandType
 scoreboard objectives remove potionCount
+scoreboard objectives remove potionMath
 scoreboard objectives remove polyjuiceTime
 scoreboard objectives remove fluxweedSyrupTime
 scoreboard objectives remove wfoas

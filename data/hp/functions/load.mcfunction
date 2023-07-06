@@ -20,7 +20,6 @@ scoreboard players add playerInfo settings 0
 execute unless score respawnWerewolf settings matches 0 run scoreboard players set respawnWerewolf settings 1
 scoreboard players add respawnWerewolf settings 0
 
-
 scoreboard objectives add values dummy
 scoreboard players set tpCheck values 1
 scoreboard players set #alternate values 1
@@ -144,8 +143,11 @@ scoreboard objectives add wandType dummy
 
 #-Potion-------------------------------------------------------------------------------------------#
 scoreboard objectives add potionCount dummy
+scoreboard objectives add potionMath dummy
 scoreboard objectives add polyjuiceTime dummy
 scoreboard objectives add fluxweedSyrupTime dummy
+
+function hp:potions/set_potion_storage
 
 #-Items--------------------------------------------------------------------------------------------#
 scoreboard objectives add wfoas minecraft.used:minecraft.warped_fungus_on_a_stick

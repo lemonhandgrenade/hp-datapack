@@ -1,7 +1,1 @@
-{
-	"condition": "minecraft:entity_properties",
-	"entity": "this",
-	"predicate": {
-		"nbt": "{Health:0f}"
-	}
-}
+{"condition":"minecraft:entity_properties","entity":"this","predicate":{"nbt":"{Health:0f}"}}

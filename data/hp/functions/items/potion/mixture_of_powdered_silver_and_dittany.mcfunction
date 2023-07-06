@@ -1,1 +1,3 @@
-give @s potion{HideFlags:32,display:{Name:'{"translate":"item.hp.mixure_of_powdered_silver_and_dittany","color":"#5A792A","italic":false}',Lore:['{"translate":"item.hp.mixure_of_powdered_silver_and_dittany.lore","italic":false}']},Potion:"minecraft:empty",CustomPotionColor:5929258,CustomModelData:98} 1
+scoreboard players set @s potionMath 0
+loot give @s loot hp:potions/mixture_of_powdered_silver_and_dittany
+scoreboard players reset @s potionMath

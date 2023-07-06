@@ -1,1 +1,3 @@
-give @s potion{display:{Name:'{"translate":"item.hp.draught_of_living_death","color":"#333346","italic":false}',Lore:['{"translate":"item.hp.draught_of_living_death.lore","italic":false}']},HideFlags:32,CustomModelData:47,Potion:"minecraft:empty",CustomPotionColor:3355462} 1
+scoreboard players set @s potionMath 0
+loot give @s loot hp:potions/draught_of_living_death
+scoreboard players reset @s potionMath

@@ -18,10 +18,6 @@ execute as @e[type=area_effect_cloud,tag=specialAEC] unless predicate hp:is_ridi
 
 execute as @e[type=armor_stand,tag=broomMain,tag=broom] at @s run function hp:broom/tp
 
-
-execute as @e[type=item,nbt={Item:{tag:{specialEntity:1b}}}] at @s run function hp:entities/main
-execute as @e[tag=specialEntity] at @s run function hp:entities/main
-
 scoreboard players add @e[type=slime,tag=xzMotionApply] xzMotionTime 1
 execute as @e[type=slime,tag=xzMotionApply,scores={xzMotionTime=4..}] run function hp:player/motion/delete
 kill @e[type=armor_stand,tag=motionStop]

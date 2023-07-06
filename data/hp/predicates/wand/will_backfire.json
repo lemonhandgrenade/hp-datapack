@@ -1,14 +1,1 @@
-{
-  "condition": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "equipment": {
-      "mainhand": {
-        "items": [
-          "minecraft:stick"
-        ],
-        "nbt": "{Wand:1b,Backfire:1b}"
-      }
-    }
-  }
-}
+{"condition":"minecraft:entity_properties","entity":"this","predicate":{"equipment":{"mainhand":{"items":["minecraft:stick"],"nbt":"{Wand:1b,Backfire:1b}"}}}}
