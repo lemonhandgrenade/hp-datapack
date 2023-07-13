@@ -1,1 +1,1 @@
-loot give @s loot hp:seeds/fluxweed
+loot give @s loot hp:items/seeds/fluxweed

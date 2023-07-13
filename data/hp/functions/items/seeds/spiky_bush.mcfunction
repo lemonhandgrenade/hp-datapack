@@ -1,1 +1,1 @@
-loot give @s loot hp:seeds/spiky_bush
+loot give @s loot hp:items/seeds/spiky_bush

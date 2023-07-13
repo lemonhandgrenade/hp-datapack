@@ -1,1 +1,1 @@
-loot give @s loot hp:seeds/knotgrass
+loot give @s loot hp:items/seeds/knotgrass

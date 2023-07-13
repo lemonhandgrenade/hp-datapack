@@ -1,1 +1,1 @@
-loot give @s loot hp:seeds/wolfsbane
+loot give @s loot hp:items/seeds/wolfsbane

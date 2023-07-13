@@ -1,1 +1,1 @@
-loot give @s loot hp:seeds/wormwood
+loot give @s loot hp:items/seeds/wormwood

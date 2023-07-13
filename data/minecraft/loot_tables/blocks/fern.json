@@ -65,7 +65,7 @@
 									"function": "minecraft:explosion_decay"
 								}
 							],
-							"name": "hp:seeds/fluxweed"
+							"name": "hp:items/seeds/fluxweed"
 						},
 						{
 							"type": "minecraft:loot_table",
@@ -88,7 +88,7 @@
 									"function": "minecraft:explosion_decay"
 								}
 							],
-							"name": "hp:seeds/wormwood"
+							"name": "hp:items/seeds/wormwood"
 						}
 					]
 				}

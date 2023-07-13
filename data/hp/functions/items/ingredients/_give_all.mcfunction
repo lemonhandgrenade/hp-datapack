@@ -2,12 +2,12 @@ function hp:items/ingredients/asphodel
 function hp:items/ingredients/bezoar
 function hp:items/ingredients/bicorn_horn
 function hp:items/ingredients/boomslang_skin
-function hp:items/ingredients/brain
 function hp:items/ingredients/crocodile_heart
 function hp:items/ingredients/dittany
 function hp:items/ingredients/dragon_liver
 function hp:items/ingredients/flobberworm_mucus
 function hp:items/ingredients/fluxweed
+function hp:items/ingredients/hellebore
 function hp:items/ingredients/horned_slug
 function hp:items/ingredients/infusion_of_wormwood
 function hp:items/ingredients/knotgrass
@@ -18,6 +18,7 @@ function hp:items/ingredients/lethe_river_water
 function hp:items/ingredients/mistletoe_berry
 function hp:items/ingredients/moly
 function hp:items/ingredients/moonstone
+function hp:items/ingredients/moonstone_crushed
 function hp:items/ingredients/nettle
 function hp:items/ingredients/porcupine_quill
 function hp:items/ingredients/powdered

@@ -1,1 +1,1 @@
-loot give @s loot hp:seeds/moly
+loot give @s loot hp:items/seeds/moly

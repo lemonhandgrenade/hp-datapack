@@ -1,1 +1,1 @@
-loot give @s loot hp:seeds/nettle
+loot give @s loot hp:items/seeds/nettle

@@ -65,7 +65,7 @@
 									"function": "minecraft:explosion_decay"
 								}
 							],
-							"name": "hp:seeds/knotgrass"
+							"name": "hp:items/seeds/knotgrass"
 						}
 					]
 				}

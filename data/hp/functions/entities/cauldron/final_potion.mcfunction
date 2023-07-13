@@ -13,17 +13,19 @@ scoreboard players operation @s potionMath = $closestArrayDistance potionMath
 execute store result storage hp:potion Quality int 1 run scoreboard players get @s potionMath
 
 scoreboard players add $closestArrayIndex potionMath 1
-execute if score $closestArrayIndex potionMath matches 6 run loot spawn ~ ~ ~ loot hp:potions/antidote_to_common_poisons
-execute if score $closestArrayIndex potionMath matches 33 run loot spawn ~ ~ ~ loot hp:potions/cure_for_boils
-execute if score $closestArrayIndex potionMath matches 47 run loot spawn ~ ~ ~ loot hp:potions/draught_of_living_death
-execute if score $closestArrayIndex potionMath matches 56 run loot spawn ~ ~ ~ loot hp:potions/essence_of_dittany
-execute if score $closestArrayIndex potionMath matches 56 run tag @e[type=item,sort=nearest,limit=1] add dontAdd
-execute if score $closestArrayIndex potionMath matches 70 run loot spawn ~ ~ ~ loot hp:potions/fluxweed_syrup
-execute if score $closestArrayIndex potionMath matches 71 run loot spawn ~ ~ ~ loot hp:potions/forgetfulness_potion
-execute if score $closestArrayIndex potionMath matches 98 run loot spawn ~ ~ ~ loot hp:potions/mixture_of_powdered_silver_and_dittany
-execute if score $closestArrayIndex potionMath matches 109 run loot spawn ~ ~ ~ loot hp:potions/polyjuice_potion
-execute if score $closestArrayIndex potionMath matches 131 run loot spawn ~ ~ ~ loot hp:potions/sleeping_draught
-execute if score $closestArrayIndex potionMath matches 155 run loot spawn ~ ~ ~ loot hp:potions/wolfsbane
+execute if score $closestArrayIndex potionMath matches 11 run loot spawn ~ ~ ~ loot hp:potions/antidote_to_common_poisons
+execute if score $closestArrayIndex potionMath matches 48 run loot spawn ~ ~ ~ loot hp:potions/cure_for_boils
+execute if score $closestArrayIndex potionMath matches 65 run loot spawn ~ ~ ~ loot hp:potions/draught_of_living_death
+execute if score $closestArrayIndex potionMath matches 78 run loot spawn ~ ~ ~ loot hp:potions/essence_of_dittany
+execute if score $closestArrayIndex potionMath matches 78 run tag @e[type=item,sort=nearest,limit=1] add dontAdd
+execute if score $closestArrayIndex potionMath matches 94 run loot spawn ~ ~ ~ loot hp:potions/fluxweed_syrup
+execute if score $closestArrayIndex potionMath matches 96 run loot spawn ~ ~ ~ loot hp:potions/forgetfulness_potion
+execute if score $closestArrayIndex potionMath matches 135 run loot spawn ~ ~ ~ loot hp:potions/mixture_of_powdered_silver_and_dittany
+execute if score $closestArrayIndex potionMath matches 152 run loot spawn ~ ~ ~ loot hp:potions/polyjuice_potion
+execute if score $closestArrayIndex potionMath matches 194 run loot spawn ~ ~ ~ loot hp:potions/sleeping_draught
+execute if score $closestArrayIndex potionMath matches 207 run loot spawn ~ ~ ~ loot hp:potions/syrup_of_hellebore
+execute if score $closestArrayIndex potionMath matches 207 run tag @e[type=item,sort=nearest,limit=1] add dontAdd
+execute if score $closestArrayIndex potionMath matches 228 run loot spawn ~ ~ ~ loot hp:potions/wolfsbane
 
 tag @a[tag=cauldronTarget] remove cauldronTarget
 
