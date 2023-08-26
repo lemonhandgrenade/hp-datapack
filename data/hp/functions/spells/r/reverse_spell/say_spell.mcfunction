@@ -1,4 +1,5 @@
 execute store result score #temp values run data get entity @s SelectedItem.tag.LastSpell
+function hp:spells/r/reverse_spell/summon
 
 title @s times 20 60 20
 

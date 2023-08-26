@@ -7,13 +7,15 @@ execute if entity @s[tag=push] run function hp:spells/_entities/push/push
 
 execute if entity @s[tag=patronus] run function hp:spells/_entities/patronus/select
 
+execute if entity @s[tag=reverseSpell] at @s run function hp:spells/_entities/reverse_spell/particle
+
 execute if entity @s[tag=web] run function hp:spells/_entities/web/anim
 
 execute if entity @s[tag=airMod] if score #alternate values matches 1 run data modify entity @s Air set value 0s
 execute if entity @s[tag=airMod] if score #alternate values matches -1 run data modify entity @s Air set value 1s
 
-execute if entity @s[tag=lockingSlime] unless block ~ ~ ~ #minecraft:doors run tp @s ~ -128 ~ 
-execute if entity @s[tag=lockingSlime] unless block ~ ~ ~ #minecraft:doors run kill @s 
+#execute if entity @s[tag=lockingSlime] unless block ~ ~ ~ #minecraft:doors run tp @s ~ -128 ~
+#execute if entity @s[tag=lockingSlime] unless block ~ ~ ~ #minecraft:doors run kill @s
 
 execute if entity @s[tag=portkeyItem] run function hp:spells/_entities/portkey/main
 
