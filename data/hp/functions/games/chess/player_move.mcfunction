@@ -75,5 +75,10 @@ execute if score @s chessMove matches 86 at @s run function hp:games/chess/move/
 execute if score @s chessMove matches 87 at @s run function hp:games/chess/move/squares/h/7
 execute if score @s chessMove matches 88 at @s run function hp:games/chess/move/squares/h/8
 
+execute if score @s chessMove matches 90 at @s as @e[type=armor_stand,tag=chessSelected,tag=pawnPiece,limit=1,sort=nearest] run function hp:games/chess/promote/queen
+execute if score @s chessMove matches 91 at @s as @e[type=armor_stand,tag=chessSelected,tag=pawnPiece,limit=1,sort=nearest] run function hp:games/chess/promote/rook
+execute if score @s chessMove matches 92 at @s as @e[type=armor_stand,tag=chessSelected,tag=pawnPiece,limit=1,sort=nearest] run function hp:games/chess/promote/bishop
+execute if score @s chessMove matches 93 at @s as @e[type=armor_stand,tag=chessSelected,tag=pawnPiece,limit=1,sort=nearest] run function hp:games/chess/promote/knight
+
 tag @e[type=armor_stand,tag=chessCollide,limit=1,sort=nearest] remove chessCollide
 tag @e[type=armor_stand,tag=chessSelected,tag=boardSelected] remove boardSelected

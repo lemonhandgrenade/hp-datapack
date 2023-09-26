@@ -8,4 +8,7 @@ execute if entity @s[tag=spikyBush] run loot spawn ~ ~ ~ loot hp:plants/spiky_bu
 execute if entity @s[tag=wolfsbane] run loot spawn ~ ~ ~ loot hp:plants/wolfsbane_harvest
 execute if entity @s[tag=wormwood] run loot spawn ~ ~ ~ loot hp:plants/wormwood_harvest
 
+setblock ~ ~ ~ air
+
+kill @e[type=interaction,tag=plant,distance=..0.4,sort=nearest,limit=1]
 kill @s
