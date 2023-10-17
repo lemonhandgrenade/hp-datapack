@@ -20,6 +20,7 @@ scoreboard players add playerInfo settings 0
 execute unless score respawnWerewolf settings matches 0 run scoreboard players set respawnWerewolf settings 1
 scoreboard players add respawnWerewolf settings 0
 
+scoreboard objectives add math dummy
 scoreboard objectives add values dummy
 scoreboard players set tpCheck values 1
 scoreboard players set #alternate values 1
@@ -34,6 +35,16 @@ scoreboard players set 20 values 20
 scoreboard players set 32 values 32
 scoreboard players set 100 values 100
 scoreboard players set 256 values 256
+
+
+scoreboard players set -46496 values -46496
+scoreboard players set 360 values 360
+scoreboard players set 1000 values 1000
+scoreboard players set 10000 values 10000
+scoreboard players set 57295 values 57295
+scoreboard players set 100000 values 100000
+scoreboard players set 1000000 values 1000000
+
 
 scoreboard players set #max values 127
 
@@ -118,6 +129,8 @@ scoreboard objectives add morph trigger
 #-Brooms-------------------------------------------------------------------------------------------#
 scoreboard objectives add broomType dummy
 scoreboard objectives add broomID dummy
+scoreboard objectives add wasd dummy
+scoreboard objectives add accel dummy
 
 #-Player-------------------------------------------------------------------------------------------#
 scoreboard objectives add fearID dummy

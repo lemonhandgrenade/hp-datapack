@@ -69,8 +69,16 @@ scoreboard players operation distancePos X += broomSpeed X
 scoreboard players operation distancePos Y += broomSpeed Y
 scoreboard players operation distancePos Z += broomSpeed Z
 
-scoreboard players operation distancePos Y -= broomSpeed Y
+#scoreboard players operation distancePos Y -= broomSpeed Y
 
-execute store result entity @s Motion[0] double 0.00025 run scoreboard players get distancePos X
-execute store result entity @s Motion[1] double 0.00080 run scoreboard players get distancePos Y
-execute store result entity @s Motion[2] double 0.00025 run scoreboard players get distancePos Z
+execute on passengers on passengers run scoreboard players operation distancePos X *= @s accel
+execute on passengers on passengers run scoreboard players operation distancePos Y *= @s accel
+execute on passengers on passengers run scoreboard players operation distancePos Z *= @s accel
+
+scoreboard players operation distancePos X /= 100 values
+scoreboard players operation distancePos Y /= 100 values
+scoreboard players operation distancePos Z /= 100 values
+
+execute store result entity @s Motion[0] double 0.000250 run scoreboard players get distancePos X
+execute store result entity @s Motion[1] double 0.000375 run scoreboard players get distancePos Y
+execute store result entity @s Motion[2] double 0.000250 run scoreboard players get distancePos Z

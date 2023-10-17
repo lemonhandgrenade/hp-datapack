@@ -27,3 +27,7 @@ execute if entity @s[tag=handOfGlory,predicate=!hp:holding_hand_of_glory] run ta
 
 execute if entity @s[tag=werewolf] run function hp:mobs/werewolf/check
 execute if entity @s[tag=isApparating] if score @s apparitionCooldown matches ..22 run function hp:spells/a/apparition/tp/main
+
+
+
+

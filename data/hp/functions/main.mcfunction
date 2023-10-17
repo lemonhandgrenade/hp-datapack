@@ -16,7 +16,7 @@ execute as @a run function hp:player/main
 execute as @e[type=snowball,tag=!specialBall,nbt={Item:{tag:{specialBall:1b}}}] at @s run function hp:item_functions/found_ball
 execute as @e[type=area_effect_cloud,tag=specialAEC] unless predicate hp:is_riding_snowball at @s run function hp:item_functions/snowball
 
-execute as @e[type=armor_stand,tag=broomMain,tag=broom] at @s run function hp:broom/tp
+execute as @e[type=armor_stand,tag=broomMain,tag=broom] at @s run function hp:broom/main
 
 scoreboard players add @e[type=slime,tag=xzMotionApply] xzMotionTime 1
 execute as @e[type=slime,tag=xzMotionApply,scores={xzMotionTime=4..}] run function hp:player/motion/delete

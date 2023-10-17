@@ -1,5 +1,3 @@
-scoreboard players operation #current broomID = @s broomID
-
 execute if score @s broomType matches 1 as @p run function hp:items/broom/air_wave_gold
 execute if score @s broomType matches 2 as @p run function hp:items/broom/australian_flyabout_50
 execute if score @s broomType matches 3 as @p run function hp:items/broom/bluebottle
@@ -38,8 +36,9 @@ execute if score @s broomType matches 36 as @p run function hp:items/broom/twigg
 execute if score @s broomType matches 37 as @p run function hp:items/broom/varapidos
 execute if score @s broomType matches 38 as @p run function hp:items/broom/yajirushi
 
-execute as @p at @s run tp @s ~ ~ ~
-execute as @e[tag=broom] if score @s broomID = #current broomID run tp @s ~ -256 ~
+scoreboard players operation #current broomID = @s broomID
+
+execute as @e[tag=broom] if score @s broomID = #current broomID run tp @s ~ ~-256 ~
 execute as @e[tag=broom] if score @s broomID = #current broomID run kill @s
 
 scoreboard players reset @s values
