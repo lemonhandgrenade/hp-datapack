@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "vehicle": {
+      "type": "minecraft:pig",
+      "nbt": "{Tags:[\"thestral\"]}",
+      "vehicle": {
+        "type": "minecraft:armor_stand"
+      }
+    }
+  }
+}

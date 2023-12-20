@@ -25,6 +25,8 @@ execute if score @s wfoas matches 1.. run function hp:item_functions/wfoas
 
 execute if entity @s[tag=handOfGlory,predicate=!hp:holding_hand_of_glory] run tag @s remove handOfGlory
 
+execute if predicate hp:mobs/thestral/riding at @s rotated as @s run function hp:mobs/thestral/riding/input
+
 execute if entity @s[tag=werewolf] run function hp:mobs/werewolf/check
 execute if entity @s[tag=isApparating] if score @s apparitionCooldown matches ..22 run function hp:spells/a/apparition/tp/main
 

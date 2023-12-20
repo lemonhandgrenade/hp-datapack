@@ -30,8 +30,10 @@ scoreboard players set -1 values -1
 scoreboard players set 2 values 2
 scoreboard players set 8 values 8
 scoreboard players set 10 values 10
+scoreboard players set 12 values 12
 scoreboard players set 14 values 14
 scoreboard players set 20 values 20
+scoreboard players set 30 values 30
 scoreboard players set 32 values 32
 scoreboard players set 100 values 100
 scoreboard players set 256 values 256
@@ -177,6 +179,7 @@ scoreboard objectives add crystalTime dummy
 scoreboard objectives add fortuneBall dummy
 
 #-Mobs---------------------------------------------------------------------------------------------#
+scoreboard objectives add mobID dummy
 scoreboard objectives add owlID dummy
 scoreboard objectives add thestralID dummy
 

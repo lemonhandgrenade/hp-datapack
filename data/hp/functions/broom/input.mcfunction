@@ -1,9 +1,9 @@
-execute unless predicate hp:no_broom run function hp:broom/input/print
+execute unless predicate hp:no_broom run function hp:motion/print
 
 execute on vehicle run scoreboard players operation #current broomID = @s broomID
 
 execute as @e[type=marker,tag=distanceCheck,tag=tmp] if score @s broomID = #current broomID run tp @s ^ ^ ^10
-execute as @e[type=marker,tag=distanceCheck,tag=tmp,tag=tmp,sort=nearest] if score @s broomID = #current broomID run function hp:broom/get_pos
+execute as @e[type=marker,tag=distanceCheck,tag=tmp,tag=tmp,sort=nearest] if score @s broomID = #current broomID run function hp:motion/get_pos
 
 execute store result score playerPos X run data get entity @s Pos[0] 100
 execute store result score playerPos Y run data get entity @s Pos[1] 100

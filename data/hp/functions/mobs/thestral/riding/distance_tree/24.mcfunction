@@ -1,2 +1,0 @@
-execute if score @s selectedSlot matches 2..3 run function hp:mobs/thestral/riding/distance_tree/23
-execute if score @s selectedSlot matches 4 as @e[type=marker,tag=distanceCheck,tag=tmp] if score @s thestralID = #current thestralID run tp @s ^ ^ ^3.2

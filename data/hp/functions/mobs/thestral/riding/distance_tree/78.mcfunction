@@ -1,2 +1,0 @@
-execute if score @s selectedSlot matches 7 as @e[type=marker,tag=distanceCheck,tag=tmp] if score @s thestralID = #current thestralID run tp @s ^ ^ ^5.6
-execute if score @s selectedSlot matches 8 as @e[type=marker,tag=distanceCheck,tag=tmp] if score @s thestralID = #current thestralID run tp @s ^ ^ ^6.4

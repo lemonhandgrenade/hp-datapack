@@ -18,6 +18,8 @@ execute as @e[type=area_effect_cloud,tag=specialAEC] unless predicate hp:is_ridi
 
 execute as @e[type=armor_stand,tag=broomMain,tag=broom] at @s run function hp:broom/main
 
+execute store result score .time math run time query gametime
+
 scoreboard players add @e[type=slime,tag=xzMotionApply] xzMotionTime 1
 execute as @e[type=slime,tag=xzMotionApply,scores={xzMotionTime=4..}] run function hp:player/motion/delete
 kill @e[type=armor_stand,tag=motionStop]
