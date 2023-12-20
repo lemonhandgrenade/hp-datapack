@@ -3,8 +3,8 @@
         "title": {"translate":"advancements.hp.potion_maker.title"},
         "description": {"translate":"advancements.hp.potion_maker.description"},
         "icon": {
-            "item": "minecraft:potion",
-            "nbt": "{CustomModelData:6}"
+            "item": "minecraft:armor_stand",
+            "nbt": "{CustomModelData:21}"
         },
         "show_toast": true,
         "announce_to_chat": true

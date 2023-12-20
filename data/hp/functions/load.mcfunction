@@ -48,15 +48,15 @@ scoreboard players set 1000000 values 1000000
 
 scoreboard players set #max values 127
 
-execute store result score #rng_splinch values run loot spawn 0 0 0 loot hp:rng/rng_splinch
-execute store result score #rng_animagus values run loot spawn 0 0 0 loot hp:rng/rng_animagus
-execute store result score #rng_fear values run loot spawn 0 0 0 loot hp:rng/rng_fear
-execute store result score #rng_fortune_ball values run loot spawn 0 0 0 loot hp:rng/rng_fortune_ball
+execute store result score #rng_splinch values run random value 1..100
+execute store result score #rng_animagus values run random value 1..143
+execute store result score #rng_fear values run random value 1..16
+execute store result score #rng_fortune_ball values run random value 1..9
 
-execute store result score #rng255 values run loot spawn 0 0 0 loot hp:rng/rng255
-execute store result score #rng5 values run loot spawn 0 0 0 loot hp:rng/rng5
-execute store result score #rng4 values run loot spawn 0 0 0 loot hp:rng/rng4
-execute store result score #rng3 values run loot spawn 0 0 0 loot hp:rng/rng3
+execute store result score #rng255 values run random value 0..255
+execute store result score #rng5 values run random value 1..5
+execute store result score #rng4 values run random value 1..4
+execute store result score #rng3 values run random value 1..3
 
 scoreboard objectives add UID dummy
 
@@ -198,23 +198,23 @@ fill -1 -64 -1 2 -61 1 bedrock
 fill 0 -63 0 0 -62 0 yellow_shulker_box
 
 team add gryffindor {"translate":"house.hp.gryffindor","color":"dark_red"}
-team modify gryffindor displayName [{"text":"\uE000"},{"translate":"house.hp.gryffindor","color":"dark_red"}]
-team modify gryffindor prefix [{"text":"\uE000"},{"text":"[","color":"dark_red"},{"translate":"house.hp.gryffindor","color":"dark_red"},{"text":"] ","color":"dark_red"}]
+team modify gryffindor displayName [{"text":"\uEF00"},{"translate":"house.hp.gryffindor","color":"dark_red"}]
+team modify gryffindor prefix [{"text":"\uEF00"},{"text":"[","color":"dark_red"},{"translate":"house.hp.gryffindor","color":"dark_red"},{"text":"] ","color":"dark_red"}]
 team modify gryffindor seeFriendlyInvisibles false
 
 team add slytherin {"translate":"house.hp.slytherin","color":"dark_green"}
-team modify slytherin displayName [{"text":"\uE001"},{"translate":"house.hp.slytherin","color":"dark_green"}]
-team modify slytherin prefix [{"text":"\uE001"},{"text":"[","color":"dark_green"},{"translate":"house.hp.slytherin","color":"dark_green"},{"text":"] ","color":"dark_green"}]
+team modify slytherin displayName [{"text":"\uEF01"},{"translate":"house.hp.slytherin","color":"dark_green"}]
+team modify slytherin prefix [{"text":"\uEF01"},{"text":"[","color":"dark_green"},{"translate":"house.hp.slytherin","color":"dark_green"},{"text":"] ","color":"dark_green"}]
 team modify slytherin seeFriendlyInvisibles false
 
 team add hufflepuff {"translate":"house.hp.hufflepuff","color":"gold"}
-team modify hufflepuff displayName [{"text":"\uE002"},{"translate":"house.hp.hufflepuff","color":"gold"}]
-team modify hufflepuff prefix [{"text":"\uE002"},{"text":"[","color":"gold"},{"translate":"house.hp.hufflepuff","color":"gold"},{"text":"] ","color":"gold"}]
+team modify hufflepuff displayName [{"text":"\uEF02"},{"translate":"house.hp.hufflepuff","color":"gold"}]
+team modify hufflepuff prefix [{"text":"\uEF02"},{"text":"[","color":"gold"},{"translate":"house.hp.hufflepuff","color":"gold"},{"text":"] ","color":"gold"}]
 team modify hufflepuff seeFriendlyInvisibles false
 
 team add ravenclaw {"translate":"house.hp.ravenclaw","color":"dark_blue"}
-team modify ravenclaw displayName [{"text":"\uE003"},{"translate":"house.hp.ravenclaw","color":"dark_blue"}]
-team modify ravenclaw prefix [{"text":"\uE003"},{"text":"[","color":"dark_blue"},{"translate":"house.hp.ravenclaw","color":"dark_blue"},{"text":"] ","color":"dark_blue"}]
+team modify ravenclaw displayName [{"text":"\uEF03"},{"translate":"house.hp.ravenclaw","color":"dark_blue"}]
+team modify ravenclaw prefix [{"text":"\uEF03"},{"text":"[","color":"dark_blue"},{"translate":"house.hp.ravenclaw","color":"dark_blue"},{"text":"] ","color":"dark_blue"}]
 team modify ravenclaw seeFriendlyInvisibles false
 
 ## 1.19 Because of animagi frogs

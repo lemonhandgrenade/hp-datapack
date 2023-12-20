@@ -4,7 +4,7 @@
 		"description": {"translate":"advancements.hp.potions.description"},
 		"icon": {
 			"item": "minecraft:potion",
-			"nbt": "{CustomModelData:47}"
+			"nbt": "{CustomModelData:11}"
 		},
 		"frame": "task",
 		"background": "minecraft:textures/block/cauldron_inner.png",

@@ -1,6 +1,6 @@
 advancement revoke @s only hp:bertie_botts_beans
 
-execute store result score #rng_beans values run loot spawn 0 0 0 loot hp:rng/rng_beans
+execute store result score #rng_beans values run random value 1..103
 
 execute if score #rng_beans values matches 1 run title @s actionbar ["",{"text":"Almond","color":"#EADDCA"}]
 execute if score #rng_beans values matches 2 run title @s actionbar ["",{"text":"Apple","color":"#C7372F"}]

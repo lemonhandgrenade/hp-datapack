@@ -1,0 +1,1 @@
+{"function":"minecraft:copy_nbt","source":{"type":"storage","source":"hp:temp"},"ops":[{"source":"temp","target":"Lights","op":"replace"}]}

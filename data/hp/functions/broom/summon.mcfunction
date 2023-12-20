@@ -53,4 +53,6 @@ scoreboard players operation @s broomID = global broomID
 
 tag @e[tag=new] remove new
 
+execute as @e[tag=forceInvis] run effect give @s invisibility infinite 1 true
+
 kill @s

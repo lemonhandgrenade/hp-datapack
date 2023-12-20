@@ -15,7 +15,7 @@ scoreboard players set @s apparitionCooldown 24
 tag @s add isApparating
 
 # Splinching Random Value From 1->100
-execute store result score #rng_splinch values run loot spawn 0 0 0 loot hp:rng/rng_splinch
+execute store result score #rng_splinch values run random value 1..100
 tellraw @s[tag=debug] [{"text":"Splinch RNG: "},{"score":{"name":"#rng_splinch","objective":"values"}}]
 
 # Splinching Only Happens If You're Running Before You Apparate

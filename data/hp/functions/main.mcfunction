@@ -4,7 +4,7 @@ scoreboard players add #10 values 1
 execute if score #3 values matches 4.. run scoreboard players set #3 values 1
 execute if score #10 values matches 11.. run scoreboard players set #10 values 1
 
-execute if entity @e[type=area_effect_cloud,tag=slowcast] run function hp:spells/main
+execute if entity @e[type=area_effect_cloud,tag=slowcast,limit=1] as @e[type=area_effect_cloud,tag=slowcast] run function hp:spells/main
 
 execute as @e[tag=transfigured,tag=!broom] run function hp:transfigure/main
 

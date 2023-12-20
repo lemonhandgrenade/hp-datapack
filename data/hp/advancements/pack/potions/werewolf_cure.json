@@ -4,7 +4,7 @@
         "description": {"translate":"advancements.hp.werewolf_cure.description"},
         "icon": {
             "item": "minecraft:potion",
-            "nbt": "{CustomModelData:98}"
+            "nbt": "{CustomModelData:135}"
         },
         "frame": "goal",
         "show_toast": true,

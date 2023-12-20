@@ -2,7 +2,7 @@ effect give @s blindness 4 1 true
 effect give @s slowness 2 255 true
 effect give @s jump_boost 2 128 true
 
-execute store result score #rng_fortune_ball values run loot spawn 0 0 0 loot hp:rng/rng_fortune_ball
+execute store result score #rng_fortune_ball values run random value 1..9
 scoreboard players operation @s[tag=!hasDivined] fortuneBall = #rng_fortune_ball values
 tag @s add hasDivined
 

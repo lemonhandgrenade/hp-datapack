@@ -69,8 +69,6 @@ scoreboard players operation distancePos X += broomSpeed X
 scoreboard players operation distancePos Y += broomSpeed Y
 scoreboard players operation distancePos Z += broomSpeed Z
 
-#scoreboard players operation distancePos Y -= broomSpeed Y
-
 execute on passengers on passengers run scoreboard players operation distancePos X *= @s accel
 execute on passengers on passengers run scoreboard players operation distancePos Y *= @s accel
 execute on passengers on passengers run scoreboard players operation distancePos Z *= @s accel

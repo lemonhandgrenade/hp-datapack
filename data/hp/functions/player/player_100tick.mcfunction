@@ -6,7 +6,7 @@ scoreboard players enable @s spells
 scoreboard players enable @s[tag=animagus] morph
 scoreboard players reset @s[tag=!animagus] morph
 
-execute if entity @s[tag=hasDivined] store result score #rng255 values run loot spawn 0 0 0 loot hp:rng/rng255
+execute if entity @s[tag=hasDivined] store result score #rng255 values run random value 0..255
 execute if score #rng255 values matches ..15 if entity @s[tag=hasDivined] if score @s fortuneBall matches 2 run function hp:entities/divination/crystal_ball/fortune/cold
 execute if score #rng255 values matches ..4 if entity @s[tag=hasDivined] if score @s fortuneBall matches 3 unless predicate hp:player/empty_mainhand run function hp:entities/divination/crystal_ball/fortune/drop
 execute if score #rng255 values matches ..15 if entity @s[tag=hasDivined] if score @s fortuneBall matches 4 run function hp:entities/divination/crystal_ball/fortune/fall

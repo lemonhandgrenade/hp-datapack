@@ -6,6 +6,7 @@ cores = [
 	"curupira_hair",
 	"dittany",
 	"dragon_heartstring",
+	"fairy_wing",
 	"horned_serpent_horn",
 	"jackalope_antler",
 	"kelpie_hair",
@@ -31,6 +32,7 @@ woods = [
 	"birch",
 	"black_walnut",
 	"blackthorn",
+	"brazilwood",
 	"cedar",
 	"cherry",
 	"chestnut",
@@ -50,6 +52,7 @@ woods = [
 	"laurel",
 	"mahogany",
 	"maple",
+	"olive",
 	"pear",
 	"pine",
 	"poplar",
@@ -80,7 +83,7 @@ function capitalizeFirstLetter(string) {
 for (i = 0; i < woods.length; i++) {
 	fs.mkdirSync(`${woods[i]}`, { recursive: true })
 	for (j = 0; j < cores.length; j++) {
-		content = `give @s stick{display:{Name:'{"translate":"wand.hp.wand","italic":false}'},CustomModelData:${((i+1)*100)+(j+1)},Wood:${i+1},WoodName:'{"translate":"wood.hp.${woods[i]}"}',Core:${j+1},CoreName:'{"translate":"core.hp.${cores[j]}"}',Wand:1b,Set:0b} 1`
+		content = `give @s stick{display:{Name:'{"translate":"item.hp.wand","italic":false}'},CustomModelData:${((i+1)*100)+(j+1)},Wood:${i+1},WoodName:'{"translate":"wood.hp.${woods[i]}"}',Core:${j+1},CoreName:'{"translate":"core.hp.${cores[j]}"}',Wand:1b,Set:0b} 1`
 		fs.writeFile(`./${woods[i]}/${woods[i]}_${cores[j]}.mcfunction`, content, err => {
 			if (err) {
 				console.error(err);

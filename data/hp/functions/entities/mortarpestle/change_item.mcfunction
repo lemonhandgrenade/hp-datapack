@@ -1,5 +1,5 @@
-execute store result score #rng5 values run loot spawn 0 0 0 loot hp:rng/rng5
-execute store result score #rng3 values run loot spawn 0 0 0 loot hp:rng/rng3
+execute store result score #rng5 values run random value 1..5
+execute store result score #rng3 values run random value 1..3
 
 execute store result score #temp values run data get entity @s Item.tag.CustomModelData
 execute store result score count values run data get entity @s Item.Count

@@ -1,1 +1,1 @@
-give @s stick{display:{Name:'{"translate":"item.hp.wand","italic":false}'},CustomModelData:3920,Wood:39,WoodName:'{"translate":"wood.hp.snakewood"}',Core:20,CoreName:'{"translate":"core.hp.white_river_monster_spine"}',Wand:1b,Set:0b} 1
+give @s stick{display:{Name:'{"translate":"item.hp.wand","italic":false}'},CustomModelData:4121,Wood:41,WoodName:'{"translate":"wood.hp.snakewood"}',Core:21,CoreName:'{"translate":"core.hp.white_river_monster_spine"}',Wand:1b,Set:0b} 1

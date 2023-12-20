@@ -5,7 +5,7 @@ tag @s remove ravenclaw
 title @s times 4 64 4
 
 title @s title {"translate":"house.hp.hufflepuff","color":"gold"}
-title @s subtitle {"text":"\uE002"}
+title @s subtitle {"text":"\uEF02"}
 team join hufflepuff @s
 tag @s add hufflepuff
 

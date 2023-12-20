@@ -22,10 +22,10 @@ tellraw @s[scores={fearID=14}] ["",{"translate":"entity.hp.boggart.fear","color"
 tellraw @s[scores={fearID=15}] ["",{"translate":"entity.hp.boggart.fear","color":"dark_red"},{"translate":"entity.hp.boggart.fear.werewolves"}]
 tellraw @s[scores={fearID=16}] ["",{"translate":"entity.hp.boggart.fear","color":"dark_red"},{"translate":"entity.hp.boggart.fear.zombies"}]
 
-tellraw @s[tag=gryffindor] ["",{"translate":"house.hp.house"},{"text":"\uE000"},{"translate":"house.hp.gryffindor","color":"dark_red"}]
-tellraw @s[tag=slytherin] ["",{"translate":"house.hp.house"},{"text":"\uE001"},{"translate":"house.hp.slytherin","color":"dark_green"}]
-tellraw @s[tag=hufflepuff] ["",{"translate":"house.hp.house"},{"text":"\uE002"},{"translate":"house.hp.hufflepuff","color":"gold"}]
-tellraw @s[tag=ravenclaw] ["",{"translate":"house.hp.house"},{"text":"\uE003"},{"translate":"house.hp.ravenclaw","color":"dark_blue"}]
+tellraw @s[tag=gryffindor] ["",{"translate":"house.hp.house"},{"text":"\uEF00"},{"translate":"house.hp.gryffindor","color":"dark_red"}]
+tellraw @s[tag=slytherin] ["",{"translate":"house.hp.house"},{"text":"\uEF01"},{"translate":"house.hp.slytherin","color":"dark_green"}]
+tellraw @s[tag=hufflepuff] ["",{"translate":"house.hp.house"},{"text":"\uEF02"},{"translate":"house.hp.hufflepuff","color":"gold"}]
+tellraw @s[tag=ravenclaw] ["",{"translate":"house.hp.house"},{"text":"\uEF03"},{"translate":"house.hp.ravenclaw","color":"dark_blue"}]
 
 tellraw @s[tag=animagus,scores={animagusID=1}] ["",{"translate":"animagus.hp.form"},{"translate":"animagus.hp.beetle_red","color":"dark_green"}]
 tellraw @s[tag=animagus,scores={animagusID=2}] ["",{"translate":"animagus.hp.form"},{"translate":"animagus.hp.beetle_blue","color":"dark_green"}]

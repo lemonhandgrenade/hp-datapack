@@ -1,6 +1,6 @@
 advancement revoke @s only hp:divination/crystal_ball
 
-execute store result score #rng5 values run loot spawn 0 0 0 loot hp:rng/rng5
+execute store result score #rng5 values run random value 1..5
 
 scoreboard players add @s crystalTime 0
 

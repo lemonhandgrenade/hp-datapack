@@ -3,5 +3,5 @@ scoreboard players operation @s UID = _uid_ptr UID
 
 tag @s add init
 
-execute store result score #rng_animagus values run loot spawn 0 0 0 loot hp:rng/rng_animagus
+execute store result score #rng_animagus values run random value 1..143
 scoreboard players operation @s fearID = #rng_fear values

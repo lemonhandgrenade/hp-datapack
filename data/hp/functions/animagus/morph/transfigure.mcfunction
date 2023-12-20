@@ -3,7 +3,7 @@ execute if score @s animagusID matches 0 run function hp:animagus/set_animagus
 scoreboard players set @s morph 0
 scoreboard players enable @s morph
 
-function hp:transfigure/remove_armor
+function hp:transfigure/remove_items
 
 effect give @s minecraft:blindness 3 255 true
 particle minecraft:dust_color_transition 0.6 0.6 0.6 3 0.3 0.3 0.3 ~ ~1 ~ 0.25 0.5 0.25 0 200

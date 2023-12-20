@@ -4,7 +4,7 @@
         "description": {"translate":"advancements.hp.wolfsbane.description"},
         "icon": {
             "item": "minecraft:potion",
-            "nbt": "{CustomModelData:155}"
+            "nbt": "{CustomModelData:228}"
         },
         "frame": "goal",
         "show_toast": true,

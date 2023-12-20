@@ -5,7 +5,7 @@ tag @s remove hufflepuff
 title @s times 4 64 4
 
 title @s title {"translate":"house.hp.slytherin","color":"dark_green"}
-title @s subtitle {"text":"\uE001"}
+title @s subtitle {"text":"\uEF01"}
 team join slytherin @s
 tag @s add slytherin
 
