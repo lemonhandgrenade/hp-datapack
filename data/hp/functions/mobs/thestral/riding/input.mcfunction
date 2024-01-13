@@ -1,13 +1,11 @@
 function hp:motion/print
 
-execute on vehicle run scoreboard players operation #current thestralID = @s thestralID
+execute on vehicle run scoreboard players operation #current mobID = @s mobID
 
-execute as @e[type=marker,tag=distanceCheck,tag=tmp] if score @s thestralID = #current thestralID run tp @s ^ ^ ^10
-execute as @e[type=marker,tag=distanceCheck,tag=tmp,tag=tmp,sort=nearest] if score @s thestralID = #current thestralID run function hp:motion/get_pos
+execute as @e[type=marker,tag=distanceCheck,tag=tmp] if score @s mobID = #current mobID run tp @s ^ ^ ^10
+execute as @e[type=marker,tag=distanceCheck,tag=tmp,tag=tmp,sort=nearest] if score @s mobID = #current mobID run function hp:math/set_pos_score {"name":"distancePos","entity":"@s"}
 
-execute store result score playerPos X run data get entity @s Pos[0] 100
-execute store result score playerPos Y run data get entity @s Pos[1] 100
-execute store result score playerPos Z run data get entity @s Pos[2] 100
+function hp:math/set_pos_score {"name":"playerPos","entity":"@s"}
 
 scoreboard players operation distancePos X -= playerPos X
 scoreboard players operation distancePos Y -= playerPos Y

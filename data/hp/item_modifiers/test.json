@@ -1,0 +1,22 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "translate": "item.hp.deluminator.lore",
+        "italic": false
+      },
+      [
+        {
+          "translate": "item.hp.deluminator.use"
+        },
+        {
+          "nbt": "temp",
+          "storage": "hp:temp"
+        }
+      ]
+    ],
+    "replace": true
+  }
+]

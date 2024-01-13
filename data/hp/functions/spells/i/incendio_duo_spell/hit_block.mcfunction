@@ -1,0 +1,2 @@
+execute if score charmsChangeBlocks settings matches 1 if block ~ ~ ~ #hp:fireable[lit=false] run function hp:spells/_blocks/ignite
+execute if entity @s[type=area_effect_cloud] run function hp:spells/_base/private/end

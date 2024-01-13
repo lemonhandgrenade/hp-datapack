@@ -1,4 +1,4 @@
-summon cat ~ ~ ~ {Silent:1b,CanPickUpLoot:0b,Age:-2147483647,Tags:["streeler","forceBaby","forceInvis","specialMob","new"],Passengers:[{id:"minecraft:armor_stand",Invisible:1b,Marker:1b,Tags:["streeler","new","specialMob"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:heart_of_the_sea",Count:1b,tag:{CustomModelData:1010}}]}],Attributes:[{Name:generic.movement_speed,Base:0.1}]}
+summon cat ~ ~ ~ {Silent:1b,CanPickUpLoot:0b,Age:-2147483647,Tags:["streeler","forceBaby","forceInvis","specialMob","new"],Passengers:[{id:"minecraft:armor_stand",Invisible:1b,Marker:1b,Tags:["streeler","new","specialMob"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:heart_of_the_sea",Count:1b,tag:{CustomModelData:1020}}]}],Attributes:[{Name:generic.movement_speed,Base:0.1}]}
 
 scoreboard players add global mobID 1
 

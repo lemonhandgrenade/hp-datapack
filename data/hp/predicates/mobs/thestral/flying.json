@@ -1,1 +1,1 @@
-{"condition":"minecraft:entity_properties","entity":"this","predicate":{"equipment":{"head":{"items":["minecraft:heart_of_the_sea"],"nbt":"{CustomModelData:1053}"}}}}
+{"condition":"minecraft:entity_properties","entity":"this","predicate":{"equipment":{"head":{"items":["minecraft:heart_of_the_sea"],"nbt":"{CustomModelData:1063}"}}}}

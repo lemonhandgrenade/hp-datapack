@@ -4,11 +4,11 @@ summon marker ~ ~ ~ {NoGravity:1b,Tags:["distanceCheck","tmp","new","thestral"]}
 
 effect give @e[tag=thestral,tag=new,sort=nearest] invisibility 25 1 true
 
-scoreboard players add global thestralID 1
+scoreboard players add global mobID 1
 
-scoreboard players operation @e[type=marker,tag=distanceCheck,tag=tmp,tag=new,sort=nearest] thestralID = global thestralID
-scoreboard players operation @e[type=armor_stand,tag=thestral,tag=new,sort=nearest] thestralID = global thestralID
-scoreboard players operation @e[type=horse,tag=thestral,tag=new,sort=nearest] thestralID = global thestralID
-scoreboard players operation @e[type=pig,tag=thestral,tag=new,sort=nearest] thestralID = global thestralID
+scoreboard players operation @e[type=marker,tag=distanceCheck,tag=tmp,tag=new,sort=nearest] mobID = global mobID
+scoreboard players operation @e[type=armor_stand,tag=thestral,tag=new,sort=nearest] mobID = global mobID
+scoreboard players operation @e[type=horse,tag=thestral,tag=new,sort=nearest] mobID = global mobID
+scoreboard players operation @e[type=pig,tag=thestral,tag=new,sort=nearest] mobID = global mobID
 
 tag @e[tag=thestral,tag=new,sort=nearest] remove new

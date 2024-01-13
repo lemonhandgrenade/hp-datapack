@@ -1,5 +1,7 @@
 forceload add 0 0
 
+execute unless entity 0000000d-0109-0097-0116-000000000104 run summon item_display 0. 0. 0. {Tags:["math"],UUID:[I;13,17367191,18219008,260]}
+
 gamerule maxEntityCramming 100
 
 #-General------------------------------------------------------------------------------------------#
@@ -25,28 +27,26 @@ scoreboard objectives add values dummy
 scoreboard players set tpCheck values 1
 scoreboard players set #alternate values 1
 scoreboard players set #alternate2 values 1
+scoreboard players set -46496 values -46496
 scoreboard players set -10 values -10
 scoreboard players set -1 values -1
 scoreboard players set 2 values 2
 scoreboard players set 8 values 8
 scoreboard players set 10 values 10
 scoreboard players set 12 values 12
+scoreboard players set 13 values 13
 scoreboard players set 14 values 14
 scoreboard players set 20 values 20
 scoreboard players set 30 values 30
 scoreboard players set 32 values 32
 scoreboard players set 100 values 100
 scoreboard players set 256 values 256
-
-
-scoreboard players set -46496 values -46496
 scoreboard players set 360 values 360
 scoreboard players set 1000 values 1000
 scoreboard players set 10000 values 10000
 scoreboard players set 57295 values 57295
 scoreboard players set 100000 values 100000
 scoreboard players set 1000000 values 1000000
-
 
 scoreboard players set #max values 127
 
@@ -181,13 +181,11 @@ scoreboard objectives add fortuneBall dummy
 #-Mobs---------------------------------------------------------------------------------------------#
 scoreboard objectives add mobID dummy
 scoreboard objectives add owlID dummy
-scoreboard objectives add thestralID dummy
 
 #-Games--------------------------------------------------------------------------------------------#
 scoreboard objectives add chessVillager minecraft.custom:minecraft.talked_to_villager
 scoreboard objectives add chessMove trigger
 scoreboard objectives add chessID dummy
-
 
 function hp:500tick
 function hp:100tick
@@ -220,5 +218,5 @@ team modify ravenclaw displayName [{"text":"\uEF03"},{"translate":"house.hp.rave
 team modify ravenclaw prefix [{"text":"\uEF03"},{"text":"[","color":"dark_blue"},{"translate":"house.hp.ravenclaw","color":"dark_blue"},{"text":"] ","color":"dark_blue"}]
 team modify ravenclaw seeFriendlyInvisibles false
 
-## 1.19 Because of animagi frogs
-tellraw @a ["","Loaded ",{"text":"[HP]","color":"green","clickEvent":{"action":"open_url","value":"https://github.com/lemonhandgrenade/hp-datapack"},"hoverEvent":{"action":"show_text","contents":["Click To Go To The Pack Page"]}}," for MC 1.19+"]
+## 1.20 Because of Random Roll
+tellraw @a ["","Loaded ",{"text":"[HP]","color":"green","clickEvent":{"action":"open_url","value":"https://github.com/lemonhandgrenade/hp-datapack"},"hoverEvent":{"action":"show_text","contents":["Click To Go To The Pack Page"]}}," for MC 1.20+"]

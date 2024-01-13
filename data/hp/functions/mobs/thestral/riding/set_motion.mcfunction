@@ -5,7 +5,7 @@ execute store result score thestralSpeed Z run data get entity @s Motion[2] 4820
 # Rotation
 execute at @s rotated as @p run tp @s ~ ~ ~ ~ ~
 execute as @e[type=pig,tag=thestral,distance=..4,sort=nearest,limit=1] at @s rotated as @p run tp @s ~ ~ ~ ~ ~
-execute at @s as @e[type=horse,tag=thestral,tag=thestralAI] if score @s thestralID = #current thestralID run tp @s ~ ~ ~
+execute at @s as @e[type=horse,tag=thestral,tag=thestralAI] if score @s mobID = #current mobID run tp @s ~ ~ ~
 
 scoreboard players operation distancePos X += thestralSpeed X
 scoreboard players operation distancePos Y += thestralSpeed Y

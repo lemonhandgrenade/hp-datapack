@@ -6,7 +6,6 @@ execute if entity @s[tag=lumosMaxima] at @s run function hp:spells/l/lumos_maxim
 execute if entity @s[tag=wandLightingCharm] at @s run function hp:spells/w/wand-lighting_charm/light
 
 execute if entity @s[tag=animagus] run function hp:animagus/main
-execute if entity @s[tag=sortingHat] run function hp:sorting_hat/main
 
 execute if score @s chessMove matches 1.. run function hp:games/chess/player_move
 execute as @s[scores={chessMove=1..}] run scoreboard players set @s chessMove 0
